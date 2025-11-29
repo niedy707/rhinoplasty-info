@@ -50,15 +50,30 @@ function App() {
       </header>
 
       <nav className="tab-navigation">
-        {currentContent.tabs?.map(tab => (
-          <button
-            key={tab.id}
-            className={`tab-btn ${activeTabId === tab.id ? 'active' : ''}`}
-            onClick={() => setActiveTabId(tab.id)}
+        <div className="mobile-tab-select">
+          <select
+            value={activeTabId || ''}
+            onChange={(e) => setActiveTabId(e.target.value)}
+            className="tab-select"
           >
-            {tab.title}
-          </button>
-        ))}
+            {currentContent.tabs?.map(tab => (
+              <option key={tab.id} value={tab.id}>
+                {tab.title}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="desktop-tabs">
+          {currentContent.tabs?.map(tab => (
+            <button
+              key={tab.id}
+              className={`tab-btn ${activeTabId === tab.id ? 'active' : ''}`}
+              onClick={() => setActiveTabId(tab.id)}
+            >
+              {tab.title}
+            </button>
+          ))}
+        </div>
       </nav>
 
       <main className="main-content">
