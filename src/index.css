@@ -52,12 +52,7 @@ body {
   gap: 1rem;
 }
 
-@media (max-width: 600px) {
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+
 
 h1 {
   font-size: 1.2rem;
@@ -456,33 +451,7 @@ h1 {
 /* Responsive */
 /* ... existing styles ... */
 
-@media (max-width: 600px) {
-  .header-content {
-    padding: 0 16px;
-  }
-
-  .current-name {
-    display: none;
-  }
-
-  .main-content {
-    padding: 20px 16px;
-  }
-
-  .info-section {
-    padding: 1.5rem;
-  }
-
-  .quick-flags {
-    display: none;
-  }
-
-  .header-controls {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
+/* Language Selector */
 .language-selector {
   position: relative;
   display: flex;
@@ -520,6 +489,51 @@ h1 {
   background: var(--card-bg);
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: row;
+    /* Keep row layout */
+    justify-content: space-between;
+    /* Space between title and controls */
+    text-align: left;
+    gap: 0.5rem;
+  }
+
+  .header-controls {
+    width: auto;
+    /* Allow controls to size naturally */
+  }
+
+  .quick-flags {
+    display: none;
+    /* Hide quick flags on mobile */
+  }
+
+  .current-name {
+    display: none;
+  }
+
+  .main-content {
+    padding: 20px 16px;
+  }
+
+  .info-section {
+    padding: 1.5rem;
+  }
+
+  .desktop-tabs {
+    display: none;
+  }
+
+  .mobile-tab-select {
+    display: flex;
+  }
+
+  .bottom-navigation {
+    display: block;
+  }
 }
 
 /* Master Button */
