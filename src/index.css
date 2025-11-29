@@ -160,6 +160,12 @@ h1 {
   padding: 10px 0 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 73px;
+  /* Height of header approx */
+  z-index: 90;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
 }
 
 .desktop-tabs {
@@ -172,10 +178,38 @@ h1 {
 .mobile-tab-select {
   display: none;
   padding: 0 20px;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-arrow-btn {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: all 0.2s;
+}
+
+.nav-arrow-btn:hover:not(:disabled) {
+  background: #f8f9fa;
+  color: var(--accent-color);
+}
+
+.nav-arrow-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .tab-select {
-  width: 100%;
+  flex: 1;
   padding: 12px 16px;
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -189,12 +223,22 @@ h1 {
   background-size: 1em;
 }
 
+.bottom-navigation {
+  display: none;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 @media (max-width: 600px) {
   .desktop-tabs {
     display: none;
   }
 
   .mobile-tab-select {
+    display: flex;
+  }
+
+  .bottom-navigation {
     display: block;
   }
 }
@@ -363,15 +407,24 @@ h1 {
   color: #2980b9;
 }
 
-.whatsapp-link {
-  color: #25D366;
+.whatsapp-link,
+.instagram-link {
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.2s;
 }
 
-.whatsapp-link:hover {
+.whatsapp-link {
+  color: #25D366;
+}
+
+.instagram-link {
+  color: #E1306C;
+}
+
+.whatsapp-link:hover,
+.instagram-link:hover {
   transform: scale(1.1);
 }
 
