@@ -332,6 +332,47 @@ h1 {
   color: var(--text-secondary);
   font-size: 0.9rem;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background: white;
+  margin-top: auto;
+}
+
+.footer-title {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.phone-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.whatsapp-link {
+  color: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.whatsapp-link:hover {
+  transform: scale(1.1);
 }
 
 /* Animations */
