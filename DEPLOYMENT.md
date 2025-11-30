@@ -13,7 +13,7 @@ Uygulamanızın kodları hazır ve Git altyapısı kuruldu. Şimdi bu projeyi Gi
 Aşağıdaki komutları terminalde çalıştırarak kodlarınızı yeni oluşturduğunuz depoya gönderin. `KULLANICI_ADI` kısmını kendi GitHub kullanıcı adınızla değiştirmeyi unutmayın.
 
 ```bash
-git remote add origin https://github.com/KULLANICI_ADI/rhinoplasty-info.git
+git remote add origin https://github.com/niedy707/rhinoplasty-info.git
 git branch -M main
 git push -u origin main
 ```

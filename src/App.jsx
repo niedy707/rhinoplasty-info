@@ -4,6 +4,36 @@ import { content } from './data/content';
 import LanguageSelector from './components/LanguageSelector';
 import InfoSection from './components/InfoSection';
 
+const MobileNavigation = ({ handlePrevTab, handleNextTab, currentContent, activeTabId, setActiveTabId }) => (
+  <div className="mobile-tab-select">
+    <button
+      className="nav-arrow-btn"
+      onClick={handlePrevTab}
+      disabled={currentContent.tabs?.findIndex(t => t.id === activeTabId) === 0}
+    >
+      &#8592;
+    </button>
+    <select
+      value={activeTabId || ''}
+      onChange={(e) => setActiveTabId(e.target.value)}
+      className="tab-select"
+    >
+      {currentContent.tabs?.map(tab => (
+        <option key={tab.id} value={tab.id}>
+          {tab.title}
+        </option>
+      ))}
+    </select>
+    <button
+      className="nav-arrow-btn"
+      onClick={handleNextTab}
+      disabled={currentContent.tabs?.findIndex(t => t.id === activeTabId) === currentContent.tabs?.length - 1}
+    >
+      &#8594;
+    </button>
+  </div>
+);
+
 function App() {
   const [lang, setLang] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -67,35 +97,7 @@ function App() {
     }
   };
 
-  const MobileNavigation = () => (
-    <div className="mobile-tab-select">
-      <button
-        className="nav-arrow-btn"
-        onClick={handlePrevTab}
-        disabled={currentContent.tabs?.findIndex(t => t.id === activeTabId) === 0}
-      >
-        &#8592;
-      </button>
-      <select
-        value={activeTabId || ''}
-        onChange={(e) => setActiveTabId(e.target.value)}
-        className="tab-select"
-      >
-        {currentContent.tabs?.map(tab => (
-          <option key={tab.id} value={tab.id}>
-            {tab.title}
-          </option>
-        ))}
-      </select>
-      <button
-        className="nav-arrow-btn"
-        onClick={handleNextTab}
-        disabled={currentContent.tabs?.findIndex(t => t.id === activeTabId) === currentContent.tabs?.length - 1}
-      >
-        &#8594;
-      </button>
-    </div>
-  );
+
 
   return (
     <div className="app-container">
@@ -109,7 +111,13 @@ function App() {
       </header>
 
       <nav className="tab-navigation">
-        <MobileNavigation />
+        <MobileNavigation
+          handlePrevTab={handlePrevTab}
+          handleNextTab={handleNextTab}
+          currentContent={currentContent}
+          activeTabId={activeTabId}
+          setActiveTabId={setActiveTabId}
+        />
         <div className="desktop-tabs">
           {currentContent.tabs?.map(tab => (
             <button
