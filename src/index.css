@@ -506,9 +506,17 @@ h1 {
     /* Allow controls to size naturally */
   }
 
+  .language-selector {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
   .quick-flags {
-    display: none;
-    /* Hide quick flags on mobile */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 4px;
   }
 
   .current-name {
