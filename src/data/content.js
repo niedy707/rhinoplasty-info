@@ -1,4 +1,3 @@
-
 export const content = {
   tr: {
     title: "Rinoplasti Bilgilendirme",
@@ -9,43 +8,42 @@ export const content = {
         content: [
           {
             title: "Burun Estetiği (Rinoplasti) Nedir?",
-            text: `Burun yüzün tam ortasında bulunan fonksiyonel bir organdır. 
-Burnun fonksiyonel görevi nefes ve koku almak, görsel görevi ise yüzün güzel gözükmesini sağlamaktır.
-Burun hem fonksiyonel görevlerini tam olarak yerine getirmeli, hem de yüzdeki diğer organlar ile uyum ve oran içinde olmalıdır. 
-Bunun yanı sıra simetrik ve yüze yakışan bir yapıda olmalıdır.
-
-Rinoplasti (Septoprinoplasti) ameliyatı ile amaç, buruna fonksiyonel ve esttik bir güzellik kazandırmaktır.`
+            text: "Burun yüzün tam ortasında bulunan fonksiyonel bir organdır.\n\nBurnun fonksiyonel görevi nefes ve koku almak, görsel görevi ise yüzün güzel gözükmesini sağlamaktır.\n\nBurun hem fonksiyonel görevlerini tam olarak yerine getirmeli, hem de yüzdeki diğer organlar ile uyum ve oran içinde olmalıdır. Bunun yanı sıra simetrik ve yüze yakışan bir yapıda olmalıdır.\n\nRinoplasti (Septoprinoplasti) ameliyatı ile amaç, buruna fonksiyonel ve estetik bir güzellik kazandırmaktır."
           },
           {
             title: "AMELİYATIN AMACI",
-            text: `Rinoplasti ameliyatının amacı hem rahat nefes alan hem de hastanın burnundaki sorunlara çözüm sunarak hastayı mutlu edecek bir burun görüntüsü elde edebilmektir.
-Her burundaki sorun birbirinden farklı olduğundan uygulanacak işlemler de farklılık göstermektedir. Burnunuza yapılabilecek işlemler ve elde edilebilecek olası sonuçlar muayene sırasında sizinle sözel olarak paylaşılacaktır.
-
-Ameliyat iki taraflı alınan bir karar ile gerçekleştirilir.
-    * Hem hasta hekime ameliyat olmak istemeli, hem de hekim hastaya fayda göstereceğine inanarak ameliyat yapmalıdır.
-    * Bu nedenle ameliyat öncesi muayene ve değerlendirme uygun süre ve zamanda ve doğru koşullarda yapılmalıdır. 
-    * Her iki taraftan birinin istemediği bir ameliyatın mutlu sonuca ulaşma olasılığı oldukça düşüktür.`
+            text: "Rinoplasti ameliyatının amacı hem rahat nefes alan hem de hastanın burnundaki sorunlara çözüm sunarak hastayı mutlu edecek bir burun görüntüsü elde edebilmektir.\n\nHer burundaki sorun birbirinden farklı olduğundan uygulanacak işlemler de farklılık göstermektedir. Burnunuza yapılabilecek işlemler ve elde edilebilecek olası sonuçlar muayene sırasında sizinle sözel olarak paylaşılacaktır.\n\nAmeliyat iki taraflı alınan bir karar ile gerçekleştirilir.",
+            items: [
+              "Hem hasta hekime ameliyat olmak istemeli, hem de hekim hastaya fayda göstereceğine inanarak ameliyat yapmalıdır.",
+              "Bu nedenle ameliyat öncesi muayene ve değerlendirme uygun süre ve zamanda ve doğru koşullarda yapılmalıdır.",
+              "Her iki taraftan birinin istemediği bir ameliyatın mutlu sonuca ulaşma olasılığı oldukça düşüktür."
+            ]
           },
           {
             title: "GENEL BİLGİLER",
-            text: `* Anestezi Türü: Genel Anestezi (Tam narkoz)
-* Hastanede Yatış: 1 gece
-        * Sabah erken saatte ameliyat olan ya da kısa süreli operasyonlar sonrası, eğer tıbbi durumunuz da uygun ise aynı gün taburcu olabilirsiniz ancak çoğu hasta 1 gece hastane yatışı sonrası, takip eden gün sabah taburcu olacaktır. 
-        * Süre: 2,5 saat
-        	 Rinoplasti ameliyatının; standart zorlukta ise ~2 saat (±1), revizyon ameliyatların ise ~3saat (±1)  sürmesi öngörülmektedir.
-        * Cerrahi Teknik: Açık teknik, structure (yapısal) rinoplasti
-    	Ameliyatı rutin şekilde açık teknik uygulayarak yapıyorum.
-    
-    Bu teknikte burun deliklerinin arasındaki cilde bir kesi yapılır ve bu kesi ameliyat sonunda estetik amaca uygun şekilde dikilir. 
-    
-* Kapalı teknik ameliyat şu durumlarda uygulanabilir:
-        * Kısa süreli ve sınırlı revizyon cerrahiler 
-        * Sadece burun kemeri için yapılacak sınırlı işlemler
-        * Estetik amacın olmadığı sadece fonksiyonel ameliyatlar.
-
-        * Teknik Ekipmanlar:
-    * Ameliyatlarda rutin şekilde piezo kullanılmaktadır. Bu cihaz hassas şekilde kemiğin şekillendirilmesini sağlayan teknik ekipmanlardan birisidir.
-    * Piezo kullanılması morluğun hiç olmayacağı anlamına gelmez. Cilt altı doku ve damar yapısı nedenli ameliyat sonrası dönemde morluk ve doku ödemi olacaktır. Ancak hastaların ~%90’ında 1inci haftada gözle görülür bir morluk kalmaz.`
+            items: [
+              "Anestezi Türü: Genel Anestezi (Tam narkoz)",
+              "Hastanede Yatış: 1 gece (Sabah erken saatte ameliyat olan ya da kısa süreli operasyonlar sonrası, eğer tıbbi durumunuz da uygun ise aynı gün taburcu olabilirsiniz ancak çoğu hasta 1 gece hastane yatışı sonrası, takip eden gün sabah taburcu olacaktır.)",
+              "Süre: 2,5 saat (Rinoplasti ameliyatının; standart zorlukta ise ~2 saat (±1), revizyon ameliyatların ise ~3saat (±1) sürmesi öngörülmektedir.)",
+              "Cerrahi Teknik: Açık teknik, structure (yapısal) rinoplasti. Ameliyatı rutin şekilde açık teknik uygulayarak yapıyorum. Bu teknikte burun deliklerinin arasındaki cilde bir kesi yapılır ve bu kesi ameliyat sonunda estetik amaca uygun şekilde dikilir."
+            ],
+            subsections: [
+              {
+                title: "Kapalı teknik ameliyat şu durumlarda uygulanabilir:",
+                items: [
+                  "Kısa süreli ve sınırlı revizyon cerrahiler",
+                  "Sadece burun kemeri için yapılacak sınırlı işlemler",
+                  "Estetik amacın olmadığı sadece fonksiyonel ameliyatlar"
+                ]
+              },
+              {
+                title: "Teknik Ekipmanlar",
+                items: [
+                  "Ameliyatlarda rutin şekilde piezo kullanılmaktadır. Bu cihaz hassas şekilde kemiğin şekillendirilmesini sağlayan teknik ekipmanlardan birisidir.",
+                  "Piezo kullanılması morluğun hiç olmayacağı anlamına gelmez. Cilt altı doku ve damar yapısı nedenli ameliyat sonrası dönemde morluk ve doku ödemi olacaktır. Ancak hastaların ~%90’ında 1inci haftada gözle görülür bir morluk kalmaz."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -322,24 +320,38 @@ Surgery is performed with a decision taken bilaterally.
           },
           {
             title: "GENERAL INFORMATION",
-            text: `* Anesthesia Type: General Anesthesia
-* Hospital Stay: 1 night
-        * After surgery in the early morning or short-term operations, if your medical condition is suitable, you can be discharged on the same day, but most patients will be discharged the following morning after 1 night of hospitalization. 
-        * Duration: 2.5 hours
-        	 Rhinoplasty surgery is foreseen to take ~2 hours (±1) for standard difficulty, and ~3 hours (±1) for revision surgeries.
-        * Surgical Technique: Open technique, structural rhinoplasty
-    	I perform the surgery routinely using the open technique.
-    
-    In this technique, an incision is made in the skin between the nostrils and this incision is stitched at the end of the surgery in accordance with the aesthetic purpose. 
-    
-* Closed technique surgery can be applied in the following cases:
-        * Short-term and limited revision surgeries 
-        * Limited procedures only for the nasal hump
-        * Functional surgeries only where there is no aesthetic purpose.
+            text: `* Type of Anesthesia: General Anesthesia
+* Hospital Stay: 1 night`,
+            items: [
+              "After surgery early in the morning or short-term operations, if your medical condition is suitable, you can be discharged on the same day, but most patients will be discharged the next morning after 1 night of hospitalization."
+            ],
+            subsections: [
+              {
+                title: "Duration: 2.5 hours",
+                text: "Rhinoplasty surgery is predicted to last ~2 hours (±1) for standard difficulty, and ~3 hours (±1) for revision surgeries."
+              },
+              {
+                title: "Surgical Technique: Open technique, structural rhinoplasty",
+                text: `I perform the surgery routinely using the open technique.
 
-        * Technical Equipment:
-    * Piezo is routinely used in surgeries. This device is one of the technical equipment that allows precise shaping of the bone.
-    * Using Piezo does not mean there will be no bruising. There will be bruising and tissue edema in the post-operative period due to subcutaneous tissue and vascular structure. However, ~90% of patients do not have visible bruising in the 1st week.`
+In this technique, an incision is made on the skin between the nostrils, and this incision is stitched at the end of the surgery in accordance with the aesthetic purpose.`
+              },
+              {
+                title: "Closed technique surgery can be applied in the following cases:",
+                items: [
+                  "Short-term and limited revision surgeries",
+                  "Limited procedures only for the nasal hump",
+                  "Functional surgeries only where there is no aesthetic purpose."
+                ]
+              },
+              {
+                title: "Technical Equipment:",
+                items: [
+                  "Piezo is used routinely in surgeries. This device is one of the technical equipment that allows precise shaping of the bone.",
+                  "Use of Piezo does not mean there will be no bruising. There will be bruising and tissue edema due to subcutaneous tissue and vascular structure in the postoperative period. However, ~90% of patients do not have visible bruising at the 1st week."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -612,24 +624,38 @@ Die Operation wird mit einer beidseitig getroffenen Entscheidung durchgeführt.
           },
           {
             title: "ALLGEMEINE INFORMATIONEN",
-            text: `* Anästhesietyp: Vollnarkose
-* Krankenhausaufenthalt: 1 Nacht
-        * Nach einer Operation am frühen Morgen oder bei kurzzeitigen Eingriffen können Sie, wenn Ihr medizinischer Zustand geeignet ist, noch am selben Tag entlassen werden, aber die meisten Patienten werden am nächsten Morgen nach einer Nacht im Krankenhaus entlassen. 
-        * Dauer: 2,5 Stunden
-        	 Die Rhinoplastik-Operation dauert voraussichtlich ~2 Stunden (±1) bei Standard-Schwierigkeit und ~3 Stunden (±1) bei Revisionsoperationen.
-        * Chirurgische Technik: Offene Technik, strukturelle Rhinoplastik
-    	Ich führe die Operation routinemäßig mit der offenen Technik durch.
-    
-    Bei dieser Technik wird ein Schnitt in die Haut zwischen den Nasenlöchern gemacht und dieser Schnitt wird am Ende der Operation gemäß dem ästhetischen Zweck genäht. 
-    
-* Die geschlossene Technik kann in folgenden Fällen angewendet werden:
-        * Kurzzeitige und begrenzte Revisionsoperationen 
-        * Begrenzte Eingriffe nur für den Nasenhöcker
-        * Funktionelle Operationen nur dort, wo kein ästhetischer Zweck besteht.
+            text: `* Art der Anästhesie: Vollnarkose
+* Krankenhausaufenthalt: 1 Nacht`,
+            items: [
+              "Nach einer Operation am frühen Morgen oder kurzzeitigen Operationen können Sie, wenn Ihr medizinischer Zustand geeignet ist, am selben Tag entlassen werden, aber die meisten Patienten werden am nächsten Morgen nach 1 Nacht Krankenhausaufenthalt entlassen."
+            ],
+            subsections: [
+              {
+                title: "Dauer: 2,5 Stunden",
+                text: "Es wird vorausgesagt, dass die Nasenkorrektur ~2 Stunden (±1) bei Standard-Schwierigkeit und ~3 Stunden (±1) bei Revisionsoperationen dauert."
+              },
+              {
+                title: "Chirurgische Technik: Offene Technik, strukturelle Nasenkorrektur",
+                text: `Ich führe die Operation routinemäßig mit der offenen Technik durch.
 
-        * Technische Ausrüstung:
-    * Piezo wird routinemäßig bei Operationen verwendet. Dieses Gerät ist eine der technischen Ausrüstungen, die eine präzise Formung des Knochens ermöglicht.
-    * Die Verwendung von Piezo bedeutet nicht, dass es keine Blutergüsse geben wird. In der postoperativen Phase wird es aufgrund der subkutanen Gewebe- und Gefäßstruktur zu Blutergüssen und Gewebeödemen kommen. Bei ~90% der Patienten sind jedoch in der 1. Woche keine sichtbaren Blutergüsse vorhanden.`
+Bei dieser Technik wird ein Schnitt in die Haut zwischen den Nasenlöchern gemacht, und dieser Schnitt wird am Ende der Operation gemäß dem ästhetischen Zweck genäht.`
+              },
+              {
+                title: "Die geschlossene Technik kann in folgenden Fällen angewendet werden:",
+                items: [
+                  "Kurzfristige und begrenzte Revisionsoperationen",
+                  "Begrenzte Verfahren nur für den Nasenhöcker",
+                  "Funktionelle Operationen nur dort, wo kein ästhetischer Zweck besteht."
+                ]
+              },
+              {
+                title: "Technische Ausrüstung:",
+                items: [
+                  "Piezo wird routinemäßig bei Operationen verwendet. Dieses Gerät ist eines der technischen Geräte, das eine präzise Formung des Knochens ermöglicht.",
+                  "Die Verwendung von Piezo bedeutet nicht, dass es keine Blutergüsse geben wird. In der postoperativen Phase wird es aufgrund von Unterhautgewebe und Gefäßstruktur zu Blutergüssen und Gewebeödemen kommen. Jedoch haben ~90% der Patienten in der 1. Woche keine sichtbaren Blutergüsse."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -903,23 +929,37 @@ La cirugía se realiza con una decisión tomada bilateralmente.
           {
             title: "INFORMACIÓN GENERAL",
             text: `* Tipo de Anestesia: Anestesia General
-* Estancia Hospitalaria: 1 noche
-        * Después de la cirugía temprano en la mañana o en operaciones a corto plazo, si su condición médica es adecuada, puede ser dado de alta el mismo día, pero la mayoría de los pacientes serán dados de alta a la mañana siguiente después de 1 noche de hospitalización. 
-        * Duración: 2.5 horas
-        	 Se prevé que la cirugía de rinoplastia dure ~2 horas (±1) para dificultad estándar, y ~3 horas (±1) para cirugías de revisión.
-        * Técnica Quirúrgica: Técnica abierta, rinoplastia estructural
-    	Realizo la cirugía de forma rutinaria utilizando la técnica abierta.
-    
-    En esta técnica, se realiza una incisión en la piel entre las fosas nasales y esta incisión se cose al final de la cirugía de acuerdo con el propósito estético. 
-    
-* La cirugía de técnica cerrada se puede aplicar en los siguientes casos:
-        * Cirugías de revisión a corto plazo y limitadas 
-        * Procedimientos limitados solo para la giba nasal
-        * Cirugías funcionales solo donde no hay propósito estético.
+* Estancia Hospitalaria: 1 noche`,
+            items: [
+              "Después de la cirugía temprano en la mañana o en operaciones a corto plazo, si su condición médica es adecuada, puede ser dado de alta el mismo día, pero la mayoría de los pacientes serán dados de alta a la mañana siguiente después de 1 noche de hospitalización."
+            ],
+            subsections: [
+              {
+                title: "Duración: 2.5 horas",
+                text: "Se prevé que la cirugía de rinoplastia dure ~2 horas (±1) para dificultad estándar, y ~3 horas (±1) para cirugías de revisión."
+              },
+              {
+                title: "Técnica Quirúrgica: Técnica abierta, rinoplastia estructural",
+                text: `Realizo la cirugía de forma rutinaria utilizando la técnica abierta.
 
-        * Equipo Técnico:
-    * El piezo se utiliza de forma rutinaria en las cirugías. Este dispositivo es uno de los equipos técnicos que permite un modelado preciso del hueso.
-    * El uso de Piezo no significa que no habrá hematomas. Habrá hematomas y edema tisular en el período postoperatorio debido al tejido subcutáneo y la estructura vascular. Sin embargo, ~90% de los pacientes no tienen hematomas visibles en la 1ª semana.`
+En esta técnica, se realiza una incisión en la piel entre las fosas nasales y esta incisión se cose al final de la cirugía de acuerdo con el propósito estético.`
+              },
+              {
+                title: "La cirugía de técnica cerrada se puede aplicar en los siguientes casos:",
+                items: [
+                  "Cirugías de revisión a corto plazo y limitadas",
+                  "Procedimientos limitados solo para la giba nasal",
+                  "Cirugías funcionales solo donde no hay propósito estético."
+                ]
+              },
+              {
+                title: "Equipo Técnico:",
+                items: [
+                  "El piezo se utiliza de forma rutinaria en las cirugías. Este dispositivo es uno de los equipos técnicos que permite un modelado preciso del hueso.",
+                  "El uso de Piezo no significa que no habrá hematomas. Habrá hematomas y edema tisular en el período postoperatorio debido al tejido subcutáneo y la estructura vascular. Sin embargo, ~90% de los pacientes no tienen hematomas visibles en la 1ª semana."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1193,23 +1233,37 @@ R: Puede girarse de lado en la cama a partir de la 2ª semana después de la cir
           {
             title: "ОБЩАЯ ИНФОРМАЦИЯ",
             text: `* Тип анестезии: Общая анестезия
-* Пребывание в больнице: 1 ночь
-        * После операции рано утром или при краткосрочных операциях, если ваше медицинское состояние позволяет, вас могут выписать в тот же день, но большинство пациентов выписываются на следующее утро после 1 ночи госпитализации. 
-        * Продолжительность: 2,5 часа
-        	 Ожидается, что операция ринопластики продлится ~2 часа (±1) для стандартной сложности и ~3 часа (±1) для ревизионных операций.
-        * Хирургическая техника: Открытая техника, структурная ринопластика
-    	Я провожу операцию рутинно, используя открытую технику.
-    
-    В этой технике делается разрез на коже между ноздрями, и этот разрез зашивается в конце операции в соответствии с эстетической целью. 
-    
-* Закрытая техника может применяться в следующих случаях:
-        * Краткосрочные и ограниченные ревизионные операции 
-        * Ограниченные процедуры только для горбинки носа
-        * Функциональные операции только там, где нет эстетической цели.
+* Пребывание в больнице: 1 ночь`,
+            items: [
+              "После операции рано утром или при краткосрочных операциях, если ваше медицинское состояние позволяет, вас могут выписать в тот же день, но большинство пациентов выписываются на следующее утро после 1 ночи госпитализации."
+            ],
+            subsections: [
+              {
+                title: "Продолжительность: 2,5 часа",
+                text: "Ожидается, что операция ринопластики продлится ~2 часа (±1) для стандартной сложности и ~3 часа (±1) для ревизионных операций."
+              },
+              {
+                title: "Хирургическая техника: Открытая техника, структурная ринопластика",
+                text: `Я провожу операцию рутинно, используя открытую технику.
 
-        * Техническое оборудование:
-    * Пьезо используется рутинно в операциях. Это устройство является одним из технических средств, позволяющих точно формировать кость.
-    * Использование Пьезо не означает, что синяков не будет. В послеоперационном периоде будут синяки и отек тканей из-за подкожной ткани и сосудистой структуры. Однако у ~90% пациентов видимых синяков нет на 1-й неделе.`
+В этой технике делается разрез на коже между ноздрями, и этот разрез зашивается в конце операции в соответствии с эстетической целью.`
+              },
+              {
+                title: "Закрытая техника может применяться в следующих случаях:",
+                items: [
+                  "Краткосрочные и ограниченные ревизионные операции",
+                  "Ограниченные процедуры только для горбинки носа",
+                  "Функциональные операции только там, где нет эстетической цели."
+                ]
+              },
+              {
+                title: "Техническое оборудование:",
+                items: [
+                  "Пьезо используется рутинно в операциях. Это устройство является одним из технических средств, позволяющих точно формировать кость.",
+                  "Использование Пьезо не означает, что синяков не будет. В послеоперационном периоде будут синяки и отек тканей из-за подкожной ткани и сосудистой структуры. Однако у ~90% пациентов видимых синяков нет на 1-й неделе."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1483,23 +1537,37 @@ La chirurgie est réalisée sur une décision prise bilatéralement.
           {
             title: "INFORMATIONS GÉNÉRALES",
             text: `* Type d'anesthésie : Anesthésie générale
-* Séjour à l'hôpital : 1 nuit
-        * Après une intervention chirurgicale tôt le matin ou des opérations de courte durée, si votre état de santé le permet, vous pouvez sortir le jour même, mais la plupart des patients sortent le lendemain matin après 1 nuit d'hospitalisation. 
-        * Durée : 2,5 heures
-        	 La chirurgie de rhinoplastie devrait durer ~2 heures (±1) pour une difficulté standard et ~3 heures (±1) pour les opérations de révision.
-        * Technique chirurgicale : Technique ouverte, rhinoplastie structurelle
-    	J'effectue l'opération de manière routinière en utilisant la technique ouverte.
-    
-    Dans cette technique, une incision est pratiquée sur la peau entre les narines, et cette incision est suturée à la fin de la chirurgie conformément à l'objectif esthétique. 
-    
-* La technique fermée peut être appliquée dans les cas suivants :
-        * Opérations de révision à court terme et limitées 
-        * Procédures limitées uniquement pour la bosse nasale
-        * Opérations fonctionnelles uniquement là où il n'y a pas d'objectif esthétique.
+* Séjour à l'hôpital : 1 nuit`,
+            items: [
+              "Après une intervention chirurgicale tôt le matin ou des opérations de courte durée, si votre état de santé le permet, vous pouvez sortir le jour même, mais la plupart des patients sortent le lendemain matin après 1 nuit d'hospitalisation."
+            ],
+            subsections: [
+              {
+                title: "Durée : 2,5 heures",
+                text: "La chirurgie de rhinoplastie devrait durer ~2 heures (±1) pour une difficulté standard et ~3 heures (±1) pour les opérations de révision."
+              },
+              {
+                title: "Technique chirurgicale : Technique ouverte, rhinoplastie structurelle",
+                text: `J'effectue l'opération de manière routinière en utilisant la technique ouverte.
 
-        * Équipement technique :
-    * Le Piezo est utilisé de manière routinière dans les chirurgies. Cet appareil est l'un des outils techniques qui permet de façonner l'os avec précision.
-    * L'utilisation du Piezo ne signifie pas qu'il n'y aura pas d'ecchymoses. Il y aura des ecchymoses et un œdème tissulaire dus au tissu sous-cutané et à la structure vasculaire dans la période postopératoire. Cependant, ~90% des patients n'ont pas d'ecchymoses visibles à la 1ère semaine.`
+Dans cette technique, une incision est pratiquée sur la peau entre les narines, et cette incision est suturée à la fin de la chirurgie conformément à l'objectif esthétique.`
+              },
+              {
+                title: "La technique fermée peut être appliquée dans les cas suivants :",
+                items: [
+                  "Opérations de révision à court terme et limitées",
+                  "Procédures limitées uniquement pour la bosse nasale",
+                  "Opérations fonctionnelles uniquement là où il n'y a pas d'objectif esthétique."
+                ]
+              },
+              {
+                title: "Équipement technique :",
+                items: [
+                  "Le Piezo est utilisé de manière routinière dans les chirurgies. Cet appareil est l'un des outils techniques qui permet de façonner l'os avec précision.",
+                  "L'utilisation du Piezo ne signifie pas qu'il n'y aura pas d'ecchymoses. Il y aura des ecchymoses et un œdème tissulaire dus au tissu sous-cutané et à la structure vasculaire dans la période postopératoire. Cependant, ~90% des patients n'ont pas d'ecchymoses visibles à la 1ère semaine."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1773,23 +1841,37 @@ L'intervento chirurgico viene eseguito su decisione presa bilateralmente.
           {
             title: "INFORMAZIONI GENERALI",
             text: `* Tipo di anestesia: Anestesia generale
-* Degenza in ospedale: 1 notte
-        * Dopo un intervento chirurgico al mattino presto o operazioni a breve termine, se le tue condizioni mediche lo consentono, potresti essere dimesso lo stesso giorno, ma la maggior parte dei pazienti viene dimessa la mattina successiva dopo 1 notte di ricovero. 
-        * Durata: 2,5 ore
-        	 Si prevede che l'intervento di rinoplastica duri ~2 ore (±1) per una difficoltà standard e ~3 ore (±1) per le operazioni di revisione.
-        * Tecnica chirurgica: Tecnica aperta, rinoplastica strutturale
-    	Eseguo l'operazione di routine utilizzando la tecnica aperta.
-    
-    In questa tecnica, viene praticata un'incisione sulla pelle tra le narici e questa incisione viene suturata alla fine dell'intervento in conformità con l'obiettivo estetico. 
-    
-* La tecnica chiusa può essere applicata nei seguenti casi:
-        * Operazioni di revisione a breve termine e limitate 
-        * Procedure limitate solo per la gobba nasale
-        * Operazioni funzionali solo dove non c'è un obiettivo estetico.
+* Degenza in ospedale: 1 notte`,
+            items: [
+              "Dopo un intervento chirurgico al mattino presto o operazioni a breve termine, se le tue condizioni mediche lo consentono, potresti essere dimesso lo stesso giorno, ma la maggior parte dei pazienti viene dimessa la mattina successiva dopo 1 notte di ricovero."
+            ],
+            subsections: [
+              {
+                title: "Durata: 2,5 ore",
+                text: "Si prevede che l'intervento di rinoplastica duri ~2 ore (±1) per una difficoltà standard e ~3 ore (±1) per le operazioni di revisione."
+              },
+              {
+                title: "Tecnica chirurgica: Tecnica aperta, rinoplastica strutturale",
+                text: `Eseguo l'operazione di routine utilizzando la tecnica aperta.
 
-        * Attrezzatura tecnica:
-    * Il Piezo viene utilizzato di routine negli interventi chirurgici. Questo dispositivo è uno degli strumenti tecnici che consente di modellare l'osso con precisione.
-    * L'uso del Piezo non significa che non ci saranno lividi. Ci saranno lividi ed edema tissutale dovuti al tessuto sottocutaneo e alla struttura vascolare nel periodo postoperatorio. Tuttavia, ~90% dei pazienti non ha lividi visibili alla 1a settimana.`
+In questa tecnica, viene praticata un'incisione sulla pelle tra le narici e questa incisione viene suturata alla fine dell'intervento in conformità con l'obiettivo estetico.`
+              },
+              {
+                title: "La tecnica chiusa può essere applicata nei seguenti casi:",
+                items: [
+                  "Operazioni di revisione a breve termine e limitate",
+                  "Procedure limitate solo per la gobba nasale",
+                  "Operazioni funzionali solo dove non c'è un obiettivo estetico."
+                ]
+              },
+              {
+                title: "Attrezzatura tecnica:",
+                items: [
+                  "Il Piezo viene utilizzato di routine negli interventi chirurgici. Questo dispositivo è uno degli strumenti tecnici che consente di modellare l'osso con precisione.",
+                  "L'uso del Piezo non significa che non ci saranno lividi. Ci saranno lividi ed edema tissutale dovuti al tessuto sottocutaneo e alla struttura vascolare nel periodo postoperatorio. Tuttavia, ~90% dei pazienti non ha lividi visibili alla 1a settimana."
+                ]
+              }
+            ]
           }
         ]
       },
@@ -2063,23 +2145,37 @@ Operația se efectuează pe baza unei decizii luate bilateral.
           {
             title: "INFORMAȚII GENERALE",
             text: `* Tipul de anestezie: Anestezie generală
-* Spitalizare: 1 noapte
-        * După o intervenție chirurgicală dimineața devreme sau operații de scurtă durată, dacă starea dumneavoastră medicală permite, puteți fi externat în aceeași zi, dar majoritatea pacienților sunt externați a doua zi dimineața, după 1 noapte de spitalizare. 
-        * Durată: 2,5 ore
-        	 Se preconizează că operația de rinoplastie va dura ~2 ore (±1) pentru o dificultate standard și ~3 ore (±1) pentru operațiile de revizuire.
-        * Tehnica chirurgicală: Tehnică deschisă, rinoplastie structurală
-    	Efectuez operația în mod obișnuit folosind tehnica deschisă.
-    
-    În această tehnică, se face o incizie pe pielea dintre nări, iar această incizie este suturată la sfârșitul operației în conformitate cu scopul estetic. 
-    
-* Tehnica închisă poate fi aplicată în următoarele cazuri:
-        * Operații de revizuire pe termen scurt și limitate 
-        * Proceduri limitate doar pentru cocoașa nazală
-        * Operații funcționale doar acolo unde nu există un scop estetic.
+* Spitalizare: 1 noapte`,
+            items: [
+              "După o intervenție chirurgicală dimineața devreme sau operații de scurtă durată, dacă starea dumneavoastră medicală permite, puteți fi externat în aceeași zi, dar majoritatea pacienților sunt externați a doua zi dimineața, după 1 noapte de spitalizare."
+            ],
+            subsections: [
+              {
+                title: "Durată: 2,5 ore",
+                text: "Se preconizează că operația de rinoplastie va dura ~2 ore (±1) pentru o dificultate standard și ~3 ore (±1) pentru operațiile de revizuire."
+              },
+              {
+                title: "Tehnica chirurgicală: Tehnică deschisă, rinoplastie structurală",
+                text: `Efectuez operația în mod obișnuit folosind tehnica deschisă.
 
-        * Echipament tehnic:
-    * Piezo este utilizat în mod obișnuit în operații. Acest dispozitiv este unul dintre instrumentele tehnice care permite modelarea precisă a osului.
-    * Utilizarea Piezo nu înseamnă că nu vor exista vânătăi. Vor exista vânătăi și edem tisular din cauza țesutului subcutanat și a structurii vasculare în perioada postoperatorie. Cu toate acestea, ~90% dintre pacienți nu au vânătăi vizibile în prima săptămână.`
+În această tehnică, se face o incizie pe pielea dintre nări, iar această incizie este suturată la sfârșitul operației în conformitate cu scopul estetic.`
+              },
+              {
+                title: "Tehnica închisă poate fi aplicată în următoarele cazuri:",
+                items: [
+                  "Operații de revizuire pe termen scurt și limitate",
+                  "Proceduri limitate doar pentru cocoașa nazală",
+                  "Operații funcționale doar acolo unde nu există un scop estetic."
+                ]
+              },
+              {
+                title: "Echipament tehnic:",
+                items: [
+                  "Piezo este utilizat în mod obișnuit în operații. Acest dispozitiv este unul dintre instrumentele tehnice care permite modelarea precisă a osului.",
+                  "Utilizarea Piezo nu înseamnă că nu vor exista vânătăi. Vor exista vânătăi și edem tisular din cauza țesutului subcutanat și a structurii vasculare în perioada postoperatorie. Cu toate acestea, ~90% dintre pacienți nu au vânătăi vizibile în prima săptămână."
+                ]
+              }
+            ]
           }
         ]
       },
