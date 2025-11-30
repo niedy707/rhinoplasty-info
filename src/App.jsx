@@ -152,7 +152,13 @@ function App() {
       </main>
 
       <div className="bottom-navigation">
-        <MobileNavigation />
+        <MobileNavigation
+          handlePrevTab={handlePrevTab}
+          handleNextTab={handleNextTab}
+          currentContent={currentContent}
+          activeTabId={activeTabId}
+          setActiveTabId={setActiveTabId}
+        />
       </div>
 
       <footer className="app-footer">
