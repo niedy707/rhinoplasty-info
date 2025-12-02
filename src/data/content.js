@@ -52,21 +52,24 @@ export const content = {
         title: "2. FOTOĞRAFLAMA",
         content: [
           {
-            title: "FOTOĞRAFLAMA",
-            text: `Ameliyat öncesi, sırası ve sonrasında fotoğraf çekimi yapılmaktadır.Ameliyat öncesi fotoğraf çekimi muayenenin bir parçasıdır.
-Fotoğraflamanın amacı burundaki sorunları anlamak, anlatmak, hatırlamak ve ameliyat planını yaparken objektif veriler kullanabilmektir.
-
-Fotoğraf çekimi sonrası fotoğraf üzerinden simülasyon yapılmamaktadır.
+            subsections: [
+              {
+                title: "FOTOĞRAFLAMA",
+                text: `Ameliyat öncesi, sırası ve sonrasında fotoğraf çekimi yapılmaktadır. Ameliyat öncesi fotoğraf çekimi muayenenin bir parçasıdır.
+Fotoğraflamanın amacı burundaki sorunları anlamak, anlatmak, hatırlamak ve ameliyat planını yaparken objektif veriler kullanabilmektir.`
+              },
+              {
+                title: "Simülasyon",
+                text: `Fotoğraf çekimi sonrası fotoğraf üzerinden simülasyon yapılmamaktadır.
 Ne talep ettiğini anlatabilen ve anlaşılan hastalarda simülasyon gerekliliği yoktur.
 
 Ne tarz bir burun istediğini sözel olarak tam dile getiremediğini düşünen hastalar beğendikleri burun fotoğraflarını muayene sırasında gösterebilir ve hasta dosyasına eklenmesi için gönderebilirler. 
 
 Burundaki olası değişikliklerin yüzü ile uyumunu hayal etmek isteyen hastalar kendi fotoğraflarına simülasyon yapabilir ve taleplerini bu şekilde hekimle paylaşabilirler.
-Hastanın gösterdiği fotoğraflar bir sipariş olarak algılanmamalıdır.Kişinin beğendiği tarzı ve talebini anlatabilmeleri için bir araçtır.Bu bilginin kesinlikle unutulmamalıdır.
-Ameliyat sonrasında ve iyileşmenin sonunda tam olarak nasıl bir sonuç elde edileceğini fotoğraf üzerinden çizebilmek gerçekçi değildir.
-
-
-`
+Hastanın gösterdiği fotoğraflar bir sipariş olarak algılanmamalıdır. Kişinin beğendiği tarzı ve talebini anlatabilmeleri için bir araçtır. Bu bilginin kesinlikle unutulmamalıdır.
+Ameliyat sonrasında ve iyileşmenin sonunda tam olarak nasıl bir sonuç elde edileceğini fotoğraf üzerinden çizebilmek gerçekçi değildir.`
+              }
+            ]
           }
         ]
       },
@@ -76,39 +79,52 @@ Ameliyat sonrasında ve iyileşmenin sonunda tam olarak nasıl bir sonuç elde e
         content: [
           {
             title: "AMELİYAT SONRASI SÜREÇ",
-            text: `Ameliyat bitiminde burun delikleri arasındaki ciltte(kolumella)  estetik ince bir kesi ve dikiş, burun içerisinde içi delikli ve nefes almanıza engel olmayan bir stent/tampon, burun üzerinde ise özel bir bant ve plastik bir atel (alçı) bulunacak. Burun kanatlarına müdahale edilmişse burun kanat kısmında da dikiş olacaktır.
+            text: `Ameliyat bitiminde burun delikleri arasındaki ciltte (kolumella) estetik ince bir kesi ve dikiş, burun içerisinde içi delikli ve nefes almanıza engel olmayan bir stent/tampon, burun üzerinde ise özel bir bant ve plastik bir atel (alçı) bulunacak. Burun kanatlarına müdahale edilmişse burun kanat kısmında da dikiş olacaktır.`,
+            subsections: [
+              {
+                title: "Tampon ve Alçının Alınması",
+                text: `Burundaki tampon, bant ve atel ameliyatınızın birinci haftasındaki (5-7 gün) kontrolde alınacak. (Bazı özel durumlarda burun içindeki tampon daha erken alınabilmektedir.)
 
-Tampon ve alçının alınması: Burundaki tampon, bant ve atel ameliyatınızın birinci haftasındaki (5-7 gün) kontrolde alınacak. (Bazı özel durumlarda burun içindeki tampon daha erken alınabilmektedir.)
-Bazen ameliyat sırasında, bazen ise ameliyat sonrası tampon çıktıktan sonra burun ucu şekli ve deliklerin simetrisi için silikon aparat (nostril retainer) kullanmak gerekebilir. 
+Bazen ameliyat sırasında, bazen ise ameliyat sonrası tampon çıktıktan sonra burun ucu şekli ve deliklerin simetrisi için silikon aparat (nostril retainer) kullanmak gerekebilir.
 Burunda ödemi fazla olan hastalarda ilk kontrolde alçı tekrar uygulanabilir.
-Burun cildi kalın ve ödemli hastalarda ameliyat sonrası sürekli ve/veya gece bantlama yapmanız önerilebilir. (1-2 ay süre ile)
-
-Göz altı morluk ve şişlik: Ameliyatınızda kemik müdahalesi yapıldığı durumlarda burun çevresi ve göz altında bir miktar şişlik ve morluk olacaktır. Bu durum ameliyat sonrası 3.-4. günde maksimuma ulaşır. 
-Şişlik ve morluklar 1nci haftada belirgin şekilde azalmış, 2nci haftada ise çoğu hastada tamamen geçmiş olur. 
+Burun cildi kalın ve ödemli hastalarda ameliyat sonrası sürekli ve/veya gece bantlama yapmanız önerilebilir. (1-2 ay süre ile)`
+              },
+              {
+                title: "Göz Altı Morluk ve Şişlik",
+                text: `Ameliyatınızda kemik müdahalesi yapıldığı durumlarda burun çevresi ve göz altında bir miktar şişlik ve morluk olacaktır. Bu durum ameliyat sonrası 3.-4. günde maksimuma ulaşır.
+Şişlik ve morluklar 1. haftada belirgin şekilde azalmış, 2. haftada ise çoğu hastada tamamen geçmiş olur.
 Ameliyat sonrası ilaçların ve gerekli uygulamaların tam yapılması bu süreci çok daha hafif şekilde geçirmenizi sağlayacaktır.
-Ameliyat sonrası oluşacak morluk ve şişliğin minimum olması için burun çevresi ve göz altına soğuk uygulama yapılması gerekmektedir. 
-Hastane yatışınız sırasında size buz verilecektir ancak evde kullanım için jel şeklinde olan buz torbası temin edebilirsiniz. 
-(Pratik çözüm: Soğuk uygulama için buzdolabı poşetinde dondurulmuş bezelye,nohut vb. kullanabilirsiniz.)
 
+Ameliyat sonrası oluşacak morluk ve şişliğin minimum olması için burun çevresi ve göz altına soğuk uygulama yapılması gerekmektedir.
+Hastane yatışınız sırasında size buz verilecektir ancak evde kullanım için jel şeklinde olan buz torbası temin edebilirsiniz.
+(Pratik çözüm: Soğuk uygulama için buzdolabı poşetinde dondurulmuş bezelye, nohut vb. kullanabilirsiniz.)`
+              },
+              {
+                title: "Ameliyat Sonrası Ödem ve Burun Şeklinin Son Halini Alması",
+                text: "Burunda oluşan ödem 3 ana dönemde azalmaktadır:",
+                items: [
+                  "İlk 2 haftalık dönemde hızlı ödem azalması sonrası ikinci haftada burnunuzun yeni yapısını ana hatları ve açıları ile birlikte göreceksiniz. Ancak burnunuz hala çok şiş olacak.",
+                  "Sonraki yaklaşık 2-3 aylık dönemde burnun özellikle sırt, uç ve kanatların yan kısımlarında ödem zaman içerisinde giderek azalacak ve ödemin yaklaşık %70’i geçecek.",
+                  "Kalan %30’luk kısım için ise yaklaşık 1-1,5 yıl daha zaman gerekecek."
+                ],
+                subtext: `Bu bahsedilen süreler ortalama süreler olup burnun cilt yapısı ve yara iyileşme özellikleri, ödemin ve burundaki şişliğin geçme süreci ve miktarı için ana belirleyici faktörlerdir. (Kalın cilt için süreler x1,5-2)
 
-Ameliyat sonrası ödem ve burun şeklinin son halini alması:
-Burunda oluşan ödem 3 ana dönemde azalmaktadır:
-* İlk 2 haftalık dönemde hızlı ödem azalması sonrası ikinci haftada burnunuzun yeni yapısını ana hatları ve açıları ile birlikte göreceksiniz. Ancak burnunuz hala çok şiş olacak.
-* Sonraki yaklaşık 2- 3 aylık dönemde burnun özellikle sırt, uç ve kanatların yan kısımlarında ödem zaman içerisinde giderek azalacak ve ödemin yaklaşık %70’i geçecek. 
-* Kalan %30’luk kısım için ise yaklaşık 1-1,5 yıl daha zaman gerekecek. 
-
-Bu bahsedilen süreler ortalama süreler olup burnun cilt yapısı ve yara iyileşme özellikleri, ödemin ve burundaki şişliğin geçme süreci ve miktarı için ana belirleyici faktörlerdir. (Kalın cilt için süreler x1,5-2)
 Burun içindeki kıkırdak ve kemik dokulara yapılan işlemler her hastada farklıdır.
-Kullanılan bazı cerrahi tekniklerde, kıkırdak ve dikişlerin zaman içinde oturması ve bir miktar gevşemesi ile ilişkili ve yer çekiminin de etkisi ile ameliyat sonrası 4-6 haftalık dönemde burun ucunda bir miktar aşağı yönlü hareket olabilir. Bu durum nedeni ile ameliyat sonrası erken dönemde burun ucunuz biraz kalkık olabilir. (her hasta için geçerli değildir.)
+Kullanılan bazı cerrahi tekniklerde, kıkırdak ve dikişlerin zaman içinde oturması ve bir miktar gevşemesi ile ilişkili ve yer çekiminin de etkisi ile ameliyat sonrası 4-6 haftalık dönemde burun ucunda bir miktar aşağı yönlü hareket olabilir. Bu durum nedeni ile ameliyat sonrası erken dönemde burun ucunuz biraz kalkık olabilir. (her hasta için geçerli değildir.)`
+              },
+              {
+                title: "Burnun Fiziksel Kuvvetlerden Sakınılması",
+                text: `Ameliyat sonrası 4 ay süre ile burnunuz kontrolsüz bir fiziksel kuvvete maruz kalmamalıdır. Kemik kaynamasının henüz tamamlanmadığı bu dönemde oluşabilecek sorunlar burun iyileşmesinde kalıcı problemler yaratabilir. Bu 4 aylık dönemde burun travması oluşturabilecek aktivitelerden kaçınmalısınız ve gözlük kullanmamalısınız.
 
-Burnun Fiziksel Kuvvetlerden Sakınılması:
-Ameliyat sonrası 4 ay süre ile burnunuz kontrolsüz bir fiziksel kuvvete maruz kalmamalıdır. Kemik kaynamasının henüz tamamlanmadığı bu dönemde oluşabilecek sorunlar burun iyileşmesinde kalıcı problemler yaratabilir. Bu 4 aylık dönemde burun travması oluşturabilecek aktivitelerden kaçınmalısınız ve gözlük kullanmamalısınız. 
-Eğer lens kullanamıyorsanız ameliyat öncesi mutlaka bu açıdan değerlendirilmelisiniz. Ameliyat öncesi lens kullanabiliyor olmalısınız.
-
-Spor/Egzersiz: 
-Ameliyat sonrası 2nci haftadan itibaren nabız yükselmesi oluşturmayan hafif sportif aktiviteler yapılabilir. 
-4üncü haftadan itibaren ise travma riskinin olmadığı nabız artırıcı aktiviteler serbesttir. 2nci ay itibarı ile istediğiniz tempoda spor yapabilirsiniz.
-Ameliyat sonrası 2nci haftadan itibaren denize, 1nci aydan itibaren havuza girebilirsiniz.`
+Eğer lens kullanamıyorsanız ameliyat öncesi mutlaka bu açıdan değerlendirilmelisiniz. Ameliyat öncesi lens kullanabiliyor olmalısınız.`
+              },
+              {
+                title: "Spor ve Egzersiz",
+                text: `Ameliyat sonrası 2. haftadan itibaren nabız yükselmesi oluşturmayan hafif sportif aktiviteler yapılabilir.
+4. haftadan itibaren ise travma riskinin olmadığı nabız artırıcı aktiviteler serbesttir. 2. ay itibarı ile istediğiniz tempoda spor yapabilirsiniz.
+Ameliyat sonrası 2. haftadan itibaren denize, 1. aydan itibaren havuza girebilirsiniz.`
+              }
+            ]
           },
           {
             title: "SİGARA KULLANIMI",
@@ -137,20 +153,28 @@ Sigara kullanan hasta KESİNLİKLE kötü iyileşecektir.`
             title: "AMELİYAT İLE İLGİLİ OLASI RİSKLER",
             text: `Ameliyatınız genel anestezi altında yapılacağı için ameliyat öncesinde risk değerlendirmesi için tetkikleriniz yapılacak ve Anesteziyoloji bölümü doktorları tarafından değerlendirileceksiniz.
 Anestezi ile ilgili standart olan dışında ek bir riskiniz var ise size ayrıca bilgilendirme yapılacaktır.
-Burnunuzla özelinde karşılaşılabilecek olası cerrahi riskler size muayene sırasında da anlatılacak.Lütfen sayfanın devamını dikkatli şekilde okuyunuz.
+Burnunuzla özelinde karşılaşılabilecek olası cerrahi riskler size muayene sırasında da anlatılacak. Lütfen sayfanın devamını dikkatli şekilde okuyunuz.`,
+            subsections: [
+              {
+                title: "Kanama Riski",
+                text: `Ameliyat sonrası 24-48 saat burundan az miktar sızıntı şeklinde kanama beklenen bir durumdur. Bunun için burun ucunda bantlanmış bir bez tamponunuz olacak. Ameliyat sonrası gün taburculuk sonrası evinize gittiğinizde bu bandı çıkartabilirsiniz. Devam eden günlerde az miktarda, peçete ile silmenin yeterli olacağı damla şekilde kanamanız olabilir. Ancak nadir olsa da, daha fazla kanama olması halinde burnunuza ilaçlı pamuk/tampon uygulama, damardan ilaç uygulama ya da burundaki kanamaya yönelik cerrahi müdahale etme gerekliliği oluşabilir.`
+              },
+              {
+                title: "Enfeksiyon Riski",
+                text: `Ameliyat sırasında ve sonrasında cerrahi bölgeyi enfeksiyondan korumak için sterilizasyon koşullarına tam olarak uyulmakta ve antibiyotik tedavisi uygulanmaktadır. Bunun yanı sıra ameliyat sonrasında ameliyat bölgesi ve dikişlere temiz olmayan ellerle dokunmamak çok önemlidir. Ancak tüm bu önlemlere rağmen ameliyat sonrasında burunda bir enfeksiyon oluşabilir. Daha uzun süre antibiyotik kullanmak ya da burun içinde oluşan enfeksiyonlar nedenli basit ya da komplike müdahalelerde bulunmak gerekebilir. Oluşabilecek enfeksiyon burunda fonksiyonel ya da kozmetik sorunlara yol açabilir. Oluşan kozmetik sorunlar nedenli revizyon cerrahi gerekebilir.`
+              },
+              {
+                title: "Revizyon (Tekrar Ameliyat) Riski",
+                text: `Ameliyat sonrasında her ne kadar en iyi sonucu elde etmek tek amacımız olsa da iyileşme sürecinde oluşan sorunlar nedenli revizyon cerrahisi gerektirecek bir sonuç oluşabilir. Olası sebepler arasında; buruna alınan bir travma, burun içerisindeki kıkırdak/kemik/dikiş ile ilgili sorunlar ya da burun üzerindeki cilt ve yumuşak dokularda oluşabilecek sorunlar sayılabilir. Böyle bir durumun oluşma ihtimali yaklaşık %3-5 civarındadır.
 
-Kanama Riski: Ameliyat sonrası 24-48 saat burundan az miktar sızıntı şeklinde kanama beklenen bir durumdur.Bunun için burun ucunda bantlanmış bir bez tamponunuz olacak.Ameliyat sonrası gün taburculuk sonrası evinize gittiğinizde bu bandı çıkartabilirsiniz.Devam eden günlerde az miktarda, peçete ile silmenin yeterli olacağı damla şekilde kanamanız olabilir.Ancak nadir olsa da, daha fazla kanama olması halinde burnunuza ilaçlı pamuk/ tampon uygulama, damardan ilaç uygulama ya da burundaki kanamaya yönelik cerrahi müdahale etme gerekliliği oluşabilir.
+Gerekecek müdahale lokal anestezi ile çözüm sunulabilecek sınırlı bir işlem olabileceği gibi burnun yeniden şekillendirilmesi gereken bir ameliyat da olabilir. Ne ilk ameliyatta ne de gerekirse yapılabilecek revizyon ameliyatta size sonuç ile ilgili garanti vaad edilemez.
+Revizyon gerekliliği durumunda hekimlik ücreti talep edilmez.
+Ancak revizyon müdahale, ameliyathanede yapılması gereken bir işlem ise, hastane karlılığının olmadığı ve sadece ameliyathane, ilaç, hemşirelik ve anestezi maliyetlerini içerecek şekilde sizden bir ücret talep edilecektir.
 
-Enfeksiyon Riski: Ameliyat sırasında ve sonrasında cerrahi bölgeyi enfeksiyondan korumak için sterilizasyon koşullarına tam olarak uyulmakta ve antibiyotik tedavisi uygulanmaktadır.Bunun yanı sıra ameliyat sonrasında ameliyat bölgesi ve dikişlere temiz olmayan ellerle dokunmamak çok önemlidir.Ancak tüm bu önlemlere rağmen ameliyat sonrasında burunda bir enfeksiyon oluşabilir.Daha uzun süre antibiyotik kullanmak ya da burun içinde oluşan enfeksiyonlar nedenli basit ya da komplike müdahalelerde bulunmak gerekebilir.Oluşabilecek enfeksiyon burunda fonksiyonel ya da kozmetik sorunlara yol açabilir.Oluşan kozmetik sorunlar nedenli revizyon cerrahi gerekebilir.
-
-    Revizyon(Tekrar ameliyat) Riski: Ameliyat sonrasında her ne kadar en iyi sonucu elde etmek tek amacımız olsa da iyileşme sürecinde oluşan sorunlar nedenli revizyon cerrahisi gerektirecek bir sonuç oluşabilir.Olası sebepler arasında; buruna alınan bir travma, burun içerisindeki kıkırdak/ kemik / dikiş ile ilgili sorunlar ya da burun üzerindeki cilt ve yumuşak dokularda oluşabilecek sorunlar sayılabilir.Böyle bir durumun oluşma ihtimali yaklaşık % 3 - 5 civarındadır.
-
-Gerekecek müdahale lokal anestezi ile çözüm sunulabilecek sınırlı bir işlem olabileceği gibi burnun yeniden şekillendirilmesi gereken bir ameliyat da olabilir.Ne ilk ameliyatta ne de gerekirse yapılabilecek revizyon ameliyatta size sonuç ile ilgili garanti vaad edilemez.
-Revizyon gerekliliği durumunda hekimlik ücreti talep edilmez. 
-Ancak revizyon müdahale, ameliyatanede yapılması gereken bir işlem ise, hastane karlılığının olmadığı ve sadece ameliyathane, ilaç, hemşirelik ve anestezi maliyetlerini içerecek şekilde sizden bir ücret talep edilecektir.
-
-İyileşme sonunda burunda oluşabilecek tüm sorunlar için revizyon yapılamayabilir.Revizyon yapılsa da kötü bir sonuç elde edilebilir.Revizyon cerrahinin başarı oranı yapılacak işleme göre değişmekle birlikte hiç ameliyat olmamış bir hasta ile kıyaslandığında daha düşüktür. 
-Bu nedenle ameliyatınızdaki ilk ve tek amaç, tek ameliyat ile tüm sorunu çözmek ve sorunsuz bir iyileşme dönemi geçirmektir.Bu sonucu elde edebilmek için ameliyatta yapılanlar kadar ameliyat sonrası ilaçların düzenli kullanımı, SİGARA İÇİLMEMESİ, kontrollere ve burun üzerine uygulanması gereken masaj vb.önerilen şekilde uygulanması ÇOK ÖNEMLİDİR.`
+İyileşme sonunda burunda oluşabilecek tüm sorunlar için revizyon yapılamayabilir. Revizyon yapılsa da kötü bir sonuç elde edilebilir. Revizyon cerrahinin başarı oranı yapılacak işleme göre değişmekle birlikte hiç ameliyat olmamış bir hasta ile kıyaslandığında daha düşüktür.
+Bu nedenle ameliyatınızdaki ilk ve tek amaç, tek ameliyat ile tüm sorunu çözmek ve sorunsuz bir iyileşme dönemi geçirmektir. Bu sonucu elde edebilmek için ameliyatta yapılanlar kadar ameliyat sonrası ilaçların düzenli kullanımı, SİGARA İÇİLMEMESİ, kontrollere ve burun üzerine uygulanması gereken masaj vb. önerilen şekilde uygulanması ÇOK ÖNEMLİDİR.`
+              }
+            ]
           }
         ]
       },
@@ -159,17 +183,17 @@ Bu nedenle ameliyatınızdaki ilk ve tek amaç, tek ameliyat ile tüm sorunu ç�
         title: "5. ÖNEMLİ BİLGİLER",
         content: [
           {
-            title: "ÖNEMLİ BİLGİLER",
-            text: `Burun Dolgusu ile ilgili Bilgilendirme:
-Daha önce burun dolgusu yapılmış olan hastanın ameliyatı, dolgu etkisi hala devam ediyorsa, dolgu eritilerek yapılmalıdır. Bazen dolgu eritilse bile burun cildinde oluşan bazı sorunların iyileşip ameliyata uygun gelmesi için süre gerekebilir.
+            subsections: [
+              {
+                title: "Burun Dolgusu ile ilgili Bilgilendirme",
+                text: `Daha önce burun dolgusu yapılmış olan hastanın ameliyatı, dolgu etkisi hala devam ediyorsa, dolgu eritilerek yapılmalıdır. Bazen dolgu eritilse bile burun cildinde oluşan bazı sorunların iyileşip ameliyata uygun gelmesi için süre gerekebilir.
 
 Dolgu eritme işlemi “Hiyaluronidaz” isimli bir ilaç ile yapılmaktadır. (buruna iğne yapılır )
-Tercihen ameliyat öncesi 1 hafta öncesine kadar eritilmiş olması önerilir. Ancak ameliyat esnasında da eritme işlemi uygulanabilir. (Bu işlem ek maliyet oluşturur.)
-
-—
-
-Kaburga kıkırdağı alınması ile ilgili Bilgilendirme:
-Ameliyat sonunda sağlıklı nefes alabilen ve simetrik bir burun elde edebilmek için burnun ana iskeletinin sağlıklı ve simetrik olması çok önemlidir. Burnun ana iskeleti kemik ve kıkırdaktan oluşmaktadır.
+Tercihen ameliyat öncesi 1 hafta öncesine kadar eritilmiş olması önerilir. Ancak ameliyat esnasında da eritme işlemi uygulanabilir. (Bu işlem ek maliyet oluşturur.)`
+              },
+              {
+                title: "Kaburga kıkırdağı alınması ile ilgili Bilgilendirme",
+                text: `Ameliyat sonunda sağlıklı nefes alabilen ve simetrik bir burun elde edebilmek için burnun ana iskeletinin sağlıklı ve simetrik olması çok önemlidir. Burnun ana iskeleti kemik ve kıkırdaktan oluşmaktadır.
 
 Bazı ameliyatlarda burun içinden sağlıklı, yeterli ve düz kıkırdak elde etmek mümkün olamamaktadır. 
 Bu durumda ameliyat sonunda başarı oranını yüksek tutmak ve istenen sonucu elde edebilmek için vücudumuzdaki başka bir kıkırdağı burun ameliyatlarında kullanmaktayız. 
@@ -180,14 +204,17 @@ Bazı durumlarda kıkırdak alma gerekliliği kesin bazı durumlarda ise olasıd
 Ancak olası olan durumlarda da ameliyat öncesinde sizden kıkırdak alınacağına dair onam/izin alınacaktır. Ameliyat sırasında burun içindeki kıkırdak durumuna göre (miktar ve kalite), kaburga kıkırdağı alınıp alınmama kararı verilecektir.
 
 Kaburga ya da kulaktan kıkırdak alma ihtiyacı sadece revizyon ameliyatlarda değil daha önce burun ameliyatı olmamış olan fakat burunda ciddi kırık, eğrilik vb sorunu olan hastalarda gerekli olabilmektedir.
-Ayrıca cildi çok kalın olan hastalarda burun ucuna istenen şekli verebilmek ve burun cu ağrılığını ataşıyacak kuvvetli bir burun ucu yapabilmek için de kıkırdak graft almak gerekebilmektedir.
-
-Kalın Cilt:
-Cilt burun ameliyatlarında ameliyat sonucunu etkileyen çok önemli bir parametredir.
+Ayrıca cildi çok kalın olan hastalarda burun ucuna istenen şekli verebilmek ve burun cu ağrılığını ataşıyacak kuvvetli bir burun ucu yapabilmek için de kıkırdak graft almak gerekebilmektedir.`
+              },
+              {
+                title: "Kalın Cilt",
+                text: `Cilt burun ameliyatlarında ameliyat sonucunu etkileyen çok önemli bir parametredir.
 Cilt, burnun ana yapısal elemanlarının üzerini örten bir nevi bir örtüdür, ve burnun değiştirilemez bir parçasıdır.
 Ameliyat sonraında burnun güzel bir şekle kavuşmasını sağlamak cildin bu özelliğini kabul ederek mümkün olabilir.
 Kalın ciltli hastalarda uygulanması gereken, aşırı küçük bir burun ucu amaçlamadan, burun cildinin güzel gözükmesini sağlayacak alt iskeletin doğru şekillendiirlmesidir.
 Bu işlem sırasında çoğu zaman burun içindeki kıkırdaklar yeterli olabilmekte iken, bazen bu desteği güçlü yapabilmek için hastadan kaburga kıkırdak graft alarak bunu kullanmak da gerekebilmektedir.`
+              }
+            ]
           }
         ]
       },
@@ -196,21 +223,18 @@ Bu işlem sırasında çoğu zaman burun içindeki kıkırdaklar yeterli olabilm
         title: "6. Ameliyat Sonrası için Öneriler",
         content: [
           {
-            title: "Ameliyat Sonrası için Öneriler",
-            text: `Ameliyat sonrası ilk hafta istirahat etmeniz önerilmektedir. (7 gün)
-İstirahatiniz süresince ağır ve yorucu egzersizlerden kaçınınız.
-
-Kanama riski nedeni ile uçuş yapmanız uygun değildir. Uzun süreli olmayan kara yolculuğu yapabilirsiniz. (3saat)
-Size uygulanan işlemin niteliğine göre, ameliyat sonrası 5inci gün itibarı ile eğer doktorunuz uygun görüyor ise uçuş yapabilirsiniz. (uçuş izin belgesi hazırlanacaktır.)
-
-İlk hafta oturarak ya da ayakta durarak zamanınızı geçiriniz. Ancak yatmak ve istirahat etmek istediğinizde başınızın 45derece yüksek olması gereklidir.
-Odanız ve bulunduğunuz ortam sıcak olmamalıdır.
-Banyo yapmanızda bir sakınca yoktur. Ancak ilk gün banyo yapmak isterseniz bir yakınınızdan yardım alınız. Banyo yaparken burnunuza ve üzerindeki bant/alçıya su gelmemelidir, saçınızı tercihen geriye doğru yıkayınız/yıkatınız. 
-Burundaki bant, ameliyat sonrası 14 gün süre ile su temasından korunmalıdır. 
-
-Ameliyat sonrası süreçte bol su tüketmeniz, buz uygulaması yapmanız ve başınızın yüksek pozisyonda olması önemlidir.
-
-Ameliyat sonrası 4 ay süre ile burnunuzu dışarıdan gelecek fiziksel kuvvetlerden koruyunuz.`
+            items: [
+              "Ameliyat sonrası ilk hafta istirahat etmeniz önerilmektedir. (7 gün)",
+              "İstirahatiniz süresince ağır ve yorucu egzersizlerden kaçınınız.",
+              "Kanama riski nedeni ile uçuş yapmanız uygun değildir. Uzun süreli olmayan kara yolculuğu yapabilirsiniz. (3saat)",
+              "Size uygulanan işlemin niteliğine göre, ameliyat sonrası 5inci gün itibarı ile eğer doktorunuz uygun görüyor ise uçuş yapabilirsiniz. (uçuş izin belgesi hazırlanacaktır.)",
+              "İlk hafta oturarak ya da ayakta durarak zamanınızı geçiriniz. Ancak yatmak ve istirahat etmek istediğinizde başınızın 45derece yüksek olması gereklidir.",
+              "Odanız ve bulunduğunuz ortam sıcak olmamalıdır.",
+              "Banyo yapmanızda bir sakınca yoktur. Ancak ilk gün banyo yapmak isterseniz bir yakınınızdan yardım alınız. Banyo yaparken burnunuza ve üzerindeki bant/alçıya su gelmemelidir, saçınızı tercihen geriye doğru yıkayınız/yıkatınız.",
+              "Burundaki bant, ameliyat sonrası 14 gün süre ile su temasından korunmalıdır.",
+              "Ameliyat sonrası süreçte bol su tüketmeniz, buz uygulaması yapmanız ve başınızın yüksek pozisyonda olması önemlidir.",
+              "Ameliyat sonrası 4 ay süre ile burnunuzu dışarıdan gelecek fiziksel kuvvetlerden koruyunuz."
+            ]
           }
         ]
       },
@@ -219,39 +243,56 @@ Ameliyat sonrası 4 ay süre ile burnunuzu dışarıdan gelecek fiziksel kuvvetl
         title: "7. REÇETE VE İLAÇ KULLANIMI",
         content: [
           {
-            title: "Reçeteniz ve kullanmanız gereken ilaçlar.",
-            text: `Taburculuk itibarı ile kullanmanız gereken ilaçlar için size 2 adet reçete verilecektir.
+            subsections: [
+              {
+                title: "Reçeteniz ve kullanmanız gereken ilaçlar",
+                text: `Taburculuk itibarı ile kullanmanız gereken ilaçlar için size 2 adet reçete verilecektir.
 (Reçetelerden birisi eczanede kalacak, diğer ise kullanacağınız ilaçları görmeniz ve kullanım şekillerini size tarif etmek için sizde kalacaktır.)
 
   >> !!!Tüm ilaçlar burunda tampon varken, ameliyat sonrası ilk günden itibaren kullanılmaya başlanacaktır. !!! << (spreyler dahil.)
 
-Ameliyatınız sağlık sigortası kapsamında bir ameliyat OLMADIĞI için reçetenizi ücretli şekilde alacaksınız. Reçetenizin bu kapsamında olması için LÜTFEN ısrar etmeyiniz, MÜMKÜN DEĞİL.
+Ameliyatınız sağlık sigortası kapsamında bir ameliyat OLMADIĞI için reçetenizi ücretli şekilde alacaksınız. Reçetenizin bu kapsamında olması için LÜTFEN ısrar etmeyiniz, MÜMKÜN DEĞİL.`
+              },
+              {
+                title: "İlaçların Kullanım Şekli",
+                text: "Hapları reçetede yazdığı şekilde kullanınız."
+              },
+              {
+                title: "Antibiyotik haplar: Cefaks, Cipro, Klindan, Macrol, Augmentin vb",
+                text: "Size uygulanan işleme ve sizin tıbbi durumunuza göre bu ilaçlardan 1 ya da 2 tanesi size yazılabilir. Bu ilaçları günde 2 sefer olacak şekilde (sabah ve akşam) düzenli şekilde 1 hafta süre ile kullanınız."
+              },
+              {
+                title: "Allerji hapı: Bilaxten, Aerius, Desmont, Levmont",
+                text: "Bu ilaçlardan 1 tanesini kullanmalısınız. Bu ilacın amacı burundaki akıntı ve tıkanıklık hissinin, ve buna bağlı oluşabilecek hapşuruğun azaltılmasıdır. Bu şikayetleriniz çok fazla ise ilk gün 2 adet alabilirsiniz."
+              },
+              {
+                title: "Ağrı kesici: Arveles ya da Mejezik",
+                text: "Bu hapı, günde 3 sefer olacak şekilde 4 gün süre ile kullanınız. Ağrınız fazla ise günde 4 adete kadar alabilirsiniz. Daha fazla ağrı olması beklenen bir durum değildir. Bu durumda hekminize başvurunuz."
+              },
+              {
+                title: "Merhem: Thiocilline göz merhemi ya da Terramycin",
+                text: `Göz merhemini göze değil, burun ucundaki dikiş yerine sürünüz. 
+2 hafta süre ile, günde 3 - 4 sefer, temiz parmağınız ya da kulak temizleme çubuğu ile uygulayınız.`
+              },
+              {
+                title: "Burun açıcı sprey: Otrivine",
+                text: "5 gün boyunca kullanınız. (Tampon içine) 5 günden sonra devam etmeyiniz."
+              },
+              {
+                title: "Burun Yıkama ve nemlendirme ilaçları",
+                text: `Bu ilaçlar ameliyat sonrası 1 ay süre ile, burunda tampon var iken başlanıp sonrasında devam edecek şekilde kullanılmalıdır. Günde 5 sefer her iki burun deliğine, her iki sprey de.
 
-İlaçların Kullanım Şekli
+SinusRinse, NaosRinse, Sinomarine, Quixx vb.
+Burun içini yıkamak için sprey ya da şişe formunda okyanus suyu yıkama ilaçlarını kullanabilirsiniz. Şişe formunda olanlar daha hacimli ve etkili bir temizlik sağlarken, sprey formunda olanlar kullanımı kolay, daha kolay yanınızda taşınabilirdir, ancak temizlik etkisi daha azdır.
+Yıkama yapmanızdaki amaç burun içini tamamen temizlemek değil, biriken sekresyon kan ve pıhtıların temizlenmesini sağlamaktır.
+Yıkama işlemi sonrasında sümkürme değil, burun ile nefesin dışarıya üflenmesi hareketini yapıp dışarı gelen sekresyonları bir peçete yardımı ile silmeniz yeterlidir.
 
-  * Hapları reçetede yazdığı şekilde kullanınız.
-    * Antibiyotik haplar: Cefaks, Cipro, Klindan, Macrol, Augmentin vb)
-        * Size uygulanan işleme ve sizin tıbbi durumunuza göre bu ilaçlardan 1 ya da 2 tanesi size yazılabilir.Bu ilaçları günde 2 sefer olacak şekilde(sabah ve akşam) düzenli şekilde 1 hafta süre ile kullanınız.
-    * Allerji hapı: Bilaxten, Aerius, Desmont, Levmont
-  * Bu ilaçlardan 1 tanesini kullanmalısınız.Bu ilacın amacı burundaki akıntı ve tıkanıklık hissinin, ve buna bağlı oluşabilecek hapşuruğun azaltılmasıdır.Bu şikayetleriniz çok fazla ise ilk gün 2 adet alabilirsiniz.
-    * Ağrı kesici: Arveles ya da Mejezik
-  * Bu hapı, günde 3 sefer olacak şekilde 4 gün süre ile kullanınız.Ağrınız fazla ise günde 4 adete kadar alabilirsiniz.Daha fazla ağrı olması beklenen bir durum değildir.Bu durumda hekminize başvurunuz.
-    * Merhem: Thiocilline göz merhemi ya da Terramycin
-  * Göz merhemini göze değil, burun ucundaki dikiş yerine sürünüz. 
-        * 2 hafta süre ile, günde 3 - 4 sefer, temiz parmağınız ya da kulak temizleme çubuğu ile uygulayınız.
-    * Burun açıcı sprey: Otrivine
-  * 5 gün boyunca kullanınız. (Tampon içine) 5 günden sonra devam etmeyiniz.
-    * Burun Yıkama ve nemlendirme ilaçları:
-        * Bu ilaçlar ameliyat sonrası 1 ay süre ile, burunda tampon var iken başlanıp sonrasında devam edecek şekilde kullanılmalıdır.Günde 5 sefer her iki burun deliğine, her iki sprey de.
+Nazalnem sprey:
+Bu spreyin amacı burun içindeki kuruluğu azaltmak, nemlilik etkisi ve vitamin desteği ile burun içi dokularının iyileşmesini hızlandırmaktır. Yıkama sonrasında mutlaka her iki burun deliğine sıkılmalıdır.
 
-        * SinusRinse, NaosRinse, Sinomarine, Quixx vb.
-            * Burun içini yıkamak için sprey ya da şişe formunda okyanus suyu yıkama ilaçlarını kullanabilirsiniz.Şişe formunda olanlar daha hacimli ve etkili bir temizlik sağlarken, sprey formunda olanlar kullanımı kolay, daha kolay yanınızda taşınabilirdir, ancak temizlik etkisi daha azdır.
-            * Yıkama yapmanızdaki amaç burun içini tamamen temizlemek değil, biriken sekresyon kan ve pıhtıların temizlenmesini sağlamaktır.
-            * Yıkama işlemi sonrasında sümkürme değil, burun ile nefesin dışarıya üflenmesi hareketini yapıp dışarı gelen sekresyonları bir peçete yardımı ile silmeniz yeterlidir.
-        * Nazalnem sprey:
-            * Bu spreyin amacı burun içindeki kuruluğu azaltmak, nemlilik etkisi ve vitamin desteği ile burun içi dokularının iyileşmesini hızlandırmaktır.Yıkama sonrasında mutlaka her iki burun deliğine sıkılmalıdır.
-
-Ameliyat sonrası 3 gün(72saat) süre ile başınızın yüksekte olmasına ve her saat başı 10dk buz uygulamaya devam ediniz. (Gece uykudan 1 - 2 sefer uyanmanız yeterlidir.)`
+Ameliyat sonrası 3 gün (72saat) süre ile başınızın yüksekte olmasına ve her saat başı 10dk buz uygulamaya devam ediniz. (Gece uykudan 1 - 2 sefer uyanmanız yeterlidir.)`
+              }
+            ]
           }
         ]
       }
@@ -262,31 +303,102 @@ Ameliyat sonrası 3 gün(72saat) süre ile başınızın yüksekte olmasına ve 
         content: [
           {
             title: "Sık Sorulan Sorular",
-            text: `S: Ameliyattan sonra ne zaman banyo yapabilirim?
-C: Ameliyat sonrası ilk gün banyo yapabilirsiniz. 
-Banyo yapmanızda bir sakınca yoktur. Ancak ilk gün banyo yapacaksanız, bir yakınınızdan yardım alınız. Banyo yaparken burnunuza ve üzerindeki bant/alçıya su gelmemelidir, saçınızı tercihen geriye doğru yıkayınız/yıkatınız. (14 gün süre ile.)
-
-S: İlçaları ne zaman kullanmaya başlamalıyım?
-C: Tüm ilaçları, ameliyat sonrası gün sabah taburculuk sonrasında kullanmaya başlamalısınız. (Burun yıkama ve nemlendirme ilaçları dahil)
-Ameliyat olduğunuz gün, yani hastanede yatıyor iken ilaç kullanmanıza gerek yoktur. Tedaviniz hastane hemşireleri tarafından uygulanacaktır.
-
-S: Ameliyat sonrası ne zaman yolculuk yapabilirim?
-C: 5inci gün itibarı ile hekiminiz uygun görüyor ise uçuş yapabilirsiniz. 
+            subsections: [
+              {
+                title: "Ameliyattan sonra ne zaman banyo yapabilirim?",
+                text: `Ameliyat sonrası ilk gün banyo yapabilirsiniz. 
+Banyo yapmanızda bir sakınca yoktur. Ancak ilk gün banyo yapacaksanız, bir yakınınızdan yardım alınız. Banyo yaparken burnunuza ve üzerindeki bant/alçıya su gelmemelidir, saçınızı tercihen geriye doğru yıkayınız/yıkatınız. (14 gün süre ile.)`
+              },
+              {
+                title: "İlaçları ne zaman kullanmaya başlamalıyım?",
+                text: `Tüm ilaçları, ameliyat sonrası gün sabah taburculuk sonrasında kullanmaya başlamalısınız. (Burun yıkama ve nemlendirme ilaçları dahil)
+Ameliyat olduğunuz gün, yani hastanede yatıyor iken ilaç kullanmanıza gerek yoktur. Tedaviniz hastane hemşireleri tarafından uygulanacaktır.`
+              },
+              {
+                title: "Ameliyat sonrası ne zaman yolculuk yapabilirim?",
+                text: `5inci gün itibarı ile hekiminiz uygun görüyor ise uçuş yapabilirsiniz. 
 Ancak size uygulanan ameliyata göre bu süre uzayabilir.
-Kara yolculuğu ise ameliyat sonrası ilk gün yapabilirsiniz. (Çok uzun olmaması koşulu ile)
+Kara yolculuğu ise ameliyat sonrası ilk gün yapabilirsiniz. (Çok uzun olmaması koşulu ile)`
+              },
+              {
+                title: "Ameliyat sonrası ne zaman gözlük kullanabilirim?",
+                text: "En erken 3üncü aydan itibaren, uzun süre olmayan ve hafif gözlükler kullanabilirsiniz. 6ıncı ay itibarı ile istediğiniz şekilde gözlük kullanabilirsiniz."
+              },
+              {
+                title: "Ne zaman spor yapabilirim?",
+                text: `Ameliyat sonrası 2nci hafta hafif tempo yürüyüş ve çok ağır olmayan ağırlık ile spor yapabilirsiniz. 
+1inci aydan sonra istediğiniz tempoda spor yapılabilir. Ancak burnunuza kuvvet uygulanabilecek mücadeleci sporlar ve travma riskinden kaçınmalısınız.`
+              },
+              {
+                title: "Ne zaman yüzebilirim?",
+                text: "2nci haftadan itibaren denizde, 4üncü haftadan itibaren ise havuzda yüzebilirsiniz. 12 ay süre ile tüplü ve maskeli dalış yapmamalısınız."
+              },
+              {
+                title: "Ne zaman yan dönerek uyuyabilirim?",
+                text: "Ameliyat sonrası 2nci haftadan itibaren yatakta yan dönebilirsiniz. Ancak burnunuza yastığa ya da yatağa temas etmemeli, kuvvete maruz kalmamalıdır."
+              },
+              {
+                title: "Fotoğraf simülasyonu yapıyor musunuz?",
+                text: `Fotoğraflar üzerinden rutin şekilde simülasyon yapılmamaktadır.
+Ne talep ettiğini anlatabilen ve anlaşılan hastalarda simülasyon gerekliliği yoktur.
 
-S: Ameliyat sonrası ne zaman gözlük kullanabilirim?
-C: En erken 3üncü aydan itibaren, uzun süre olmayan ve hafif gözlükler kullanabilirsiniz. 6ıncı ay itibarı ile istediğiniz şekilde gözlük kullanabilirsiniz.
+Ne tarz bir burun istediğini sözel olarak tam dile getiremediğini düşünen hastalar beğendikleri burun fotoğraflarını muayene sırasında gösterebilir ve hasta dosyasına eklenmesi için gönderebilirler. 
 
-S: Ne zaman spor yapabilirim?
-C: Ameliyat sonrası 2nci hafta hafif tempo yürüyüş ve çok ağır olmayan ağırlık ile spor yapabilirsiniz. 
-1inci aydan sonra istediğiniz tempoda spor yapılabilir. Ancak burnunuza kuvvet uygulanabilecek mücadeleci sporlar ve travma riskinden kaçınmalısınız.
+Burundaki olası değişikliklerin yüzü ile uyumunu hayal etmek isteyen hastalar kendi fotoğraflarına simülasyon yapabilir ve taleplerini bu şekilde hekimle paylaşabilirler.
+Hastanın gösterdiği fotoğraflar bir sipariş olarak algılanmamalıdır. Bu fotoğraflar beğendiği tarzı ve talebini anlatabilmeleri için bir araçtır. Bu bilginin kesinlikle unutulmamalıdır.
+Ameliyat sonrasında ve iyileşmenin sonunda tam olarak nasıl bir sonuç elde edileceğini fotoğraf üzerinden çizebilmek gerçekçi değildir.`
+              },
+              {
+                title: "Alkol ve sigara ile ilgili önerileriniz nedir?",
+                text: `Ameliyat öncesinde sigara, MUTLAKA, TAMAMEN, bırakılmalıdır. (tercihen minimum 1 hafta öncesinde)
 
-S: Ne zaman yüzebilirim?
-C: 2nci haftadan itibaren denizde, 4üncü haftadan itibaren ise havuzda yüzebilirsiniz. 12 ay süre ile tüplü ve maskeli dalış yapmamalısınız.
+Sigara dumanı yara iyileşmesinde gecikmeye neden olan EN ÖNEMLİ faktördür.
+Yara iyileşmesindeki gecikme: burnun gerek fonksiyon gerek görüntü olarak kötü bir sonuca ulaşmasına neden olur. İyileşme gecikmesi nedeni ile burunda enfeksiyon riski artar, dikişlerde açılma, burunda artmış ödem ve gecikmiş iyileşme ile ilişkili istenen sonucun beklenenden farklı ve kötü şekilde sonuçlanma riski oluşur.
+Ameliyat sonrası sigara tüketmeye devam eden hasta oluşabilecek bu tarz problemlerle ilgili sorumluluğu kabul etmiş varsayılır.
 
-S: Ne zaman yan dönerek uyuyabilirim?
-C: Ameliyat sonrası 2nci haftadan itibaren yatakta yan dönebilirsiniz. Ancak burnunuza yastığa ya da yatağa temas etmemeli, kuvvete maruz kalmamalıdır.`
+Alkol ise kesin yasak değildir, ancak ameliyat sonrası ödemin artması için bir nedendir. Ayrıca burun üstü düşme ya da benzeri bir yaralanmadan sakınmak için sarhoş olmamanız önemlidir.`
+              },
+              {
+                title: "Ameliyatta fotoğraf çekiliyor mu? Bu fotoğrafları ne zaman görebilirim?",
+                text: `Ameliyat başlangıcı ve sonunda rutin fotoğraf çekimi yapılmaktadır. Bu çekimlerin amacı hem değişimi görmek ve size tarif etmek, hem de ameliyat sonrası süreçte iyileşme sürecinde geriye dönüp ameliyat anını yeniden değerlendirebilmek içindir.
+Talep eden hastalarımıza ameliyatta çekilen bu fotoğraflar gönderilmektedir.
+Ancak ameliyatınız biter bitmez hemen bu fotoğrafları göndermemiz mümkün olamamaktadır.
+Düzenlemeler sonrası mümkün ise aynı gün akşam ya da programımızın yoğunluğuna göre 1 gün sonra tarafınıza iletilecektir.`
+              },
+              {
+                title: "Ne zaman işe dönebilirim?",
+                text: `Ameliyat sonrası 7 gün süre ile istirahat etmeniz önerilir. Bunun için, talebiniz halinde istirahat raporu düzenlenecektir. Daha uzun süreli rapor talep eden hastalara 10 güne kadar yardımcı olabiliriz.
+
+Ancak masabaşı, evrak/ekran işi dediğimiz işleri, yapmak zorunda iseniz ilk hafta burunda tampon ve alcı varken de yapabilirsiniz.
+
+İlk haftalık bu sürede, bol sıvı tüketmeniz, adım atmanız, başınızın yüksek olacağı şekilde istirahat etmeniz öenmlidir.`
+              },
+              {
+                title: "Nostril retainer nedir?",
+                text: `Nostril retainer (burun deliği şekillendirici); ameliyat sırasında ya da ameliyat sonrasında burna uygulanan, hastaların kolaylıkla takıp çıkartabildikleri, burun deliklerinde kullanılan bir aparattır.
+Bu ürünü kullanma nedeni, sorunlu olan bir burna şekil vermek değil, ameliyatta sağlanan simetrinin bu şekilde kalması ve burun ucunun iyileşmesi sırasında yapıların bu plastik kalıp üzerinde simetrik şekilde iyileşmesinin sağlanmasıdır.
+
+Kullanım süresi, sıklıkla: 2 ay süre ile günün tamamı, sonrası 2 ay süre ile günün 8-12 saati şekilndedir.
+Gerçek bilgiler hasta özelinde şekillenmekte olup size kontrolleriniz sırasında söylenecektir.`
+              },
+              {
+                title: "Burun masajı yapmalı mıyım?",
+                text: `Burundaki alçısının çıkartılmasını takiben size burun masajı önerilecek.
+Önerilen bu mesajı günde 5 sefer, 2dk+30sn şeklinde uygulamanız gerekmektedir.
+Masajı yaklaşık 6 ay süre ile uygulamanız, iyileşme sürecine katkı sağlayacaktır.
+
+Masajın 2 ana amacı vardır:
+1-Lenfatik drenajı artırararak, burundaki kemik ve cilt arasındaki ciltaltı ödeminin azalmasını sağlar.
+2- Kırılan (kesilen) burun kemiklerinin sayesinde oluşan burun daralmasının, ödem etkisi ile tekrar genişlemesini önler ve burnun istenen şekilde iyileşmesi için mekanik destek sağlar.`
+              },
+              {
+                title: "Revizyon ameliyatı ne zaman yapılabilir?",
+                text: `Revizyon cerrahisi istisnai durumlar dışında ameliyatın 6ncı ayından önce yapılmamalıdır.
+İdeal süre 12 ay sonrasında yapmaktır.
+Ancak burundaki sorun geri dönüşü olmayan sorunlar oluşturuyor ise ve geçen zaman olası şansı yok edecek ise daha erken revizyon cerrahiler de yapılabilir. 
+Fakar görsel fonksiyonle sorunlar acil müdahale gerektirecek nitelikte değil ise, minimum 12 ay beklemek revizyon cerrahisinden alınacak faydayı maksimize edecektir.`
+              }
+            ]
           }
         ]
       }
@@ -360,11 +472,15 @@ In this technique, an incision is made on the skin between the nostrils, and thi
         title: "2. PHOTOGRAPHY",
         content: [
           {
-            title: "PHOTOGRAPHY",
-            text: `Photography is performed before, during, and after surgery. Pre-operative photography is part of the examination.
-The purpose of photography is to understand, explain, and remember the problems in the nose and to use objective data while planning the surgery.
-
-Simulation is not performed on the photo after photography.
+            subsections: [
+              {
+                title: "PHOTOGRAPHY",
+                text: `Photography is performed before, during, and after surgery. Pre-operative photography is part of the examination.
+The purpose of photography is to understand, explain, and remember the problems in the nose and to use objective data while planning the surgery.`
+              },
+              {
+                title: "Simulation",
+                text: `Simulation is not performed on the photo after photography.
 There is no need for simulation in patients who can explain what they demand and are understood.
 
 Patients who think they cannot fully express verbally what kind of nose they want can show the nose photos they like during the examination and send them to be added to the patient file. 
@@ -372,6 +488,8 @@ Patients who think they cannot fully express verbally what kind of nose they wan
 Patients who want to imagine the harmony of possible changes in the nose with their face can simulate their own photos and share their demands with the physician in this way.
 The photos shown by the patient should not be perceived as an order. It is a tool for the person to explain the style they like and their demand. This information should definitely not be forgotten.
 It is not realistic to draw exactly what kind of result will be obtained at the end of healing on the photo after surgery.`
+              }
+            ]
           }
         ]
       },
@@ -381,39 +499,52 @@ It is not realistic to draw exactly what kind of result will be obtained at the 
         content: [
           {
             title: "POST-OPERATIVE PROCESS",
-            text: `At the end of the surgery, there will be aesthetic fine stitches at the incision site on the skin between the nostrils (columella), a stent/tampon with a hole inside that does not prevent you from breathing inside the nose, and a special tape and a plastic splint (cast) on the nose. If the nasal wings have been intervened, there will also be stitches in the nasal wing part.
+            text: `At the end of the surgery, there will be an aesthetic thin incision and stitch on the skin between the nostrils (columella), a stent/tampon with a hole inside that does not prevent you from breathing inside the nose, and a special tape and a plastic cast on the nose. If the nasal wings have been intervened, there will also be stitches in the nasal wing part.`,
+            subsections: [
+              {
+                title: "Removal of Tampon and Cast",
+                text: `The tampon, tape, and cast on the nose will be removed at the control in the first week (5-7 days) of your surgery. (In some special cases, the tampon inside the nose can be removed earlier.)
 
-Removal of tampon and cast: The tampon, tape, and splint on the nose will be removed at the control in the first week (5-7 days) of your surgery. (In some cases, the tampon inside the nose can be removed earlier.)
-Sometimes during surgery, and sometimes after the tampon is removed after surgery, it may be necessary to use a silicone apparatus (nostril retainer) for the shape of the nasal tip and the symmetry of the nostrils. 
-In patients with excessive edema in the nose, the cast can be applied again at the first control.
-In patients with thick and edematous nasal skin, continuous and/or night taping may be recommended after surgery. (For a period of 1-2 months)
-
-Under-eye bruising and swelling: In cases where bone intervention is performed in your surgery, there will be some swelling and bruising around the nose and under the eyes. This situation reaches its maximum on the 3rd-4th day after surgery. 
-Swelling and bruising are significantly reduced in the 1st week, and completely gone in most patients in the 2nd week. 
+Sometimes during the surgery, and sometimes after the tampon is removed after the surgery, it may be necessary to use a silicone apparatus (nostril retainer) for the shape of the nasal tip and the symmetry of the nostrils.
+In patients with excessive edema in the nose, the cast may be reapplied at the first control.
+In patients with thick and edematous nasal skin, continuous and/or night taping may be recommended after surgery. (For a period of 1-2 months)`
+              },
+              {
+                title: "Bruising and Swelling Under the Eyes",
+                text: `In cases where bone intervention is performed in your surgery, there will be some swelling and bruising around the nose and under the eyes. This situation reaches its maximum on the 3rd-4th day after surgery.
+Swelling and bruising are significantly reduced in the 1st week and completely gone in most patients in the 2nd week.
 Full implementation of post-operative medications and necessary applications will ensure that you get through this process much more lightly.
-Cold application should be made around the nose and under the eyes to minimize the bruising and swelling that will occur after surgery. 
-Ice will be given to you during your hospital stay, but you can obtain an ice pack in gel form for home use. 
-(Practical solution: You can use frozen peas etc. in a refrigerator bag for cold application.)
 
+Cold application should be made around the nose and under the eyes to minimize bruising and swelling after surgery.
+You will be given ice during your hospitalization, but you can obtain an ice pack in gel form for home use.
+(Practical solution: You can use frozen peas, chickpeas, etc. in a refrigerator bag for cold application.)`
+              },
+              {
+                title: "Post-operative Edema and Final Shape of the Nose",
+                text: "Edema formed in the nose decreases in 3 main periods:",
+                items: [
+                  "After rapid edema reduction in the first 2-week period, you will see the new structure of your nose with its main lines and angles in the second week. However, your nose will still be very swollen.",
+                  "In the following period of approximately 2-3 months, edema especially in the back, tip and side parts of the wings of the nose will gradually decrease over time and approximately 70% of the edema will pass.",
+                  "For the remaining 30% part, approximately 1-1.5 years more time will be required."
+                ],
+                subtext: `These mentioned periods are average periods and the skin structure of the nose and wound healing characteristics are the main determining factors for the process and amount of edema and swelling in the nose passing. (Times x1.5-2 for thick skin)
 
-Post-operative edema and the nose taking its final shape:
-Edema formed in the nose decreases in 3 main periods:
-* After rapid edema reduction in the first 2-week period, you will see the new structure of your nose with its main lines and angles in the second week. However, your nose will still be very swollen.
-* In the following period of approximately 2-3 months, edema especially in the back, tip and side parts of the wings of the nose will gradually decrease over time and approximately 70% of the edema will pass. 
-* Approximately 1-1.5 years more time will be required for the remaining 30% part. 
+Procedures performed on cartilage and bone tissues inside the nose are different in each patient.
+In some surgical techniques used, there may be some downward movement in the nasal tip in the 4-6 week period after surgery associated with the settling and some loosening of cartilages and stitches over time and with the effect of gravity. Due to this situation, your nasal tip may be slightly upturned in the early period after surgery. (not valid for every patient.)`
+              },
+              {
+                title: "Avoiding Physical Forces on the Nose",
+                text: `Your nose should not be exposed to uncontrolled physical force for 4 months after surgery. Problems that may occur in this period when bone healing is not yet completed can create permanent problems in nasal healing. You should avoid activities that may create nasal trauma and should not use glasses in this 4-month period.
 
-These mentioned periods are average periods and the skin structure of the nose and wound healing characteristics are the main determining factors for the process and amount of edema and swelling in the nose passing. (For thick skin, periods x1.5-2)
-Procedures performed on cartilage and bone tissues inside the nose are different in every patient.
-In some surgical techniques used, due to the settling and some loosening of cartilages and stitches over time and with the effect of gravity, there may be some downward movement in the nasal tip in the 4-6 week period after surgery. Due to this situation, your nasal tip may be a little upturned in the early period after surgery. (not valid for every patient.)
-
-Avoiding Physical Forces on the Nose:
-Your nose should not be exposed to an uncontrolled physical force for 4 months after surgery. Problems that may occur in this period when bone fusion is not yet completed can create permanent problems in nose healing. In this 4-month period, you should avoid activities that may create nasal trauma and should not use glasses. 
-If you cannot use lenses, you must definitely be evaluated in this regard before surgery. You should be able to use lenses before surgery.
-
-Sports/Exercise: 
-Mild sports activities that do not cause pulse increase can be done from the 2nd week after surgery. 
+If you cannot use lenses, you must definitely be evaluated in this regard before surgery. You should be able to use lenses before surgery.`
+              },
+              {
+                title: "Sports/Exercise",
+                text: `Light sports activities that do not cause pulse increase can be done starting from the 2nd week after surgery.
 From the 4th week, pulse-increasing activities where there is no risk of trauma are free. As of the 2nd month, you can do sports at the pace you want.
-You can enter the sea from the 2nd week after surgery, and the pool from the 1st month.`
+You can enter the sea starting from the 2nd week after surgery, and the pool starting from the 1st month.`
+              }
+            ]
           },
           {
             title: "SMOKING USAGE",
@@ -440,22 +571,30 @@ A patient who uses cigarettes will DEFINITELY heal poorly.`
         content: [
           {
             title: "POTENTIAL RISKS RELATED TO SURGERY",
-            text: `Since your surgery will be performed under general anesthesia, tests will be performed for risk assessment before surgery and you will be evaluated by Anesthesiology department doctors.
-If you have an additional risk other than the standard regarding anesthesia, you will be informed separately.
-Possible surgical risks that may be encountered specifically with your nose will also be explained to you during the examination. Please read the rest of the page carefully.
+            text: `Since your surgery will be performed under general anesthesia, your tests will be performed for risk assessment before surgery and you will be evaluated by Anesthesiology department doctors.
+If you have an additional risk other than the standard one related to anesthesia, you will be informed separately.
+Possible surgical risks that may be encountered specifically with your nose will also be explained to you during the examination. Please read the rest of the page carefully.`,
+            subsections: [
+              {
+                title: "Bleeding Risk",
+                text: `Bleeding in the form of a small amount of leakage from the nose for 24-48 hours after surgery is an expected situation. For this, you will have a cloth tampon taped on the tip of the nose. You can remove this tape when you go home after discharge the day after surgery. In the following days, you may have a small amount of bleeding in the form of drops that will be sufficient to wipe with a napkin. However, although rare, if there is more bleeding, it may be necessary to apply medicated cotton/tampon to your nose, administer medication through the vein or perform surgical intervention for bleeding in the nose.`
+              },
+              {
+                title: "Infection Risk",
+                text: `Sterilization conditions are fully complied with and antibiotic treatment is applied to protect the surgical area from infection during and after surgery. In addition, it is very important not to touch the surgical area and stitches with unclean hands after surgery. However, despite all these precautions, an infection may occur in the nose after surgery. It may be necessary to use antibiotics for a longer period of time or to perform simple or complicated interventions due to infections occurring inside the nose. Infection that may occur may cause functional or cosmetic problems in the nose. Revision surgery may be required due to cosmetic problems occurring.`
+              },
+              {
+                title: "Revision (Re-surgery) Risk",
+                text: `Although our only goal is to obtain the best result after surgery, a result requiring revision surgery may occur due to problems occurring during the healing process. Possible reasons include; a trauma to the nose, problems related to cartilage/bone/stitch inside the nose or problems that may occur in the skin and soft tissues on the nose. The probability of such a situation occurring is around 3-5%.
 
-Bleeding Risk: Bleeding in the form of a small amount of leakage from the nose for 24-48 hours after surgery is an expected situation. For this, you will have a gauze tampon taped to the tip of the nose. You can remove this tape when you go home after discharge the day after surgery. In the following days, you may have bleeding in the form of drops where wiping with a napkin will be sufficient. However, although rare, in case of more bleeding, it may be necessary to apply medicated cotton/tampon to your nose, administer medication intravenously, or perform surgical intervention for bleeding in the nose.
+The intervention required may be a limited procedure that can be solved with local anesthesia or it may be a surgery where the nose needs to be reshaped. Neither in the first surgery nor in the revision surgery that may be performed if necessary, can you be promised a guarantee regarding the result.
+No physician fee is charged in case of revision requirement.
+However, if the revision intervention is a procedure that needs to be performed in the operating room, a fee will be charged from you to include only operating room, medication, nursing and anesthesia costs without hospital profitability.
 
-Infection Risk: Sterilization conditions are fully observed and antibiotic treatment is applied to protect the surgical area from infection during and after surgery. In addition, it is very important not to touch the surgical area and stitches with unclean hands after surgery. However, despite all these precautions, an infection may occur in the nose after surgery. It may be necessary to use antibiotics for a longer time or to perform simple or complicated interventions due to infections occurring inside the nose. Infection that may occur can lead to functional or cosmetic problems in the nose. Revision surgery may be required due to cosmetic problems that occur.
-
-    Revision (Re-surgery) Risk: Although our only goal is to obtain the best result after surgery, a result that requires revision surgery may occur due to problems occurring during the healing process. Among the possible reasons; trauma to the nose, problems related to cartilage/bone/stitches inside the nose or problems that may occur in the skin and soft tissues on the nose can be counted. The probability of such a situation occurring is around 3-5%.
-
-The intervention required may be a limited procedure that can be offered a solution with local anesthesia, or it may be a surgery where the nose needs to be reshaped. Neither in the first surgery nor in the revision surgery that can be done if necessary, can a guarantee be promised to you regarding the result.
-In case of revision necessity, physician fee is not requested. 
-However, if the revision intervention is a procedure that needs to be performed in the operating room, a fee will be requested from you to cover only the operating room, medication, nursing and anesthesia costs where there is no hospital profitability.
-
-Revision may not be possible for all problems that may occur in the nose at the end of healing. Even if revision is done, a bad result may be obtained. The success rate of revision surgery varies according to the procedure to be performed, but it is lower when compared to a patient who has never had surgery. 
-Therefore, the first and only goal in your surgery is to solve the whole problem with a single surgery and to have a problem-free recovery period. To achieve this result, regular use of post-operative medications, NOT SMOKING, applying massages etc. required to be applied to the nose and controls as recommended are VERY IMPORTANT as much as what is done in the surgery.`
+Revision may not be performed for all problems that may occur in the nose at the end of healing. Even if revision is performed, a bad result may be obtained. Although the success rate of revision surgery varies according to the procedure to be performed, it is lower compared to a patient who has never had surgery.
+Therefore, the first and only goal in your surgery is to solve the entire problem with a single surgery and to have a problem-free recovery period. To achieve this result, regular use of post-operative medications, NOT SMOKING, applying massages etc. required to be applied to the controls and on the nose as recommended is VERY IMPORTANT.`
+              }
+            ]
           }
         ]
       },
@@ -464,17 +603,17 @@ Therefore, the first and only goal in your surgery is to solve the whole problem
         title: "5. IMPORTANT INFORMATION",
         content: [
           {
-            title: "IMPORTANT INFORMATION",
-            text: `Information regarding Nose Fillers:
-Surgery of a patient who has had nose fillers before should be performed by dissolving the filler if the filler effect still continues. Sometimes, even if the filler is dissolved, time may be required for some problems occurring in the nasal skin to heal and become suitable for surgery.
+            subsections: [
+              {
+                title: "Information regarding Nose Fillers",
+                text: `Surgery of a patient who has had nose fillers before should be performed by dissolving the filler if the filler effect still continues. Sometimes, even if the filler is dissolved, time may be required for some problems occurring in the nasal skin to heal and become suitable for surgery.
 
 Filler dissolving process is done with a medication named “Hyaluronidase”. (injection into the nose)
-It is recommended to be dissolved preferably until 1 week before surgery. However, dissolving process can also be applied during surgery. (This process creates additional cost.)
-
-—
-
-Information regarding Rib Cartilage harvesting:
-In order to obtain a nose that can breathe healthily and is symmetrical at the end of the surgery, it is very important that the main skeleton of the nose is healthy and symmetrical. The main skeleton of the nose consists of bone and cartilage.
+It is recommended to be dissolved preferably until 1 week before surgery. However, dissolving process can also be applied during surgery. (This process creates additional cost.)`
+              },
+              {
+                title: "Information regarding Rib Cartilage harvesting",
+                text: `In order to obtain a nose that can breathe healthily and is symmetrical at the end of the surgery, it is very important that the main skeleton of the nose is healthy and symmetrical. The main skeleton of the nose consists of bone and cartilage.
 
 In some surgeries, it is not possible to obtain healthy, sufficient and straight cartilage from inside the nose. 
 In this case, we use another cartilage in our body in nose surgeries to keep the success rate high at the end of the surgery and to obtain the desired result. 
@@ -485,14 +624,17 @@ In some cases, the necessity of taking cartilage is certain, while in some cases
 However, in possible cases, consent/permission will be taken from you before surgery that cartilage will be taken. During surgery, the decision to take rib cartilage or not will be made according to the cartilage status inside the nose (quantity and quality).
 
 The need to take cartilage from the rib or ear may be necessary not only in revision surgeries but also in patients who have not had nose surgery before but have serious fractures, curvature etc. problems in the nose.
-Also, in patients with very thick skin, it may be necessary to take cartilage graft to give the desired shape to the nasal tip and to make a strong nasal tip that will carry the nasal tip weight.
-
-Thick Skin:
-Skin is a very important parameter affecting the result of nasal surgery.
+Also, in patients with very thick skin, it may be necessary to take cartilage graft to give the desired shape to the nasal tip and to make a strong nasal tip that will carry the nasal tip weight.`
+              },
+              {
+                title: "Thick Skin",
+                text: `Skin is a very important parameter affecting the result of nasal surgery.
 The skin is a kind of cover covering the main structural elements of the nose, and it is an unchangeable part of the nose.
 Ensuring that the nose achieves a beautiful shape after surgery can be possible by accepting this feature of the skin.
 What needs to be applied in patients with thick skin is to shape the underlying skeleton correctly to make the nasal skin look beautiful, without aiming for an excessively small nasal tip.
 While the cartilages inside the nose are often sufficient during this process, sometimes it may be necessary to take a rib cartilage graft from the patient and use it to make this support strong.`
+              }
+            ]
           }
         ]
       },
@@ -501,21 +643,18 @@ While the cartilages inside the nose are often sufficient during this process, s
         title: "6. Recommendations for Post-Op",
         content: [
           {
-            title: "Recommendations for Post-Op",
-            text: `It is recommended that you rest for the first week after surgery. (7 days)
-Avoid heavy and tiring exercises during your rest.
-
-It is not appropriate for you to fly due to the risk of bleeding. You can take short land journeys. (3 hours)
-According to the nature of the procedure applied to you, you can fly as of the 5th day after surgery if your doctor deems it appropriate. (flight permission document will be prepared.)
-
-Spend your time sitting or standing in the first week. However, when you want to lie down and rest, your head needs to be 45 degrees high.
-Your room and the environment you are in should not be hot.
-There is no harm in taking a bath. However, if you want to take a bath on the first day, get help from a relative. While taking a bath, water should not come to your nose and the tape/cast on it, preferably wash/have your hair washed backwards. 
-The tape on the nose should be protected from water contact for 14 days after surgery. 
-
-It is important to consume plenty of water, apply ice and keep your head in a high position in the post-operative process.
-
-Protect your nose from external physical forces for 4 months after surgery.`
+            items: [
+              "It is recommended that you rest for the first week after surgery. (7 days)",
+              "Avoid heavy and tiring exercises during your rest.",
+              "It is not appropriate for you to fly due to the risk of bleeding. You can take short land journeys. (3 hours)",
+              "According to the nature of the procedure applied to you, you can fly as of the 5th day after surgery if your doctor deems it appropriate. (flight permission document will be prepared.)",
+              "Spend your time sitting or standing in the first week. However, when you want to lie down and rest, your head needs to be 45 degrees high.",
+              "Your room and the environment you are in should not be hot.",
+              "There is no harm in taking a bath. However, if you want to take a bath on the first day, get help from a relative. While taking a bath, water should not come to your nose and the tape/cast on it, preferably wash/have your hair washed backwards.",
+              "The tape on the nose should be protected from water contact for 14 days after surgery.",
+              "It is important to consume plenty of water, apply ice and keep your head in a high position in the post-operative process.",
+              "Protect your nose from external physical forces for 4 months after surgery."
+            ]
           }
         ]
       },
@@ -524,39 +663,56 @@ Protect your nose from external physical forces for 4 months after surgery.`
         title: "7. PRESCRIPTION AND MEDICATION",
         content: [
           {
-            title: "Your prescription and medications to use.",
-            text: `2 prescriptions will be given to you for the medications you need to use as of discharge.
+            subsections: [
+              {
+                title: "Your prescription and medications to use",
+                text: `2 prescriptions will be given to you for the medications you need to use as of discharge.
 (One of the prescriptions will remain in the pharmacy, and the other will remain with you so that you can see the medications you will use and describe their usage forms to you.)
 
   >> !!! All medications will be started to be used from the first day after surgery while there is a tampon in the nose. !!! << (including sprays.)
 
-Since your surgery is NOT a surgery covered by health insurance, you will receive your prescription for a fee. PLEASE do not insist on your prescription being covered by this scope, IT IS NOT POSSIBLE.
+Since your surgery is NOT a surgery covered by health insurance, you will receive your prescription for a fee. PLEASE do not insist on your prescription being covered by this scope, IT IS NOT POSSIBLE.`
+              },
+              {
+                title: "Usage of Medications",
+                text: "Use the pills as written in the prescription."
+              },
+              {
+                title: "Antibiotic pills: Cefaks, Cipro, Klindan, Macrol, Augmentin etc.)",
+                text: "1 or 2 of these medications may be prescribed to you according to the procedure applied to you and your medical condition. Use these medications regularly for 1 week, 2 times a day (morning and evening)."
+              },
+              {
+                title: "Allergy pill: Bilaxten, Aerius, Desmont, Levmont",
+                text: "You must use 1 of these medications. The purpose of this medication is to reduce the feeling of discharge and congestion in the nose, and sneezing that may occur due to this. If these complaints are too much, you can take 2 on the first day."
+              },
+              {
+                title: "Painkiller: Arveles or Mejezik",
+                text: "Use this pill for 4 days, 3 times a day. If your pain is high, you can take up to 4 a day. It is not an expected situation to have more pain. In this case, consult your physician."
+              },
+              {
+                title: "Ointment: Thiocilline eye ointment or Terramycin",
+                text: `Apply the eye ointment to the stitch site at the tip of the nose, not to the eye. 
+Apply 3-4 times a day for 2 weeks with your clean finger or a cotton bud.`
+              },
+              {
+                title: "Nasal decongestant spray: Otrivine",
+                text: "Use for 5 days. (Into the tampon) Do not continue after 5 days."
+              },
+              {
+                title: "Nasal Washing and moisturizing medications",
+                text: `These medications should be used for 1 month after surgery, starting while there is a tampon in the nose and continuing afterwards. 5 times a day to both nostrils, both sprays.
 
-Usage of Medications
+SinusRinse, NaosRinse, Sinomarine, Quixx etc.
+You can use ocean water washing medications in spray or bottle form to wash the inside of the nose. While those in bottle form provide a more voluminous and effective cleaning, those in spray form are easy to use and easier to carry with you, but their cleaning effect is less.
+Your purpose in washing is not to completely clean the inside of the nose, but to ensure the cleaning of accumulated secretion blood and clots.
+After the washing process, it is sufficient to wipe the secretions coming out with a napkin by making the movement of blowing the breath out with the nose, not blowing the nose.
 
-  * Use the pills as written in the prescription.
-    * Antibiotic pills: Cefaks, Cipro, Klindan, Macrol, Augmentin etc.)
-        * 1 or 2 of these medications may be prescribed to you according to the procedure applied to you and your medical condition. Use these medications regularly for 1 week, 2 times a day (morning and evening).
-    * Allergy pill: Bilaxten, Aerius, Desmont, Levmont
-  * You must use 1 of these medications. The purpose of this medication is to reduce the feeling of discharge and congestion in the nose, and sneezing that may occur due to this. If these complaints are too much, you can take 2 on the first day.
-    * Painkiller: Arveles or Mejezik
-  * Use this pill for 4 days, 3 times a day. If your pain is high, you can take up to 4 a day. It is not an expected situation to have more pain. In this case, consult your physician.
-    * Ointment: Thiocilline eye ointment or Terramycin
-  * Apply the eye ointment to the stitch site at the tip of the nose, not to the eye. 
-        * Apply 3-4 times a day for 2 weeks with your clean finger or a cotton bud.
-    * Nasal decongestant spray: Otrivine
-  * Use for 5 days. (Into the tampon) Do not continue after 5 days.
-    * Nasal Washing and moisturizing medications:
-        * These medications should be used for 1 month after surgery, starting while there is a tampon in the nose and continuing afterwards. 5 times a day to both nostrils, both sprays.
-
-        * SinusRinse, NaosRinse, Sinomarine, Quixx etc.
-            * You can use ocean water washing medications in spray or bottle form to wash the inside of the nose. While those in bottle form provide a more voluminous and effective cleaning, those in spray form are easy to use and easier to carry with you, but their cleaning effect is less.
-            * Your purpose in washing is not to completely clean the inside of the nose, but to ensure the cleaning of accumulated secretion blood and clots.
-            * After the washing process, it is sufficient to wipe the secretions coming out with a napkin by making the movement of blowing the breath out with the nose, not blowing the nose.
-        * Nazalnem spray:
-            * The purpose of this spray is to reduce dryness inside the nose, and to accelerate the healing of tissues inside the nose with its moisturizing effect and vitamin support. It must be sprayed into both nostrils after washing.
+Nazalnem spray:
+The purpose of this spray is to reduce dryness inside the nose, and to accelerate the healing of tissues inside the nose with its moisturizing effect and vitamin support. It must be sprayed into both nostrils after washing.
 
 Continue to keep your head high and apply ice for 10 minutes every hour for 3 days (72 hours) after surgery. (Waking up 1-2 times from sleep at night is sufficient.)`
+              }
+            ]
           }
         ]
       },
@@ -566,36 +722,97 @@ Continue to keep your head high and apply ice for 10 minutes every hour for 3 da
         content: [
           {
             title: "Frequently Asked Questions",
-            text: `Q: When can I take a bath after surgery?
-A: You can take a bath the first day after surgery. 
-There is no harm in taking a bath. However, if you are going to take a bath on the first day, get help from a relative. While bathing, water should not come into contact with your nose and the tape/cast on it; preferably wash/have your hair washed backwards. (For 14 days.)
-
-Q: When should I start using the medications?
-A: You should start using all medications the morning after surgery, after discharge. (Including nasal washing and moisturizing medications)
-You do not need to use medication on the day of your surgery, i.e., while you are in the hospital. Your treatment will be administered by hospital nurses.
-
-Q: When can I travel after surgery?
-A: You can fly as of the 5th day if your physician deems it appropriate. 
+            subsections: [
+              {
+                title: "When can I take a bath after surgery?",
+                text: `You can take a bath the first day after surgery. 
+There is no harm in taking a bath. However, if you are going to take a bath on the first day, get help from a relative. While bathing, water should not come into contact with your nose and the tape/cast on it; preferably wash/have your hair washed backwards. (For 14 days.)`
+              },
+              {
+                title: "When should I start using the medications?",
+                text: `You should start using all medications the morning after surgery, after discharge. (Including nasal washing and moisturizing medications)
+You do not need to use medication on the day of your surgery, i.e., while you are in the hospital. Your treatment will be administered by hospital nurses.`
+              },
+              {
+                title: "When can I travel after surgery?",
+                text: `You can fly as of the 5th day if your physician deems it appropriate. 
 However, this period may be extended depending on the surgery performed on you.
-You can travel by land on the first day after surgery. (Provided it is not too long)
+You can travel by land on the first day after surgery. (Provided it is not too long)`
+              },
+              {
+                title: "When can I use glasses after surgery?",
+                text: "You can use light glasses for short periods starting from the 3rd month at the earliest. As of the 6th month, you can use glasses as you wish."
+              },
+              {
+                title: "When can I do sports?",
+                text: `You can do sports with light tempo walking and not very heavy weights in the 2nd week after surgery. 
+From the 1st month, sports can be done at the desired tempo. However, you should avoid competitive sports where force can be applied to your nose and the risk of trauma.`
+              },
+              {
+                title: "When can I swim?",
+                text: "You can swim in the sea from the 2nd week, and in the pool from the 4th week. You should not scuba dive or dive with a mask for 12 months."
+              },
+              {
+                title: "When can I sleep on my side?",
+                text: "You can turn on your side in bed from the 2nd week after surgery. However, your nose should not touch the pillow or bed, and should not be exposed to force."
+              },
+              {
+                title: "What are your recommendations regarding alcohol and smoking?",
+                text: `Smoking MUST be COMPLETELY stopped before surgery. (preferably minimum 1 week before)
 
-Q: When can I use glasses after surgery?
-A: You can use light glasses for short periods starting from the 3rd month at the earliest. As of the 6th month, you can use glasses as you wish.
+Cigarette smoke is the MOST IMPORTANT factor causing delay in wound healing.
+Delay in wound healing: causes the nose to reach a bad result both functionally and visually. Due to healing delay, the risk of infection in the nose increases, stitches opening, increased edema in the nose and the risk of the desired result resulting differently than expected and badly due to delayed healing occurs.
+A patient who continues to consume cigarettes after surgery is deemed to have accepted the responsibility for such problems that may occur.
 
-Q: When can I do sports?
-A: You can do sports with light tempo walking and not very heavy weights in the 2nd week after surgery. 
-From the 1st month, sports can be done at the desired tempo. However, you should avoid competitive sports where force can be applied to your nose and the risk of trauma.
+Alcohol is not strictly forbidden, but it is a reason for increased edema after surgery. Also, it is important not to get drunk to avoid falling on your nose or similar injuries.`
+              },
+              {
+                title: "Are photos taken during surgery? When can I see these photos?",
+                text: `Routine photo shooting is performed at the beginning and end of the surgery. The purpose of these shots is both to see the change and describe it to you, and to be able to look back and re-evaluate the moment of surgery during the healing process in the post-operative period.
+These photos taken during surgery are sent to our patients who request them.
+However, it is not possible for us to send these photos immediately as soon as your surgery is finished.
+After arrangements, if possible, they will be sent to you on the evening of the same day or 1 day later depending on the intensity of our schedule.`
+              },
+              {
+                title: "When can I return to work?",
+                text: `It is recommended that you rest for 7 days after surgery. For this, a medical report will be issued upon your request. We can help patients who request a longer report up to 10 days.
 
-Q: When can I swim?
-A: You can swim in the sea from the 2nd week, and in the pool from the 4th week. You should not scuba dive or dive with a mask for 12 months.
+However, if you have to do desk/screen work, you can do it in the first week while you have the tampon and cast on your nose.
 
-Q: When can I sleep on my side?
-A: You can turn on your side in bed from the 2nd week after surgery. However, your nose should not touch the pillow or bed, and should not be exposed to force.`
+During this first week, it is important to consume plenty of fluids, walk, and rest with your head elevated.`
+              },
+              {
+                title: "What is a nostril retainer?",
+                text: `Nostril retainer; is an apparatus used in the nostrils that is applied to the nose during or after surgery, which patients can easily put on and take off.
+The reason for using this product is not to shape a problematic nose, but to ensure that the symmetry achieved in the surgery remains this way and that the structures heal symmetrically on this plastic mold during the healing of the nasal tip.
+
+Usage duration is usually: All day for 2 months, then 8-12 hours a day for 2 months.
+Actual information is shaped specifically for the patient and will be told to you during your controls.`
+              },
+              {
+                title: "Should I do nose massage?",
+                text: `Following the removal of the cast on your nose, nose massage will be recommended to you.
+You need to apply this recommended massage 5 times a day, for 2 minutes + 30 seconds.
+Applying the massage for approximately 6 months will contribute to the healing process.
+
+The massage has 2 main purposes:
+1- By increasing lymphatic drainage, it ensures the reduction of subcutaneous edema between the bone and skin in the nose.
+2- It prevents the nasal narrowing formed thanks to the broken (cut) nasal bones from expanding again with the effect of edema and provides mechanical support for the nose to heal in the desired way.`
+              },
+              {
+                title: "When can revision surgery be performed?",
+                text: `Revision surgery should not be performed before the 6th month of the surgery, except for exceptional cases.
+The ideal time is to do it after 12 months.
+However, if the problem in the nose creates irreversible problems and the passing time will destroy the possible chance, earlier revision surgeries can also be performed.
+But if visual functional problems are not of a nature requiring urgent intervention, waiting a minimum of 12 months will maximize the benefit to be obtained from revision surgery.`
+              }
+            ]
           }
         ]
       }
     ]
   },
+
   de: {
     title: "Rhinoplastik Info",
     tabs: [
@@ -685,39 +902,52 @@ Es ist nicht realistisch, genau zu zeichnen, welches Ergebnis am Ende der Heilun
         content: [
           {
             title: "POSTOPERATIVER PROZESS",
-            text: `Am Ende der Operation befinden sich ästhetische feine Nähte an der Schnittstelle auf der Haut zwischen den Nasenlöchern (Columella), ein Stent/Tampon mit einem Loch im Inneren, der Sie nicht am Atmen in der Nase hindert, sowie ein spezielles Klebeband und eine Kunststoffschiene (Gips) auf der Nase. Wenn an den Nasenflügeln eingegriffen wurde, gibt es auch Nähte im Nasenflügelteil.
+            text: `Am Ende der Operation befinden sich ästhetische feine Nähte an der Schnittstelle auf der Haut zwischen den Nasenlöchern (Columella), ein Stent/Tampon mit einem Loch im Inneren, der Sie nicht am Atmen in der Nase hindert, sowie ein spezielles Klebeband und eine Kunststoffschiene (Gips) auf der Nase. Wenn an den Nasenflügeln eingegriffen wurde, gibt es auch Nähte im Nasenflügelteil.`,
+            subsections: [
+              {
+                title: "Entfernung von Tampon und Gips",
+                text: `Der Tampon, das Klebeband und die Schiene auf der Nase werden bei der Kontrolle in der ersten Woche (5-7 Tage) Ihrer Operation entfernt. (In einigen Fällen kann der Tampon in der Nase früher entfernt werden.)
 
-Entfernung von Tampon und Gips: Der Tampon, das Klebeband und die Schiene auf der Nase werden bei der Kontrolle in der ersten Woche (5-7 Tage) Ihrer Operation entfernt. (In einigen Fällen kann der Tampon in der Nase früher entfernt werden.)
-Manchmal während der Operation und manchmal nach Entfernung des Tampons nach der Operation kann es erforderlich sein, einen Silikonapparat (Nasenlochhalter) für die Form der Nasenspitze und die Symmetrie der Nasenlöcher zu verwenden. 
+Manchmal während der Operation und manchmal nach Entfernung des Tampons nach der Operation kann es erforderlich sein, einen Silikonapparat (Nasenlochhalter) für die Form der Nasenspitze und die Symmetrie der Nasenlöcher zu verwenden.
 Bei Patienten mit übermäßigem Ödem in der Nase kann der Gips bei der ersten Kontrolle erneut angelegt werden.
-Bei Patienten mit dicker und ödematöser Nasenhaut kann nach der Operation ein kontinuierliches und/oder nächtliches Tapen empfohlen werden. (Für einen Zeitraum von 1-2 Monaten)
-
-Blutergüsse und Schwellungen unter den Augen: In Fällen, in denen bei Ihrer Operation ein Knocheneingriff durchgeführt wird, treten Schwellungen und Blutergüsse um die Nase und unter den Augen auf. Diese Situation erreicht ihr Maximum am 3.-4. Tag nach der Operation. 
-Schwellungen und Blutergüsse sind in der 1. Woche deutlich reduziert und bei den meisten Patienten in der 2. Woche vollständig verschwunden. 
+Bei Patienten mit dicker und ödematöser Nasenhaut kann nach der Operation ein kontinuierliches und/oder nächtliches Tapen empfohlen werden. (Für einen Zeitraum von 1-2 Monaten)`
+              },
+              {
+                title: "Blutergüsse und Schwellungen unter den Augen",
+                text: `In Fällen, in denen bei Ihrer Operation ein Knocheneingriff durchgeführt wird, treten Schwellungen und Blutergüsse um die Nase und unter den Augen auf. Diese Situation erreicht ihr Maximum am 3.-4. Tag nach der Operation.
+Schwellungen und Blutergüsse sind in der 1. Woche deutlich reduziert und bei den meisten Patienten in der 2. Woche vollständig verschwunden.
 Die vollständige Umsetzung der postoperativen Medikamente und notwendigen Anwendungen stellt sicher, dass Sie diesen Prozess viel leichter überstehen.
-Kälteanwendungen sollten um die Nase und unter den Augen durchgeführt werden, um die Blutergüsse und Schwellungen zu minimieren, die nach der Operation auftreten werden. 
-Eis wird Ihnen während Ihres Krankenhausaufenthalts gegeben, aber Sie können einen Eisbeutel in Gelform für den Heimgebrauch erhalten. 
-(Praktische Lösung: Sie können gefrorene Erbsen usw. in einem Kühlschrankbeutel für die Kälteanwendung verwenden.)
 
+Um Blutergüsse und Schwellungen nach der Operation zu minimieren, sollte um die Nase und unter den Augen Kälte angewendet werden.
+Während Ihres Krankenhausaufenthalts erhalten Sie Eis, aber für den Heimgebrauch können Sie einen Eisbeutel in Gelform besorgen.
+(Praktische Lösung: Für die Kälteanwendung können Sie gefrorene Erbsen, Kichererbsen usw. in einem Kühlschrankbeutel verwenden.)`
+              },
+              {
+                title: "Postoperatives Ödem und endgültige Form der Nase",
+                text: "Das in der Nase gebildete Ödem nimmt in 3 Hauptperioden ab:",
+                items: [
+                  "Nach einer raschen Ödemreduktion in den ersten 2 Wochen sehen Sie in der zweiten Woche die neue Struktur Ihrer Nase mit ihren Hauptlinien und Winkeln. Ihre Nase wird jedoch immer noch sehr geschwollen sein.",
+                  "Im folgenden Zeitraum von ca. 2-3 Monaten nimmt das Ödem insbesondere im Rücken, in der Spitze und in den Seitenteilen der Nasenflügel im Laufe der Zeit allmählich ab und ca. 70% des Ödems vergehen.",
+                  "Für den verbleibenden Teil von 30% werden ca. 1-1,5 Jahre mehr Zeit benötigt."
+                ],
+                subtext: `Diese genannten Zeiträume sind Durchschnittszeiten und die Hautstruktur der Nase und die Wundheilungseigenschaften sind die Hauptbestimmungsfaktoren für den Prozess und das Ausmaß des Ödems und der Schwellung in der Nase. (Zeiten x1,5-2 für dicke Haut)
 
-Postoperatives Ödem und die Nase nimmt ihre endgültige Form an:
-Das in der Nase gebildete Ödem nimmt in 3 Hauptperioden ab:
-* Nach rascher Ödemreduktion in den ersten 2 Wochen sehen Sie in der zweiten Woche die neue Struktur Ihrer Nase mit ihren Hauptlinien und Winkeln. Ihre Nase wird jedoch immer noch sehr geschwollen sein.
-* In der folgenden Zeit von ca. 2-3 Monaten nimmt das Ödem vor allem im Rücken, in der Spitze und in den Seitenteilen der Nasenflügel mit der Zeit allmählich ab und ca. 70% des Ödems vergehen. 
-* Für die restlichen 30% wird noch ca. 1-1,5 Jahre Zeit benötigt. 
+Eingriffe an Knorpel- und Knochengewebe im Inneren der Nase sind bei jedem Patienten unterschiedlich.
+Bei einigen verwendeten chirurgischen Techniken kann es im Zeitraum von 4-6 Wochen nach der Operation im Zusammenhang mit dem Setzen und einer gewissen Lockerung von Knorpeln und Nähten im Laufe der Zeit und unter Einwirkung der Schwerkraft zu einer gewissen Abwärtsbewegung der Nasenspitze kommen. Aufgrund dieser Situation kann Ihre Nasenspitze in der frühen Phase nach der Operation leicht nach oben gerichtet sein. (gilt nicht für jeden Patienten.)`
+              },
+              {
+                title: "Vermeidung physikalischer Kräfte auf die Nase",
+                text: `Ihre Nase sollte 4 Monate nach der Operation keiner unkontrollierten physikalischen Kraft ausgesetzt werden. Probleme, die in diesem Zeitraum auftreten können, wenn die Knochenheilung noch nicht abgeschlossen ist, können dauerhafte Probleme bei der Nasenheilung verursachen. Sie sollten Aktivitäten vermeiden, die ein Nasentrauma verursachen können, und in diesem Zeitraum von 4 Monaten keine Brille tragen.
 
-Diese genannten Zeiträume sind Durchschnittszeiten und die Hautstruktur der Nase und die Wundheilungseigenschaften sind die wichtigsten bestimmenden Faktoren für den Prozess und das Ausmaß des Ödems und der Schwellung in der Nase. (Bei dicker Haut Zeiträume x1,5-2)
-Verfahren an Knorpel- und Knochengewebe in der Nase sind bei jedem Patienten unterschiedlich.
-Bei einigen verwendeten chirurgischen Techniken kann es aufgrund des Setzens und einer gewissen Lockerung von Knorpeln und Nähten im Laufe der Zeit und unter Einwirkung der Schwerkraft in der Zeit von 4-6 Wochen nach der Operation zu einer gewissen Abwärtsbewegung der Nasenspitze kommen. Aufgrund dieser Situation kann Ihre Nasenspitze in der frühen Phase nach der Operation etwas nach oben gerichtet sein. (gilt nicht für jeden Patienten.)
-
-Vermeidung physikalischer Kräfte auf die Nase:
-Ihre Nase sollte 4 Monate nach der Operation keiner unkontrollierten physikalischen Kraft ausgesetzt werden. Probleme, die in dieser Zeit auftreten können, wenn die Knochenfusion noch nicht abgeschlossen ist, können dauerhafte Probleme bei der Nasenheilung verursachen. In diesem Zeitraum von 4 Monaten sollten Sie Aktivitäten vermeiden, die ein Nasentrauma verursachen können, und keine Brille tragen. 
-Wenn Sie keine Linsen tragen können, müssen Sie diesbezüglich unbedingt vor der Operation bewertet werden. Sie sollten vor der Operation Linsen tragen können.
-
-Sport/Bewegung: 
-Leichte sportliche Aktivitäten, die keinen Pulsanstieg verursachen, können ab der 2. Woche nach der Operation durchgeführt werden. 
-Ab der 4. Woche sind pulserhöhende Aktivitäten, bei denen kein Traumarisiko besteht, frei. Ab dem 2. Monat können Sie Sport in dem von Ihnen gewünschten Tempo treiben.
+Wenn Sie keine Linsen verwenden können, müssen Sie diesbezüglich vor der Operation unbedingt untersucht werden. Sie sollten vor der Operation Linsen verwenden können.`
+              },
+              {
+                title: "Sport/Bewegung",
+                text: `Leichte sportliche Aktivitäten, die keinen Pulsanstieg verursachen, können ab der 2. Woche nach der Operation durchgeführt werden.
+Ab der 4. Woche sind pulserhöhende Aktivitäten, bei denen kein Traumarisiko besteht, frei. Ab dem 2. Monat können Sie im gewünschten Tempo Sport treiben.
 Sie können ab der 2. Woche nach der Operation ins Meer und ab dem 1. Monat in den Pool gehen.`
+              }
+            ]
           },
           {
             title: "RAUCHEN",
@@ -744,22 +974,30 @@ Ein Patient, der Zigaretten konsumiert, wird DEFINITIV schlecht heilen.`
         content: [
           {
             title: "MÖGLICHE RISIKEN IM ZUSAMMENHANG MIT DER OPERATION",
-            text: `Da Ihre Operation unter Vollnarkose durchgeführt wird, werden vor der Operation Tests zur Risikobewertung durchgeführt und Sie werden von Ärzten der Abteilung für Anästhesiologie bewertet.
-Wenn Sie ein zusätzliches Risiko haben, das über den Standard in Bezug auf die Anästhesie hinausgeht, werden Sie gesondert informiert.
-Mögliche chirurgische Risiken, die speziell bei Ihrer Nase auftreten können, werden Ihnen auch während der Untersuchung erläutert. Bitte lesen Sie den Rest der Seite sorgfältig durch.
-
-Blutungsrisiko: Blutungen in Form einer geringen Menge an Leckage aus der Nase für 24-48 Stunden nach der Operation sind eine erwartete Situation. Dafür haben Sie einen Mulltampon, der an die Nasenspitze geklebt ist. Sie können dieses Klebeband entfernen, wenn Sie am Tag nach der Operation nach der Entlassung nach Hause gehen. In den folgenden Tagen können Sie Blutungen in Form von Tropfen haben, bei denen das Abwischen mit einer Serviette ausreicht. Obwohl selten, kann es jedoch im Falle stärkerer Blutungen erforderlich sein, medizinische Watte/Tampons auf Ihre Nase aufzutragen, Medikamente intravenös zu verabreichen oder einen chirurgischen Eingriff bei Blutungen in der Nase durchzuführen.
-
-Infektionsrisiko: Sterilisationsbedingungen werden vollständig eingehalten und eine Antibiotikabehandlung wird angewendet, um den Operationsbereich während und nach der Operation vor Infektionen zu schützen. Darüber hinaus ist es sehr wichtig, den Operationsbereich und die Nähte nach der Operation nicht mit unreinen Händen zu berühren. Trotz all dieser Vorsichtsmaßnahmen kann jedoch nach der Operation eine Infektion in der Nase auftreten. Es kann erforderlich sein, Antibiotika über einen längeren Zeitraum einzunehmen oder einfache oder komplizierte Eingriffe aufgrund von Infektionen in der Nase durchzuführen. Eine auftretende Infektion kann zu funktionellen oder kosmetischen Problemen in der Nase führen. Aufgrund auftretender kosmetischer Probleme kann eine Revisionsoperation erforderlich sein.
-
-    Revisionsrisiko (Wiederholungsoperation): Obwohl unser einziges Ziel darin besteht, nach der Operation das beste Ergebnis zu erzielen, kann aufgrund von Problemen während des Heilungsprozesses ein Ergebnis auftreten, das eine Revisionsoperation erfordert. Zu den möglichen Gründen zählen: Trauma der Nase, Probleme im Zusammenhang mit Knorpel/Knochen/Nähten in der Nase oder Probleme, die in der Haut und den Weichteilen der Nase auftreten können. Die Wahrscheinlichkeit, dass eine solche Situation eintritt, liegt bei etwa 3-5%.
+            text: `Da Ihre Operation unter Vollnarkose durchgeführt wird, werden Ihre Tests zur Risikobewertung vor der Operation durchgeführt und Sie werden von Ärzten der Abteilung für Anästhesiologie bewertet.
+Wenn Sie ein zusätzliches Risiko haben, das über das Standardrisiko im Zusammenhang mit der Anästhesie hinausgeht, werden Sie gesondert informiert.
+Mögliche chirurgische Risiken, die speziell bei Ihrer Nase auftreten können, werden Ihnen ebenfalls während der Untersuchung erläutert. Bitte lesen Sie den Rest der Seite sorgfältig durch.`,
+            subsections: [
+              {
+                title: "Blutungsrisiko",
+                text: `Blutungen in Form einer geringen Menge an Leckage aus der Nase für 24-48 Stunden nach der Operation sind eine erwartete Situation. Hierfür haben Sie einen Stofftampon, der auf die Nasenspitze geklebt ist. Sie können dieses Klebeband entfernen, wenn Sie nach der Entlassung am Tag nach der Operation nach Hause gehen. In den folgenden Tagen können Sie eine geringe Menge an Blutungen in Form von Tropfen haben, die ausreichen, um sie mit einer Serviette abzuwischen. Obwohl selten, kann es bei stärkeren Blutungen erforderlich sein, medizinische Watte/Tampons auf Ihre Nase aufzutragen, Medikamente über die Vene zu verabreichen oder einen chirurgischen Eingriff bei Blutungen in der Nase durchzuführen.`
+              },
+              {
+                title: "Infektionsrisiko",
+                text: `Sterilisationsbedingungen werden vollständig eingehalten und eine Antibiotikabehandlung wird angewendet, um den Operationsbereich während und nach der Operation vor Infektionen zu schützen. Darüber hinaus ist es sehr wichtig, den Operationsbereich und die Nähte nach der Operation nicht mit unsauberen Händen zu berühren. Trotz all dieser Vorsichtsmaßnahmen kann es jedoch nach der Operation zu einer Infektion in der Nase kommen. Es kann erforderlich sein, Antibiotika über einen längeren Zeitraum einzunehmen oder einfache oder komplizierte Eingriffe aufgrund von Infektionen im Inneren der Nase durchzuführen. Eine auftretende Infektion kann funktionelle oder kosmetische Probleme in der Nase verursachen. Aufgrund auftretender kosmetischer Probleme kann eine Revisionsoperation erforderlich sein.`
+              },
+              {
+                title: "Risiko einer Revision (erneute Operation)",
+                text: `Obwohl unser einziges Ziel darin besteht, nach der Operation das beste Ergebnis zu erzielen, kann aufgrund von Problemen während des Heilungsprozesses ein Ergebnis auftreten, das eine Revisionsoperation erfordert. Mögliche Gründe sind: ein Trauma der Nase, Probleme im Zusammenhang mit Knorpel/Knochen/Naht im Inneren der Nase oder Probleme, die in der Haut und den Weichteilen auf der Nase auftreten können. Die Wahrscheinlichkeit, dass eine solche Situation eintritt, liegt bei etwa 3-5%.
 
 Der erforderliche Eingriff kann ein begrenztes Verfahren sein, das mit lokaler Anästhesie gelöst werden kann, oder es kann eine Operation sein, bei der die Nase neu geformt werden muss. Weder bei der ersten Operation noch bei der Revisionsoperation, die bei Bedarf durchgeführt werden kann, kann Ihnen eine Garantie für das Ergebnis versprochen werden.
-Im Falle einer Revisionsnotwendigkeit wird kein Arzthonorar verlangt. 
-Wenn es sich bei dem Revisionseingriff jedoch um ein Verfahren handelt, das im Operationssaal durchgeführt werden muss, wird von Ihnen eine Gebühr verlangt, die nur die Kosten für Operationssaal, Medikamente, Pflege und Anästhesie abdeckt, bei denen keine Krankenhausrentabilität besteht.
+Im Falle einer Revisionsanforderung wird kein Arzthonorar erhoben.
+Wenn es sich bei dem Revisionseingriff jedoch um ein Verfahren handelt, das im Operationssaal durchgeführt werden muss, wird Ihnen eine Gebühr berechnet, die nur die Kosten für Operationssaal, Medikamente, Pflege und Anästhesie ohne Krankenhausrentabilität enthält.
 
-Eine Revision ist möglicherweise nicht für alle Probleme möglich, die am Ende der Heilung in der Nase auftreten können. Auch wenn eine Revision durchgeführt wird, kann ein schlechtes Ergebnis erzielt werden. Die Erfolgsrate einer Revisionsoperation variiert je nach durchzuführendem Verfahren, ist jedoch im Vergleich zu einem Patienten, der noch nie operiert wurde, geringer. 
-Daher ist das erste und einzige Ziel Ihrer Operation, das gesamte Problem mit einer einzigen Operation zu lösen und eine problemlose Erholungsphase zu haben. Um dieses Ergebnis zu erzielen, sind die regelmäßige Einnahme postoperativer Medikamente, NICHT RAUCHEN, das Anwenden von Massagen usw., die auf die Nase angewendet werden müssen, und Kontrollen wie empfohlen SEHR WICHTIG, ebenso wie das, was in der Operation getan wird.`
+Eine Revision kann nicht für alle Probleme durchgeführt werden, die am Ende der Heilung in der Nase auftreten können. Auch wenn eine Revision durchgeführt wird, kann ein schlechtes Ergebnis erzielt werden. Obwohl die Erfolgsrate einer Revisionsoperation je nach durchzuführendem Verfahren variiert, ist sie im Vergleich zu einem Patienten, der noch nie operiert wurde, geringer.
+Daher ist das erste und einzige Ziel Ihrer Operation, das gesamte Problem mit einer einzigen Operation zu lösen und eine problemlose Erholungsphase zu haben. Um dieses Ergebnis zu erzielen, ist die regelmäßige Einnahme von postoperativen Medikamenten, NICHTRAUCHEN, das Anwenden von Massagen usw., die auf die Kontrollen und auf die Nase angewendet werden müssen, wie empfohlen, SEHR WICHTIG.`
+              }
+            ]
           }
         ]
       },
@@ -870,31 +1108,74 @@ Halten Sie Ihren Kopf weiterhin hoch und tragen Sie 3 Tage (72 Stunden) nach der
         content: [
           {
             title: "Häufig gestellte Fragen",
-            text: `F: Wann kann ich nach der Operation baden?
-A: Sie können am ersten Tag nach der Operation baden. 
-Es schadet nicht, zu baden. Wenn Sie jedoch am ersten Tag baden, lassen Sie sich von einem Verwandten helfen. Beim Baden sollte kein Wasser mit Ihrer Nase und dem Klebeband/Gips darauf in Berührung kommen; waschen/lassen Sie Ihre Haare vorzugsweise nach hinten waschen. (Für 14 Tage.)
-
-F: Wann sollte ich mit der Einnahme der Medikamente beginnen?
-A: Sie sollten mit der Einnahme aller Medikamente am Morgen nach der Operation, nach der Entlassung, beginnen. (Einschließlich Nasenspülung und feuchtigkeitsspendende Medikamente)
-Am Tag Ihrer Operation, d.h. während Sie im Krankenhaus sind, müssen Sie keine Medikamente einnehmen. Ihre Behandlung wird von Krankenschwestern durchgeführt.
-
-F: Wann kann ich nach der Operation reisen?
-A: Sie können ab dem 5. Tag fliegen, wenn Ihr Arzt dies für angemessen hält. 
+            subsections: [
+              {
+                title: "Wann kann ich nach der Operation baden?",
+                text: `Sie können am ersten Tag nach der Operation baden. 
+Es schadet nicht, zu baden. Wenn Sie jedoch am ersten Tag baden, lassen Sie sich von einem Verwandten helfen. Beim Baden sollte kein Wasser mit Ihrer Nase und dem Klebeband/Gips darauf in Berührung kommen; waschen/lassen Sie Ihre Haare vorzugsweise nach hinten waschen. (Für 14 Tage.)`
+              },
+              {
+                title: "Wann sollte ich mit der Einnahme der Medikamente beginnen?",
+                text: `Sie sollten mit der Einnahme aller Medikamente am Morgen nach der Operation, nach der Entlassung, beginnen. (Einschließlich Nasenspülung und feuchtigkeitsspendende Medikamente)
+Am Tag Ihrer Operation, d.h. während Sie im Krankenhaus sind, müssen Sie keine Medikamente einnehmen. Ihre Behandlung wird von Krankenschwestern durchgeführt.`
+              },
+              {
+                title: "Wann kann ich nach der Operation reisen?",
+                text: `Sie können ab dem 5. Tag fliegen, wenn Ihr Arzt dies für angemessen hält. 
 Dieser Zeitraum kann sich jedoch je nach durchgeführter Operation verlängern.
-Sie können am ersten Tag nach der Operation auf dem Landweg reisen. (Vorausgesetzt, es ist nicht zu lang)
+Sie können am ersten Tag nach der Operation auf dem Landweg reisen. (Vorausgesetzt, es ist nicht zu lang)`
+              },
+              {
+                title: "Wann kann ich nach der Operation eine Brille tragen?",
+                text: "Sie können frühestens ab dem 3. Monat für kurze Zeit eine leichte Brille tragen. Ab dem 6. Monat können Sie eine Brille tragen, wie Sie möchten."
+              },
+              {
+                title: "Wann kann ich Sport treiben?",
+                text: `Sie können ab der 2. Woche nach der Operation Sport mit leichtem Tempo und nicht sehr schweren Gewichten treiben. 
+Ab dem 1. Monat kann Sport im gewünschten Tempo betrieben werden. Sie sollten jedoch Wettkampfsportarten vermeiden, bei denen Kraft auf Ihre Nase ausgeübt werden kann und das Risiko eines Traumas besteht.`
+              },
+              {
+                title: "Wann kann ich schwimmen?",
+                text: "Sie können ab der 2. Woche im Meer und ab der 4. Woche im Pool schwimmen. Sie sollten 12 Monate lang nicht tauchen oder mit einer Maske tauchen."
+              },
+              {
+                title: "Wann kann ich auf der Seite schlafen?",
+                text: "Sie können sich ab der 2. Woche nach der Operation im Bett auf die Seite drehen. Ihre Nase sollte jedoch nicht das Kissen oder das Bett berühren und keiner Kraft ausgesetzt sein."
+              },
+              {
+                title: "Wann kann ich wieder arbeiten?",
+                text: `Es wird empfohlen, sich nach der Operation 7 Tage lang auszuruhen. Auf Ihren Wunsch wird hierfür ein ärztliches Attest ausgestellt. Patienten, die ein längeres Attest wünschen, können wir bis zu 10 Tagen unterstützen.
 
-F: Wann kann ich nach der Operation eine Brille tragen?
-A: Sie können frühestens ab dem 3. Monat für kurze Zeit eine leichte Brille tragen. Ab dem 6. Monat können Sie eine Brille tragen, wie Sie möchten.
+Wenn Sie jedoch Büro-/Bildschirmarbeit verrichten müssen, können Sie dies auch in der ersten Woche tun, während Sie den Tampon und den Gips auf der Nase haben.
 
-F: Wann kann ich Sport treiben?
-A: Sie können ab der 2. Woche nach der Operation Sport mit leichtem Tempo und nicht sehr schweren Gewichten treiben. 
-Ab dem 1. Monat kann Sport im gewünschten Tempo betrieben werden. Sie sollten jedoch Wettkampfsportarten vermeiden, bei denen Kraft auf Ihre Nase ausgeübt werden kann und das Risiko eines Traumas besteht.
+In dieser ersten Woche ist es wichtig, viel Flüssigkeit zu sich zu nehmen, zu gehen und mit erhöhtem Kopf zu ruhen.`
+              },
+              {
+                title: "Was ist ein Nasenlochformer (Nostril Retainer)?",
+                text: `Nostril Retainer (Nasenlochformer); ist ein Apparat, der in den Nasenlöchern verwendet wird und während oder nach der Operation an der Nase angebracht wird, den Patienten leicht an- und ablegen können.
+Der Grund für die Verwendung dieses Produkts ist nicht, einer problematischen Nase eine Form zu geben, sondern sicherzustellen, dass die bei der Operation erreichte Symmetrie so bleibt und dass die Strukturen während der Heilung der Nasenspitze symmetrisch auf dieser Kunststoffform heilen.
 
-F: Wann kann ich schwimmen?
-A: Sie können ab der 2. Woche im Meer und ab der 4. Woche im Pool schwimmen. Sie sollten 12 Monate lang nicht tauchen oder mit einer Maske tauchen.
+Die Anwendungsdauer beträgt in der Regel: 2 Monate lang den ganzen Tag, danach 2 Monate lang 8-12 Stunden am Tag.
+Die tatsächlichen Informationen werden patientenspezifisch gestaltet und Ihnen bei Ihren Kontrollen mitgeteilt.`
+              },
+              {
+                title: "Sollte ich eine Nasenmassage durchführen?",
+                text: `Nach der Entfernung des Gipses auf Ihrer Nase wird Ihnen eine Nasenmassage empfohlen.
+Sie müssen diese empfohlene Massage 5 Mal täglich für 2 Minuten + 30 Sekunden anwenden.
+Die Anwendung der Massage für ca. 6 Monate trägt zum Heilungsprozess bei.
 
-F: Wann kann ich auf der Seite schlafen?
-A: Sie können sich ab der 2. Woche nach der Operation im Bett auf die Seite drehen. Ihre Nase sollte jedoch nicht das Kissen oder das Bett berühren und keiner Kraft ausgesetzt sein.`
+Die Massage hat 2 Hauptziele:
+1- Durch Erhöhung der Lymphdrainage sorgt sie für die Verringerung des subkutanen Ödems zwischen Knochen und Haut in der Nase.
+2- Sie verhindert, dass sich die durch die gebrochenen (geschnittenen) Nasenknochen gebildete Nasenverengung durch die Ödemwirkung wieder weitet, und bietet mechanische Unterstützung, damit die Nase in der gewünschten Weise heilt.`
+              },
+              {
+                title: "Wann kann eine Revisionsoperation durchgeführt werden?",
+                text: `Eine Revisionsoperation sollte außer in Ausnahmefällen nicht vor dem 6. Monat nach der Operation durchgeführt werden.
+Die ideale Zeit ist nach 12 Monaten.
+Wenn das Problem in der Nase jedoch irreversible Probleme verursacht und die vergehende Zeit die mögliche Chance zunichte macht, können auch frühere Revisionsoperationen durchgeführt werden.
+Wenn visuelle funktionelle Probleme jedoch nicht so beschaffen sind, dass sie ein sofortiges Eingreifen erfordern, maximiert das Warten von mindestens 12 Monaten den Nutzen, der aus der Revisionsoperation gezogen werden kann.`
+              }
+            ]
           }
         ]
       }
@@ -1174,31 +1455,74 @@ Continúe manteniendo la cabeza alta y aplique hielo durante 10 minutos cada hor
         content: [
           {
             title: "Preguntas Frecuentes",
-            text: `P: ¿Cuándo puedo bañarme después de la cirugía?
-R: Puede bañarse el primer día después de la cirugía. 
-No hay daño en tomar un baño. Sin embargo, si se va a bañar el primer día, obtenga ayuda de un pariente. Mientras se baña, el agua no debe entrar en contacto con su nariz y la cinta/yeso en ella; preferiblemente lave/haga que le laven el cabello hacia atrás. (Durante 14 días).
-
-P: ¿Cuándo debo comenzar a usar los medicamentos?
-R: Debe comenzar a usar todos los medicamentos a la mañana siguiente de la cirugía, después del alta. (Incluidos los medicamentos de lavado e hidratación nasal)
-No necesita usar medicamentos el día de su cirugía, es decir, mientras está en el hospital. Su tratamiento será administrado por enfermeras del hospital.
-
-P: ¿Cuándo puedo viajar después de la cirugía?
-R: Puede volar a partir del 5º día si su médico lo considera apropiado. 
+            subsections: [
+              {
+                title: "¿Cuándo puedo bañarme después de la cirugía?",
+                text: `Puede bañarse el primer día después de la cirugía. 
+No hay daño en tomar un baño. Sin embargo, si se va a bañar el primer día, obtenga ayuda de un pariente. Mientras se baña, el agua no debe entrar en contacto con su nariz y la cinta/yeso en ella; preferiblemente lave/haga que le laven el cabello hacia atrás. (Durante 14 días).`
+              },
+              {
+                title: "¿Cuándo debo comenzar a usar los medicamentos?",
+                text: `Debe comenzar a usar todos los medicamentos a la mañana siguiente de la cirugía, después del alta. (Incluidos los medicamentos de lavado e hidratación nasal)
+No necesita usar medicamentos el día de su cirugía, es decir, mientras está en el hospital. Su tratamiento será administrado por enfermeras del hospital.`
+              },
+              {
+                title: "¿Cuándo puedo viajar después de la cirugía?",
+                text: `Puede volar a partir del 5º día si su médico lo considera apropiado. 
 Sin embargo, este período puede extenderse dependiendo de la cirugía que se le realice.
-Puede viajar por tierra el primer día después de la cirugía. (Siempre que no sea demasiado largo)
+Puede viajar por tierra el primer día después de la cirugía. (Siempre que no sea demasiado largo)`
+              },
+              {
+                title: "¿Cuándo puedo usar gafas después de la cirugía?",
+                text: "Puede usar gafas ligeras por períodos cortos a partir del 3er mes como muy pronto. A partir del 6º mes, puede usar gafas como desee."
+              },
+              {
+                title: "¿Cuándo puedo hacer deporte?",
+                text: `Puede hacer deporte con caminata de ritmo ligero y pesas no muy pesadas en la 2ª semana después de la cirugía. 
+A partir del 1er mes, se pueden realizar deportes al ritmo deseado. Sin embargo, debe evitar los deportes competitivos donde se pueda aplicar fuerza a su nariz y el riesgo de trauma.`
+              },
+              {
+                title: "¿Cuándo puedo nadar?",
+                text: "Puede nadar en el mar a partir de la 2ª semana, y en la piscina a partir de la 4ª semana. No debe bucear ni bucear con máscara durante 12 meses."
+              },
+              {
+                title: "¿Cuándo puedo dormir de lado?",
+                text: "Puede girarse de lado en la cama a partir de la 2ª semana después de la cirugía. Sin embargo, su nariz no debe tocar la almohada o la cama, y no debe estar expuesta a la fuerza."
+              },
+              {
+                title: "¿Cuándo puedo volver a trabajar?",
+                text: `Se recomienda descansar durante 7 días después de la cirugía. Para ello, se emitirá un informe médico si lo solicita. Podemos ayudar a los pacientes que soliciten un informe más largo hasta 10 días.
 
-P: ¿Cuándo puedo usar gafas después de la cirugía?
-R: Puede usar gafas ligeras por períodos cortos a partir del 3er mes como muy pronto. A partir del 6º mes, puede usar gafas como desee.
+Sin embargo, si tiene que realizar trabajos de escritorio/pantalla, puede hacerlo en la primera semana mientras tiene el tapón y el yeso en la nariz.
 
-P: ¿Cuándo puedo hacer deporte?
-R: Puede hacer deporte con caminata de ritmo ligero y pesas no muy pesadas en la 2ª semana después de la cirugía. 
-A partir del 1er mes, se pueden realizar deportes al ritmo deseado. Sin embargo, debe evitar los deportes competitivos donde se pueda aplicar fuerza a su nariz y el riesgo de trauma.
+Durante esta primera semana, es importante consumir muchos líquidos, caminar y descansar con la cabeza elevada.`
+              },
+              {
+                title: "¿Qué es un retenedor de fosas nasales (Nostril Retainer)?",
+                text: `Nostril retainer (conformador de fosas nasales); es un aparato que se utiliza en las fosas nasales que se aplica a la nariz durante o después de la cirugía, que los pacientes pueden ponerse y quitarse fácilmente.
+La razón de usar este producto no es dar forma a una nariz problemática, sino asegurar que la simetría lograda en la cirugía se mantenga así y que las estructuras sanen simétricamente sobre este molde de plástico durante la curación de la punta nasal.
 
-P: ¿Cuándo puedo nadar?
-R: Puede nadar en el mar a partir de la 2ª semana, y en la piscina a partir de la 4ª semana. No debe bucear ni bucear con máscara durante 12 meses.
+La duración del uso suele ser: Todo el día durante 2 meses, luego 8-12 horas al día durante 2 meses.
+La información real se adapta específicamente al paciente y se le comunicará durante sus controles.`
+              },
+              {
+                title: "¿Debo hacerme masajes en la nariz?",
+                text: `Tras la retirada del yeso de su nariz, se le recomendará un masaje nasal.
+Debe aplicar este masaje recomendado 5 veces al día, durante 2 minutos + 30 segundos.
+Aplicar el masaje durante aproximadamente 6 meses contribuirá al proceso de curación.
 
-P: ¿Cuándo puedo dormir de lado?
-R: Puede girarse de lado en la cama a partir de la 2ª semana después de la cirugía. Sin embargo, su nariz no debe tocar la almohada o la cama, y no debe estar expuesta a la fuerza.`
+El masaje tiene 2 objetivos principales:
+1- Al aumentar el drenaje linfático, asegura la reducción del edema subcutáneo entre el hueso y la piel de la nariz.
+2- Evita que el estrechamiento nasal formado gracias a los huesos nasales rotos (cortados) se expanda nuevamente con el efecto del edema y proporciona soporte mecánico para que la nariz sane de la manera deseada.`
+              },
+              {
+                title: "¿Cuándo se puede realizar una cirugía de revisión?",
+                text: `La cirugía de revisión no debe realizarse antes del sexto mes de la cirugía, excepto en casos excepcionales.
+El momento ideal es hacerlo después de 12 meses.
+Sin embargo, si el problema en la nariz crea problemas irreversibles y el tiempo que pasa destruirá la posible oportunidad, también se pueden realizar cirugías de revisión más tempranas.
+Pero si los problemas funcionales visuales no son de una naturaleza que requiera una intervención urgente, esperar un mínimo de 12 meses maximizará el beneficio que se obtendrá de la cirugía de revisión.`
+              }
+            ]
           }
         ]
       }
@@ -1293,56 +1617,69 @@ R: Puede girarse de lado en la cama a partir de la 2ª semana después de la cir
         content: [
           {
             title: "ПОСЛЕОПЕРАЦИОННЫЙ ПРОЦЕСС",
-            text: `В конце операции будут эстетические тонкие швы на месте разреза на коже между ноздрями (колумелла), стент/тампон с отверстием внутри, который не мешает вам дышать внутри носа, а также специальная лента и пластиковая шина (гипс) на носу. Если были вмешательства на крыльях носа, также будут швы в части крыла носа.
+            text: `В конце операции будет эстетический тонкий разрез и шов на коже между ноздрями (колумелла), стент/тампон с отверстием внутри, который не мешает вам дышать внутри носа, а также специальная лента и пластиковая шина (гипс) на носу. Если были затронуты крылья носа, также будут швы в части крыла носа.`,
+            subsections: [
+              {
+                title: "Удаление тампона и гипса",
+                text: `Тампон, лента и шина на носу будут удалены на контроле в первую неделю (5-7 дней) вашей операции. (В некоторых особых случаях тампон внутри носа может быть удален раньше.)
 
-Удаление тампона и гипса: Тампон, лента и шина на носу будут удалены на контроле в первую неделю (5-7 дней) вашей операции. (В некоторых случаях тампон внутри носа может быть удален раньше).
-Иногда во время операции, а иногда после удаления тампона после операции может потребоваться использование силиконового аппарата (фиксатор ноздрей) для формы кончика носа и симметрии ноздрей. 
-У пациентов с чрезмерным отеком носа гипс может быть наложен снова на первом контроле.
-У пациентов с толстой и отечной кожей носа может быть рекомендовано постоянное и/или ночное тейпирование после операции. (На период 1-2 месяца)
+Иногда во время операции, а иногда после удаления тампона после операции может потребоваться использование силиконового аппарата (фиксатора ноздрей) для формы кончика носа и симметрии ноздрей.
+У пациентов с чрезмерным отеком носа гипс может быть наложен повторно при первом контроле.
+У пациентов с толстой и отечной кожей носа может быть рекомендовано постоянное и/или ночное бинтование после операции. (В течение 1-2 месяцев)`
+              },
+              {
+                title: "Синяки и отеки под глазами",
+                text: `В случаях, когда в вашей операции выполняется вмешательство на кости, будет некоторый отек и синяки вокруг носа и под глазами. Эта ситуация достигает своего максимума на 3-4 день после операции.
+Отек и синяки значительно уменьшаются в 1-ю неделю и полностью исчезают у большинства пациентов на 2-й неделе.
+Полное выполнение послеоперационных лекарств и необходимых приложений обеспечит вам гораздо более легкое прохождение этого процесса.
 
-Синяки и отеки под глазами: В случаях, когда в вашей операции выполняется вмешательство на кости, будут некоторые отеки и синяки вокруг носа и под глазами. Эта ситуация достигает своего максимума на 3-4 день после операции. 
-Отеки и синяки значительно уменьшаются на 1-й неделе и полностью исчезают у большинства пациентов на 2-й неделе. 
-Полное выполнение послеоперационных лекарств и необходимых процедур обеспечит вам гораздо более легкое прохождение этого процесса.
-Холод следует прикладывать вокруг носа и под глазами, чтобы минимизировать синяки и отеки, которые возникнут после операции. 
-Лед будет предоставлен вам во время вашего пребывания в больнице, но вы можете приобрести гелевый пакет со льдом для домашнего использования. 
-(Практическое решение: Вы можете использовать замороженный горошек и т.д. в пакете для холодильника для прикладывания холода).
+Вокруг носа и под глазами следует прикладывать холод, чтобы минимизировать синяки и отеки после операции.
+Лед вам дадут во время госпитализации, но вы можете приобрести гелевый пакет со льдом для домашнего использования.
+(Практическое решение: Вы можете использовать замороженный горошек, нут и т.д. в пакете для холодильника для холодного компресса.)`
+              },
+              {
+                title: "Послеоперационный отек и окончательная форма носа",
+                text: "Отек, образовавшийся в носу, уменьшается в 3 основных периода:",
+                items: [
+                  "После быстрого уменьшения отека в первый 2-недельный период вы увидите новую структуру вашего носа с его основными линиями и углами на второй неделе. Однако ваш нос все еще будет очень опухшим.",
+                  "В следующий период около 2-3 месяцев отек, особенно в спинке, кончике и боковых частях крыльев носа, будет постепенно уменьшаться со временем, и около 70% отека пройдет.",
+                  "Для оставшейся части 30% потребуется около 1-1,5 лет дополнительного времени."
+                ],
+                subtext: `Эти указанные периоды являются средними периодами, и структура кожи носа и характеристики заживления ран являются основными определяющими факторами для процесса и количества проходящего отека и припухлости в носу. (Время x1,5-2 для толстой кожи)
 
+Процедуры, выполняемые на хрящевых и костных тканях внутри носа, отличаются у каждого пациента.
+В некоторых используемых хирургических техниках может наблюдаться движение вниз кончика носа в период 4-6 недель после операции, связанное с оседанием и некоторым ослаблением хрящей и швов со временем и под действием силы тяжести. Из-за этой ситуации ваш кончик носа может быть немного вздернут в раннем послеоперационном периоде. (не действительно для каждого пациента.)`
+              },
+              {
+                title: "Избегание физических нагрузок на нос",
+                text: `Ваш нос не должен подвергаться неконтролируемой физической силе в течение 4 месяцев после операции. Проблемы, которые могут возникнуть в этот период, когда заживление кости еще не завершено, могут создать постоянные проблемы в заживлении носа. Вы должны избегать действий, которые могут создать травму носа, и не должны носить очки в этот 4-месячный период.
 
-Послеоперационный отек и нос принимает свою окончательную форму:
-Отек, образовавшийся в носу, уменьшается в 3 основных периода:
-* После быстрого уменьшения отека в первые 2 недели вы увидите новую структуру вашего носа с его основными линиями и углами на второй неделе. Однако ваш нос все еще будет очень опухшим.
-* В следующий период около 2-3 месяцев отек, особенно на спинке, кончике и боковых частях крыльев носа, будет постепенно уменьшаться со временем, и пройдет около 70% отека. 
-* Потребуется еще около 1-1,5 лет для оставшихся 30%. 
-
-Эти упомянутые периоды являются средними периодами, и структура кожи носа и характеристики заживления ран являются основными определяющими факторами для процесса и количества отека и припухлости в носу. (Для толстой кожи периоды x1,5-2)
-Процедуры, выполняемые на хрящевых и костных тканях внутри носа, у каждого пациента разные.
-В некоторых используемых хирургических техниках из-за оседания и некоторого ослабления хрящей и швов со временем и под действием силы тяжести может наблюдаться некоторое движение вниз кончика носа в период 4-6 недель после операции. Из-за этой ситуации ваш кончик носа может быть немного вздернут в ранний период после операции. (недействительно для каждого пациента).
-
-Избегание физических воздействий на нос:
-Ваш нос не должен подвергаться неконтролируемой физической силе в течение 4 месяцев после операции. Проблемы, которые могут возникнуть в этот период, когда сращение костей еще не завершено, могут создать постоянные проблемы в заживлении носа. В этот период 4 месяца вы должны избегать действий, которые могут вызвать травму носа, и не должны носить очки. 
-Если вы не можете носить линзы, вы обязательно должны быть оценены по этому вопросу до операции. Вы должны быть в состоянии носить линзы до операции.
-
-Спорт/Упражнения: 
-Легкие спортивные занятия, не вызывающие учащения пульса, можно выполнять со 2-й недели после операции. 
-С 4-й недели разрешены занятия, повышающие пульс, где нет риска травмы. Со 2-го месяца вы можете заниматься спортом в желаемом темпе.
-Вы можете заходить в море со 2-й недели после операции, а в бассейн с 1-го месяца.`
-          },
-          {
-            title: "КУРЕНИЕ",
-            text: `Сигаретный дым является САМЫМ ВАЖНЫМ фактором, вызывающим задержку заживления ран.
+Если вы не можете использовать линзы, вы обязательно должны пройти оценку по этому поводу перед операцией. Вы должны быть в состоянии использовать линзы перед операцией.`
+              },
+              {
+                title: "Спорт/Упражнения",
+                text: `Легкие спортивные занятия, не вызывающие учащения пульса, можно выполнять со 2-й недели после операции.
+С 4-й недели занятия, повышающие пульс, где нет риска травмы, свободны. Со 2-го месяца вы можете заниматься спортом в желаемом темпе.
+Вы можете входить в море со 2-й недели после операции, а в бассейн с 1-го месяца.`
+              },
+              {
+                title: "КУРЕНИЕ",
+                text: `Сигаретный дым является САМЫМ ВАЖНЫМ фактором, вызывающим задержку заживления ран.
 
 Задержка заживления ран: приводит к тому, что нос достигает плохого результата как функционально, так и визуально. 
-Из-за задержки заживления увеличивается риск инфекции в носу, расхождения швов, увеличения отека в носу и риск того, что желаемый результат окажется отличным от ожидаемого и плохим из-за замедленного заживления.
+Из-за задержки заживления увеличивается риск инфекции в носу, расхождения швов, увеличения отека в носу и риск того, что желаемый результат будет отличаться от ожидаемого и плохим из-за замедленного заживления.
 
 Пациент, который продолжает курить после операции, считается принявшим на себя ответственность за такие проблемы, которые могут возникнуть.
 
 —
 
-ПО КРАЙНЕЙ МЕРЕ ЗА 10 ДНЕЙ ДО ОПЕРАЦИИ КУРЕНИЕ ДОЛЖНО БЫТЬ ПОЛНОСТЬЮ ПРЕКРАЩЕНО.
+ЗА 10 ДНЕЙ ДО ОПЕРАЦИИ КУРЕНИЕ ДОЛЖНО БЫТЬ ПОЛНОСТЬЮ ПРЕКРАЩЕНО.
  
 КУРЕНИЕ не должно использоваться в течение 3 МЕСЯЦЕВ после операции.
 
-Пациент, употребляющий сигареты, ОПРЕДЕЛЕННО будет плохо заживать.`
+Пациент, употребляющий сигареты, ОПРЕДЕЛЕННО заживет плохо.`
+              }
+            ]
           }
         ]
       },
@@ -1352,22 +1689,30 @@ R: Puede girarse de lado en la cama a partir de la 2ª semana después de la cir
         content: [
           {
             title: "ВОЗМОЖНЫЕ РИСКИ, СВЯЗАННЫЕ С ОПЕРАЦИЕЙ",
-            text: `Поскольку ваша операция будет проводиться под общей анестезией, перед операцией будут проведены тесты для оценки риска, и вы будете оценены врачами отделения анестезиологии.
-Если у вас есть дополнительный риск, выходящий за рамки стандарта в отношении анестезии, вам будет сообщено отдельно.
-Возможные хирургические риски, которые могут возникнуть конкретно с вашим носом, также будут объяснены вам во время осмотра. Пожалуйста, внимательно прочитайте остальную часть страницы.
+            text: `Поскольку ваша операция будет проводиться под общей анестезией, ваши анализы будут проведены для оценки риска перед операцией, и вы будете осмотрены врачами отделения анестезиологии.
+Если у вас есть дополнительный риск, отличный от стандартного, связанного с анестезией, вы будете проинформированы отдельно.
+Возможные хирургические риски, с которыми можно столкнуться конкретно с вашим носом, также будут объяснены вам во время осмотра. Пожалуйста, внимательно прочитайте остальную часть страницы.`,
+            subsections: [
+              {
+                title: "Риск кровотечения",
+                text: `Кровотечение в виде небольшого количества подтекания из носа в течение 24-48 часов после операции является ожидаемой ситуацией. Для этого у вас будет марлевый тампон, приклеенный к кончику носа. Вы можете снять эту ленту, когда пойдете домой после выписки на следующий день после операции. В последующие дни у вас может быть кровотечение в виде капель, где вытирания салфеткой будет достаточно. Однако, хотя и редко, в случае большего кровотечения может потребоваться приложить лечебную вату/тампон к носу, ввести лекарство внутривенно или выполнить хирургическое вмешательство при кровотечении в носу.`
+              },
+              {
+                title: "Риск инфекции",
+                text: `Условия стерилизации полностью соблюдаются, и применяется лечение антибиотиками для защиты хирургической области от инфекции во время и после операции. Кроме того, очень важно не прикасаться к хирургической области и швам грязными руками после операции. Однако, несмотря на все эти меры предосторожности, после операции в носу может возникнуть инфекция. Может потребоваться использование антибиотиков в течение более длительного времени или выполнение простых или сложных вмешательств из-за инфекций, возникающих внутри носа. Инфекция, которая может возникнуть, может привести к функциональным или косметическим проблемам в носу. Может потребоваться ревизионная операция из-за возникших косметических проблем.`
+              },
+              {
+                title: "Риск ревизии (повторной операции)",
+                text: `Хотя наша единственная цель - получить наилучший результат после операции, результат, требующий ревизионной операции, может возникнуть из-за проблем, возникающих в процессе заживления. Возможные причины включают: травму носа, проблемы, связанные с хрящом/костью/швами внутри носа, или проблемы, которые могут возникнуть в коже и мягких тканях на носу. Вероятность возникновения такой ситуации составляет около 3-5%.
 
-Риск кровотечения: Кровотечение в виде небольшого количества подтекания из носа в течение 24-48 часов после операции является ожидаемой ситуацией. Для этого у вас будет марлевый тампон, приклеенный к кончику носа. Вы можете снять эту ленту, когда пойдете домой после выписки на следующий день после операции. В последующие дни у вас может быть кровотечение в виде капель, где достаточно будет вытереть салфеткой. Однако, хотя и редко, в случае большего кровотечения может потребоваться наложить медицинскую вату/тампон на нос, ввести лекарства внутривенно или выполнить хирургическое вмешательство при кровотечении в носу.
-
-Риск инфекции: Условия стерилизации полностью соблюдаются, и применяется лечение антибиотиками для защиты операционной области от инфекции во время и после операции. Кроме того, очень важно не прикасаться к операционной области и швам грязными руками после операции. Однако, несмотря на все эти меры предосторожности, после операции может возникнуть инфекция в носу. Может потребоваться принимать антибиотики в течение более длительного времени или выполнять простые или сложные вмешательства из-за инфекций, возникающих внутри носа. Возникшая инфекция может привести к функциональным или косметическим проблемам в носу. Может потребоваться ревизионная операция из-за возникших косметических проблем.
-
-    Риск ревизии (повторной операции): Хотя наша единственная цель - получить наилучший результат после операции, может возникнуть результат, требующий ревизионной операции из-за проблем, возникающих в процессе заживления. Среди возможных причин можно назвать травму носа, проблемы, связанные с хрящом/костью/швами внутри носа, или проблемы, которые могут возникнуть в коже и мягких тканях носа. Вероятность возникновения такой ситуации составляет около 3-5%.
-
-Требуемое вмешательство может быть ограниченной процедурой, которую можно решить с помощью местной анестезии, или это может быть операция, где нос нужно переделать. Ни при первой операции, ни при ревизионной операции, которая может быть сделана при необходимости, вам не может быть обещана гарантия в отношении результата.
+Требуемое вмешательство может быть ограниченной процедурой, которой можно предложить решение с местной анестезией, или это может быть операция, где нос необходимо переделать. Ни при первой операции, ни при ревизионной операции, которую можно сделать при необходимости, вам не может быть обещана гарантия относительно результата.
 В случае необходимости ревизии плата за услуги врача не взимается. 
-Однако, если ревизионное вмешательство является процедурой, которая должна выполняться в операционной, с вас будет взиматься плата только за покрытие расходов на операционную, лекарства, уход и анестезию, где нет прибыли больницы.
+Однако, если ревизионное вмешательство является процедурой, которую необходимо выполнить в операционной, с вас будет запрошена плата, покрывающая только расходы на операционную, лекарства, уход и анестезию, без рентабельности больницы.
 
-Ревизия может быть невозможна для всех проблем, которые могут возникнуть в носу в конце заживления. Даже если ревизия будет выполнена, может быть получен плохой результат. Уровень успеха ревизионной операции варьируется в зависимости от выполняемой процедуры, но он ниже по сравнению с пациентом, у которого никогда не было операции. 
-Поэтому первая и единственная цель вашей операции - решить всю проблему одной операцией и иметь беспроблемный период восстановления. Для достижения этого результата регулярное использование послеоперационных лекарств, ОТКАЗ ОТ КУРЕНИЯ, применение массажа и т.д., необходимых для применения к носу, и контроль, как рекомендовано, ОЧЕНЬ ВАЖНЫ, так же как и то, что делается в операции.`
+Ревизия может быть невозможна для всех проблем, которые могут возникнуть в носу в конце заживления. Даже если ревизия будет сделана, может быть получен плохой результат. Уровень успеха ревизионной операции варьируется в зависимости от выполняемой процедуры, но он ниже по сравнению с пациентом, у которого никогда не было операции. 
+Поэтому первая и единственная цель вашей операции - решить всю проблему с помощью одной операции и иметь беспроблемный период восстановления. Для достижения этого результата регулярное использование послеоперационных лекарств, ОТКАЗ ОТ КУРЕНИЯ, применение массажа и т. д., которые необходимо применять к носу и контролю, как рекомендовано, ОЧЕНЬ ВАЖНЫ, так же как и то, что делается во время операции.`
+              }
+            ]
           }
         ]
       },
@@ -1478,31 +1823,74 @@ R: Puede girarse de lado en la cama a partir de la 2ª semana después de la cir
         content: [
           {
             title: "Часто задаваемые вопросы",
-            text: `В: Когда я могу принять ванну после операции?
-О: Вы можете принять ванну в первый день после операции. 
-Нет вреда в принятии ванны. Однако, если вы собираетесь принять ванну в первый день, попросите помощи у родственника. Во время купания вода не должна контактировать с вашим носом и лентой/гипсом на нем; предпочтительно мойте/пусть вам моют волосы назад. (В течение 14 дней.)
-
-В: Когда мне следует начать принимать лекарства?
-О: Вы должны начать принимать все лекарства на следующее утро после операции, после выписки. (Включая лекарства для промывания и увлажнения носа)
-Вам не нужно принимать лекарства в день операции, то есть пока вы находитесь в больнице. Ваше лечение будет проводиться медсестрами.
-
-В: Когда я могу путешествовать после операции?
-О: Вы можете лететь с 5-го дня, если ваш врач сочтет это целесообразным. 
+            subsections: [
+              {
+                title: "Когда я могу принять ванну после операции?",
+                text: `Вы можете принять ванну в первый день после операции. 
+Нет вреда в принятии ванны. Однако, если вы собираетесь принять ванну в первый день, попросите помощи у родственника. Во время купания вода не должна контактировать с вашим носом и лентой/гипсом на нем; предпочтительно мойте/пусть вам моют волосы назад. (В течение 14 дней.)`
+              },
+              {
+                title: "Когда мне следует начать принимать лекарства?",
+                text: `Вы должны начать принимать все лекарства на следующее утро после операции, после выписки. (Включая лекарства для промывания и увлажнения носа)
+Вам не нужно принимать лекарства в день операции, то есть пока вы находитесь в больнице. Ваше лечение будет проводиться медсестрами.`
+              },
+              {
+                title: "Когда я могу путешествовать после операции?",
+                text: `Вы можете лететь с 5-го дня, если ваш врач сочтет это целесообразным. 
 Однако этот период может быть продлен в зависимости от выполненной операции.
-Вы можете путешествовать по суше в первый день после операции. (При условии, что это не слишком долго)
+Вы можете путешествовать по суше в первый день после операции. (При условии, что это не слишком долго)`
+              },
+              {
+                title: "Когда я могу носить очки после операции?",
+                text: "Вы можете носить легкие очки в течение коротких периодов времени, начиная с 3-го месяца, самое раннее. С 6-го месяца вы можете носить очки по своему желанию."
+              },
+              {
+                title: "Когда я могу заниматься спортом?",
+                text: `Вы можете заниматься спортом с легкой ходьбой и не очень тяжелыми весами на 2-й неделе после операции. 
+С 1-го месяца можно заниматься спортом в желаемом темпе. Однако вам следует избегать соревновательных видов спорта, где к вашему носу может быть приложена сила и есть риск травмы.`
+              },
+              {
+                title: "Когда я могу плавать?",
+                text: "Вы можете плавать в море со 2-й недели, а в бассейне с 4-й недели. Вы не должны нырять или нырять с маской в течение 12 месяцев."
+              },
+              {
+                title: "Когда я могу спать на боку?",
+                text: "Вы можете поворачиваться на бок в постели со 2-й недели после операции. Однако ваш нос не должен касаться подушки или кровати и не должен подвергаться воздействию силы."
+              },
+              {
+                title: "Когда я могу вернуться к работе?",
+                text: `Рекомендуется отдыхать в течение 7 дней после операции. Для этого по вашему запросу будет выдан медицинский отчет. Мы можем помочь пациентам, запрашивающим более длительный отчет, до 10 дней.
 
-В: Когда я могу носить очки после операции?
-О: Вы можете носить легкие очки в течение коротких периодов времени, начиная с 3-го месяца, самое раннее. С 6-го месяца вы можете носить очки по своему желанию.
+Однако, если вам нужно выполнять работу за столом/экраном, вы можете делать это в первую неделю, пока у вас на носу тампон и гипс.
 
-В: Когда я могу заниматься спортом?
-О: Вы можете заниматься спортом с легкой ходьбой и не очень тяжелыми весами на 2-й неделе после операции. 
-С 1-го месяца можно заниматься спортом в желаемом темпе. Однако вам следует избегать соревновательных видов спорта, где к вашему носу может быть приложена сила и есть риск травмы.
+В эту первую неделю важно потреблять много жидкости, ходить и отдыхать с приподнятой головой.`
+              },
+              {
+                title: "Что такое ретейнер для ноздрей (Nostril Retainer)?",
+                text: `Nostril retainer (формирователь ноздрей); это аппарат, используемый в ноздрях, который накладывается на нос во время или после операции, который пациенты могут легко надевать и снимать.
+Причина использования этого продукта не в том, чтобы придать форму проблемному носу, а в том, чтобы гарантировать, что симметрия, достигнутая во время операции, останется такой, и что структуры заживут симметрично на этой пластиковой форме во время заживления кончика носа.
 
-В: Когда я могу плавать?
-О: Вы можете плавать в море со 2-й недели, а в бассейне с 4-й недели. Вы не должны нырять или нырять с маской в течение 12 месяцев.
+Длительность использования обычно составляет: Весь день в течение 2 месяцев, затем 8-12 часов в день в течение 2 месяцев.
+Фактическая информация формируется индивидуально для пациента и будет сообщена вам во время ваших осмотров.`
+              },
+              {
+                title: "Нужно ли мне делать массаж носа?",
+                text: `После снятия гипса с носа вам будет рекомендован массаж носа.
+Вам нужно применять этот рекомендованный массаж 5 раз в день по 2 минуты + 30 секунд.
+Применение массажа в течение примерно 6 месяцев будет способствовать процессу заживления.
 
-В: Когда я могу спать на боку?
-О: Вы можете поворачиваться на бок в постели со 2-й недели после операции. Однако ваш нос не должен касаться подушки или кровати и не должен подвергаться воздействию силы.`
+У массажа есть 2 основные цели:
+1- Увеличивая лимфодренаж, он обеспечивает уменьшение подкожного отека между костью и кожей носа.
+2- Он предотвращает повторное расширение сужения носа, образовавшегося благодаря сломанным (разрезанным) носовым костям, под действием отека и обеспечивает механическую поддержку для заживления носа желаемым образом.`
+              },
+              {
+                title: "Когда можно делать ревизионную операцию?",
+                text: `Ревизионную операцию не следует проводить до 6-го месяца после операции, за исключением исключительных случаев.
+Идеальное время - через 12 месяцев.
+Однако, если проблема в носу создает необратимые проблемы, и прошедшее время уничтожит возможный шанс, можно также провести более ранние ревизионные операции.
+Но если визуальные функциональные проблемы не требуют срочного вмешательства, ожидание минимум 12 месяцев максимизирует пользу, которую можно получить от ревизионной операции.`
+              }
+            ]
           }
         ]
       }
@@ -1593,43 +1981,56 @@ Il n'est pas réaliste de dessiner exactement quel résultat sera obtenu à la f
       },
       {
         id: "tab3",
-        title: "3. PROCESSUS POST-OPÉRATOIRE",
+        title: "3. PROCESSUS POST-OPERATOIRE",
         content: [
           {
-            title: "PROCESSUS POST-OPÉRATOIRE",
-            text: `À la fin de la chirurgie, il y aura des points de suture esthétiques fins au site de l'incision sur la peau entre les narines (columelle), un stent/tampon avec un trou à l'intérieur qui ne vous empêche pas de respirer à l'intérieur du nez, ainsi qu'un ruban adhésif spécial et une attelle en plastique (plâtre) sur le nez. S'il y a eu des interventions sur les ailes du nez, il y aura également des points de suture dans la partie de l'aile du nez.
+            title: "PROCESSUS POST-OPERATOIRE",
+            text: `À la fin de l'opération, il y aura une fine incision esthétique et un point de sutura sur la peau entre les narines (columelle), un stent/tampon avec un trou à l'intérieur qui ne vous empêche pas de respirer à l'intérieur du nez, et un ruban adhésif spécial et une attelle en plastique (plâtre) sur le nez. Si les ailes nasales ont été intervenues, il y aura également des points de sutura dans la partie de l'aile nasale.`,
+            subsections: [
+              {
+                title: "Retrait du tampon et du plâtre",
+                text: `Le tampon, le ruban adhésif et l'attelle sur le nez seront retirés lors du contrôle de la première semaine (5-7 jours) de votre opération. (Dans certains cas particuliers, le tampon à l'intérieur du nez peut être retiré plus tôt.)
 
-Retrait du tampon et du plâtre : Le tampon, le ruban adhésif et l'attelle sur le nez seront retirés lors du contrôle la première semaine (5-7 jours) de votre chirurgie. (Dans certains cas, le tampon à l'intérieur du nez peut être retiré plus tôt).
-Parfois pendant la chirurgie, et parfois après le retrait du tampon après la chirurgie, il peut être nécessaire d'utiliser un appareil en silicone (dispositif de retenue des narines) pour la forme de la pointe du nez et la symétrie des narines. 
-Chez les patients présentant un œdème excessif du nez, le plâtre peut être appliqué à nouveau lors du premier contrôle.
-Chez les patients à la peau épaisse et œdémateuse, un taping continu et/ou nocturne peut être recommandé après la chirurgie. (Pour une période de 1 à 2 mois)
+Parfois pendant l'opération, et parfois après le retrait du tampon après l'opération, il peut être nécessaire d'utiliser un appareil en silicone (dispositif de retenue des narines) pour la forme de la pointe nasale et la symétrie des narines.
+Chez les patients présentant un œdème excessif dans le nez, le plâtre peut être réappliqué lors du premier contrôle.
+Chez les patients ayant une peau nasale épaisse et œdémateuse, un bandage continu et/ou nocturne peut être recommandé après l'opération. (Pour une période de 1-2 mois)`
+              },
+              {
+                title: "Ecchymoses et gonflements sous les yeux",
+                text: `Dans les cas où une intervention osseuse est effectuée lors de votre opération, il y aura un gonflement et des ecchymoses autour du nez et sous les yeux. Cette situation atteint son maximum le 3ème-4ème jour après l'opération.
+Le gonflement et les ecchymoses sont considérablement réduits au cours de la 1ère semaine et disparaissent complètement chez la plupart des patients au cours de la 2ème semaine.
+La mise en œuvre complète des médicaments post-opératoires et des applications nécessaires garantira que vous traverserez ce processus beaucoup plus légèrement.
 
-Ecchymoses et gonflements sous les yeux : Dans les cas où une intervention est effectuée sur l'os lors de votre chirurgie, il y aura un certain gonflement et des ecchymoses autour du nez et sous les yeux. Cette situation atteint son maximum au 3ème-4ème jour après la chirurgie. 
-L'œdème et les ecchymoses diminuent considérablement à la 1ère semaine et disparaissent complètement chez la plupart des patients à la 2ème semaine. 
-L'exécution complète des médicaments postopératoires et des procédures nécessaires vous permettra de traverser ce processus beaucoup plus facilement.
-Le froid doit être appliqué autour du nez et sous les yeux pour minimiser les ecchymoses et les gonflements qui surviendront après la chirurgie. 
-De la glace vous sera fournie pendant votre séjour à l'hôpital, mais vous pouvez vous procurer un sac de glace en gel pour un usage domestique. 
-(Solution pratique : Vous pouvez utiliser des petits pois surgelés, etc. dans un sac de congélation pour l'application de froid).
+Une application de froid doit être faite autour du nez et sous les yeux pour minimiser les ecchymoses et les gonflements après l'opération.
+De la glace vous sera donnée pendant votre hospitalisation, mais vous pouvez obtenir un sac de glace sous forme de gel pour un usage domestique.
+(Solution pratique : Vous pouvez utiliser des petits pois congelés, des pois chiches, etc. dans un sac de réfrigérateur pour l'application de froid.)`
+              },
+              {
+                title: "Œdème post-opératoire et forme finale du nez",
+                text: "L'œdème formé dans le nez diminue en 3 périodes principales :",
+                items: [
+                  "Après une réduction rapide de l'œdème au cours de la première période de 2 semaines, vous verrez la nouvelle structure de votre nez avec ses lignes et angles principaux au cours de la deuxième semaine. Cependant, votre nez sera encore très enflé.",
+                  "Au cours de la période suivante d'environ 2-3 mois, l'œdème, en particulier dans le dos, la pointe et les parties latérales des ailes du nez, diminuera progressivement avec le temps et environ 70% de l'œdème passera.",
+                  "Pour la partie restante de 30%, environ 1-1,5 an de temps supplémentaire sera nécessaire."
+                ],
+                subtext: `Ces périodes mentionnées sont des périodes moyennes et la structure de la peau du nez et les caractéristiques de cicatrisation des plaies sont les principaux facteurs déterminants pour le processus et la quantité d'œdème et de gonflement dans le nez qui passe. (Temps x1,5-2 pour peau épaisse)
 
-
-Œdème postopératoire et prise de forme définitive du nez :
-L'œdème formé dans le nez diminue en 3 périodes principales :
-* Après la diminution rapide de l'œdème au cours des 2 premières semaines, vous verrez la nouvelle structure de votre nez avec ses lignes et angles principaux à la deuxième semaine. Cependant, votre nez sera encore très enflé.
-* Dans la période suivante d'environ 2-3 mois, l'œdème, en particulier sur le dos, la pointe et les parties latérales des ailes du nez, diminuera progressivement avec le temps, et environ 70% de l'œdème passera. 
-* Il faudra encore environ 1 à 1,5 an pour les 30% restants. 
-
-Ces périodes mentionnées sont des périodes moyennes, et la structure de la peau du nez et les caractéristiques de cicatrisation des plaies sont les principaux facteurs déterminants pour le processus et la quantité d'œdème et de gonflement dans le nez. (Pour les peaux épaisses, périodes x1,5-2)
 Les procédures effectuées sur les tissus cartilagineux et osseux à l'intérieur du nez sont différentes chez chaque patient.
-Dans certaines techniques chirurgicales utilisées, en raison de l'affaissement et d'un certain relâchement des cartilages et des sutures avec le temps et la gravité, un certain mouvement vers le bas de la pointe du nez peut être observé dans la période de 4 à 6 semaines après la chirurgie. En raison de cette situation, votre pointe nasale peut être un peu retroussée au début de la période postopératoire. (non valable pour chaque patient).
+Dans certaines techniques chirurgicales utilisées, il peut y avoir un mouvement vers le bas de la pointe nasale au cours de la période de 4 à 6 semaines après l'opération, associé à la mise en place et à un certain relâchement des cartilages et des points de suture au fil du temps et sous l'effet de la gravité. En raison de cette situation, votre pointe nasale peut être légèrement retroussée au début de la période post-opératoire. (non valable pour chaque patient.)`
+              },
+              {
+                title: "Éviter les forces physiques sur le nez",
+                text: `Votre nez ne doit pas être exposé à une force physique incontrôlée pendant 4 mois après l'opération. Les problèmes qui peuvent survenir au cours de cette période où la cicatrisation osseuse n'est pas encore terminée peuvent créer des problèmes permanents dans la cicatrisation nasale. Vous devez éviter les activités qui peuvent créer un traumatisme nasal et ne devez pas porter de lunettes au cours de cette période de 4 mois.
 
-Éviter les impacts physiques sur le nez :
-Votre nez ne doit pas être exposé à une force physique incontrôlée pendant 4 mois après la chirurgie. Les problèmes qui peuvent survenir pendant cette période où la fusion osseuse n'est pas encore terminée peuvent créer des problèmes permanents dans la guérison du nez. Pendant cette période de 4 mois, vous devez éviter les activités qui peuvent causer un traumatisme au nez et ne devez pas porter de lunettes. 
-Si vous ne pouvez pas porter de lentilles, vous devez absolument être évalué à ce sujet avant la chirurgie. Vous devez être capable de porter des lentilles avant la chirurgie.
-
-Sport/Exercice : 
-Les activités sportives légères qui ne provoquent pas d'augmentation du pouls peuvent être pratiquées à partir de la 2ème semaine après la chirurgie. 
-À partir de la 4ème semaine, les activités qui augmentent le pouls où il n'y a pas de risque de traumatisme sont autorisées. À partir du 2ème mois, vous pouvez faire du sport au rythme souhaité.
-Vous pouvez entrer dans la mer à partir de la 2ème semaine après la chirurgie, et dans la piscine à partir du 1er mois.`
+Si vous ne pouvez pas utiliser de lentilles, vous devez absolument être évalué à cet égard avant l'opération. Vous devriez pouvoir utiliser des lentilles avant l'opération.`
+              },
+              {
+                title: "Sport/Exercice",
+                text: `Des activités sportives légères qui ne provoquent pas d'augmentation du pouls peuvent être pratiquées à partir de la 2ème semaine après l'opération.
+À partir de la 4ème semaine, les activités augmentant le pouls où il n'y a pas de risque de traumatisme sont libres. À partir du 2ème mois, vous pouvez faire du sport au rythme que vous souhaitez.
+Vous pouvez entrer dans la mer à partir de la 2ème semaine après l'opération, et dans la piscine à partir du 1er mois.`
+              }
+            ]
           },
           {
             title: "TABAGISME",
@@ -1656,22 +2057,30 @@ Le patient qui consomme des cigarettes guérira DÉFINITIVEMENT mal.`
         content: [
           {
             title: "RISQUES POSSIBLES LIÉS À LA CHIRURGIE",
-            text: `Comme votre chirurgie sera réalisée sous anesthésie générale, des tests seront effectués pour l'évaluation des risques avant la chirurgie et vous serez évalué par les médecins du service d'anesthésiologie.
-Si vous présentez un risque supplémentaire hors norme concernant l'anesthésie, vous en serez informé séparément.
-Les risques chirurgicaux possibles qui peuvent être rencontrés spécifiquement avec votre nez vous seront également expliqués lors de l'examen. Veuillez lire attentivement le reste de la page.
+            text: `Comme votre opération sera réalisée sous anesthésie générale, vos tests seront effectués pour l'évaluation des risques avant l'opération et vous serez évalué par des médecins du département d'anesthésiologie.
+Si vous avez un risque supplémentaire autre que le risque standard lié à l'anesthésie, vous en serez informé séparément.
+Les risques chirurgicaux possibles qui peuvent être rencontrés spécifiquement avec votre nez vous seront également expliqués lors de l'examen. Veuillez lire attentivement le reste de la page.`,
+            subsections: [
+              {
+                title: "Risque de saignement",
+                text: `Un saignement sous la forme d'une petite quantité de fuite du nez pendant 24 à 48 heures après l'opération est une situation attendue. Pour cela, vous aurez un tampon en tissu collé sur le bout du nez. Vous pouvez retirer ce ruban adhésif lorsque vous rentrez chez vous après votre sortie le lendemain de l'opération. Dans les jours suivants, vous pouvez avoir une petite quantité de saignement sous forme de gouttes qui suffira à essuyer avec une serviette. Cependant, bien que rare, s'il y a plus de saignement, il peut être nécessaire d'appliquer du coton/tampon médicamenteux sur votre nez, d'administrer des médicaments par voie veineuse ou d'effectuer une intervention chirurgicale pour le saignement dans le nez.`
+              },
+              {
+                title: "Risque d'infection",
+                text: `Les conditions de stérilisation sont entièrement respectées et un traitement antibiotique est appliqué pour protéger la zone chirurgicale de l'infection pendant et après l'opération. De plus, il est très important de ne pas toucher la zone chirurgicale et les points de suture avec des mains sales après l'opération. Cependant, malgré toutes ces précautions, une infection peut survenir dans le nez après l'opération. Il peut être nécessaire d'utiliser des antibiotiques pendant une période plus longue ou d'effectuer des interventions simples ou compliquées en raison d'infections survenant à l'intérieur du nez. L'infection qui peut survenir peut causer des problèmes fonctionnels ou cosmétiques dans le nez. Une chirurgie de révision peut être nécessaire en raison de problèmes cosmétiques survenant.`
+              },
+              {
+                title: "Risque de révision (ré-opération)",
+                text: `Bien que notre seul objectif soit d'obtenir le meilleur résultat après l'opération, un résultat nécessitant une chirurgie de révision peut survenir en raison de problèmes survenant pendant le processus de guérison. Les raisons possibles incluent : un traumatisme au nez, des problèmes liés au cartilage/os/point de sutura à l'intérieur du nez ou des problèmes pouvant survenir dans la peau et les tissus mous du nez. La probabilité qu'une telle situation se produise est d'environ 3-5%.
 
-Risque de saignement : Un saignement sous forme d'une petite quantité de fuite du nez pendant 24 à 48 heures après la chirurgie est une situation attendue. Pour cela, vous aurez un tampon de gaze collé au bout de votre nez. Vous pouvez retirer ce ruban adhésif lorsque vous rentrez chez vous après votre sortie le lendemain de la chirurgie. Les jours suivants, vous pouvez avoir des saignements sous forme de gouttes où il suffira d'essuyer avec une serviette. Cependant, bien que rarement, en cas de saignement plus important, il peut être nécessaire d'appliquer un coton/tampon médical sur le nez, d'administrer des médicaments par voie intraveineuse ou d'effectuer une intervention chirurgicale sur le saignement dans le nez.
+L'intervention requise peut être une procédure limitée qui peut être résolue avec une anesthésie locale ou il peut s'agir d'une intervention chirurgicale où le nez doit être remodelé. Ni lors de la première opération ni lors de la chirurgie de révision qui peut être effectuée si nécessaire, on ne peut vous promettre une garantie concernant le résultat.
+Aucun honoraire de médecin n'est facturé en cas de demande de révision.
+Cependant, si l'intervention de révision est une procédure qui doit être effectuée en salle d'opération, des frais vous seront facturés pour inclure uniquement les frais de salle d'opération, de médicaments, de soins infirmiers et d'anesthésie sans rentabilité hospitalière.
 
-Risque d'infection : Les conditions de stérilisation sont pleinement respectées et un traitement antibiotique est appliqué pour protéger la zone chirurgicale contre l'infection pendant et après la chirurgie. De plus, il est très important de ne pas toucher la zone chirurgicale et les points de suture avec des mains sales après la chirurgie. Cependant, malgré toutes ces précautions, une infection peut survenir dans le nez après la chirurgie. Il peut être nécessaire d'utiliser des antibiotiques pendant une période plus longue ou d'effectuer des interventions simples ou complexes en raison d'infections survenant à l'intérieur du nez. L'infection survenue peut entraîner des problèmes fonctionnels ou cosmétiques dans le nez. Une chirurgie de révision peut être nécessaire en raison de problèmes cosmétiques survenus.
-
-    Risque de révision (réopération) : Bien que notre seul objectif soit d'obtenir le meilleur résultat après la chirurgie, un résultat nécessitant une chirurgie de révision peut survenir en raison de problèmes survenant au cours du processus de guérison. Parmi les causes possibles, on peut citer un traumatisme au nez, des problèmes liés au cartilage/os/sutures à l'intérieur du nez, ou des problèmes pouvant survenir dans la peau et les tissus mous du nez. La probabilité qu'une telle situation se produise est d'environ 3 à 5%.
-
-L'intervention requise peut être une procédure limitée qui peut être résolue sous anesthésie locale, ou il peut s'agir d'une opération où le nez doit être refait. Ni lors de la première chirurgie ni lors de la chirurgie de révision qui peut être effectuée si nécessaire, aucune garantie ne peut vous être promise concernant le résultat.
-En cas de nécessité de révision, aucun honoraire de médecin n'est demandé. 
-Cependant, si l'intervention de révision est une procédure qui doit être effectuée au bloc opératoire, vous ne serez facturé que pour couvrir les frais de salle d'opération, de médicaments, de soins et d'anesthésie, sans profit pour l'hôpital.
-
-La révision peut ne pas être possible pour tous les problèmes qui peuvent survenir dans le nez à la fin de la guérison. Même si une révision est effectuée, un mauvais résultat peut être obtenu. Le taux de réussite de la chirurgie de révision varie en fonction de la procédure effectuée, mais il est inférieur à celui d'un patient n'ayant jamais subi de chirurgie. 
-Par conséquent, le premier et unique objectif de votre chirurgie est de résoudre tout le problème en une seule opération et d'avoir une période de récupération sans problème. Pour obtenir ce résultat, l'utilisation régulière des médicaments postopératoires, l'ARRÊT DU TABAC, l'application de massages, etc. nécessaires à appliquer au nez, et les contrôles tels que recommandés sont TRÈS IMPORTANTS, tout comme ce qui est fait lors de la chirurgie.`
+La révision peut ne pas être effectuée pour tous les problèmes qui peuvent survenir dans le nez à la fin de la guérison. Même si une révision est effectuée, un mauvais résultat peut être obtenu. Bien que le taux de réussite de la chirurgie de révision varie selon la procédure à effectuer, il est inférieur par rapport à un patient qui n'a jamais subi d'opération.
+Par conséquent, le premier et le seul objectif de votre opération est de résoudre l'ensemble du problème avec une seule opération et d'avoir une période de récupération sans problème. Pour obtenir ce résultat, l'utilisation régulière de médicaments post-opératoires, NE PAS FUMER, l'application de massages, etc. requis pour être appliqués aux contrôles et sur le nez comme recommandé est TRÈS IMPORTANT, tout comme ce qui est fait lors de la chirurgie.`
+              }
+            ]
           }
         ]
       },
@@ -1782,31 +2191,74 @@ Continuez à garder la tête haute et appliquez de la glace pendant 10 minutes t
         content: [
           {
             title: "Foire Aux Questions",
-            text: `Q : Quand puis-je prendre un bain après la chirurgie ?
-R : Vous pouvez prendre un bain le premier jour après la chirurgie. 
-Il n'y a pas de mal à prendre un bain. Cependant, si vous allez prendre un bain le premier jour, demandez de l'aide à un proche. Pendant le bain, l'eau ne doit pas entrer en contact avec votre nez et le ruban adhésif/plâtre dessus ; lavez/faites laver vos cheveux de préférence vers l'arrière. (Pendant 14 jours.)
-
-Q : Quand dois-je commencer à prendre mes médicaments ?
-R : Vous devez commencer à prendre tous les médicaments le lendemain matin de la chirurgie, après votre sortie. (Y compris les médicaments de lavage et d'hydratation nasale)
-Vous n'avez pas besoin de prendre de médicaments le jour de la chirurgie, c'est-à-dire pendant votre séjour à l'hôpital. Votre traitement sera effectué par les infirmières.
-
-Q : Quand puis-je voyager après la chirurgie ?
-R : Vous pouvez prendre l'avion à partir du 5ème jour si votre médecin le juge approprié. 
+            subsections: [
+              {
+                title: "Quand puis-je prendre un bain après la chirurgie ?",
+                text: `Vous pouvez prendre un bain le premier jour après la chirurgie. 
+Il n'y a pas de mal à prendre un bain. Cependant, si vous allez prendre un bain le premier jour, demandez de l'aide à un proche. Pendant le bain, l'eau ne doit pas entrer en contact avec votre nez et le ruban adhésif/plâtre dessus ; lavez/faites laver vos cheveux de préférence vers l'arrière. (Pendant 14 jours.)`
+              },
+              {
+                title: "Quand dois-je commencer à prendre mes médicaments ?",
+                text: `Vous devez commencer à prendre tous les médicaments le lendemain matin de la chirurgie, après votre sortie. (Y compris les médicaments de lavage et d'hydratation nasale)
+Vous n'avez pas besoin de prendre de médicaments le jour de la chirurgie, c'est-à-dire pendant votre séjour à l'hôpital. Votre traitement sera effectué par les infirmières.`
+              },
+              {
+                title: "Quand puis-je voyager après la chirurgie ?",
+                text: `Vous pouvez prendre l'avion à partir du 5ème jour si votre médecin le juge approprié. 
 Cependant, cette période peut être prolongée en fonction de la chirurgie effectuée.
-Vous pouvez voyager par voie terrestre le premier jour après la chirurgie. (À condition que ce ne soit pas trop long)
+Vous pouvez voyager par voie terrestre le premier jour après la chirurgie. (À condition que ce ne soit pas trop long)`
+              },
+              {
+                title: "Quand puis-je porter des lunettes après la chirurgie ?",
+                text: "Vous pouvez porter des lunettes légères pendant de courtes périodes à partir du 3ème mois au plus tôt. À partir du 6ème mois, vous pouvez porter des lunettes comme vous le souhaitez."
+              },
+              {
+                title: "Quand puis-je faire du sport ?",
+                text: `Vous pouvez faire du sport avec une marche légère et des poids pas très lourds à la 2ème semaine après la chirurgie. 
+À partir du 1er mois, il est possible de faire du sport au rythme souhaité. Cependant, vous devez éviter les sports de compétition où une force peut être appliquée sur votre nez et où il y a un risque de traumatisme.`
+              },
+              {
+                title: "Quand puis-je nager ?",
+                text: "Vous pouvez nager dans la mer à partir de la 2ème semaine, et dans la piscine à partir de la 4ème semaine. Vous ne devez pas plonger ou plonger avec un masque pendant 12 mois."
+              },
+              {
+                title: "Quand puis-je dormir sur le côté ?",
+                text: "Vous pouvez vous tourner sur le côté dans le lit à partir de la 2ème semaine après la chirurgie. Cependant, votre nez ne doit pas toucher l'oreiller ou le lit et ne doit pas être exposé à une force."
+              },
+              {
+                title: "Quand puis-je reprendre le travail ?",
+                text: `Il est recommandé de se reposer pendant 7 jours après l'opération. Pour cela, un rapport médical sera délivré sur votre demande. Nous pouvons aider les patients qui demandent un rapport plus long jusqu'à 10 jours.
 
-Q : Quand puis-je porter des lunettes après la chirurgie ?
-R : Vous pouvez porter des lunettes légères pendant de courtes périodes à partir du 3ème mois au plus tôt. À partir du 6ème mois, vous pouvez porter des lunettes comme vous le souhaitez.
+Cependant, si vous devez effectuer un travail de bureau/écran, vous pouvez le faire la première semaine tant que vous avez le tampon et le plâtre sur le nez.
 
-Q : Quand puis-je faire du sport ?
-R : Vous pouvez faire du sport avec une marche légère et des poids pas très lourds à la 2ème semaine après la chirurgie. 
-À partir du 1er mois, il est possible de faire du sport au rythme souhaité. Cependant, vous devez éviter les sports de compétition où une force peut être appliquée sur votre nez et où il y a un risque de traumatisme.
+Durant cette première semaine, il est important de consommer beaucoup de liquides, de marcher et de se reposer la tête surélevée.`
+              },
+              {
+                title: "Qu'est-ce qu'un conformateur de narine (Nostril Retainer) ?",
+                text: `Nostril retainer (conformateur de narine) ; est un appareil utilisé dans les narines qui est appliqué sur le nez pendant ou après l'opération, que les patients peuvent facilement mettre et enlever.
+La raison de l'utilisation de ce produit n'est pas de donner une forme à un nez problématique, mais de s'assurer que la symétrie obtenue lors de l'opération reste ainsi et que les structures guérissent symétriquement sur ce moule en plastique pendant la guérison de la pointe nasale.
 
-Q : Quand puis-je nager ?
-R : Vous pouvez nager dans la mer à partir de la 2ème semaine, et dans la piscine à partir de la 4ème semaine. Vous ne devez pas plonger ou plonger avec un masque pendant 12 mois.
+La durée d'utilisation est généralement : Toute la journée pendant 2 mois, puis 8-12 heures par jour pendant 2 mois.
+Les informations réelles sont adaptées spécifiquement au patient et vous seront communiquées lors de vos contrôles.`
+              },
+              {
+                title: "Dois-je faire un massage du nez ?",
+                text: `Après le retrait du plâtre sur votre nez, un massage du nez vous sera recommandé.
+Vous devez appliquer ce massage recommandé 5 fois par jour, pendant 2 minutes + 30 secondes.
+L'application du massage pendant environ 6 mois contribuera au processus de guérison.
 
-Q : Quand puis-je dormir sur le côté ?
-R : Vous pouvez vous tourner sur le côté dans le lit à partir de la 2ème semaine après la chirurgie. Cependant, votre nez ne doit pas toucher l'oreiller ou le lit et ne doit pas être exposé à une force.`
+Le massage a 2 objectifs principaux :
+1- En augmentant le drainage lymphatique, il assure la réduction de l'œdème sous-cutané entre l'os et la peau du nez.
+2- Il empêche le rétrécissement nasal formé grâce aux os nasaux cassés (coupés) de se dilater à nouveau sous l'effet de l'œdème et fournit un soutien mécanique pour que le nez guérisse de la manière souhaitée.`
+              },
+              {
+                title: "Quand une chirurgie de révision peut-elle être effectuée ?",
+                text: `La chirurgie de révision ne doit pas être effectuée avant le 6ème mois de l'opération, sauf cas exceptionnels.
+Le moment idéal est de le faire après 12 mois.
+Cependant, si le problème dans le nez crée des problèmes irréversibles et que le temps qui passe détruira la chance possible, des chirurgies de révision plus précoces peuvent également être effectuées.
+Mais si les problèmes fonctionnels visuels ne sont pas de nature à nécessiter une intervention urgente, attendre un minimum de 12 mois maximisera le bénéfice à tirer de la chirurgie de révision.`
+              }
+            ]
           }
         ]
       }
@@ -1887,7 +2339,7 @@ Lo scopo della fotografia è comprendere, spiegare e ricordare i problemi del na
 La simulazione non viene eseguita sulla foto dopo la fotografia.
 Non è necessario fare una simulazione nei pazienti che possono spiegare cosa richiedono e vengono capiti.
 
-I pazienti che pensano di non poter esprimere completamente a parole il naso che desiderano possono mostrare foto di nasi che gli piacciono durante l'esame e inviarle per essere aggiunte alla cartella del paziente. 
+I pazienti che pensano di non poter esprimere completamente a parole il naso che desiderano possono mostrare foto di nasi che gli piacciono durante l'esame e le possono inviare per essere aggiunte alla cartella del paziente. 
 
 I pazienti che vogliono immaginare l'armonia dei possibili cambiamenti nel loro naso con il loro viso possono simulare le proprie foto e condividere le loro richieste con il medico in questo modo.
 Le foto mostrate dal paziente non devono essere percepite come un ordine. È uno strumento per la persona per spiegare lo stile che le piace e la sua richiesta. Queste informazioni non devono assolutamente essere dimenticate.
@@ -1901,39 +2353,52 @@ Non è realistico disegnare esattamente quale risultato si otterrà alla fine de
         content: [
           {
             title: "PROCESSO POST-OPERATORIO",
-            text: `Alla fine dell'intervento chirurgico, ci saranno suture estetiche sottili nel sito dell'incisione sulla pelle tra le narici (columella), uno stent/tampone con un foro all'interno che non ti impedisce di respirare all'interno del naso, nonché un nastro speciale e una stecca di plastica (gesso) sul naso. Se ci sono stati interventi sulle ali del naso, ci saranno anche suture nella parte dell'ala del naso.
+            text: `Alla fine dell'intervento, ci sarà una sottile incisione estetica e un punto di sutura sulla pelle tra le narici (columella), uno stent/tampone con un foro all'interno che non ti impedisce di respirare all'interno del naso, e uno speciale nastro adesivo e una stecca di plastica (gesso) sul naso. Se le ali nasali sono state intervenute, ci saranno anche punti di sutura nella parte dell'ala nasale.`,
+            subsections: [
+              {
+                title: "Rimozione del tampone e del gesso",
+                text: `Il tampone, il nastro e la stecca sul naso verranno rimossi al controllo nella prima settimana (5-7 giorni) del tuo intervento. (In alcuni casi speciali, il tampone all'interno del naso può essere rimosso prima.)
 
-Rimozione del tampone e del gesso: Il tampone, il nastro e la stecca sul naso verranno rimossi al controllo nella prima settimana (5-7 giorni) del tuo intervento. (In alcuni casi, il tampone all'interno del naso può essere rimosso prima).
-A volte durante l'intervento chirurgico, e a volte dopo la rimozione del tampone dopo l'intervento chirurgico, potrebbe essere necessario utilizzare un apparecchio in silicone (ritentore delle narici) per la forma della punta del naso e la simmetria delle narici. 
-Nei pazienti con edema eccessivo del naso, il gesso può essere applicato nuovamente al primo controllo.
-Nei pazienti con pelle spessa ed edematosa, può essere raccomandato un taping continuo e/o notturno dopo l'intervento chirurgico. (Per un periodo di 1-2 mesi)
+A volte durante l'intervento, e a volte dopo la rimozione del tampone dopo l'intervento, potrebbe essere necessario utilizzare un apparecchio in silicone (fermo per narici) per la forma della punta nasale e la simmetria delle narici.
+Nei pazienti con edema eccessivo nel naso, il gesso può essere riapplicato al primo controllo.
+Nei pazienti con pelle nasale spessa ed edematosa, può essere raccomandato un bendaggio continuo e/o notturno dopo l'intervento. (Per un periodo di 1-2 mesi)`
+              },
+              {
+                title: "Lividi e gonfiore sotto gli occhi",
+                text: `Nei casi in cui viene eseguito un intervento osseo nel tuo intervento, ci sarà un po' di gonfiore e lividi intorno al naso e sotto gli occhi. Questa situazione raggiunge il suo massimo il 3°-4° giorno dopo l'intervento.
+Il gonfiore e i lividi si riducono significativamente nella 1a settimana e scompaiono completamente nella maggior parte dei pazienti nella 2a settimana.
+La completa attuazione dei farmaci post-operatori e delle applicazioni necessarie garantirà che tu superi questo processo molto più leggermente.
 
-Lividi e gonfiori sotto gli occhi: Nei casi in cui viene eseguito un intervento sull'osso durante l'intervento chirurgico, ci saranno alcuni gonfiori e lividi intorno al naso e sotto gli occhi. Questa situazione raggiunge il suo massimo al 3°-4° giorno dopo l'intervento chirurgico. 
-L'edema e i lividi diminuiscono significativamente alla 1a settimana e scompaiono completamente nella maggior parte dei pazienti alla 2a settimana. 
-L'esecuzione completa dei farmaci postoperatori e delle procedure necessarie ti assicurerà di superare questo processo molto più facilmente.
-Il freddo dovrebbe essere applicato intorno al naso e sotto gli occhi per ridurre al minimo i lividi e i gonfiori che si verificheranno dopo l'intervento chirurgico. 
-Il ghiaccio ti verrà fornito durante la tua degenza in ospedale, ma puoi procurarti un impacco di ghiaccio in gel per uso domestico. 
-(Soluzione pratica: Puoi usare piselli surgelati ecc. in un sacchetto per congelatore per l'applicazione del freddo).
+L'applicazione di freddo dovrebbe essere fatta intorno al naso e sotto gli occhi per ridurre al minimo i lividi e il gonfiore dopo l'intervento.
+Il ghiaccio ti verrà dato durante il ricovero, ma puoi ottenere un impacco di ghiaccio in forma di gel per uso domestico.
+(Soluzione pratica: Puoi usare piselli surgelati, ceci, ecc. in un sacchetto da frigorifero per l'applicazione del freddo.)`
+              },
+              {
+                title: "Edema post-operatorio e forma finale del naso",
+                text: "L'edema formato nel naso diminuisce in 3 periodi principali:",
+                items: [
+                  "Dopo una rapida riduzione dell'edema nel primo periodo di 2 settimane, vedrai la nuova struttura del tuo naso con le sue linee e angoli principali nella seconda settimana. Tuttavia, il tuo naso sarà ancora molto gonfio.",
+                  "Nel periodo successivo di circa 2-3 mesi, l'edema, specialmente nella parte posteriore, nella punta e nelle parti laterali delle ali del naso, diminuirà gradualmente nel tempo e circa il 70% dell'edema passerà.",
+                  "Per la restante parte del 30%, saranno necessari circa 1-1,5 anni in più."
+                ],
+                subtext: `Questi periodi menzionati sono periodi medi e la struttura della pelle del naso e le caratteristiche di guarigione delle ferite sono i principali fattori determinanti per il processo e la quantità di edema e gonfiore nel naso che passa. (Tempi x1,5-2 per pelle spessa)
 
-
-Edema postoperatorio e naso che assume la sua forma definitiva:
-L'edema formatosi nel naso diminuisce in 3 periodi principali:
-* Dopo la rapida diminuzione dell'edema nelle prime 2 settimane, vedrai la nuova struttura del tuo naso con le sue linee e angoli principali alla seconda settimana. Tuttavia, il tuo naso sarà ancora molto gonfio.
-* Nel periodo successivo di circa 2-3 mesi, l'edema, specialmente sul dorso, sulla punta e sulle parti laterali delle ali del naso, diminuirà gradualmente nel tempo e circa il 70% dell'edema passerà. 
-* Ci vorranno ancora circa 1-1,5 anni per il restante 30%. 
-
-Questi periodi menzionati sono periodi medi e la struttura della pelle del naso e le caratteristiche di guarigione delle ferite sono i principali fattori determinanti per il processo e la quantità di edema e gonfiore nel naso. (Per pelli spesse, periodi x1,5-2)
 Le procedure eseguite sui tessuti cartilaginei e ossei all'interno del naso sono diverse in ogni paziente.
-In alcune tecniche chirurgiche utilizzate, a causa dell'assestamento e di un certo rilassamento delle cartilagini e delle suture nel tempo e con la gravità, si può osservare un certo movimento verso il basso della punta del naso nel periodo di 4-6 settimane dopo l'intervento chirurgico. A causa di questa situazione, la tua punta nasale potrebbe essere un po' all'insù nel primo periodo postoperatorio. (non valido per ogni paziente).
+In alcune tecniche chirurgiche utilizzate, potrebbe esserci un movimento verso il basso nella punta nasale nel periodo di 4-6 settimane dopo l'intervento associato all'assestamento e a un certo allentamento delle cartilagine e dei punti di sutura nel tempo e con l'effetto della gravità. A causa di questa situazione, la tua punta nasale potrebbe essere leggermente all'insù nel primo periodo dopo l'intervento. (non valido per ogni paziente.)`
+              },
+              {
+                title: "Evitare forze fisiche sul naso",
+                text: `Il tuo naso non dovrebbe essere esposto a una forza fisica incontrollata per 4 mesi dopo l'intervento. I problemi che possono verificarsi in questo periodo in cui la guarigione ossea non è ancora completata possono creare problemi permanenti nella guarigione nasale. Dovresti evitare attività che possono creare traumi nasali e non dovresti usare occhiali in questo periodo di 4 mesi.
 
-Evitare impatti fisici sul naso:
-Il tuo naso non deve essere esposto a forza fisica incontrollata per 4 mesi dopo l'intervento chirurgico. I problemi che possono verificarsi in questo periodo in cui la fusione ossea non è ancora completata possono creare problemi permanenti nella guarigione del naso. In questo periodo di 4 mesi, devi evitare attività che possono causare traumi al naso e non devi indossare occhiali. 
-Se non puoi indossare lenti, devi assolutamente essere valutato su questo argomento prima dell'intervento chirurgico. Devi essere in grado di indossare lenti prima dell'intervento chirurgico.
-
-Sport/Esercizio: 
-Le attività sportive leggere che non causano un aumento del battito cardiaco possono essere eseguite dalla 2a settimana dopo l'intervento chirurgico. 
-Dalla 4a settimana sono consentite attività che aumentano il battito cardiaco dove non c'è rischio di trauma. Dal 2° mese, puoi fare sport al ritmo desiderato.
-Puoi entrare in mare dalla 2a settimana dopo l'intervento chirurgico e in piscina dal 1° mese.`
+Se non puoi usare lenti, devi assolutamente essere valutato a questo riguardo prima dell'intervento. Dovresti essere in grado di usare lenti prima dell'intervento.`
+              },
+              {
+                title: "Sport/Esercizio",
+                text: `Attività sportive leggere che non causano aumento del battito cardiaco possono essere fatte a partire dalla 2a settimana dopo l'intervento.
+Dalla 4a settimana, le attività che aumentano il battito cardiaco dove non c'è rischio di trauma sono libere. Dal 2° mese, puoi fare sport al ritmo che desideri.
+Puoi entrare in mare a partire dalla 2a settimana dopo l'intervento, e in piscina a partire dal 1° mese.`
+              }
+            ]
           },
           {
             title: "FUMO",
@@ -1960,22 +2425,30 @@ Il paziente che consuma sigarette guarirà DEFINITIVAMENTE male.`
         content: [
           {
             title: "POSSIBILI RISCHI LEGATI ALLA CHIRURGIA",
-            text: `Poiché il tuo intervento chirurgico verrà eseguito in anestesia generale, verranno eseguiti test per la valutazione del rischio prima dell'intervento chirurgico e verrai valutato dai medici del dipartimento di anestesiologia.
-Se hai un rischio aggiuntivo fuori dallo standard per quanto riguarda l'anestesia, verrai informato separatamente.
-I possibili rischi chirurgici che possono essere riscontrati specificamente con il tuo naso ti saranno anche spiegati durante l'esame. Si prega di leggere attentamente il resto della pagina.
+            text: `Poiché il tuo intervento sarà eseguito in anestesia generale, i tuoi test saranno eseguiti per la valutazione del rischio prima dell'intervento e sarai valutato dai medici del dipartimento di Anestesiologia.
+Se hai un rischio aggiuntivo diverso da quello standard relativo all'anestesia, sarai informato separatamente.
+I possibili rischi chirurgici che possono essere riscontrati specificamente con il tuo naso ti saranno anche spiegati durante l'esame. Si prega di leggere attentamente il resto della pagina.`,
+            subsections: [
+              {
+                title: "Rischio di Sanguinamento",
+                text: `Il sanguinamento sotto forma di una piccola quantità di perdita dal naso per 24-48 ore dopo l'intervento è una situazione prevista. Per questo, avrai un tampone di stoffa incollato sulla punta del naso. Puoi rimuovere questo nastro quando vai a casa dopo la dimissione il giorno dopo l'intervento. Nei giorni successivi, potresti avere una piccola quantità di sanguinamento sotto forma di gocce che sarà sufficiente pulire con un tovagliolo. Tuttavia, sebbene raro, se c'è più sanguinamento, potrebbe essere necessario applicare cotone/tampone medicato al naso, somministrare farmaci attraverso la vena o eseguire un intervento chirurgico per il sanguinamento nel naso.`
+              },
+              {
+                title: "Rischio di Infezione",
+                text: `Le condizioni di sterilizzazione sono completamente rispettate e il trattamento antibiotico viene applicato per proteggere l'area chirurgica dall'infezione durante e dopo l'intervento. Inoltre, è molto importante non toccare l'area chirurgica e i punti di sutura con le mani sporche dopo l'intervento. Tuttavia, nonostante tutte queste precauzioni, un'infezione può verificarsi nel naso dopo l'intervento. Potrebbe essere necessario utilizzare antibiotici per un periodo di tempo più lungo o eseguire interventi semplici o complicati a causa di infezioni che si verificano all'interno del naso. L'infezione che può verificarsi può causare problemi funzionali o cosmetici nel naso. Potrebbe essere necessario un intervento di revisione a causa di problemi cosmetici che si verificano.`
+              },
+              {
+                title: "Rischio di Revisione (Ri-intervento)",
+                text: `Sebbene il nostro unico obiettivo sia ottenere il miglior risultato dopo l'intervento, un risultato che richiede un intervento di revisione può verificarsi a causa di problemi che si verificano durante il processo di guarigione. Le possibili ragioni includono; un trauma al naso, problemi relativi alla cartilagine/osso/punto di sutura all'interno del naso o problemi che possono verificarsi nella pelle e nei tessuti molli sul naso. La probabilità che si verifichi una tale situazione è di circa il 3-5%.
 
-Rischio di sanguinamento: Il sanguinamento sotto forma di una piccola quantità di perdita dal naso per 24-48 ore dopo l'intervento chirurgico è una situazione prevista. Per questo, avrai un tampone di garza attaccato alla punta del naso. Puoi rimuovere questo nastro quando torni a casa dopo la dimissione il giorno successivo all'intervento chirurgico. Nei giorni successivi, potresti avere sanguinamento sotto forma di gocce dove sarà sufficiente pulire con un tovagliolo. Tuttavia, sebbene raramente, in caso di sanguinamento maggiore, potrebbe essere necessario applicare cotone/tampone medico sul naso, somministrare farmaci per via endovenosa o eseguire un intervento chirurgico sul sanguinamento nel naso.
+L'intervento richiesto può essere una procedura limitata che può essere risolta con anestesia locale o può essere un intervento chirurgico in cui il naso deve essere rimodellato. Né nel primo intervento né nell'intervento di revisione che può essere eseguito se necessario, ti può essere promessa una garanzia riguardo al risultato.
+Nessuna tassa medica viene addebitata in caso di richiesta di revisione.
+Tuttavia, se l'intervento di revisione è una procedura che deve essere eseguita in sala operatoria, ti verrà addebitata una tassa per includere solo i costi di sala operatoria, farmaci, assistenza infermieristica e anestesia senza redditività ospedaliera.
 
-Rischio di infezione: Le condizioni di sterilizzazione sono completamente rispettate e viene applicato un trattamento antibiotico per proteggere l'area chirurgica dall'infezione durante e dopo l'intervento chirurgico. Inoltre, è molto importante non toccare l'area chirurgica e le suture con le mani sporche dopo l'intervento chirurgico. Tuttavia, nonostante tutte queste precauzioni, può verificarsi un'infezione nel naso dopo l'intervento chirurgico. Potrebbe essere necessario utilizzare antibiotici per un periodo più lungo o eseguire interventi semplici o complicati a causa di infezioni che si verificano all'interno del naso. L'infezione verificatasi può portare a problemi funzionali o estetici nel naso. Potrebbe essere necessario un intervento di revisione a causa di problemi estetici verificatisi.
-
-    Rischio di revisione (rioperazione): Sebbene il nostro unico obiettivo sia ottenere il miglior risultato dopo l'intervento chirurgico, può verificarsi un risultato che richiede un intervento di revisione a causa di problemi che si verificano nel processo di guarigione. Tra le possibili cause si possono citare traumi al naso, problemi legati alla cartilagine/osso/suture all'interno del naso o problemi che possono verificarsi nella pelle e nei tessuti molli del naso. La probabilità che si verifichi una tale situazione è di circa il 3-5%.
-
-L'intervento richiesto può essere una procedura limitata che può essere risolta con anestesia locale, oppure può essere un'operazione in cui il naso deve essere rifatto. Né nel primo intervento chirurgico né nell'intervento di revisione che può essere fatto se necessario, non ti può essere promessa alcuna garanzia riguardo al risultato.
-In caso di necessità di revisione, non viene richiesto alcun onorario medico. 
-Tuttavia, se l'intervento di revisione è una procedura che deve essere eseguita in sala operatoria, ti verrà addebitato solo il costo della sala operatoria, dei farmaci, dell'assistenza infermieristica e dell'anestesia, senza alcun profitto per l'ospedale.
-
-La revisione potrebbe non essere possibile per tutti i problemi che possono verificarsi nel naso alla fine della guarigione. Anche se viene eseguita una revisione, si può ottenere un cattivo risultato. Il tasso di successo della chirurgia di revisione varia a seconda della procedura eseguita, ma è inferiore rispetto a un paziente che non ha mai subito un intervento chirurgico. 
-Pertanto, il primo e unico obiettivo del tuo intervento chirurgico è risolvere l'intero problema in un'unica operazione e avere un periodo di recupero senza problemi. Per ottenere questo risultato, l'uso regolare dei farmaci postoperatori, SMETTERE DI FUMARE, l'applicazione di massaggi ecc. necessari da applicare al naso e i controlli come raccomandato sono MOLTO IMPORTANTI, tanto quanto ciò che viene fatto nell'intervento chirurgico.`
+La revisione potrebbe non essere eseguita per tutti i problemi che possono verificarsi nel naso alla fine della guarigione. Anche se viene eseguita la revisione, si può ottenere un cattivo risultato. Sebbene il tasso di successo dell'intervento di revisione vari a seconda della procedura da eseguire, è inferiore rispetto a un paziente che non ha mai subito un intervento chirurgico.
+Pertanto, il primo e unico obiettivo nel tuo intervento è risolvere l'intero problema con un singolo intervento e avere un periodo di recupero senza problemi. Per ottenere questo risultato, l'uso regolare di farmaci post-operatori, NON FUMARE, applicare massaggi ecc. richiesti per essere applicati ai controlli e sul naso come raccomandato è MOLTO IMPORTANTE, tanto quanto ciò che viene fatto nell'intervento chirurgico.`
+              }
+            ]
           }
         ]
       },
@@ -2074,7 +2547,7 @@ Uso dei farmaci
             * Il tuo obiettivo nel lavaggio non è pulire completamente l'interno del naso, ma garantire la pulizia del sangue e dei coaguli accumulati.
             * Dopo il processo di lavaggio, è sufficiente pulire la secrezione in uscita con un tovagliolo facendo un movimento di soffiaggio dell'aria con il naso, non soffiando il naso.
         * Spray Nazalnem:
-            * Lo scopo di questo spray è ridurre la secchezza all'interno del naso e accelerare la guarigione dei tessuti all'interno del naso con il suo effetto idratante e il supporto vitaminico. Deve essere spruzzato in entrambe le narici dopo il lavaggio.
+            * Lo scopo di questo spray è ridurre la secchezza all'interno del naso e accelerare la guarigione dei tessuti all'interno del naso con il suo effetto idratante e il supporto vitaminico. Il deve essere spruzzato in entrambe le narici dopo il lavaggio.
 
 Continua a tenere la testa alta e applica ghiaccio per 10 minuti ogni ora per 3 giorni (72 ore) dopo l'intervento chirurgico. (Svegliarsi 1-2 volte a notte è sufficiente).`
           }
@@ -2086,31 +2559,74 @@ Continua a tenere la testa alta e applica ghiaccio per 10 minuti ogni ora per 3 
         content: [
           {
             title: "Domande Frequenti",
-            text: `D: Quando posso fare il bagno dopo l'intervento chirurgico?
-R: Puoi fare il bagno il primo giorno dopo l'intervento chirurgico. 
-Non c'è nulla di male nel fare il bagno. Tuttavia, se hai intenzione di fare il bagno il primo giorno, chiedi aiuto a un parente. Durante il bagno, l'acqua non deve entrare in contatto con il naso e il nastro/gesso su di esso; preferibilmente lava/fatti lavare i capelli all'indietro. (Per 14 giorni.)
-
-D: Quando dovrei iniziare a prendere i miei farmaci?
-R: Devi iniziare a prendere tutti i farmaci la mattina successiva all'intervento chirurgico, dopo la dimissione. (Inclusi i farmaci per il lavaggio e l'idratazione nasale)
-Non hai bisogno di prendere farmaci il giorno dell'intervento chirurgico, cioè mentre sei in ospedale. Il tuo trattamento sarà effettuato dagli infermieri.
-
-D: Quando posso viaggiare dopo l'intervento chirurgico?
-R: Puoi volare dal 5° giorno se il tuo medico lo ritiene opportuno. 
+            subsections: [
+              {
+                title: "Quando posso fare il bagno dopo l'intervento chirurgico?",
+                text: `Puoi fare il bagno il primo giorno dopo l'intervento chirurgico. 
+Non c'è nulla di male nel fare il bagno. Tuttavia, se hai intenzione di fare il bagno il primo giorno, chiedi aiuto a un parente. Durante il bagno, l'acqua non deve entrare in contatto con il naso e il nastro/gesso su di esso; preferibilmente lava/fatti lavare i capelli all'indietro. (Per 14 giorni.)`
+              },
+              {
+                title: "Quando dovrei iniziare a prendere i miei farmaci?",
+                text: `Devi iniziare a prendere tutti i farmaci la mattina successiva all'intervento chirurgico, dopo la dimissione. (Inclusi i farmaci per il lavaggio e l'idratazione nasale)
+Non hai bisogno di prendere farmaci il giorno dell'intervento chirurgico, cioè mentre sei in ospedale. Il tuo trattamento sarà effettuato dagli infermieri.`
+              },
+              {
+                title: "Quando posso viaggiare dopo l'intervento chirurgico?",
+                text: `Puoi volare dal 5° giorno se il tuo medico lo ritiene opportuno. 
 Tuttavia, questo periodo può essere esteso a seconda dell'intervento chirurgico eseguito.
-Puoi viaggiare via terra il primo giorno dopo l'intervento chirurgico. (A condizione che non sia troppo lungo)
+Puoi viaggiare per via terrestre il primo giorno dopo l'intervento chirurgico. (A condizione che non sia troppo lungo)`
+              },
+              {
+                title: "Quando posso indossare gli occhiali dopo l'intervento chirurgico?",
+                text: "Puoi indossare occhiali leggeri per brevi periodi a partire dal 3° mese al più presto. Dal 6° mese, puoi indossare gli occhiali come desideri."
+              },
+              {
+                title: "Quando posso fare sport?",
+                text: `Puoi fare sport con camminata leggera e pesi non molto pesanti alla 2a settimana dopo l'intervento chirurgico. 
+Dal 1° mese, è possibile fare sport al ritmo desiderato. Tuttavia, dovresti evitare sport competitivi in cui può essere applicata forza al naso e c'è il rischio di trauma.`
+              },
+              {
+                title: "Quando posso nuotare?",
+                text: "Puoi nuotare in mare dalla 2a settimana, e in piscina dalla 4a settimana. Non devi immergerti o immergerti con una maschera per 12 mesi."
+              },
+              {
+                title: "Quando posso dormire di lato?",
+                text: "Puoi girarti di lato nel letto dalla 2a settimana dopo l'intervento chirurgico. Tuttavia, il tuo naso non deve toccare l'orella o il letto e non deve essere esposto a forza."
+              },
+              {
+                title: "Quando posso tornare al lavoro?",
+                text: `Si consiglia di riposare per 7 giorni dopo l'intervento. A tal fine, su richiesta verrà rilasciato un referto medico. Possiamo aiutare i pazienti che richiedono un referto più lungo fino a 10 giorni.
 
-D: Quando posso indossare gli occhiali dopo l'intervento chirurgico?
-R: Puoi indossare occhiali leggeri per brevi periodi a partire dal 3° mese al più presto. Dal 6° mese, puoi indossare gli occhiali come desideri.
+Tuttavia, se devi svolgere lavori d'ufficio/al computer, puoi farlo nella prima settimana mentre hai il tampone e il gesso sul naso.
 
-D: Quando posso fare sport?
-R: Puoi fare sport con camminata leggera e pesi non molto pesanti alla 2a settimana dopo l'intervento chirurgico. 
-Dal 1° mese, è possibile fare sport al ritmo desiderato. Tuttavia, dovresti evitare sport competitivi in cui può essere applicata forza al naso e c'è il rischio di trauma.
+Durante questa prima settimana, è importante consumare molti liquidi, camminare e riposare con la testa sollevata.`
+              },
+              {
+                title: "Cos'è un modellatore per narici (Nostril Retainer)?",
+                text: `Nostril retainer (modellatore per narici); è un apparecchio utilizzato nelle narici che viene applicato al naso durante o dopo l'intervento chirurgico, che i pazienti possono facilmente mettere e togliere.
+Il motivo per utilizzare questo prodotto non è dare forma a un naso problematico, ma garantire che la simmetria ottenuta nell'intervento rimanga tale e che le strutture guariscano simmetricamente su questo stampo di plastica durante la guarigione della punta nasale.
 
-D: Quando posso nuotare?
-R: Puoi nuotare in mare dalla 2a settimana e in piscina dalla 4a settimana. Non devi immergerti o immergerti con una maschera per 12 mesi.
+La durata dell'uso è solitamente: Tutto il giorno per 2 mesi, poi 8-12 ore al giorno per 2 mesi.
+Le informazioni reali sono modellate specificamente per il paziente e ti verranno comunicate durante i controlli.`
+              },
+              {
+                title: "Devo fare un massaggio al naso?",
+                text: `Dopo la rimozione del gesso sul naso, ti verrà consigliato un massaggio al naso.
+Devi applicare questo massaggio consigliato 5 volte al giorno, per 2 minuti + 30 secondi.
+Applicare il massaggio per circa 6 mesi contribuirà al processo di guarigione.
 
-D: Quando posso dormire di lato?
-R: Puoi girarti di lato nel letto dalla 2a settimana dopo l'intervento chirurgico. Tuttavia, il tuo naso non deve toccare il cuscino o il letto e non deve essere esposto a forza.`
+Il massaggio ha 2 scopi principali:
+1- Aumentando il drenaggio linfatico, assicura la riduzione dell'edema sottocutaneo tra l'osso e la pelle del naso.
+2- Impedisce al restringimento nasale formatosi grazie alle ossa nasali rotte (tagliate) di espandersi nuovamente con l'effetto dell'edema e fornisce supporto meccanico affinché il naso guarisca nel modo desiderato.`
+              },
+              {
+                title: "Quando può essere eseguito un intervento di revisione?",
+                text: `L'intervento di revisione non deve essere eseguito prima del 6° mese dall'intervento, salvo casi eccezionali.
+Il momento ideale è farlo dopo 12 mesi.
+Tuttavia, se il problema al naso crea problemi irreversibili e il tempo che passa distruggerà la possibile possibilità, possono essere eseguiti anche interventi di revisione più precoci.
+Ma se i problemi funzionali visivi non sono di natura tale da richiedere un intervento urgente, attendere un minimo di 12 mesi massimizzerà il beneficio da ottenere dall'intervento di revisione.`
+              }
+            ]
           }
         ]
       }
@@ -2205,39 +2721,52 @@ Nu este realist să se deseneze exact ce rezultat se va obține la sfârșitul v
         content: [
           {
             title: "PROCESUL POST-OPERATOR",
-            text: `La sfârșitul operației, vor exista suturi estetice fine la locul inciziei pe pielea dintre nări (columelă), un stent/tampon cu o gaură în interior care nu vă împiedică să respirați în interiorul nasului, precum și o bandă specială și o atelă de plastic (ghips) pe nas. Dacă au existat intervenții asupra aripilor nasului, vor exista și suturi în partea aripii nasului.
+            text: `La sfârșitul operației, va exista o incizie estetică fină și o sutură pe pielea dintre nări (columelă), un stent/tampon cu o gaură în interior care nu vă împiedică să respirați în interiorul nasului, și o bandă specială și o atelă de plastic (ghips) pe nas. Dacă aripile nazale au fost intervenite, vor exista și suturi în partea aripii nazale.`,
+            subsections: [
+              {
+                title: "Îndepărtarea tamponului și a ghipsului",
+                text: `Tamponul, banda și atela de pe nas vor fi îndepărtate la controlul din prima săptămână (5-7 zile) a operației dumneavoastră. (În unele cazuri speciale, tamponul din interiorul nasului poate fi îndepărtat mai devreme.)
 
-Îndepărtarea tamponului și a ghipsului: Tamponul, banda și atela de pe nas vor fi îndepărtate la controlul din prima săptămână (5-7 zile) a operației dumneavoastră. (În unele cazuri, tamponul din interiorul nasului poate fi îndepărtat mai devreme).
-Uneori în timpul operației, și alteori după îndepărtarea tamponului după operație, poate fi necesară utilizarea unui aparat de silicon (dispozitiv de reținere a nărilor) pentru forma vârfului nasului și simetria nărilor. 
-La pacienții cu edem excesiv al nasului, ghipsul poate fi aplicat din nou la primul control.
-La pacienții cu piele groasă și edematoasă, se poate recomanda aplicarea continuă și/sau nocturnă a benzilor după operație. (Pentru o perioadă de 1-2 luni)
+Uneori în timpul operației, și alteori după îndepărtarea tamponului după operație, poate fi necesară utilizarea unui aparat de silicon (dispozitiv de reținere a nărilor) pentru forma vârfului nazal și simetria nărilor.
+La pacienții cu edem excesiv în nas, ghipsul poate fi reaplicat la primul control.
+La pacienții cu piele nazală groasă și edematoasă, se poate recomanda bandajarea continuă și/sau nocturnă după operație. (Pentru o perioadă de 1-2 luni)`
+              },
+              {
+                title: "Vânătăi și umflături sub ochi",
+                text: `În cazurile în care se efectuează o intervenție osoasă în operația dumneavoastră, va exista o oarecare umflare și vânătăi în jurul nasului și sub ochi. Această situație atinge maximul în a 3-a-4-a zi după operație.
+Umflarea și vânătăile sunt reduse semnificativ în prima săptămână și dispar complet la majoritatea pacienților în a 2-a săptămână.
+Implementarea completă a medicamentelor postoperatorii și a aplicațiilor necesare va asigura că veți trece prin acest proces mult mai ușor.
 
-Vânătăi și umflături sub ochi: În cazurile în care se efectuează o intervenție asupra osului în timpul operației, vor exista unele umflături și vânătăi în jurul nasului și sub ochi. Această situație atinge maximul în a 3-a - a 4-a zi după operație. 
-Edemul și vânătăile scad semnificativ în prima săptămână și dispar complet la majoritatea pacienților în a 2-a săptămână. 
-Executarea completă a medicamentelor postoperatorii și a procedurilor necesare vă va asigura că veți trece prin acest proces mult mai ușor.
-Trebuie aplicat rece în jurul nasului și sub ochi pentru a minimiza vânătăile și umflăturile care vor apărea după operație. 
-Gheața vă va fi furnizată în timpul șederii dumneavoastră în spital, dar puteți procura un pachet de gheață cu gel pentru uz casnic. 
-(Soluție practică: Puteți folosi mazăre congelată etc. într-o pungă de congelator pentru aplicarea la rece).
+Aplicarea rece ar trebui făcută în jurul nasului și sub ochi pentru a minimiza vânătăile și umflarea după operație.
+Gheața vă va fi dată în timpul spitalizării, dar puteți obține un pachet de gheață sub formă de gel pentru uz casnic.
+(Soluție practică: Puteți folosi mazăre congelată, năut etc. într-o pungă de frigider pentru aplicarea rece.)`
+              },
+              {
+                title: "Edem postoperator și forma finală a nasului",
+                text: "Edemul format în nas scade în 3 perioade principale:",
+                items: [
+                  "După reducerea rapidă a edemului în prima perioadă de 2 săptămâni, veți vedea noua structură a nasului dumneavoastră cu liniile și unghiurile sale principale în a doua săptămână. Cu toate acestea, nasul dumneavoastră va fi încă foarte umflat.",
+                  "În perioada următoare de aproximativ 2-3 luni, edemul, în special în spate, vârf și părțile laterale ale aripilor nasului, va scădea treptat în timp și aproximativ 70% din edem va trece.",
+                  "Pentru partea rămasă de 30%, va fi necesar aproximativ 1-1,5 ani mai mult timp."
+                ],
+                subtext: `Aceste perioade menționate sunt perioade medii, iar structura pielii nasului și caracteristicile de vindecare a rănilor sunt principalii factori determinanți pentru procesul și cantitatea de edem și umflare în nas care trece. (Timp x1,5-2 pentru piele groasă)
 
+Procedurile efectuate pe țesuturile cartilaginoase și osoase din interiorul nasului sunt diferite la fiecare pacient.
+În unele tehnici chirurgicale utilizate, poate exista o mișcare descendentă în vârful nazal în perioada de 4-6 săptămâni după operație asociată cu așezarea și o oarecare slăbire a cartilajelor și suturilor în timp și cu efectul gravitației. Datorită acestei situații, vârful nazal poate fi ușor ridicat în perioada timpurie după operație. (nu este valabil pentru fiecare pacient.)`
+              },
+              {
+                title: "Evitarea forțelor fizice pe nas",
+                text: `Nasul dumneavoastră nu ar trebui să fie expus la o forță fizică necontrolată timp de 4 luni după operație. Problemele care pot apărea în această perioadă când vindecarea osoasă nu este încă finalizată pot crea probleme permanente în vindecarea nazală. Ar trebui să evitați activitățile care pot crea traume nazale și nu ar trebui să purtați ochelari în această perioadă de 4 luni.
 
-Edemul postoperator și nasul care își ia forma finală:
-Edemul format în nas scade în 3 perioade principale:
-* După scăderea rapidă a edemului în primele 2 săptămâni, veți vedea noua structură a nasului dumneavoastră cu liniile și unghiurile sale principale în a doua săptămână. Cu toate acestea, nasul dumneavoastră va fi încă foarte umflat.
-* În perioada următoare de aproximativ 2-3 luni, edemul, în special pe spate, vârf și părțile laterale ale aripilor nasului, va scădea treptat în timp, și aproximativ 70% din edem va trece. 
-* Va mai dura aproximativ 1-1,5 ani pentru restul de 30%. 
-
-Aceste perioade menționate sunt perioade medii, iar structura pielii nasului și caracteristicile de vindecare a rănilor sunt principalii factori determinanți pentru procesul și cantitatea de edem și umflare a nasului. (Pentru pielea groasă, perioade x1,5-2)
-Procedurile efectuate asupra țesuturilor cartilaginoase și osoase din interiorul nasului sunt diferite la fiecare pacient.
-În unele tehnici chirurgicale utilizate, din cauza așezării și a unei anumite relaxări a cartilajelor și suturilor în timp și cu gravitația, se poate observa o anumită mișcare descendentă a vârfului nasului în perioada de 4-6 săptămâni după operație. Din cauza acestei situații, vârful nasului dumneavoastră poate fi puțin ridicat în perioada postoperatorie timpurie. (nu este valabil pentru fiecare pacient).
-
-Evitarea impacturilor fizice asupra nasului:
-Nasul dumneavoastră nu trebuie expus la o forță fizică necontrolată timp de 4 luni după operație. Problemele care pot apărea în această perioadă în care fuziunea osoasă nu este încă finalizată pot crea probleme permanente în vindecarea nasului. În această perioadă de 4 luni, trebuie să evitați activitățile care pot provoca traumatisme nasului și nu trebuie să purtați ochelari. 
-Dacă nu puteți purta lentile, trebuie neapărat să fiți evaluat cu privire la acest subiect înainte de operație. Trebuie să puteți purta lentile înainte de operație.
-
-Sport/Exerciții: 
-Activitățile sportive ușoare care nu provoacă o creștere a pulsului pot fi efectuate începând cu a 2-a săptămână după operație. 
-Începând cu a 4-a săptămână, sunt permise activitățile care cresc pulsul unde nu există risc de traumatism. Începând cu a 2-a lună, puteți face sport în ritmul dorit.
+Dacă nu puteți folosi lentile, trebuie neapărat să fiți evaluat în acest sens înainte de operație. Ar trebui să puteți folosi lentile înainte de operație.`
+              },
+              {
+                title: "Sport/Exerciții",
+                text: `Activități sportive ușoare care nu cauzează creșterea pulsului pot fi făcute începând cu a 2-a săptămână după operație.
+Din a 4-a săptămână, activitățile care cresc pulsul unde nu există risc de traumă sunt libere. Din a 2-a lună, puteți face sport în ritmul dorit.
 Puteți intra în mare începând cu a 2-a săptămână după operație, și în piscină începând cu prima lună.`
+              }
+            ]
           },
           {
             title: "FUMATUL",
@@ -2264,22 +2793,30 @@ Pacientul care consumă țigări se va vindeca DEFINITIV prost.`
         content: [
           {
             title: "RISCURI POSIBILE LEGATE DE CHIRURGIE",
-            text: `Deoarece operația dumneavoastră va fi efectuată sub anestezie generală, vor fi efectuate teste pentru evaluarea riscurilor înainte de operație și veți fi evaluat de medicii din departamentul de anestesiologie.
-Dacă aveți un risc suplimentar în afara standardului în ceea ce privește anestezia, veți fi informat separat.
-Riscurile chirurgicale posibile care pot fi întâlnite specific cu nasul dumneavoastră vă vor fi, de asemenea, explicate în timpul examinării. Vă rugăm să citiți cu atenție restul paginii.
+            text: `Deoarece operația dumneavoastră va fi efectuată sub anestezie generală, testele dumneavoastră vor fi efectuate pentru evaluarea riscurilor înainte de operație și veți fi evaluat de medicii departamentului de Anesteziologie.
+Dacă aveți un risc suplimentar, altul decât cel standard legat de anestezie, veți fi informat separat.
+Riscurile chirurgicale posibile care pot fi întâlnite în mod specific cu nasul dumneavoastră vă vor fi, de asemenea, explicate în timpul examinării. Vă rugăm să citiți cu atenție restul paginii.`,
+            subsections: [
+              {
+                title: "Riscul de Sângerare",
+                text: `Sângerarea sub forma unei cantități mici de scurgere din nas timp de 24-48 de ore după operație este o situație așteptată. Pentru aceasta, veți avea un tampon de pânză lipit pe vârful nasului. Puteți scoate această bandă când mergeți acasă după externare a doua zi după operație. În zilele următoare, puteți avea o cantitate mică de sângerare sub formă de picături care va fi suficientă pentru a șterge cu un șervețel. Cu toate acestea, deși rar, dacă există mai multă sângerare, poate fi necesar să aplicați bumbac/tampon medicat pe nas, să administrați medicamente prin venă sau să efectuați o intervenție chirurgicală pentru sângerarea din nas.`
+              },
+              {
+                title: "Riscul de Infecție",
+                text: `Condițiile de sterilizare sunt pe deplin respectate și tratamentul cu antibiotice este aplicat pentru a proteja zona chirurgicală de infecție în timpul și după operație. În plus, este foarte important să nu atingeți zona chirurgicală și suturile cu mâini necurate după operație. Cu toate acestea, în ciuda tuturor acestor precauții, o infecție poate apărea în nas după operație. Poate fi necesar să utilizați antibiotice pentru o perioadă mai lungă de timp sau să efectuați intervenții simple sau complicate din cauza infecțiilor care apar în interiorul nasului. Infecția care poate apărea poate cauza probleme funcționale sau cosmetice în nas. Poate fi necesară o intervenție chirurgicală de revizuire din cauza problemelor cosmetice care apar.`
+              },
+              {
+                title: "Riscul de Revizuire (Re-operație)",
+                text: `Deși singurul nostru obiectiv este să obținem cel mai bun rezultat după operație, un rezultat care necesită o intervenție chirurgicală de revizuire poate apărea din cauza problemelor care apar în timpul procesului de vindecare. Motivele posibile includ; un traumatism la nas, probleme legate de cartilaj/os/sutură în interiorul nasului sau probleme care pot apărea în piele și țesuturile moi de pe nas. Probabilitatea ca o astfel de situație să apară este de aproximativ 3-5%.
 
-Risc de sângerare: O sângerare sub forma unei cantități mici de scurgere din nas timp de 24-48 de ore după operație este o situație așteptată. Pentru aceasta, veți avea un tampon de tifon lipit la vârful nasului. Puteți îndepărta această bandă când ajungeți acasă după externare, a doua zi după operație. În zilele următoare, puteți avea sângerări sub formă de picături unde va fi suficient să ștergeți cu un șervețel. Cu toate acestea, deși rar, în caz de sângerare majoră, poate fi necesar să aplicați bumbac/tampon medical pe nas, să administrați medicamente intravenos sau să efectuați o intervenție chirurgicală asupra sângerării din nas.
+Intervenția necesară poate fi o procedură limitată care poate fi rezolvată cu anestezie locală sau poate fi o intervenție chirurgicală în care nasul trebuie remodelat. Nici în prima operație, nici în intervenția chirurgicală de revizuire care poate fi efectuată dacă este necesar, nu vi se poate promite o garanție cu privire la rezultat.
+Nu se percepe nicio taxă medicală în caz de cerință de revizuire.
+Cu toate acestea, dacă intervenția de revizuire este o procedură care trebuie efectuată în sala de operație, vi se va percepe o taxă pentru a include doar costurile sălii de operație, medicamentelor, asistenței medicale și anesteziei fără profitabilitatea spitalului.
 
-Risc de infecție: Condițiile de sterilizare sunt respectate pe deplin și se aplică un tratament cu antibiotice pentru a proteja zona chirurgicală împotriva infecției în timpul și după operație. În plus, este foarte important să nu atingeți zona chirurgicală și suturile cu mâinile murdare după operație. Cu toate acestea, în ciuda tuturor acestor precauții, poate apărea o infecție în nas după operație. Poate fi necesar să utilizați antibiotice pentru o perioadă mai lungă sau să efectuați intervenții simple sau complicate din cauza infecțiilor care apar în interiorul nasului. Infecția apărută poate duce la probleme funcționale sau cosmetice în nas. Poate fi necesară o intervenție chirurgicală de revizuire din cauza problemelor cosmetice apărute.
-
-    Risc de revizuire (reoperare): Deși singurul nostru obiectiv este să obținem cel mai bun rezultat după operație, poate apărea un rezultat care necesită o intervenție chirurgicală de revizuire din cauza problemelor care apar în procesul de vindecare. Printre cauzele posibile se pot număra traumatismele nasului, probleme legate de cartilaj/os/suturi în interiorul nasului sau probleme care pot apărea în piele și țesuturile moi ale nasului. Probabilitatea ca o astfel de situație să apară este de aproximativ 3-5%.
-
-Intervenția necesară poate fi o procedură limitată care poate fi rezolvată sub anestezie locală, sau poate fi o operație în care nasul trebuie refăcut. Nici la prima operație, nici la operația de revizuire care poate fi făcută dacă este necesar, nu vi se poate promite nicio garanție cu privire la rezultat.
-În caz de necesitate de revizuire, nu se solicită onorariu medical. 
-Cu toate acestea, dacă intervenția de revizuire este o procedură care trebuie efectuată în sala de operație, vi se va percepe doar costul sălii de operație, medicamentelor, asistenței medicale și anesteziei, fără profit pentru spital.
-
-Revizuirea poate să nu fie posibilă pentru toate problemele care pot apărea în nas la sfârșitul vindecării. Chiar dacă se efectuează o revizuire, se poate obține un rezultat prost. Rata de succes a chirurgiei de revizuire variază în funcție de procedura efectuată, dar este mai mică în comparație cu un pacient care nu a suferit niciodată o intervenție chirurgicală. 
-Prin urmare, primul și singurul obiectiv al operației dumneavoastră este să rezolvați întreaga problemă într-o singură operație și să aveți o perioadă de recuperare fără probleme. Pentru a obține acest rezultat, utilizarea regulată a medicamentelor postoperatorii, OPRIREA FUMATULUI, aplicarea masajelor etc. necesare a fi aplicate nasului și controalele conform recomandărilor sunt FOARTE IMPORTANTE, la fel de mult ca ceea ce se face în operație.`
+Revizuirea poate să nu fie efectuată pentru toate problemele care pot apărea în nas la sfârșitul vindecării. Chiar dacă se efectuează revizuirea, se poate obține un rezultat prost. Deși rata de succes a intervenției chirurgicale de revizuire variază în funcție de procedura care trebuie efectuată, este mai mică în comparație cu un pacient care nu a avut niciodată o intervenție chirurgicală.
+Prin urmare, primul și singurul obiectiv în operația dumneavoastră este să rezolvați întreaga problemă cu o singură operație și să aveți o perioadă de recuperare fără probleme. Pentru a obține acest rezultat, utilizarea regulată a medicamentelor postoperatorii, NU FUMAȚI, aplicarea masajelor etc. necesare pentru a fi aplicate la controale și pe nas așa cum este recomandat este FOARTE IMPORTANTĂ, la fel de mult ca ceea ce se face în operație.`
+              }
+            ]
           }
         ]
       },
@@ -2390,31 +2927,74 @@ Continuați să țineți capul sus și aplicați gheață timp de 10 minute în 
         content: [
           {
             title: "Întrebări frecvente",
-            text: `Î: Când pot face baie după operație?
-R: Puteți face baie în prima zi după operație. 
-Nu este nimic rău în a face baie. Cu toate acestea, dacă aveți de gând să faceți baie în prima zi, cereți ajutorul unei rude. În timpul băii, apa nu trebuie să intre în contact cu nasul și banda/ghipsul de pe el; spălați/lăsați să vi se spele părul preferabil pe spate. (Timp de 14 zile.)
-
-Î: Când ar trebui să încep să iau medicamentele?
-R: Trebuie să începeți să utilizați toate medicamentele în dimineața următoare operației, după externare. (Inclusiv medicamentele pentru spălarea și hidratarea nazală)
-Nu aveți nevoie să luați medicamente în ziua operației, adică în timp ce sunteți în spital. Tratamentul dumneavoastră va fi efectuat de asistente.
-
-Î: Când pot călători după operație?
-R: Puteți zbura începând cu a 5-a zi dacă medicul dumneavoastră consideră oportun. 
+            subsections: [
+              {
+                title: "Când pot face baie după operație?",
+                text: `Puteți face baie în prima zi după operație. 
+Nu este nimic rău în a face baie. Cu toate acestea, dacă aveți de gând să faceți baie în prima zi, cereți ajutorul unei rude. În timpul băii, apa nu trebuie să intre în contact cu nasul și banda/ghipsul de pe el; spălați/lăsați să vi se spele părul preferabil pe spate. (Timp de 14 zile.)`
+              },
+              {
+                title: "Când ar trebui să încep să iau medicamentele?",
+                text: `Trebuie să începeți să utilizați toate medicamentele în dimineața următoare operației, după externare. (Inclusiv medicamentele pentru spălarea și hidratarea nazală)
+Nu aveți nevoie să luați medicamente în ziua operației, adică în timp ce sunteți în spital. Tratamentul dumneavoastră va fi efectuat de asistente.`
+              },
+              {
+                title: "Când pot călători după operație?",
+                text: `Puteți zbura începând cu a 5-a zi dacă medicul dumneavoastră consideră oportun. 
 Cu toate acestea, această perioadă poate fi prelungită în funcție de operația efectuată.
-Puteți călători pe cale terestră în prima zi după operație. (Cu condiția să nu fie prea lung)
+Puteți călători pe cale terestră în prima zi după operație. (Cu condiția să nu fie prea lung)`
+              },
+              {
+                title: "Când pot purta ochelari după operație?",
+                text: "Puteți purta ochelari ușori pentru perioade scurte începând cu a 3-a lună cel mai devreme. Începând cu a 6-a lună, puteți purta ochelari așa cum doriți."
+              },
+              {
+                title: "Când pot face sport?",
+                text: `Puteți face sport cu mers ușor și greutăți nu foarte mari în a 2-a săptămână după operație. 
+Începând cu prima lună, este posibil să faceți sport în ritmul dorit. Cu toate acestea, ar trebui să evitați sporturile competitive în care se poate aplica forță asupra nasului și există riscul de traumatism.`
+              },
+              {
+                title: "Când pot înota?",
+                text: "Puteți înota în mare începând cu a 2-a săptămână, și în piscină începând cu a 4-a săptămână. Nu trebuie să vă scufundați sau să vă scufundați cu o mască timp de 12 luni."
+              },
+              {
+                title: "Când pot dormi pe o parte?",
+                text: "Vă puteți întoarce pe o parte în pat începând cu a 2-a săptămână după operație. Cu toate acestea, nasul dumneavoastră nu trebuie să atingă perna sau patul și nu trebuie expus la forță."
+              },
+              {
+                title: "Când mă pot întoarce la muncă?",
+                text: `Se recomandă să vă odihniți timp de 7 zile după operație. Pentru aceasta, la cererea dumneavoastră se va elibera un raport medical. Putem ajuta pacienții care solicită un raport mai lung până la 10 zile.
 
-Î: Când pot purta ochelari după operație?
-R: Puteți purta ochelari ușori pentru perioade scurte începând cu a 3-a lună cel mai devreme. Începând cu a 6-a lună, puteți purta ochelari așa cum doriți.
+Cu toate acestea, dacă trebuie să faceți muncă de birou/ecran, o puteți face în prima săptămână cât timp aveți tamponul și ghipsul pe nas.
 
-Î: Când pot face sport?
-R: Puteți face sport cu mers ușor și greutăți nu foarte mari în a 2-a săptămână după operație. 
-Începând cu prima lună, este posibil să faceți sport în ritmul dorit. Cu toate acestea, ar trebui să evitați sporturile competitive în care se poate aplica forță asupra nasului și există riscul de traumatism.
+În această primă săptămână, este important să consumați multe lichide, să mergeți și să vă odihniți cu capul ridicat.`
+              },
+              {
+                title: "Ce este un conformator nazal (Nostril Retainer)?",
+                text: `Nostril retainer (conformator nazal); este un aparat folosit în nări care se aplică pe nas în timpul sau după operație, pe care pacienții îl pot pune și scoate cu ușurință.
+Motivul utilizării acestui produs nu este de a da formă unui nas problematic, ci de a asigura că simetria obținută în operație rămâne așa și că structurile se vindecă simetric pe acest mulaj de plastic în timpul vindecării vârfului nazal.
 
-Î: Când pot înota?
-R: Puteți înota în mare începând cu a 2-a săptămână, și în piscină începând cu a 4-a săptămână. Nu trebuie să vă scufundați sau să vă scufundați cu o mască timp de 12 luni.
+Durata de utilizare este de obicei: Toată ziua timp de 2 luni, apoi 8-12 ore pe zi timp de 2 luni.
+Informațiile reale sunt modelate specific pentru pacient și vi se vor comunica în timpul controalelor.`
+              },
+              {
+                title: "Trebuie să fac masaj nazal?",
+                text: `După îndepărtarea ghipsului de pe nas, vi se va recomanda masajul nazal.
+Trebuie să aplicați acest masaj recomandat de 5 ori pe zi, timp de 2 minute + 30 de secunde.
+Aplicarea masajului timp de aproximativ 6 luni va contribui la procesul de vindecare.
 
-Î: Când pot dormi pe o parte?
-R: Vă puteți întoarce pe o parte în pat începând cu a 2-a săptămână după operație. Cu toate acestea, nasul dumneavoastră nu trebuie să atingă perna sau patul și nu trebuie expus la forță.`
+Masajul are 2 scopuri principale:
+1- Prin creșterea drenajului limfatic, asigură reducerea edemului subcutanat dintre os și piele în nas.
+2- Previne ca îngustarea nazală formată datorită oaselor nazale rupte (tăiate) să se extindă din nou cu efectul edemului și oferă suport mecanic pentru ca nasul să se vindece în modul dorit.`
+              },
+              {
+                title: "Când se poate efectua o intervenție chirurgicală de revizie?",
+                text: `Chirurgia de revizie nu trebuie efectuată înainte de a 6-a lună de la operație, cu excepția cazurilor excepționale.
+Timpul ideal este de a o face după 12 luni.
+Cu toate acestea, dacă problema din nas creează probleme ireversibile și timpul care trece va distruge șansa posibilă, se pot efectua și intervenții chirurgicale de revizie mai timpurii.
+Dar dacă problemele funcționale vizuale nu sunt de natură să necesite o intervenție urgentă, așteptarea a minim 12 luni va maximiza beneficiul care trebuie obținut din chirurgia de revizie.`
+              }
+            ]
           }
         ]
       }

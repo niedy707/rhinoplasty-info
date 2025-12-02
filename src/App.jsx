@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import { content } from './data/content';
 import LanguageSelector from './components/LanguageSelector';
@@ -35,142 +35,167 @@ const MobileNavigation = ({ handlePrevTab, handleNextTab, currentContent, active
   </div>
 );
 
-function App() {
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null, errorInfo: null };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    this.setState({ error, errorInfo });
+    console.error("ErrorBoundary caught an error", error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ padding: 20, color: 'red' }}>
+          <h1>Something went wrong.</h1>
+          <details style={{ whiteSpace: 'pre-wrap' }}>
+            {this.state.error && this.state.error.toString()}
+            <br />
+            {this.state.errorInfo && this.state.errorInfo.componentStack}
+          </details>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+
+function AppContent() {
+  console.log("AppContent rendering...");
   const [lang, setLang] = useState(() => {
     if (typeof window !== 'undefined') {
       const hostname = window.location.hostname;
-      if (hostname.startsWith('rhinoplasty')) return 'en';
+      if (hostname.includes('rinoplasti.info') || hostname.includes('burunestetigi.info')) return 'tr';
+      if (hostname.includes('rhinoplasty.info')) return 'en';
+      if (hostname.includes('nasenkorrektur.info')) return 'de';
+      if (hostname.includes('rinoplastia.info')) return 'es';
+      if (hostname.includes('rinoplastika.info')) return 'ru';
+      if (hostname.includes('rhinoplastie.info')) return 'fr';
+      if (hostname.includes('rinoplastica.info')) return 'it';
+      if (hostname.includes('rinoplastie.info')) return 'ro';
     }
-    return 'tr';
+    return 'tr'; // Default to Turkish
   });
 
-  // Initialize activeTabId based on the initial language
-  const [activeTabId, setActiveTabId] = useState(() => {
-    const initialLang = typeof window !== 'undefined' && window.location.hostname.startsWith('rhinoplasty') ? 'en' : 'tr';
-    return content[initialLang]?.tabs?.[0]?.id || null;
-  });
+  const [activeTabId, setActiveTabId] = useState('tab1');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLangChange = (newLang) => {
-    setLang(newLang);
-    const newTabs = content[newLang]?.tabs;
-    if (newTabs?.length > 0) {
-      const tabExists = newTabs.some(t => t.id === activeTabId);
-      if (!tabExists) {
-        setActiveTabId(newTabs[0].id);
-      }
-    } else {
-      setActiveTabId(null);
-    }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTabId]);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleLanguageChange = (e) => {
+    setLang(e.target.value);
+    setIsMenuOpen(false);
   };
 
   const currentContent = content[lang];
+  const activeTab = currentContent.tabs.find(tab => tab.id === activeTabId);
 
-  if (!currentContent) return <div className="loading">Loading...</div>;
-
-  const activeTab = currentContent.tabs?.find(t => t.id === activeTabId) || currentContent.tabs?.[0];
-
+  // Footer text translations
   const footerTranslations = {
-    tr: { title: "Rinoplasti", appointment: "Randevu için" },
-    en: { title: "Rhinoplasty", appointment: "For Appointment" },
-    de: { title: "Rhinoplastik", appointment: "Terminvereinbarung" },
-    es: { title: "Rinoplastia", appointment: "Para Cita" },
-    ru: { title: "Ринопластика", appointment: "Для записи" },
-    fr: { title: "Rhinoplastie", appointment: "Pour Rendez-vous" },
-    it: { title: "Rinoplastica", appointment: "Per Appuntamento" },
-    ro: { title: "Rinoplastie", appointment: "Pentru Programare" },
+    tr: { title: "KBB ve Yüz Cerrahisi Uzmanı", appointment: "Randevu için" },
+    en: { title: "ENT and Facial Plastic Surgeon", appointment: "For Appointment" },
+    de: { title: "HNO und Gesichtschirurg", appointment: "Terminvereinbarung" },
+    es: { title: "Otorrinolaringólogo y Cirujano Plástico Facial", appointment: "Para Cita" },
+    ru: { title: "ЛОР и лицевой пластический хирург", appointment: "Для записи" },
+    fr: { title: "ORL et Chirurgien Plastique Facial", appointment: "Pour Rendez-vous" },
+    it: { title: "ORL e Chirurgo Plastico Facciale", appointment: "Per Appuntamento" },
+    ro: { title: "ORL și Chirurg Plastic Facial", appointment: "Pentru Programare" }
   };
 
-  const footerText = footerTranslations[lang] || footerTranslations['en'];
-
-  const handlePrevTab = () => {
-    if (!currentContent.tabs) return;
-    const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-    if (currentIndex > 0) {
-      setActiveTabId(currentContent.tabs[currentIndex - 1].id);
-    }
-  };
-
-  const handleNextTab = () => {
-    if (!currentContent.tabs) return;
-    const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-    if (currentIndex < currentContent.tabs.length - 1) {
-      setActiveTabId(currentContent.tabs[currentIndex + 1].id);
-    }
-  };
-
-
+  const footerText = footerTranslations[lang] || footerTranslations.en;
 
   return (
     <div className="app-container">
       <header className="app-header">
         <div className="header-content">
           <h1>{currentContent.title}</h1>
-          <div className="header-controls">
-            <LanguageSelector currentLang={lang} onSelect={handleLangChange} />
+          <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
+            ☰
+          </button>
+          <div className={`language-selector ${isMenuOpen ? 'open' : ''}`}>
+            <select value={lang} onChange={handleLanguageChange}>
+              <option value="tr">Türkçe</option>
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="es">Español</option>
+              <option value="ru">Русский</option>
+              <option value="fr">Français</option>
+              <option value="it">Italiano</option>
+              <option value="ro">Română</option>
+            </select>
           </div>
         </div>
       </header>
 
-      <nav className="tab-navigation">
-        <MobileNavigation
-          handlePrevTab={handlePrevTab}
-          handleNextTab={handleNextTab}
-          currentContent={currentContent}
-          activeTabId={activeTabId}
-          setActiveTabId={setActiveTabId}
-        />
-        <div className="desktop-tabs">
-          {currentContent.tabs?.map(tab => (
-            <button
-              key={tab.id}
-              className={`tab-btn ${activeTabId === tab.id ? 'active' : ''}`}
-              onClick={() => setActiveTabId(tab.id)}
-            >
-              {tab.title}
-            </button>
-          ))}
-        </div>
+      <nav className="tabs-nav">
+        {currentContent.tabs.map(tab => (
+          <button
+            key={tab.id}
+            className={`tab-button ${activeTabId === tab.id ? 'active' : ''}`}
+            onClick={() => setActiveTabId(tab.id)}
+          >
+            {tab.title}
+          </button>
+        ))}
       </nav>
 
-      <main className="main-content">
-        {activeTab ? (
-          <div className="tab-content">
-            {activeTab.id === 'tab8' ? (
-              <FAQSection lang={lang} data={activeTab} />
-            ) : (
-              activeTab.content.map((section, index) => (
-                <InfoSection
-                  key={index}
-                  data={section}
-                />
-              ))
-            )}
-          </div>
+      <main className="tab-content">
+        {activeTabId === 'tab8' ? (
+          <FAQSection content={activeTab.content} />
         ) : (
-          // Fallback for languages not yet fully converted (if any)
-          <div className="legacy-content">
-            {currentContent.sections?.map((section, index) => (
-              <InfoSection key={section.id || index} data={section} />
-            ))}
-          </div>
+          activeTab.content.map((section, index) => (
+            <div key={index} className="content-section">
+              {section.title && <h2>{section.title}</h2>}
+              {section.text && <div className="text-content">{section.text.split('\n').map((line, i) => <p key={i}>{line}</p>)}</div>}
+
+              {section.items && (
+                <ul className="content-list">
+                  {section.items.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              )}
+
+              {section.subsections && section.subsections.map((sub, i) => (
+                <div key={i} className="subsection">
+                  {sub.title && <h3>{sub.title}</h3>}
+                  {sub.text && <div className="text-content">{sub.text.split('\n').map((line, j) => <p key={j}>{line}</p>)}</div>}
+                  {sub.items && (
+                    <ul className="content-list">
+                      {sub.items.map((item, j) => (
+                        <li key={j}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {sub.subtext && <div className="text-content subtext">{sub.subtext.split('\n').map((line, j) => <p key={j}>{line}</p>)}</div>}
+                </div>
+              ))}
+            </div>
+          ))
         )}
       </main>
-
-      <div className="bottom-navigation">
-        <MobileNavigation
-          handlePrevTab={handlePrevTab}
-          handleNextTab={handleNextTab}
-          currentContent={currentContent}
-          activeTabId={activeTabId}
-          setActiveTabId={setActiveTabId}
-        />
-      </div>
 
       <footer className="app-footer">
         <p className="footer-title">Op. Dr. Ibrahim YAGCI | {footerText.title} , Istanbul/TURKEY</p>
         <div className="footer-contact">
           <span>{footerText.appointment}: </span>
-          <a href="tel:+905511999963" className="phone-link">+(90)551-199-9963</a>
+          <a href={`tel:${lang === 'tr' ? '+905511999963' : '+905555511578'}`} className="phone-link">
+            {lang === 'tr' ? '+(90)551-199-9963' : '+(90)555-551-1578'}
+          </a>
           <a href={`https://wa.me/${lang === 'tr' ? '905511999963' : '905555511578'}`} target="_blank" rel="noopener noreferrer" className="whatsapp-link" aria-label="WhatsApp">
             <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
@@ -184,6 +209,14 @@ function App() {
         </div>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <ErrorBoundary>
+      <AppContent />
+    </ErrorBoundary>
   );
 }
 
