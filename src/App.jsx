@@ -123,34 +123,37 @@ function AppContent() {
       <header className="app-header">
         <div className="header-content">
           <h1>{currentContent.title}</h1>
-          <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
-            ☰
-          </button>
-          <div className={`language-selector ${isMenuOpen ? 'open' : ''}`}>
-            <select value={lang} onChange={handleLanguageChange}>
-              <option value="tr">Türkçe</option>
-              <option value="en">English</option>
-              <option value="de">Deutsch</option>
-              <option value="es">Español</option>
-              <option value="ru">Русский</option>
-              <option value="fr">Français</option>
-              <option value="it">Italiano</option>
-              <option value="ro">Română</option>
-            </select>
+          <div className="header-controls">
+            <LanguageSelector currentLang={lang} onSelect={handleLanguageChange} />
           </div>
         </div>
       </header>
 
-      <nav className="tabs-nav">
-        {currentContent.tabs.map(tab => (
-          <button
-            key={tab.id}
-            className={`tab-button ${activeTabId === tab.id ? 'active' : ''}`}
-            onClick={() => setActiveTabId(tab.id)}
-          >
-            {tab.title}
-          </button>
-        ))}
+      <nav className="tab-navigation">
+        <MobileNavigation
+          handlePrevTab={() => {
+            const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+            if (currentIndex > 0) setActiveTabId(currentContent.tabs[currentIndex - 1].id);
+          }}
+          handleNextTab={() => {
+            const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+            if (currentIndex < currentContent.tabs.length - 1) setActiveTabId(currentContent.tabs[currentIndex + 1].id);
+          }}
+          currentContent={currentContent}
+          activeTabId={activeTabId}
+          setActiveTabId={setActiveTabId}
+        />
+        <div className="desktop-tabs">
+          {currentContent.tabs.map(tab => (
+            <button
+              key={tab.id}
+              className={`tab-btn ${activeTabId === tab.id ? 'active' : ''}`}
+              onClick={() => setActiveTabId(tab.id)}
+            >
+              {tab.title}
+            </button>
+          ))}
+        </div>
       </nav>
 
       <main className="tab-content">
