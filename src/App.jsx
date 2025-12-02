@@ -96,8 +96,8 @@ function AppContent() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleLanguageChange = (e) => {
-    setLang(e.target.value);
+  const handleLanguageChange = (value) => {
+    setLang(value);
     setIsMenuOpen(false);
   };
 
