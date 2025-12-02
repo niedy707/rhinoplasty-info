@@ -106,14 +106,14 @@ function AppContent() {
 
   // Footer text translations
   const footerTranslations = {
-    tr: { title: "KBB ve Yüz Cerrahisi Uzmanı", appointment: "Randevu için" },
-    en: { title: "ENT and Facial Plastic Surgeon", appointment: "For Appointment" },
-    de: { title: "HNO und Gesichtschirurg", appointment: "Terminvereinbarung" },
-    es: { title: "Otorrinolaringólogo y Cirujano Plástico Facial", appointment: "Para Cita" },
-    ru: { title: "ЛОР и лицевой пластический хирург", appointment: "Для записи" },
-    fr: { title: "ORL et Chirurgien Plastique Facial", appointment: "Pour Rendez-vous" },
-    it: { title: "ORL e Chirurgo Plastico Facciale", appointment: "Per Appuntamento" },
-    ro: { title: "ORL și Chirurg Plastic Facial", appointment: "Pentru Programare" }
+    tr: { title: "Rinoplasti", country: "Türkiye", appointment: "Randevu için" },
+    en: { title: "Rhinoplasty", country: "Turkey", appointment: "For Appointment" },
+    de: { title: "Rhinoplastik", country: "Türkei", appointment: "Terminvereinbarung" },
+    es: { title: "Rinoplastia", country: "Turquía", appointment: "Para Cita" },
+    ru: { title: "Ринопластика", country: "Турция", appointment: "Для записи" },
+    fr: { title: "Rhinoplastie", country: "Turquie", appointment: "Pour Rendez-vous" },
+    it: { title: "Rinoplastica", country: "Turchia", appointment: "Per Appuntamento" },
+    ro: { title: "Rinoplastie", country: "Turcia", appointment: "Pentru Programare" }
   };
 
   const footerText = footerTranslations[lang] || footerTranslations.en;
@@ -193,7 +193,7 @@ function AppContent() {
       </main>
 
       <footer className="app-footer">
-        <p className="footer-title">Op. Dr. Ibrahim YAGCI | {footerText.title} , Istanbul/TURKEY</p>
+        <p className="footer-title">Op. Dr. Ibrahim YAGCI | {footerText.title} , Istanbul / {footerText.country}</p>
         <div className="footer-contact">
           <span>{footerText.appointment}: </span>
           <a href={`tel:${lang === 'tr' ? '+905511999963' : '+905555511578'}`} className="phone-link">
