@@ -1,42 +1,253 @@
-#root {
-  max-width: 1280px;
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --text-color: #333;
+  --bg-color: #f8f9fa;
+  --white: #ffffff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.header-content {
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.menu-toggle {
+  display: none;
+  /* Hidden on desktop by default */
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.language-selector select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+/* Tabs Navigation */
+.tabs-nav {
+  background-color: var(--white);
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tab-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #666;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.tab-button:hover {
+  background-color: #f0f0f0;
+  color: var(--primary-color);
+}
+
+.tab-button.active {
+  background-color: var(--primary-color);
+  color: var(--white);
+  box-shadow: 0 2px 4px rgba(44, 62, 80, 0.2);
+}
+
+/* Main Content */
+.tab-content {
+  flex: 1;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.content-section {
+  background-color: var(--white);
   padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  animation: fadeIn 0.5s ease;
+}
+
+.content-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.text-content p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.content-list {
+  list-style-position: inside;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+.content-list li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.content-list li::before {
+  content: "•";
+  color: var(--accent-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Subsections */
+.subsection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.subsection h3 {
+  color: var(--accent-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* Footer */
+.app-footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 2rem 1rem;
   text-align: center;
+  margin-top: auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.footer-title {
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
-@keyframes logo-spin {
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.phone-link {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+.whatsapp-link {
+  color: #25D366;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.whatsapp-link:hover {
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(10px);
   }
+
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 1.2rem;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .tabs-nav {
+    justify-content: flex-start;
+    padding: 1rem;
+  }
 
-.read-the-docs {
-  color: #888;
+  .content-section {
+    padding: 1.5rem;
+  }
+
+  .tab-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
 }

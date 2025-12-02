@@ -155,7 +155,7 @@ function AppContent() {
 
       <main className="tab-content">
         {activeTabId === 'tab8' ? (
-          <FAQSection content={activeTab.content} />
+          <FAQSection data={activeTab} lang={lang} />
         ) : (
           activeTab.content.map((section, index) => (
             <div key={index} className="content-section">
