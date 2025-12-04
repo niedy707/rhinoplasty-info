@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Temporary scripts
+*.py
+*.txt
+*.cjs
+update_translations.js

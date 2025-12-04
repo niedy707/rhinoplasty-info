@@ -31,6 +31,14 @@ body {
   flex-direction: column;
 }
 
+.app-subtitle {
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
 /* Header */
 .app-header {
   background: rgba(255, 255, 255, 0.9);

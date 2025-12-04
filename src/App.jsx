@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import { content } from './data/content';
 import LanguageSelector from './components/LanguageSelector';
-import InfoSection from './components/InfoSection';
 import FAQSection from './components/FAQSection';
+import EditableContentSection from './components/EditableContentSection';
+import { AdminProvider } from './context/AdminContext';
+import EditButton from './components/EditButton';
 
 const MobileNavigation = ({ handlePrevTab, handleNextTab, currentContent, activeTabId, setActiveTabId }) => (
   <div className="mobile-tab-select">
@@ -41,7 +43,7 @@ class ErrorBoundary extends React.Component {
     this.state = { hasError: false, error: null, errorInfo: null };
   }
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError() {
     return { hasError: true };
   }
 
@@ -69,7 +71,6 @@ class ErrorBoundary extends React.Component {
 }
 
 function AppContent() {
-  console.log("AppContent rendering...");
   const [lang, setLang] = useState(() => {
     if (typeof window !== 'undefined') {
       const hostname = window.location.hostname;
@@ -81,39 +82,37 @@ function AppContent() {
       if (hostname.includes('rhinoplastie.info')) return 'fr';
       if (hostname.includes('rinoplastica.info')) return 'it';
       if (hostname.includes('rinoplastie.info')) return 'ro';
+      if (hostname.includes('rinoplasztika.info')) return 'hu';
     }
     return 'tr'; // Default to Turkish
   });
 
-  const [activeTabId, setActiveTabId] = useState('tab1');
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeTabId, setActiveTabId] = useState('tab8');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [activeTabId]);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
-  const handleLanguageChange = (value) => {
-    setLang(value);
-    setIsMenuOpen(false);
-  };
 
   const currentContent = content[lang];
   const activeTab = currentContent.tabs.find(tab => tab.id === activeTabId);
 
+  const handleLanguageChange = (value) => {
+    setLang(value);
+  };
+
   // Footer text translations
   const footerTranslations = {
-    tr: { title: "Rinoplasti", country: "Türkiye", appointment: "Randevu için" },
-    en: { title: "Rhinoplasty", country: "Turkey", appointment: "For Appointment" },
-    de: { title: "Rhinoplastik", country: "Türkei", appointment: "Terminvereinbarung" },
-    es: { title: "Rinoplastia", country: "Turquía", appointment: "Para Cita" },
-    ru: { title: "Ринопластика", country: "Турция", appointment: "Для записи" },
-    fr: { title: "Rhinoplastie", country: "Turquie", appointment: "Pour Rendez-vous" },
-    it: { title: "Rinoplastica", country: "Turchia", appointment: "Per Appuntamento" },
-    ro: { title: "Rinoplastie", country: "Turcia", appointment: "Pentru Programare" }
+    tr: { title: "Rinoplasti", country: "Türkiye", appointment: "Bilgi için" },
+    en: { title: "Rhinoplasty", country: "Turkey", appointment: "For Information" },
+    de: { title: "Rhinoplastik", country: "Türkei", appointment: "Für Informationen" },
+    es: { title: "Rinoplastia", country: "Turquía", appointment: "Para Información" },
+    ru: { title: "Ринопластика", country: "Турция", appointment: "Для информации" },
+    fr: { title: "Rhinoplastie", country: "Turquie", appointment: "Pour Information" },
+    it: { title: "Rinoplastica", country: "Turchia", appointment: "Per Informazioni" },
+    ro: { title: "Rinoplastie", country: "Turcia", appointment: "Pentru Informații" },
+    hu: { title: "Rinoplasztika", country: "Törökország", appointment: "Információért" }
   };
 
   const footerText = footerTranslations[lang] || footerTranslations.en;
@@ -123,6 +122,7 @@ function AppContent() {
       <header className="app-header">
         <div className="header-content">
           <h1>{currentContent.title}</h1>
+          {currentContent.subtitle && <p className="app-subtitle"><i>{currentContent.subtitle}</i></p>}
           <div className="header-controls">
             <LanguageSelector currentLang={lang} onSelect={handleLanguageChange} />
           </div>
@@ -160,35 +160,12 @@ function AppContent() {
         {activeTabId === 'tab8' ? (
           <FAQSection data={activeTab} lang={lang} />
         ) : (
-          activeTab.content.map((section, index) => (
-            <div key={index} className="content-section">
-              {section.title && <h2>{section.title}</h2>}
-              {section.text && <div className="text-content">{section.text.split('\n').map((line, i) => <p key={i}>{line}</p>)}</div>}
-
-              {section.items && (
-                <ul className="content-list">
-                  {section.items.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              )}
-
-              {section.subsections && section.subsections.map((sub, i) => (
-                <div key={i} className="subsection">
-                  {sub.title && <h3>{sub.title}</h3>}
-                  {sub.text && <div className="text-content">{sub.text.split('\n').map((line, j) => <p key={j}>{line}</p>)}</div>}
-                  {sub.items && (
-                    <ul className="content-list">
-                      {sub.items.map((item, j) => (
-                        <li key={j}>{item}</li>
-                      ))}
-                    </ul>
-                  )}
-                  {sub.subtext && <div className="text-content subtext">{sub.subtext.split('\n').map((line, j) => <p key={j}>{line}</p>)}</div>}
-                </div>
-              ))}
-            </div>
-          ))
+          <EditableContentSection
+            key={`${lang}-${activeTabId}`} // Force re-render on tab/lang change
+            lang={lang}
+            activeTabId={activeTabId}
+            initialData={activeTab.content}
+          />
         )}
       </main>
 
@@ -211,6 +188,8 @@ function AppContent() {
           </a>
         </div>
       </footer>
+
+      <EditButton />
     </div>
   );
 }
@@ -218,7 +197,9 @@ function AppContent() {
 function App() {
   return (
     <ErrorBoundary>
-      <AppContent />
+      <AdminProvider>
+        <AppContent />
+      </AdminProvider>
     </ErrorBoundary>
   );
 }
