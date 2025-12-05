@@ -35,7 +35,7 @@ const AccordionHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #e8f5e9;
+  background: ${props => props.$bgColor || '#e8f5e9'};
   border: none;
   cursor: ${props => props.$isEditMode ? 'default' : 'pointer'};
   text-align: left;
@@ -45,7 +45,7 @@ const AccordionHeader = styled.div`
   transition: background-color 0.2s ease;
 
   &:hover {
-    background-color: ${props => props.$isEditMode ? 'white' : '#dcedc8'};
+    filter: brightness(0.95);
   }
 
   .header-content {
@@ -178,10 +178,12 @@ const ResetButton = styled.button`
 
 const FAQSection = ({ lang, data }) => {
   const [openIndex, setOpenIndex] = useState(null);
+  const itemRefs = useRef([]);
+
   const loadFaqs = React.useCallback(() => {
     if (!data || !data.content) return [];
 
-    const storageKey = `faq_overrides_${lang}`;
+    const storageKey = `faq_overrides_v2_${lang}`;
     const savedFaqs = localStorage.getItem(storageKey);
 
     if (savedFaqs) {
@@ -191,7 +193,8 @@ const FAQSection = ({ lang, data }) => {
         if (item.subsections) {
           return item.subsections.map(sub => ({
             question: sub.title,
-            answer: sub.text
+            answer: sub.text,
+            bgColor: item.bgColor // Preserve bgColor
           }));
         }
         return [];
@@ -204,39 +207,37 @@ const FAQSection = ({ lang, data }) => {
   const prevEditModeRef = useRef(isEditMode);
 
   const saveChanges = React.useCallback(async (silent = false) => {
-    const storageKey = `faq_overrides_${lang}`;
+    const storageKey = `faq_overrides_v2_${lang}`;
     localStorage.setItem(storageKey, JSON.stringify(faqs));
 
     try {
-      // Also save to server
-      // 1. Get the full content object (we need to import it or get it from props if available, 
-      // but here we can't easily import 'content' if it's not passed. 
-      // Ideally FAQSection should receive the full content or a save callback.
-      // However, since we are in a rush, let's try to fetch the current content from the server or just use what we have if we can import it.
-      // Actually, we can just import 'content' from data/content.js like we did in EditableContentSection.
-
-      // Dynamic import to avoid circular dependency issues if any (though unlikely here)
       const { content } = await import('../data/content');
       const fullContent = { ...content };
 
-      // Update the FAQ section
-      // We need to find the FAQ tab. It's usually the last one or has id 'tab8'.
       const tabIndex = fullContent[lang].tabs.findIndex(t => t.id === 'tab8');
 
       if (tabIndex !== -1) {
-        // We need to convert the flat faqs array back to the structure expected by content.js
-        // The structure is: content: [ { subsections: [ { title: q, text: a } ] } ]
-        // But wait, the loadFaqs function flattens it. We need to reconstruct it.
+        const newContentStructure = [];
+        let currentGroup = null;
 
-        const newContentStructure = [
-          {
-            text: "",
-            subsections: faqs.map(f => ({
-              title: f.question,
-              text: f.answer
-            }))
+        faqs.forEach(faq => {
+          // Check if we need to start a new group
+          // We start a new group if:
+          // 1. There is no current group
+          // 2. The current group's bgColor is different from the current faq's bgColor
+          if (!currentGroup || currentGroup.bgColor !== faq.bgColor) {
+            currentGroup = {
+              bgColor: faq.bgColor,
+              subsections: []
+            };
+            newContentStructure.push(currentGroup);
           }
-        ];
+
+          currentGroup.subsections.push({
+            title: faq.question,
+            text: faq.answer
+          });
+        });
 
         fullContent[lang].tabs[tabIndex].content = newContentStructure;
 
@@ -278,7 +279,21 @@ const FAQSection = ({ lang, data }) => {
       saveChanges(true); // Silent save
     }
     prevEditModeRef.current = isEditMode;
-  }, [isEditMode, faqs, saveChanges]); // Depend on faqs to ensure we save latest
+  }, [isEditMode, faqs, saveChanges]);
+
+  // Scroll active item into view
+  useEffect(() => {
+    if (openIndex !== null && itemRefs.current[openIndex]) {
+      // Small delay to allow for state update and potential layout shift
+      setTimeout(() => {
+        itemRefs.current[openIndex].scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+          inline: 'nearest'
+        });
+      }, 350);
+    }
+  }, [openIndex]);
 
   const toggleAccordion = (index) => {
     if (!isEditMode) {
@@ -292,11 +307,9 @@ const FAQSection = ({ lang, data }) => {
     setFaqs(newFaqs);
   };
 
-
-
   const resetToDefault = () => {
     if (window.confirm('Are you sure you want to reset all changes for this language?')) {
-      const storageKey = `faq_overrides_${lang}`;
+      const storageKey = `faq_overrides_v2_${lang}`;
       localStorage.removeItem(storageKey);
       const initialFaqs = data.content.flatMap(item => {
         if (item.subsections) {
@@ -314,14 +327,11 @@ const FAQSection = ({ lang, data }) => {
   // Helper to determine if content is HTML (from Quill) or plain text
   const renderContent = (content) => {
     if (!content) return null;
-    // Simple check: if it contains HTML tags, treat as HTML. 
-    // Quill usually wraps in <p>.
     const isHtml = /<[a-z][\s\S]*>/i.test(content);
 
     if (isHtml) {
       return <AnswerText dangerouslySetInnerHTML={{ __html: content }} />;
     } else {
-      // Legacy plain text: replace \n with <br/>
       return <AnswerText dangerouslySetInnerHTML={{ __html: content.replace(/\n/g, '<br/>') }} />;
     }
   };
@@ -358,11 +368,16 @@ const FAQSection = ({ lang, data }) => {
       )}
 
       {faqs.map((faq, index) => (
-        <AccordionItem key={index} $isEditMode={isEditMode}>
+        <AccordionItem
+          key={index}
+          $isEditMode={isEditMode}
+          ref={el => itemRefs.current[index] = el}
+        >
           <AccordionHeader
             onClick={() => toggleAccordion(index)}
             $isOpen={openIndex === index}
             $isEditMode={isEditMode}
+            $bgColor={faq.bgColor}
           >
             <div className="header-content">
               {isEditMode ? (

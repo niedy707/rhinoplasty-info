@@ -32,11 +32,26 @@ body {
 }
 
 .app-subtitle {
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 2.5vw, 0.9rem);
   margin-top: -10px;
   margin-bottom: 15px;
   opacity: 0.9;
   font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Language Bar */
+.language-bar {
+  background-color: #f1f1f1;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* Header */
@@ -287,6 +302,10 @@ h1 {
 /* Language Selector */
 .language-selector {
   position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
 }
 
 .lang-btn {
@@ -464,29 +483,43 @@ h1 {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: clamp(4px, 1vw, 12px);
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* Prevent scrolling, force fit */
 }
 
 .quick-flags {
   display: flex;
-  gap: 8px;
+  gap: clamp(2px, 0.5vw, 8px);
   align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  /* Allow shrinking */
+  min-width: 0;
+  /* Allow flex item to shrink below content size */
 }
 
 .quick-flag-btn {
   background: transparent;
   border: 1px solid transparent;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: clamp(24px, 6vw, 32px);
+  height: clamp(24px, 6vw, 32px);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 1.2rem;
-  transition: var(--transition);
+  transition: all 0.2s ease;
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  flex-shrink: 0;
+  /* Don't squash the buttons themselves */
   padding: 0;
 }
+
+
+
 
 .quick-flag-btn:hover {
   background: rgba(0, 0, 0, 0.05);

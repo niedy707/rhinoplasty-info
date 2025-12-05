@@ -17,18 +17,6 @@ export default function LanguageSelector({ currentLang, onSelect }) {
 
     return (
         <div className="language-selector">
-            <button
-                className="lang-btn"
-                onClick={() => setIsOpen(!isOpen)}
-                aria-label="Select Language"
-            >
-                <span className="current-flag">{languages.find(l => l.code === currentLang)?.flag}</span>
-                <span className="current-name">{languages.find(l => l.code === currentLang)?.name}</span>
-                <svg className={`arrow ${isOpen ? 'open' : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M6 9l6 6 6-6" />
-                </svg>
-            </button>
-
             <div className="quick-flags">
                 {languages.map((lang) => (
                     <button
@@ -42,6 +30,18 @@ export default function LanguageSelector({ currentLang, onSelect }) {
                     </button>
                 ))}
             </div>
+
+            <button
+                className="lang-btn"
+                onClick={() => setIsOpen(!isOpen)}
+                aria-label="Select Language"
+            >
+                <span className="current-flag">{languages.find(l => l.code === currentLang)?.flag}</span>
+                <span className="current-name">{languages.find(l => l.code === currentLang)?.name}</span>
+                <svg className={`arrow ${isOpen ? 'open' : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M6 9l6 6 6-6" />
+                </svg>
+            </button>
 
             {isOpen && (
                 <>
