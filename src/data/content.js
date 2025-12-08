@@ -2836,5 +2836,344 @@ export const content = {
         ]
       }
     ]
+  },
+  "pl": {
+    "title": "Strona informacyjna dla pacjentów po plastyce nosa",
+    "subtitle": "Odpowiedzi na wszystkie pytania przed i po plastyce nosa znajdują się tutaj..",
+    "tabs": [
+      {
+        "id": "tab1",
+        "title": "1. INFORMACJE OGÓLNE",
+        "content": [
+          {
+            "title": "<p>Co to jest plastyka nosa (Rynoplastyka)?</p>",
+            "text": "<p>Nos jest funkcjonalnym organem znajdującym się w samym środku twarzy.</p><p>Funkcjonalnym zadaniem nosa jest oddychanie i wąchanie, a zadaniem wizualnym jest sprawienie, by twarz wyglądała pięknie.</p><p>Nos musi w pełni spełniać te 2 zadania, a także być w harmonii i proporcji z innymi organami twarzy.</p><p>Ponadto powinien mieć strukturę symetryczną i pasującą do twarzy.</p><p><br></p><p><strong>Celem operacji rynoplastyki (Septorhinoplastyki) jest nadanie nosowi funkcjonalnego i estetycznego piękna.</strong></p>"
+          },
+          {
+            "title": "<p>Jaki jest cel operacji plastyki nosa?</p>",
+            "text": "<p>Celem operacji plastyki nosa jest uzyskanie wyglądu nosa, który uszczęśliwi pacjenta, zapewniając zarówno wygodne oddychanie, jak i rozwiązanie problemów z nosem pacjenta.</p><p>Ponieważ problem w każdym nosie jest inny, procedury, które należy zastosować, są również różne.</p><p><br></p><p>Procedury, które można wykonać na nosie i możliwe wyniki do uzyskania, zostaną omówione z Tobą podczas badania.</p>",
+            "items": [
+              "<p>Operacja jest przeprowadzana na podstawie decyzji i zgody obu stron.</p><p>Zarówno pacjent musi chcieć być operowany przez lekarza, jak i lekarz musi przeprowadzić operację, wierząc, że przyniesie ona korzyść pacjentowi.</p>",
+              "<p>Dlatego badanie i ocena przedoperacyjna muszą być przeprowadzone w odpowiednim czasie i we właściwych warunkach.</p>",
+              "<p>Prawdopodobieństwo osiągnięcia szczęśliwego rezultatu operacji, której nie chce jedna ze stron, jest bardzo niskie.</p>"
+            ]
+          },
+          {
+            "title": "<p>INFORMACJE OGÓLNE</p>",
+            "items": [
+              "<p><strong>Rodzaj znieczulenia:</strong> Znieczulenie ogólne (Pełna narkoza)</p>",
+              "<p><strong>Pobyt w szpitalu: </strong>1 noc </p><p><br></p><p>Możesz zostać wypisany tego samego dnia po operacji wczesnym rankiem lub po krótkich operacjach, jeśli Twój stan medyczny jest odpowiedni, ale większość pacjentów zostanie wypisana następnego ranka po 1 nocy pobytu w szpitalu.</p>",
+              "<p><strong>Czas trwania: </strong>2,5 godziny </p><p><br></p><p>Przewiduje się, że operacja plastyki nosa potrwa ~2 godziny (±1) w przypadku standardowej trudności i ~3 godziny (±1) w przypadku operacji rewizyjnych.</p>",
+              "<p><strong>Technika chirurgiczna: </strong>Technika otwarta, rynoplastyka strukturalna (structural). </p><p>Rutynowo wykonuję operację techniką otwartą.</p><p>W tej technice wykonuje się nacięcie na skórze między nozdrzami, a to nacięcie jest zszywane pod koniec operacji zgodnie z celem estetycznym.</p>"
+            ],
+            "subsections": [
+              {
+                "title": "<p>Operacja techniką zamkniętą może być stosowana w następujących przypadkach:</p>",
+                "items": [
+                  "<p>Krótkotrwałe i ograniczone operacje rewizyjne</p>",
+                  "<p>Ograniczone procedury tylko dla garbu nosa</p>",
+                  "<p>Tylko operacje funkcjonalne bez celu estetycznego</p>"
+                ],
+                "text": "<p><br></p>"
+              },
+              {
+                "title": "<p>Sprzęt techniczny</p>",
+                "items": [
+                  "<p>W operacjach rutynowo stosuje się <strong>piezo</strong>.</p><p>To urządzenie jest jednym z elementów wyposażenia technicznego, które umożliwia precyzyjne kształtowanie kości.</p>",
+                  "<p>Użycie piezo nie oznacza, że nie będzie żadnych siniaków.</p><p>W okresie pooperacyjnym wystąpią siniaki i obrzęk tkanek z powodu tkanki podskórnej i struktury naczyniowej.</p><p>Jednak u ~90% pacjentów w 1. tygodniu nie ma widocznych siniaków.</p>"
+                ],
+                "text": "<p><br></p>"
+              }
+            ],
+            "text": "<p><br></p>"
+          }
+        ]
+      },
+      {
+        "id": "tab2",
+        "title": "2. FOTOGRAFIA",
+        "content": [
+          {
+            "subsections": [
+              {
+                "title": "FOTOGRAFIA",
+                "text": "Zdjęcia są wykonywane przed, w trakcie i po operacji. Fotografowanie przedoperacyjne jest częścią badania.\nCelem fotografowania jest zrozumienie, wyjaśnienie i zapamiętanie problemów z nosem oraz możliwość wykorzystania obiektywnych danych podczas planowania operacji."
+              },
+              {
+                "title": "Symulacja",
+                "text": "Po zrobieniu zdjęcia nie wykonuje się symulacji na zdjęciu.\nNie ma potrzeby symulacji u pacjentów, którzy potrafią wyjaśnić, czego żądają i są zrozumiani.\n\nPacjenci, którzy uważają, że nie mogą w pełni wyrazić słowami, jaki rodzaj nosa chcą, mogą pokazać zdjęcia nosów, które im się podobają podczas badania i wysłać je do dodania do pliku pacjenta.\n\nPacjenci, którzy chcą wyobrazić sobie harmonię możliwych zmian w nosie z twarzą, mogą wykonać symulację na własnych zdjęciach i w ten sposób podzielić się swoimi prośbami z lekarzem.\nZdjęcia pokazane przez pacjenta nie powinny być postrzegane jako zamówienie. Jest to narzędzie, dzięki któremu mogą wyjaśnić styl, który im się podoba i ich prośbę. Tej informacji absolutnie nie należy zapominać.\nNierealistyczne jest rysowanie na zdjęciu, jaki dokładnie wynik zostanie uzyskany po operacji i na koniec gojenia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab3",
+        "title": "3. PROCES POOPERACYJNY",
+        "content": [
+          {
+            "title": "PROCES POOPERACYJNY",
+            "text": "Pod koniec operacji na skórze między nozdrzami (kolumella) znajdzie się estetyczne cienkie nacięcie i szew, wewnątrz nosa perforowany stent/tampon, który nie przeszkadza w oddychaniu, a na nosie specjalna taśma i plastikowa szyna (gips). Jeśli interweniowano w skrzydła nosa, w części skrzydła nosa również będą szwy.",
+            "subsections": [
+              {
+                "title": "Usunięcie tamponu i gipsu",
+                "text": "Tampon, taśma i szyna na nosie zostaną usunięte podczas kontroli w pierwszym tygodniu (5-7 dni) operacji. (W niektórych szczególnych przypadkach tampon wewnątrz nosa może zostać usunięty wcześniej.)\n\nCzasami podczas operacji, a czasami po usunięciu tamponu po operacji, może być konieczne użycie silikonowego aparatu (nostril retainer) dla kształtu czubka nosa i symetrii otworów.\nU pacjentów z dużym obrzękiem nosa gips można nałożyć ponownie podczas pierwszej kontroli.\nU pacjentów z grubą skórą nosa i obrzękiem może być zalecane ciągłe i/lub nocne oklejanie po operacji. (przez 1-2 miesiące)"
+              },
+              {
+                "title": "Siniaki i obrzęki pod oczami",
+                "text": "W przypadkach, gdy wykonywana jest interwencja kostna, wokół nosa i pod oczami wystąpi pewien obrzęk i siniaki. Sytuacja ta osiąga maksimum w 3-4 dniu po operacji.\nObrzęk i siniaki znacznie zmniejszają się w 1. tygodniu, a w 2. tygodniu u większości pacjentów całkowicie znikają.\nPełne przyjmowanie leków i niezbędnych aplikacji po operacji zapewni znacznie łagodniejszy przebieg tego procesu.\n\nAby zminimalizować siniaki i obrzęki, które wystąpią po operacji, należy stosować zimne okłady wokół nosa i pod oczami.\nPodczas pobytu w szpitalu otrzymasz lód, ale możesz zaopatrzyć się w worek z lodem w formie żelu do użytku domowego.\n(Praktyczne rozwiązanie: Do zimnych okładów można użyć mrożonego groszku, ciecierzycy itp. w woreczku do zamrażania.)"
+              },
+              {
+                "title": "Obrzęk pooperacyjny i ostateczny kształt nosa",
+                "text": "Obrzęk nosa zmniejsza się w 3 głównych okresach:",
+                "items": [
+                  "Po szybkim zmniejszeniu obrzęku w pierwszych 2 tygodniach, w drugim tygodniu zobaczysz nową strukturę nosa z jej głównymi liniami i kątami. Jednak Twój nos będzie nadal bardzo opuchnięty.",
+                  "W kolejnym okresie około 2-3 miesięcy obrzęk, szczególnie na grzbiecie, czubku i bocznych częściach skrzydeł nosa, będzie stopniowo zmniejszał się z czasem i około 70% obrzęku ustąpi.",
+                  "Na pozostałe 30% potrzeba będzie jeszcze około 1-1,5 roku."
+                ],
+                "subtext": "Wspomniane czasy są czasami średnimi, a struktura skóry nosa i cechy gojenia się ran są głównymi czynnikami determinującymi proces i ilość ustępowania obrzęku i opuchlizny nosa. (Dla grubej skóry czasy x1,5-2)\n\nProcedury wykonywane na tkankach chrzęstnych i kostnych wewnątrz nosa są różne u każdego pacjenta.\nW niektórych stosowanych technikach chirurgicznych, w związku z osiadaniem i pewnym rozluźnieniem chrząstek i szwów z czasem oraz pod wpływem grawitacji, w okresie 4-6 tygodni po operacji może wystąpić pewien ruch czubka nosa w dół. Z tego powodu we wczesnym okresie pooperacyjnym czubek nosa może być nieco zadarty. (nie dotyczy każdego pacjenta.)"
+              },
+              {
+                "title": "Unikanie sił fizycznych na nos",
+                "text": "Przez 4 miesiące po operacji nos nie powinien być narażony na niekontrolowaną siłę fizyczną. Problemy, które mogą wystąpić w tym okresie, gdy zrost kości nie jest jeszcze zakończony, mogą powodować trwałe problemy w gojeniu się nosa. W tym 4-miesięcznym okresie należy unikać czynności, które mogą powodować uraz nosa i nie należy nosić okularów.\n\nJeśli nie możesz używać soczewek, musisz zostać oceniony pod tym kątem przed operacją. Powinieneś być w stanie używać soczewek przed operacją."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab4",
+        "title": "4. POTENCJALNE RYZYKA",
+        "content": [
+          {
+            "title": "<p>POTENCJALNE RYZYKA ZWIĄZANE Z OPERACJĄ</p>",
+            "text": "<p>Ponieważ operacja będzie przeprowadzana w znieczuleniu ogólnym, przed operacją zostaną wykonane badania w celu oceny ryzyka i zostaną Państwo ocenieni przez lekarzy z oddziału anestezjologii. Jeśli istnieje dodatkowe ryzyko poza standardowym ryzykiem związanym ze znieczuleniem, zostaną Państwo o tym poinformowani oddzielnie. Możliwe ryzyka chirurgiczne, które mogą wystąpić w przypadku Państwa nosa, zostaną również wyjaśnione podczas badania. Prosimy o uważne przeczytanie dalszej części strony.</p>",
+            "subsections": [
+              {
+                "title": "<p>Ryzyko krwawienia</p>",
+                "text": "<p>Krwawienie w postaci niewielkiego wycieku z nosa przez 24-48 godzin po operacji jest sytuacją oczekiwaną.</p><p>W tym celu na czubku nosa będzie przyklejony gazik (tampon).</p><p>Można go zdjąć po powrocie do domu po wypisie w dniu po operacji.</p><p><br></p><p>W kolejnych dniach może wystąpić niewielkie krwawienie w postaci kropel, które wystarczy wytrzeć chusteczką.</p><p>Jednak, choć rzadko, w przypadku większego krwawienia może zaistnieć konieczność zastosowania leczniczego wacika/tamponu do nosa, podania leku dożylnie lub interwencji chirurgicznej w celu zatrzymania krwawienia z nosa.</p>"
+              },
+              {
+                "title": "<p>Ryzyko infekcji</p>",
+                "text": "<p>W celu ochrony pola operacyjnego przed infekcją podczas i po operacji w pełni przestrzegane są warunki sterylizacji i stosowane jest leczenie antybiotykami.</p><p>Ponadto bardzo ważne jest, aby po operacji nie dotykać pola operacyjnego i szwów brudnymi rękami.</p><p>Jednak pomimo wszystkich tych środków ostrożności po operacji może wystąpić infekcja w nosie. Może być konieczne stosowanie antybiotyków przez dłuższy czas lub wykonanie prostych lub skomplikowanych interwencji z powodu infekcji wewnątrz nosa.</p><p>Infekcja, która może wystąpić, może powodować problemy funkcjonalne lub kosmetyczne w nosie. Z powodu powstałych problemów kosmetycznych może być wymagana operacja rewizyjna.</p>"
+              },
+              {
+                "title": "<p>Ryzyko rewizji (ponownej operacji)</p>",
+                "text": "<p>Chociaż naszym jedynym celem jest uzyskanie najlepszego wyniku po operacji, z powodu problemów występujących w procesie gojenia może wystąpić wynik wymagający operacji rewizyjnej.</p><p>Wśród możliwych przyczyn można wymienić: uraz nosa, problemy związane z chrząstką/kością/szwami wewnątrz nosa lub problemy, które mogą wystąpić na skórze i tkankach miękkich nosa.</p><p>Prawdopodobieństwo wystąpienia takiej sytuacji wynosi <strong><u>około 3-5%.</u></strong></p><p><br></p><p>Wymagana interwencja może być ograniczonym zabiegiem, który można rozwiązać w znieczuleniu miejscowym, lub może to być operacja wymagająca ponownego ukształtowania nosa.</p><blockquote>Zarówno w przypadku pierwszej operacji, jak i ewentualnej operacji rewizyjnej, nie można zagwarantować wyniku.</blockquote><p>W przypadku konieczności rewizji nie pobiera się opłaty lekarskiej.</p><p>Jednak jeśli interwencja rewizyjna jest zabiegiem, który musi zostać wykonany na sali operacyjnej, zostanie pobrana opłata obejmująca wyłącznie koszty sali operacyjnej, leków, pielęgniarstwa i znieczulenia, bez zysku szpitala.</p><p><br></p><p>Rewizja może nie być możliwa dla wszystkich problemów, które mogą wystąpić w nosie po zakończeniu gojenia. Nawet jeśli zostanie wykonana rewizja, można uzyskać zły wynik.</p><p>Chociaż wskaźnik sukcesu operacji rewizyjnej różni się w zależności od wykonywanego zabiegu, jest on niższy w porównaniu z pacjentem, który nigdy nie był operowany. Dlatego pierwszym i jedynym celem Państwa operacji jest rozwiązanie całego problemu jedną operacją i bezproblemowy okres rekonwalescencji.</p><blockquote><strong><em>Aby uzyskać ten wynik, BARDZO WAŻNE jest regularne stosowanie leków pooperacyjnych, NIEPALENIE TYTONIU, przychodzenie na kontrole i stosowanie masażu itp. na nos zgodnie z zaleceniami.</em></strong></blockquote>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab5",
+        "title": "5. WAŻNE INFORMACJE",
+        "content": [
+          {
+            "subsections": [
+              {
+                "title": "<p>Informacje dotyczące wypełniaczy nosa</p>",
+                "text": "<p>Operacja pacjenta, który miał wcześniej wykonywany wypełniacz nosa, powinna zostać przeprowadzona po rozpuszczeniu wypełniacza, jeśli jego działanie nadal się utrzymuje.</p><p>Czasami, nawet po rozpuszczeniu wypełniacza, może być potrzebny czas, aby niektóre problemy powstałe na skórze nosa zagoiły się i stały się odpowiednie do operacji.</p><p><br></p><p>Proces rozpuszczania wypełniacza odbywa się za pomocą leku o nazwie „<strong>Hialuronidaza</strong>”. <em>(wykonywany jest zastrzyk w nos) </em></p><p>Zaleca się, aby został rozpuszczony najlepiej do 1 tygodnia przed operacją. Jednak proces rozpuszczania można również wykonać podczas operacji. <em>(Ten proces generuje dodatkowe koszty.)</em></p>"
+              },
+              {
+                "title": "<p>Informacje dotyczące pobrania chrząstki żebrowej</p>",
+                "text": "<p>Aby uzyskać nos, który może zdrowo oddychać i jest symetryczny po operacji, bardzo ważne jest, aby główny szkielet nosa był zdrowy i symetryczny.</p><p>Główny szkielet nosa składa się z kości i chrząstki.</p><p>W niektórych operacjach uzyskanie zdrowej, wystarczającej i prostej chrząstki z wnętrza nosa nie jest możliwe. W takim przypadku, aby utrzymać wysoki wskaźnik sukcesu po operacji i uzyskać pożądany wynik, używamy innej chrząstki z naszego ciała w operacjach nosa.</p><blockquote>Jeśli potrzebujemy elastycznej chrząstki, używamy chrząstki ucha, a jeśli potrzebujemy twardszej i większej ilości chrząstki, używamy chrząstki żebrowej (costa).</blockquote><p>Konieczność użycia przeszczepu chrzęstnego i to, który z nich należy zastosować, jeśli jest to konieczne, zostanie wyjaśnione podczas badania.</p><p>W niektórych przypadkach konieczność pobrania chrząstki jest pewna, a w niektórych przypadkach możliwa.</p><p><br></p><p>Jednak w możliwych przypadkach przed operacją zostanie od Państwa pobrana zgoda na pobranie chrząstki. Podczas operacji decyzja o pobraniu lub niepobraniu chrząstki żebrowej zostanie podjęta w zależności od stanu chrząstki wewnątrz nosa (ilość i jakość).</p><blockquote>Konieczność pobrania chrząstki z żebra lub ucha może być konieczna nie tylko w operacjach rewizyjnych, ale także u pacjentów, którzy nie mieli wcześniej operacji nosa, ale mają poważne złamania, skrzywienia itp. problemy w nosie.</blockquote><blockquote>Ponadto u pacjentów z bardzo grubą skórą może być konieczne pobranie przeszczepu chrzęstnego, aby nadać pożądany kształt czubkowi nosa i stworzyć mocny czubek nosa, który utrzyma jego ciężar.</blockquote>"
+              },
+              {
+                "title": "<p>Gruba skóra</p>",
+                "text": "<p>Skóra jest bardzo ważnym parametrem wpływającym na wynik operacji nosa. </p><blockquote><strong>Skóra jest rodzajem osłony pokrywającej główne elementy strukturalne nosa i jest niezmienną częścią nosa. </strong></blockquote><p><br></p><p>Zapewnienie, że nos uzyska piękny kształt po operacji, może być możliwe poprzez zaakceptowanie tej cechy skóry. </p><p>To, co należy zastosować u pacjentów z grubą skórą, to prawidłowe ukształtowanie szkieletu pod spodem, aby skóra nosa wyglądała pięknie, bez dążenia do nadmiernie małego czubka nosa. </p><p>Podczas gdy chrząstki wewnątrz nosa są często wystarczające podczas tego procesu, czasami może być konieczne pobranie przeszczepu chrząstki żebrowej od pacjenta i użycie go, aby to wsparcie było silne.</p>"
+              }
+            ],
+            "text": "<p><br></p>"
+          }
+        ]
+      },
+      {
+        "id": "tab6",
+        "title": "6. Zalecenia pooperacyjne",
+        "content": [
+          {
+            "items": [
+              "Zaleca się odpoczynek przez pierwszy tydzień po operacji. (7 dni)",
+              "Unikaj ciężkich i męczących ćwiczeń podczas odpoczynku.",
+              "Latanie nie jest wskazane ze względu na ryzyko krwawienia. Możesz odbywać krótkie podróże lądowe. (3 godziny)",
+              "W zależności od charakteru wykonanego zabiegu, od 5. dnia po operacji, jeśli lekarz wyrazi zgodę, możesz latać. (zostanie przygotowany dokument zezwalający na lot.)",
+              "W pierwszym tygodniu spędzaj czas siedząc lub stojąc. Jednak kiedy chcesz się położyć i odpocząć, twoja głowa musi być uniesiona pod kątem 45 stopni.",
+              "Twój pokój i otoczenie, w którym przebywasz, nie powinny być gorące.",
+              "Nie ma przeciwwskazań do kąpieli. Jednak jeśli chcesz wziąć kąpiel pierwszego dnia, poproś o pomoc kogoś bliskiego. Podczas kąpieli woda nie powinna dostać się do nosa ani na taśmę/gips na nim, włosy najlepiej myć/dać umyć odchylając głowę do tyłu.",
+              "Taśmę na nosie należy chronić przed kontaktem z wodą przez 14 dni po operacji.",
+              "W procesie pooperacyjnym ważne jest picie dużej ilości wody, stosowanie okładów z lodu i trzymanie głowy w wysokiej pozycji.",
+              "Chroń nos przed zewnętrznymi siłami fizycznymi przez 4 miesiące po operacji."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab7",
+        "title": "7. RECEPTA I STOSOWANIE LEKÓW",
+        "content": [
+          {
+            "subsections": [
+              {
+                "title": "<p>Twoja recepta i leki, które musisz stosować:</p>",
+                "text": "<p>Otrzymasz 2 recepty na leki, które musisz stosować od momentu wypisu.</p><p>(Jedna z recept zostanie w aptece, a druga zostanie u Ciebie, abyś mógł zobaczyć leki, które będziesz stosować, i abyśmy mogli opisać Ci sposób ich użycia.)</p><h2><strong style=\"background-color: rgb(255, 255, 0);\">!!! Wszystkie leki należy zacząć stosować od pierwszego dnia po operacji, gdy w nosie znajduje się tampon. </strong></h2><h2><strong style=\"background-color: rgb(255, 255, 0);\">(w tym spreje.)</strong></h2><p><br></p><p><em style=\"background-color: rgb(204, 232, 204); color: rgb(0, 138, 0);\">Ponieważ Twoja operacja NIE jest operacją objętą ubezpieczeniem zdrowotnym, receptę zrealizujesz odpłatnie.</em></p><p><em style=\"background-color: rgb(204, 232, 204); color: rgb(0, 138, 0);\">PROSZĘ nie nalegać, aby Twoja recepta była objęta tym zakresem, TO NIEMOŻLIWE.</em></p>"
+              },
+              {
+                "title": "<p>Sposób stosowania leków</p>",
+                "text": "<p>Tabletki należy stosować zgodnie z zaleceniami na recepcie.</p>"
+              },
+              {
+                "title": "<p>Antybiotyki (tabletki): Cefaks, Cipro, Klindan, Macrol, Augmentin itp.</p>",
+                "text": "<p>W zależności od wykonanego zabiegu i stanu medycznego może zostać przepisany 1 lub 2 z tych leków.</p><p>Leki te należy stosować regularnie przez 1 tydzień, 2 razy dziennie (rano i wieczorem).</p>"
+              },
+              {
+                "title": "<p>Tabletka na alergię: Bilaxten, Aerius, Desmont, Levmont</p>",
+                "text": "<p>Musisz stosować 1 z tych leków.</p><p>Celem tego leku jest zmniejszenie uczucia wycieku i zatkania nosa oraz kichania, które może wystąpić w związku z tym.</p><p>Jeśli te dolegliwości są bardzo nasilone, pierwszego dnia możesz wziąć 2 sztuki.</p>"
+              },
+              {
+                "title": "<p>Lek przeciwbólowy: Arveles lub Mejezik</p>",
+                "text": "<p>Tę tabletkę należy stosować 3 razy dziennie przez 4 dni.</p><p>Jeśli ból jest silny, możesz wziąć do 4 sztuk dziennie.</p><p><br></p><p>Większy ból nie jest sytuacją oczekiwaną. W takim przypadku skonsultuj się z lekarzem.</p>"
+              },
+              {
+                "title": "<p>Maść: Maść do oczu Thiocilline lub Terramycin</p>",
+                "text": "<p>Maść do oczu należy smarować miejsce szwu na czubku nosa, a nie oko.</p><p>Stosować przez 2 tygodnie, 3-4 razy dziennie, czystym palcem lub patyczkiem higienicznym.</p>"
+              },
+              {
+                "title": "<p>Spray udrażniający nos: Otrivine</p>",
+                "text": "<p>Stosować przez 5 dni. (Do wnętrza tamponu) Nie kontynuować po 5 dniach.</p>"
+              },
+              {
+                "title": "<p>Leki do płukania i nawilżania nosa</p>",
+                "text": "<p>Leki te należy stosować przez 1 miesiąc po operacji, zaczynając gdy w nosie jest tampon i kontynuując później.</p><p>Należy używać obu sprayów 5 razy dziennie do obu nozdrzy.</p><p><br></p><p><strong>Płukanie nosa: (SinusRinse, NaosRinse, Sinomarine, Quixx itp.)</strong></p><p><br></p><p>Do płukania wnętrza nosa można używać leków do płukania wodą oceaniczną w formie sprayu lub butelki. Te w formie butelki zapewniają bardziej objętościowe i skuteczne czyszczenie, podczas gdy te w formie sprayu są łatwe w użyciu i łatwiejsze do noszenia ze sobą, ale ich efekt czyszczenia jest mniejszy.</p><p>Celem płukania nie jest całkowite oczyszczenie wnętrza nosa, ale zapewnienie oczyszczenia nagromadzonej wydzieliny, krwi i skrzepów.</p><p><br></p><p>Po procesie płukania wystarczy wytrzeć wydzieliny wypływające na zewnątrz chusteczką, wykonując ruch wydmuchiwania powietrza nosem, a nie sümkürme (mocnego wydmuchiwania nosa).</p><p><br></p><p><strong>Spray Nazalnem: </strong>Celem tego sprayu jest zmniejszenie suchości wewnątrz nosa oraz przyspieszenie gojenia tkanek wewnątrz nosa dzięki działaniu nawilżającemu i wsparciu witaminowemu.</p><p>Po płukaniu należy go koniecznie rozpylić do obu nozdrzy.</p><p><br></p><p>Przez 3 dni (72 godziny) po operacji kontynuuj trzymanie głowy wysoko i stosowanie lodu przez 10 minut co godzinę.</p><p>(Wystarczy obudzić się 1-2 razy w nocy ze snu.)</p>"
+              }
+            ],
+            "text": "<p><br></p>"
+          }
+        ]
+      },
+      {
+        "id": "tab8",
+        "title": "8. CZĘSTO ZADAWANE PYTANIA",
+        "content": [
+          {
+            "bgColor": "#fff3e0",
+            "subsections": [
+              {
+                "title": "Czy wykonują Państwo symulację fotograficzną?",
+                "text": "<p>Rutynowo <strong><u>nie wykonujemy symulacji</u></strong> na zdjęciach.</p><blockquote>Nie ma potrzeby symulacji u pacjentów, którzy potrafią wyjaśnić swoje oczekiwania i są zrozumiani.</blockquote><p>Pacjenci, którzy uważają, że nie potrafią słownie w pełni wyrazić, jakiego nosa oczekują, mogą podczas badania pokazać zdjęcia nosów, które im się podobają, i przesłać je do dołączenia do karty pacjenta.</p><p><br></p><p>Pacjenci, którzy chcą wyobrazić sobie harmonię ewentualnych zmian w nosie ze swoją twarzą, <strong>mogą wykonać symulację na własnych zdjęciach i w ten sposób podzielić się swoimi oczekiwaniami z lekarzem.</strong></p><p>Zdjęcia pokazywane przez pacjenta nie powinny być traktowane jako zamówienie. Są one narzędziem, dzięki któremu mogą wyjaśnić styl, który im się podoba, i swoje oczekiwania. O tej informacji absolutnie nie należy zapominać.</p><blockquote>Nierealistyczne jest dokładne narysowanie na zdjęciu, jaki wynik zostanie uzyskany po operacji i po zakończeniu gojenia.</blockquote>"
+              },
+              {
+                "title": "Czy dają Państwo gwarancję na wynik operacji?",
+                "text": "<p>Nie tylko w przypadku plastyki nosa, ale <strong style=\"background-color: rgb(255, 255, 0);\"><u>w przypadku żadnej operacji nie można dać gwarancji wyniku.</u></strong></p><p><br></p><p>Proces gojenia po operacji jest równie ważny jak interwencja wykonana podczas operacji. Niektóre problemy, które mogą wystąpić, zostać zauważone lub nie, w tym procesie mogą spowodować negatywną sytuację w procesie gojenia i nos może nie osiągnąć pożądanego rezultatu.</p><p><strong style=\"background-color: rgb(235, 214, 255);\">Istnieje około 5% prawdopodobieństwa, że po operacji wystąpi sytuacja wymagająca operacji rewizyjnej.</strong></p><p>Jedyną rzeczą, którą możemy zagwarantować, jest to, że jako lekarz i jego zespół dołożymy wszelkich starań, aby zapewnić Państwu to, co najlepsze podczas procesu operacji.</p><p><br></p><blockquote>Opowiadamy o negatywnych scenariuszach nie po to, aby Państwa zasmucić lub zniechęcić do decyzji o operacji, ale dlatego, że jest to rzeczywistość.</blockquote>"
+              },
+              {
+                "title": "Jakie są zalecenia dotyczące <strong>alkoholu</strong> i <strong>papierosów</strong>?",
+                "text": "<p>Przed operacją <strong>należy BEZWZGLĘDNIE, CAŁKOWICIE rzucić palenie</strong>. (minimum 1 tydzień wcześniej)</p><p><br></p><p>Dym tytoniowy jest NAJWAŻNIEJSZYM czynnikiem powodującym opóźnienie w gojeniu się ran.</p><p><strong><u>Opóźnienie w gojeniu się ran: </u></strong>powoduje, że nos osiąga zły wynik zarówno pod względem funkcjonalnym, jak i wizualnym.</p><p>Z powodu opóźnienia gojenia wzrasta ryzyko infekcji w nosie, rozejścia się szwów, zwiększonego obrzęku w nosie i ryzyko, że pożądany wynik będzie inny niż oczekiwany i zły w związku z opóźnionym gojeniem.</p><p><br></p><blockquote>Zakłada się, że pacjent, który kontynuuje palenie po operacji, przyjmuje odpowiedzialność za tego rodzaju problemy, które mogą wystąpić.</blockquote><p><br></p><p><strong>Alkohol</strong> nie jest całkowicie <strong>zabroniony</strong>, ale jest przyczyną zwiększonego obrzęku po operacji.</p><p>Ważne jest również, aby nie być pijanym, aby uniknąć upadku na nos lub podobnego urazu.</p>"
+              },
+              {
+                "title": "W jakich sytuacjach moja operacja może zostać odwołana/przełożona?",
+                "text": "<p>Chociaż planowanie operacji odbywa się poprzez potwierdzenie wzajemnych zgód po wyjaśnieniu szczegółów dotyczących plastyki nosa podczas naszych spotkań przedoperacyjnych, w niektórych przypadkach przed operacją Państwa operacja może zostać <strong><u>PRZEŁOŻONA lub ODWOŁANA.</u></strong></p><p><br></p><p><span style=\"background-color: rgb(250, 204, 204);\">Sytuacja ta może wystąpić z następujących powodów:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli w dniu operacji lub bezpośrednio przed nią mają Państwo </span><strong style=\"background-color: rgb(250, 204, 204);\">infekcję dróg oddechowych</strong><span style=\"background-color: rgb(250, 204, 204);\">.</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli </span><strong style=\"background-color: rgb(250, 204, 204);\">nie udało się rzucić palenia</strong><span style=\"background-color: rgb(250, 204, 204);\"> przed operacją. </span></li></ol><blockquote class=\"ql-indent-1\"><em>(Pacjent, któremu nie udało się rzucić palenia, nie powinien być operowany, ponieważ wpłynie to negatywnie na gojenie po operacji.) Jeśli ukryją Państwo przed nami tę informację, oznacza to, że od początku zaakceptowali Państwo szkodę, która powstanie.)</em></blockquote><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli w badaniach wykonanych przed operacją występuje </span><strong style=\"background-color: rgb(250, 204, 204);\">wynik krwi, który może uniemożliwić operację</strong><span style=\"background-color: rgb(250, 204, 204);\">.</span></li></ol><blockquote class=\"ql-indent-1\"><em>W badaniu krwi Hemoglobina (HB, Hgb), Płytki krwi (Plt), aPTT i INR muszą mieścić się w granicach normy.</em></blockquote><blockquote class=\"ql-indent-1\"><em>Niska wartość hemoglobiny może powodować problemy z gojeniem i złe wyniki poprzez zaburzenie dotlenienia tkanek. Stwarza podobne ryzyko jak palenie tytoniu. Jeśli nie mieści się w granicach normy, hb>10 powinno być, a pacjent powinien otrzymać niezbędne leczenie niedokrwistości po operacji.</em></blockquote><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli mają Państwo nowo zdiagnozowaną chorobę zakaźną (WZW, HIV)</span></li></ol><blockquote><span style=\"background-color: rgb(250, 204, 204);\">W takim przypadku wymagane będzie przede wszystkim leczenie tych chorób i ocena pod tym kątem.</span></blockquote><p><br></p><p>Pacjenci, którzy nie chcą ryzykować przełożenia/odwołania operacji, mogą przed operacją wykonać w dowolnym szpitalu następujące badania:</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Morfologia, INR, aPTT, Anty-HIV, Anty-HCV, HbsAg</strong></p>"
+              },
+              {
+                "title": "Na co należy zwrócić uwagę w dniu operacji?",
+                "text": "<p>W dniu operacji <strong>na twarzy nie może być absolutnie żadnego makijażu.</strong></p><p>Uniemożliwia to nam prawidłową ocenę twarzy, a także utrudnia wykonanie sterylnej operacji. W związku z tym podczas operacji muszą być Państwo bez makijażu.</p><p>Jeśli są <strong>sztuczne rzęsy</strong>, mogą zostać. Jednak <strong>lakier do paznokci</strong> musi zostać usunięty.</p><p>Nie należy mieć na sobie bielizny z metalowymi elementami.</p><p><br></p><blockquote><em>Pacjenci płci męskiej powinni ogolić brodę i wąsy na gładko 1 dzień przed operacją.</em></blockquote>"
+              },
+              {
+                "title": "Jakie są zalecenia na dzień operacji (zaraz po operacji)?",
+                "text": "<p>Po zakończeniu operacji zostaną Państwo zabrani do swojego pokoju po odczekaniu odpowiedniego czasu w sali wybudzeń i poczuciu się dobrze.</p><blockquote><strong>Po przybyciu do pokoju będą Państwo przytomni</strong>, a działanie znieczulenia minie. Ale uczucie lekkiego oszołomienia jest normalne.</blockquote><p>W zależności od czasu trwania operacji, gdy minie odpowiedni czas po operacji, otrzymają Państwo posiłek.</p><p>Uczucie lekkich <strong>mdłości</strong> pierwszego dnia jest normalne. Chociaż rzadko, mogą wystąpić wymioty. W takim przypadku zostaną podane dodatkowe leki na te dolegliwości.</p><p><br></p><p>Gdy minie wystarczająco dużo czasu, wstaną Państwo i zaczną chodzić, a jeśli poczują się dobrze, <strong>mogą zdjąć pończochy uciskowe</strong> założone w celu zapobiegania powstawaniu zakrzepów.</p><p>Posiadanie <strong>piżamy i kapci</strong>, w których będą się Państwo czuć komfortowo podczas pobytu w szpitalu, zwiększy Państwa komfort.</p>"
+              },
+              {
+                "title": "Czy podczas operacji robione są zdjęcia? Kiedy mogę zobaczyć te zdjęcia?",
+                "text": "<p>Rutynowe zdjęcia są wykonywane na początku i na końcu operacji.</p><p>Celem tych zdjęć jest zarówno zobaczenie zmiany i opisanie jej Państwu, jak i możliwość ponownej oceny momentu operacji w procesie gojenia po operacji. Pacjentom, którzy o to poproszą, wysyłamy te zdjęcia wykonane podczas operacji.</p><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 0);\">Nie jest możliwe wysłanie tych zdjęć natychmiast po zakończeniu operacji.</span></blockquote><p>Po edycji zostaną one przesłane tego samego dnia wieczorem lub, w zależności od intensywności naszego programu, 1 dzień później.</p>"
+              },
+              {
+                "title": "Kiedy mogę wziąć <strong>prysznic</strong> po operacji?",
+                "text": "<p><strong>Można wziąć prysznic pierwszego dnia po operacji.</strong></p><p>Nie ma przeciwwskazań do kąpieli.</p><blockquote>Jeśli jednak chcą Państwo wziąć prysznic pierwszego dnia, proszę poprosić o pomoc kogoś bliskiego.</blockquote><blockquote>Podczas kąpieli woda nie powinna dostać się do nosa ani na taśmę/gips na nim, włosy najlepiej myć/dać umyć odchylając głowę do tyłu. (przez 14 dni.)</blockquote>"
+              },
+              {
+                "title": "Kiedy powinnam/powinienem zacząć stosować leki?",
+                "text": "<p><strong>Wszystkie leki</strong> należy zacząć stosować <strong>rano pierwszego dnia</strong> po operacji (po wypisie). <em style=\"background-color: rgb(255, 255, 0);\">(W tym leki do płukania i nawilżania nosa) </em></p><p><br></p><blockquote>W dniu operacji, czyli podczas pobytu w szpitalu, nie ma potrzeby stosowania leków.</blockquote><blockquote>Leczenie zostanie przeprowadzone przez pielęgniarki szpitalne.</blockquote>"
+              },
+              {
+                "title": "Jak długo należy kontynuować <strong>płukanie i nawilżanie wnętrza nosa</strong>?",
+                "text": "<p>Moim rutynowym zaleceniem w tej kwestii jest <strong>płukanie i nawilżanie wnętrza nosa przez 1 miesiąc</strong> po operacji.</p><p>Przez pierwsze 2 tygodnie należy wykonywać tę rutynę <strong>5 razy dziennie</strong>.</p><p>Przez kolejne 2 tygodnie wystarczy stosowanie 3 razy dziennie.</p><p><br></p><blockquote>Po upływie 1 miesiąca nie muszą Państwo kontynuować stosowania tych 2 leków.</blockquote><p>Jednak, jeśli czują Państwo potrzebę, nie ma przeciwwskazań do kontynuowania. (Jeśli w nosie nadal występują strupy, suchość itp., proszę kontynuować)</p>"
+              },
+              {
+                "title": "Jakiego leku używać do płukania nosa? Jakie są różnice?",
+                "text": "<p>Istnieją 3 główne produkty, których można używać do płukania nosa.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Spraye z wodą morską: </strong></li></ol><p>Leki te są najłatwiejsze zarówno w transporcie, jak i w użyciu, gdy w nosie znajduje się tampon. Jednak ich skuteczność czyszczenia wnętrza nosa jest nieco słabsza w porównaniu z innymi metodami. Efekt czyszczenia jest na wystarczającym poziomie.</p><blockquote>Leki w formie sprayu można nosić w torebce i łatwo używać w dowolnym momencie. Są idealne do pracy, biura.</blockquote><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Leki do płukania nosa w formie butelki (Woda morska/ oceaniczna): </strong></li></ol><blockquote>Leki te wymagają procedury przygotowania i nie można ich nosić ze sobą i wygodnie używać.</blockquote><p>W celu przygotowania leku miesza się proszek z przegotowaną i ostudzoną wodą lub wodą, co do której czystości mamy pewność, i aplikuje się, ściskając butelkę do wnętrza nosa.</p><p>Lek nie musi wchodzić jedną dziurką i wychodzić drugą. Celem jest mechaniczne przepłukanie wnętrza nosa.</p><p>Ta metoda zapewnia skuteczne i wystarczające oczyszczenie wnętrza nosa.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Sól fizjologiczna (serum izotoniczne): </strong></li></ol><p>Można płukać nos <span style=\"background-color: rgb(204, 232, 204);\">1 litrem 0,9% NaCl</span>, który można kupić w aptece.</p><p>Aby go użyć, można nabrać serum do 1<span style=\"background-color: rgb(204, 232, 204);\">0cc lub 20cc strzykawki</span>, zdjąć igłę z końcówki i przepłukać wnętrze nosa, wstrzykując strzykawką bez igły.</p><p><br></p><blockquote>Jest to metoda najtańsza i łatwa w użyciu, trudna do noszenia ze sobą, praktyczna do użytku domowego.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">Do płukania wnętrza nosa można stosować wszystkie te 3 metody. Ponieważ preferencje użytkowania i metody, które może zastosować każda osoba, mogą być różne, decyzję można podjąć wspólnie z lekarzem.</span></blockquote>"
+              },
+              {
+                "title": "Jakie są zalecenia żywieniowe po operacji?",
+                "text": "<p>W dniu operacji, po znieczuleniu, pierwszy posiłek zostanie zorganizowany przez nasz zespół szpitalny o odpowiedniej godzinie. Pierwszy posiłek będzie lekki i nieobciążający.</p><p>Zalecenia na później:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Należy pić dużo wody.</strong></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Nie należy spożywać gorących potraw</strong> (zwiększa to ryzyko krwawienia i obrzęku.)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Należy unikać bardzo słonych i bardzo ostrych potraw</strong>, które mogą powodować obrzęki w organizmie.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Aby zmniejszyć stan zapalny w organizmie i pozytywnie wpłynąć na gojenie, <strong>należy unikać nadmiaru cukru i żywności niskiej jakości.</strong></li></ol>"
+              },
+              {
+                "title": "Czy mogę pić <strong>kawę</strong>?",
+                "text": "<p>Nie zaleca się spożywania gorących potraw we wczesnym okresie po operacji.</p><p>Ponadto zawartość kawy może powodować wzrost ciśnienia krwi. Z tego powodu nie zaleca się picia kawy.</p><p><br></p><p>Jeśli jednak są Państwo takimi miłośnikami kawy jak ja, mogą Państwo wypić <strong style=\"background-color: rgb(255, 255, 0);\">espresso lub zimną kawę</strong>. :)</p>"
+              },
+              {
+                "title": "Kiedy usuwany jest tampon z nosa?",
+                "text": "<p>Rutynowy czas na ten zabieg to <strong>pierwsza kontrola, czyli 5-7 dzień</strong> po operacji.</p><p><br></p><blockquote>Jednak w niektórych przypadkach może być konieczne wcześniejsze usunięcie tamponu z nosa lub jego wcześniejsze usunięcie może być właściwe.</blockquote><blockquote>W takim przypadku zaplanowana zostanie wcześniejsza wizyta wyłącznie w celu usunięcia tamponu.</blockquote>"
+              },
+              {
+                "title": "Jak używać <strong>Nostril retainer</strong> (aparatu kształtującego nozdrza)?",
+                "text": "<p><span style=\"background-color: rgb(255, 255, 0);\">Celem produktu Nostril retainer nie jest nadanie nosowi kształtu, ale zapewnienie symetrycznego gojenia się kształtu nosa utworzonego podczas operacji.</span></p><p>Czasami trzeba zacząć go używać podczas operacji, a czasami po usunięciu tamponów z wnętrza nosa.</p><p><br></p><p>Jest stosowany w procesie gojenia nosa, aby zmniejszyć ryzyko ewentualnej asymetrii i problemów z kształtem czubka nosa poprzez gojenie się na tej formie.</p><p><br></p><blockquote>Sposób użycia:</blockquote><blockquote>Moje rutynowe zalecenie to; od momentu rozpoczęcia użytkowania, <strong>przez 2 miesiące 24 godziny na dobę, a następnie przez 2 miesiące 8-12 godzin na dobę</strong>.</blockquote><blockquote>Ponieważ czas i szczegóły użytkowania mogą się różnić w zależności od pacjenta, proces dotyczący Państwa zostanie omówiony podczas wizyt kontrolnych.</blockquote>"
+              },
+              {
+                "title": "Czy Nostril retainer (kształtujący nozdrza) jest stosowany u każdego pacjenta?",
+                "text": "<p>Pacjenci, u których musimy stosować ten produkt, stanowią większość.</p><p>Mogą jednak wystąpić sytuacje, w których nie należy go stosować w zależności od przeprowadzonej operacji i stanu pacjenta.</p><p><br></p><p>Dlatego należy używać tego produktu tylko wtedy, gdy lekarz go zaleci, w sposób dostosowany do Państwa i przez zalecony czas.</p><p><strong>Nie używać/nie przerywać używania bez konsultacji z lekarzem.</strong></p>"
+              },
+              {
+                "title": "Czy powinnam/powinienem wykonywać <strong>masaż nosa</strong>?",
+                "text": "<p>Po zdjęciu gipsu z nosa zostanie zalecony masaż nosa.</p><p>Zalecony masaż należy wykonywać <strong>5 razy dziennie, przez 2 min + 30 sek</strong>.</p><p>Wykonywanie masażu przez około <strong>6 miesięcy</strong> przyczyni się do procesu gojenia.</p><p><br></p><p>Masaż ma 2 główne cele:</p><p><strong>1- Zwiększenie drenażu limfatycznego</strong>, co zmniejsza obrzęk podskórny między kością a skórą nosa.</p><p>2- Zapobiega ponownemu rozszerzaniu się zwężenia nosa powstałego dzięki łamanym (ciętym) kościom nosa <strong>pod wpływem obrzęku</strong> i zapewnia mechaniczne wsparcie dla gojenia się nosa w pożądanym kształcie.</p>"
+              },
+              {
+                "title": "Jak długo powinnam/powinienem stosować <strong>plastrowanie nosa</strong> po operacji?",
+                "text": "<p>Podczas kontroli w pierwszym tygodniu po operacji usuwany jest tampon z nosa, a gips i taśmy z nosa są zdejmowane.</p><p>Lekarz ponownie zakłada plastry na nos.</p><blockquote>Jeśli pacjent może przyjść na kontrolę w 2. tygodniu, w 2. tygodniu plastry są całkowicie zdejmowane i pacjentowi wyjaśnia się, jak należy plastrować nos.</blockquote><blockquote>Jeśli pacjent nie może fizycznie przyjść na kontrolę w 2. tygodniu, wyjaśnia mu się, jak należy plastrować nos.</blockquote><p>W każdym przypadku <strong>pacjent nie powinien zdejmować plastrów z nosa przez pierwsze 2 tygodnie (14 dni).</strong></p><p>W tym <strong>14-dniowym okresie nos nie powinien zostać zamoczony podczas kąpieli.</strong></p><p><br></p><p><strong>W 14. dniu po operacji</strong>, jeśli pacjent może fizycznie przyjść na kontrolę, po badaniu kontrolnym, a jeśli nie może przyjść na kontrolę, sam w domu myje nos wraz z plastrami, zdejmuje mokre plastry i <strong>zaczyna samodzielne plastrowanie nosa (self-taping).</strong></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 0);\">Rutynowym zaleceniem jest plastrowanie nosa przez cały dzień (24 h) przez 1 miesiąc po 14. dniu.</strong></p><blockquote>Plaster na skórze nosa ma 2 główne cele:</blockquote><blockquote>1- Szybsze ustępowanie obrzęku,</blockquote><blockquote>2- Wygodniejsze i bardziej komfortowe wykonywanie masażu.</blockquote><p><br></p><p>Pacjent <strong>nie musi codziennie zmieniać plastrów</strong> w tym okresie self-taping.</p><blockquote>Nawet jeśli zamokną podczas kąpieli, po wysuszeniu, jeśli plastry nie wyglądają na brudne i nie są poluzowane, wystarczy je wysuszyć. Jeśli jednak plastry nie trzymają się mocno lub wyglądają na brudne, należy je zdjąć i wymienić.</blockquote><p>Po tym 1-miesięcznym plastrowaniu (6. tydzień po operacji) korzystne będzie, jeśli pacjenci będą stosować plastrowanie tylko na noc przez kolejne +1 miesiąc.</p><p>Wykonywanie tych plastrowań zgodnie z zasadami i przez odpowiedni czas przyspieszy gojenie i doprowadzi nos do pożądanego kształtu.</p>"
+              },
+              {
+                "title": "Kiedy mogę <strong>podróżować</strong> po operacji?",
+                "text": "<p>Od <strong>5. dnia</strong>, jeśli lekarz wyrazi zgodę, mogą Państwo <strong>latać</strong>. W zależności od przeprowadzonej operacji czas ten może się wydłużyć.</p><p><u>Podróż lądową</u> można odbyć pierwszego dnia po operacji. (Pod warunkiem, że nie będzie zbyt długa)</p>"
+              },
+              {
+                "title": "Kiedy mogę uprawiać <strong>sport</strong>?",
+                "text": "<p>Od 2. tygodnia po operacji mogą Państwo uprawiać sport w formie lekkich spacerów i bez wysokiego tętna.</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Od 1. miesiąca </strong><span style=\"background-color: rgb(255, 255, 0);\">można uprawiać sport w dowolnym tempie. </span>(<em>w domu lub na siłowni)</em></p><p><br></p><p>Należy jednak unikać sportów walki, w których na nos może zostać wywarta siła, oraz ryzyka urazu.</p>"
+              },
+              {
+                "title": "Kiedy mogę pływać?",
+                "text": "<p>Od 2. tygodnia można pływać w <strong>morzu</strong>,</p><p>a od 4. tygodnia w <strong>basenie</strong>.</p><p><br></p><p>Przez 12 miesięcy nie należy nurkować z butlą i maską.</p>"
+              },
+              {
+                "title": "Kiedy mogę spać na boku?",
+                "text": "<p>Od 2. tygodnia po operacji mogą Państwo przewracać się na bok w łóżku. Nos nie powinien jednak dotykać poduszki ani łóżka i nie powinien być narażony na działanie siły.</p>"
+              },
+              {
+                "title": "Kiedy mogę wrócić do pracy?",
+                "text": "<p>Zaleca się <strong>odpoczynek przez 7 dni</strong> po operacji.</p><p>Na Państwa prośbę zostanie wystawione zwolnienie lekarskie. Pacjentom, którzy potrzebują dłuższego zwolnienia, możemy pomóc do 10 dni.</p><p><br></p><p>Jeśli muszą Państwo wykonywać pracę biurową/przy ekranie, mogą to Państwo robić również w pierwszym tygodniu, mając tampon i gips na nosie. Zalecamy jednak odpoczynek.</p><p><br></p><p>W tym pierwszym tygodniu ważne jest, aby pić dużo płynów, spacerować i odpoczywać z głową uniesioną wysoko.</p>"
+              },
+              {
+                "title": "Kiedy mogę zrobić makijaż?",
+                "text": "<p><strong>Nawet pierwszego dnia po operacji</strong> mogą Państwo <strong>zrobić makijaż</strong>, nie dotykając okolicy operowanej.</p><p>Może to być jednak trudne z powodu obrzęku.</p><p>Nie ma jednak przeciwwskazań, aby przyjść na kontrolę w pierwszym tygodniu w makijażu.</p>"
+              },
+              {
+                "title": "Kiedy mogę używać <strong>okularów</strong> po operacji?",
+                "text": "<p>Najwcześniej od 3. miesiąca mogą Państwo używać lekkich okularów przez krótki czas.</p><p><br></p><blockquote><strong style=\"background-color: rgb(255, 255, 0);\">Od 6. miesiąca</strong> mogą Państwo używać okularów w dowolny sposób.</blockquote>"
+              },
+              {
+                "title": "Jak wygląda proces kontrolny po operacji i jak często powinnam/powinienem przychodzić na kontrolę?",
+                "text": "<p>Kontrole po operacji plastyki nosa są bardzo ważne.</p><blockquote>Niektóre problemy, które można wykryć wcześnie w procesie kontrolnym, można rozwiązać za pomocą odpowiedniego leczenia farmakologicznego, masażu lub podobnych drobnych interwencji. Jednak w przypadkach opóźnionych mogą być wymagane bardziej skomplikowane procesy.</blockquote><blockquote>Dlatego ważne jest, aby nie zaniedbywać kontroli i regularnie ich przestrzegać.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Odpowiedzialność za śledzenie procesów kontrolnych i zapewnienie ciągłości spoczywa na pacjencie.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Dla naszych pacjentów </span><strong style=\"background-color: rgb(204, 224, 245);\">rutynowy kalendarz kontroli </strong><span style=\"background-color: rgb(204, 224, 245);\">wygląda następująco.</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1. tydzień (usunięcie tamponu i gipsu)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2. tydzień (zdjęcie plastrów i ogólna ocena)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 miesiąca</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 miesiące</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 miesiące</span></li></ol><p>Jeśli fizyczna kontrola nie jest możliwa dla pacjentów spoza Stambułu / z zagranicy, prosimy pacjentów o przestrzeganie terminów wymienionych powyżej i przesyłanie nam w tych terminach swojego aktualnego stanu w formie pisemnej oraz dodatkowo zdjęć i filmów.</p><p>Te kontrole, nawet jeśli wykonywane zdalnie, są bardzo ważne dla procesu gojenia.</p><blockquote><em>W celu kontaktu mogą Państwo kliknąć przycisk Whatsapp na dole strony.</em></blockquote>"
+              },
+              {
+                "title": "Kiedy nos całkowicie się zagoi? Kiedy powstanie ostateczny kształt?",
+                "text": "<p>Proces gojenia nosa wymaga długiego czasu. Chociaż zmienia się to w zależności od struktury skóry i tkanek, możemy powiedzieć, że nos przybrał swój ostateczny kształt po upływie około <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 lat</strong>.</p><p><br></p><p>Jednak około 3. miesiąca po operacji około 80% gojenia i obrzęku w nosie mija. Nos z grubsza ładnie pokazuje swój kształt.</p><p>Jeśli jednak skóra jest gruba, przez pierwsze 6 miesięcy nie będą Państwo w pełni zadowoleni z wyglądu nosa, zwłaszcza z powodu obrzęku na czubku nosa. Po 6. miesiącu zacznie wyglądać ładnie, a po 1. roku w pożądanej formie.</p><p><br></p><p><strong>Aby zobaczyć pełny wynik, trzeba będzie poczekać około 2 lat.</strong></p>"
+              },
+              {
+                "title": "Kiedy można wykonać operację rewizyjną?",
+                "text": "<p>Operacja rewizyjna, z wyjątkiem wyjątkowych sytuacji, <strong>nie powinna być wykonywana przed 6. miesiącem</strong> od operacji.</p><p><strong>Idealny czas to po 12 miesiącach</strong>.</p><p><br></p><blockquote>Jeśli jednak problem w nosie powoduje nieodwracalne problemy, a upływ czasu zniszczy ewentualną szansę, można wykonać wcześniejsze operacje rewizyjne. Ale jeśli wizualne problemy funkcjonalne nie wymagają pilnej interwencji, odczekanie minimum 12 miesięcy zmaksymalizuje korzyści z operacji rewizyjnej.</blockquote>"
+              }
+            ],
+          }
+        ]
+      }
+    ]
   }
 };

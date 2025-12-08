@@ -85,6 +85,7 @@ function AppContent() {
       if (hostname.includes('rinoplastica.info')) return 'it';
       if (hostname.includes('rinoplastie.info')) return 'ro';
       if (hostname.includes('rinoplasztika.info')) return 'hu';
+      if (hostname.includes('rynoplastyka.info')) return 'pl';
     }
     return 'tr'; // Default to Turkish
   });
@@ -159,6 +160,12 @@ function AppContent() {
       country: "Türkiye",
       appointment: "Információért",
       note: <i>A sebész együttműködik a <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Medproper Egészségturisztikai Ügynökséggel.</span></i>
+    },
+    pl: {
+      title: "Rynoplastyka",
+      country: "Türkiye",
+      appointment: "W celu uzyskania informacji",
+      note: <i>Chirurg współpracuje z <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agencją Turystyki Zdrowotnej Medproper.</span></i>
     }
   };
 
@@ -266,7 +273,25 @@ function AppContent() {
   );
 }
 
+import PrescriptionApp from './PrescriptionApp';
+
 function App() {
+  const [isPrescriptionPage, setIsPrescriptionPage] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const hostname = window.location.hostname;
+      const search = window.location.search;
+      if (hostname.includes('recete') || search.includes('page=recete')) {
+        setIsPrescriptionPage(true);
+      }
+    }
+  }, []);
+
+  if (isPrescriptionPage) {
+    return <PrescriptionApp />;
+  }
+
   return (
     <ErrorBoundary>
       <AdminProvider>

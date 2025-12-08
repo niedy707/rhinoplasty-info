@@ -1,0 +1,228 @@
+.prescription-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls-sidebar {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.controls-sidebar h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.date-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.date-controls button {
+    padding: 0 10px;
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.date-controls button:hover {
+    background: #bdc3c7;
+}
+
+.date-controls input {
+    flex: 1;
+}
+
+.print-btn {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.print-btn:hover {
+    background-color: #2980b9;
+}
+
+.prescription-preview {
+    margin-left: 320px;
+    /* Offset for sidebar */
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* A4 Paper Simulation */
+.prescription-preview {
+    background: white;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.rx-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.dr-info h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.dr-info p {
+    color: #7f8c8d;
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.rx-meta {
+    text-align: right;
+}
+
+.rx-meta p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.divider {
+    border: 0;
+    border-top: 2px solid #2c3e50;
+    margin: 20px 0;
+}
+
+.rx-body h3 {
+    font-size: 2rem;
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.medication-list {
+    list-style: none;
+    padding: 0;
+}
+
+.medication-list li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ecf0f1;
+}
+
+.medication-list li strong {
+    display: block;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.medication-list li p {
+    margin: 0;
+    color: #34495e;
+    font-style: italic;
+}
+
+.rx-footer {
+    position: absolute;
+    bottom: 20mm;
+    left: 20mm;
+    right: 20mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #bdc3c7;
+    padding-top: 20px;
+}
+
+.signature-box {
+    text-align: center;
+    width: 150px;
+}
+
+.signature-box p {
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    padding-top: 5px;
+    font-size: 0.9rem;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.contact-info p {
+    margin: 2px 0;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+    }
+
+    .no-print,
+    .controls-sidebar {
+        display: none !important;
+    }
+
+    .prescription-container {
+        display: block;
+    }
+
+    .prescription-preview {
+        margin: 0;
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}

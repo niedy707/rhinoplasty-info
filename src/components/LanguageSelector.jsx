@@ -10,6 +10,7 @@ const languages = [
     { code: 'it', name: 'Italiano', flag: '🇮🇹' },
     { code: 'ro', name: 'Română', flag: '🇷🇴' },
     { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
+    { code: 'pl', name: 'Polski', flag: '🇵🇱' },
 ];
 
 export default function LanguageSelector({ currentLang, onSelect }) {
