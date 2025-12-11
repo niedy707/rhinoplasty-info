@@ -267,15 +267,15 @@ export const content = {
               },
               {
                 "title": "<p>İlaçları ne zaman kullanmaya başlamalıyım?</p>",
-                "text": "<p><strong>Tüm ilaçları,</strong> ameliyat sonrası<strong> ilk gün sabah</strong> (taburculuk sonrasında) <strong>kullanmaya başlamalısınız. </strong><em style=\"background-color: rgb(255, 255, 0);\">(Burun yıkama ve nemlendirme ilaçları dahil) </em></p><p><br></p><blockquote>Ameliyat olduğunuz gün, yani hastanede yatıyor iken ilaç kullanmanıza gerek yoktur.</blockquote><blockquote>Tedaviniz hastane hemşireleri tarafından uygulanacaktır.</blockquote>"
-              },
-              {
-                "title": "<p><strong>Burun içi yıkama ve nemlendirme</strong> ne kadar süre ile devam edilmelidir?</p>",
-                "text": "<p>Bu konudaki rutin önerim, ameliyat sonrası<strong> 1 ay süre ile burun içine yıkama ve nemlendirme</strong> yapılmasıdır.</p><p>İlk 2 hafta bu rutini <strong>günde 5 sefer</strong> yapmanız gerekmektedir.</p><p>Sonraki 2 hafta ise günde 3 sefer uygulama yeterli olacaktır.</p><p><br></p><blockquote>1 aylık süre tamamlandığında, bu 2 ilaca devam etmek zorunda değilsiniz.</blockquote><p>Fakat, eğer ihtiyaç duyuyorsanız devam edilmesinde sakınca yoktur. (Burun içerisinde kabuklanma, kuruluk vb hala var ise devam ediniz)</p>"
+                "text": "<p><strong>Tüm ilaçları,</strong> ameliyat sonrası<strong> ilk gün sabah</strong> (taburculuk sonrasında) <strong>kullanmaya başlamalısınız. </strong><em style=\"background-color: rgb(255, 255, 0);\">(Burun yıkama ve nemlendirme ilaçları dahil) </em></p><p><br></p><p>İlaçların nasıl kullanılacağı ile ilgili detaylı bilgi için: <span class=\"tab-link\" data-tab=\"tab7\" style=\"color: #3b82f6; cursor: pointer; text-decoration: underline;\">(Reçete/İlaç Kullanımı)</span></p><blockquote>Ameliyat olduğunuz gün, yani hastanede yatıyor iken ilaç kullanmanıza gerek yoktur.</blockquote><blockquote>Tedaviniz hastane hemşireleri tarafından uygulanacaktır.</blockquote>"
               },
               {
                 "title": "<p>Burun içi yıkama için hangi ilacı kullanmalıyım? Farkları nelerdir?</p>",
                 "text": "<p>Burun yıkaması için kullanabileceğiniz 3 ana ürün vardır.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Okyanus suyu spreyler: </strong></li></ol><p>Bu ilaçlar hem taşınması hem de burun içinde tampon var iken kullanması en kolay olanlardır. Ancak burun içi temizleme etkinlikleri diğer yöntemlere göre biraz daha zayıftır. Temizleme etkisi yeterli düzeydedir.</p><blockquote>Sprey formundaki ilaçları çantanızda taşıyıp istediğiniz zaman kolaylıkla kullanabilirsiniz. İş, ofis, iş kullanımı için en ideal olanlarıdır.</blockquote><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Şişe formundaki burun yıkama ilaçları (Deniz suyu/ okyanus suyu): </strong></li></ol><blockquote>Bu ilaçlar hazırlık prosedürü gerekmektedir ve yanınızda taşıyıp rahatlıkla kullanmazsınız.</blockquote><p>İlacın hazırlanması için kaynamış soğumuş ya da temiz olduğundan emin olduğunuz su ile, toz ilaç karıştırılır ve burun içine sıkarak uygulama yapılır.</p><p>İlacın bir burundan girip diğerinden çıkmasına gerek yoktur. Amaç burun içinde mekanik bir yıkama yapmaktır.</p><p>Bu yöntem ile etkili ve yeterli bir burun içi temizliği sağlanır.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Serum Fizyoloji (izotonik serum): </strong></li></ol><p>Ezcaneden temin edebileceğiniz, <span style=\"background-color: rgb(204, 232, 204);\">1lt, %0,9 NaCl serum</span> ile burun yıkaması yapabilirsiniz.</p><p>Bunu kullanmak için 1<span style=\"background-color: rgb(204, 232, 204);\">0cc ya da 20cc lik enjektör</span> ile serumu çekip, ucundaki iğneyi çıkartıp, iğnesiz şırınga ile burun içine sıkarak yıkama yapabilirsiniz.</p><p><br></p><blockquote>En uygun fiyatlı ve kullanımı kolay, yanınızda taşıması zor olan, evde kullanım için pratik bir yöntemdir.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">Burun içine yıkama yapmak için bu 3 yöntemi de kullanabilirsiniz. Her bireyin kullanım tercihleri ve uygulayabileceği yöntem farklı olabileceğinden kararı hekiminiz ile birlikte verebilirsiniz.</span></blockquote>"
+              },
+              {
+                "title": "<p><strong>Burun içi yıkama ve nemlendirme</strong> ne kadar süre ile devam edilmelidir?</p>",
+                "text": "<p>Bu konudaki rutin önerim, ameliyat sonrası<strong> 1 ay süre ile burun içine yıkama ve nemlendirme</strong> yapılmasıdır.</p><p>İlk 2 hafta bu rutini <strong>günde 5 sefer</strong> yapmanız gerekmektedir.</p><p>Sonraki 2 hafta ise günde 3 sefer uygulama yeterli olacaktır.</p><p><br></p><blockquote>1 aylık süre tamamlandığında, bu 2 ilaca devam etmek zorunda değilsiniz.</blockquote><p>Fakat, eğer ihtiyaç duyuyorsanız devam edilmesinde sakınca yoktur. (Burun içerisinde kabuklanma, kuruluk vb hala var ise devam ediniz)</p>"
               },
               {
                 "title": "<p>Ameliyat sonrası beslenme önerileri nelerdir?</p>",
@@ -349,6 +349,35 @@ export const content = {
               {
                 "title": "<p>Revizyon ameliyatı ne zaman yapılabilir?</p>",
                 "text": "<p>Revizyon cerrahisi istisnai durumlar dışında ameliyatın <strong>6ncı ayından önce yapılmamalıdır.</strong></p><p><strong>İdeal süre 12 ay sonrası</strong>nda yapmaktır.</p><p><br></p><blockquote>Ancak burundaki sorun geri dönüşü olmayan sorunlar oluşturuyor ise ve geçen zaman olası şansı yok edecek ise daha erken revizyon cerrahiler de yapılabilir. Fakar görsel fonksiyonle sorunlar acil müdahale gerektirecek nitelikte değil ise, minimum 12 ay beklemek revizyon cerrahisinden alınacak faydayı maksimize edecektir.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Refakatçi gerekli midir?</p>",
+                "text": "<p>Hastanede yatış süresince (1 gece) yanınızda bir refakatçi bulunması hem sizin konforunuz hem de ihtiyaçlarınızın daha rahat karşılanması için önerilir. Ancak zorunlu hallerde hastane hemşirelerimiz de size destek olacaktır. Taburcu olduktan sonraki ilk birkaç gün de evde size yardımcı olacak birinin olması iyileşme sürecinizi kolaylaştıracaktır.</p>"
+              },
+              {
+                "title": "<p>Hapşırma durumunda ne yapmalıyım?</p>",
+                "text": "<p>Hapşırma hissi geldiğinde bunu engellemeye çalışmayın. Ancak basıncın burnunuza zarar vermemesi için <strong>ağzınız açık şekilde</strong> hapşırmanız çok önemlidir. Ağzınızı kapatarak hapşırmak burun içi basıncı artırarak kanamaya veya doku hasarına neden olabilir.</p>"
+              },
+              {
+                "title": "<p>Burnumu ne zaman sümkürebilirim?</p>",
+                "text": "<p>Ameliyat sonrası ilk <strong>1 ay boyunca burnunuzu sümkürmemelisiniz.</strong> Bu süre zarfında burun temizliğini size önerilen okyanus suyu spreyler veya yıkama kitleri ile yapmalısınız. Sümkürme hareketi burun içi basıncı artırarak kanamaya ve iyileşmekte olan dokuların zarar görmesine neden olabilir. 1. aydan sonra nazikçe sümkürebilirsiniz.</p>"
+              },
+              {
+                "title": "<p>Güneşe çıkabilir miyim / Solaryuma girebilir miyim?</p>",
+                "text": "<p>Ameliyat sonrası ilk <strong>2 ay</strong> boyunca burnunuzu direkt güneş ışığından ve yüksek ısıdan (solaryum, sauna, hamam) korumalısınız. Güneş ışığı, iyileşmekte olan dokularda ödemin artmasına ve kalıcı renk değişikliklerine (lekelenmelere) neden olabilir. Güneşe çıkmanız gerekiyorsa mutlaka yüksek faktörlü (50+ SPF) güneş koruyucu krem kullanmalı ve şapka takmalısınız.</p>"
+              },
+              {
+                "title": "<p>Cilt bakımı / Peeling ne zaman yaptırabilirim?</p>",
+                "text": "<p>Burun üzerindeki bantlar çıktıktan sonra cildinizi nazikçe temizleyebilirsiniz. Ancak profesyonel cilt bakımı, peeling veya siyah nokta temizliği gibi işlemler için <strong>en az 2 ay</strong> beklemeniz önerilir. Bu işlemler burun cildine baskı uygulayabileceğinden erken dönemde yapılması sakıncalıdır. 2. aydan sonra, burnunuza sert baskı uygulanmaması şartıyla cilt bakımı yaptırabilirsiniz.</p>"
+              },
+              {
+                "title": "<p>Ameliyat sonrası hemen rahat nefes alabilir miyim?</p>",
+                "text": "<p>Ameliyat sonrası burun içine yerleştirilen silikon tamponlar oluklu olduğu için nefes almanıza kısmen izin verir. Ancak ameliyata bağlı ödem, kabuklanma ve salgılar nedeniyle ilk günlerde burun tıkanıklığı hissetmeniz çok normaldir. Tamponlar alındıktan sonra (5-7. gün) nefesiniz bir miktar rahatlar, ancak ödemler azaldıkça ve burun içi iyileştikçe (yaklaşık 1-3 ay içinde) nefes kaliteniz giderek artacak ve ideal seviyeye ulaşacaktır.</p>"
               }
             ]
           }
@@ -625,12 +654,12 @@ export const content = {
                 "text": "<p><strong>You should start using all medications</strong> on the<strong> first day morning</strong> after surgery (after discharge). <em style=\"background-color: rgb(255, 255, 0);\">(Including nasal washing and moisturizing medications) </em></p><p><br></p><blockquote>You do not need to use medication on the day of surgery while you are in the hospital.</blockquote><blockquote>Your treatment will be administered by hospital nurses.</blockquote>"
               },
               {
-                "title": "How long should nasal washing and moisturizing be continued?",
-                "text": "<p>My routine recommendation on this subject is to perform <strong>nasal washing and moisturizing for 1 month</strong> after surgery.</p><p>You need to do this routine <strong>5 times a day</strong> in the first 2 weeks.</p><p>Application 3 times a day will be sufficient for the next 2 weeks.</p><p><br></p><blockquote>When the 1 month period is completed, you do not have to continue these 2 medications.</blockquote><p>However, if you feel the need, there is no harm in continuing. (Continue if there is still crusting, dryness etc. inside the nose)</p>"
-              },
-              {
                 "title": "Which medication should I use for nasal washing? What are the differences?",
                 "text": "<p>There are 3 main products you can use for nasal washing.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Ocean water sprays: </strong></li></ol><p>These medications are the easiest to carry and use while there is a silicon tampone inside the nose. However, their intranasal cleaning activities are slightly weaker compared to other methods. Cleaning effect is at a sufficient level.</p><blockquote>You can carry spray form medications in your bag and use them easily whenever you want. They are the most ideal for work, office, business use.</blockquote><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Nasal washing medications in bottle form (Sea water/ ocean water): </strong></li></ol><blockquote>These medications require preparation procedure and you cannot carry them with you and use them easily. </blockquote><p>For the preparation of the medication, powder medication is mixed with water that you are sure that is boiled and cooled or clean, and application is made by squeezing into the nose.</p><p>There is no need for the medication to enter from one nose and exit from the other. The aim is to perform a mechanical washing inside the nose.</p><p>Effective and sufficient intranasal cleaning is provided with this method.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Serum Physiologic (isotonic serum): </strong></li></ol><p>You can perform nasal washing with <span style=\"background-color: rgb(204, 232, 204);\">1lt, 0.9% NaCl serum</span> that you can obtain from the pharmacy.</p><p>To use this, you can draw the serum with a <span style=\"background-color: rgb(204, 232, 204);\">10cc or 20cc injector</span>, remove the needle at the tip, and perform washing by squeezing into the nose with a needle-free syringe.</p><p><br></p><blockquote>It is the most affordable and easy to use, difficult to carry with you, practical method for home use.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">You can use all these 3 methods to perform washing inside the nose. Since each individual's usage preferences and the method they can apply may be different, you can make the decision together with your physician.</span></blockquote>"
+              },
+              {
+                "title": "How long should nasal washing and moisturizing be continued?",
+                "text": "<p>My routine recommendation on this subject is to perform <strong>nasal washing and moisturizing for 1 month</strong> after surgery.</p><p>You need to do this routine <strong>5 times a day</strong> in the first 2 weeks.</p><p>Application 3 times a day will be sufficient for the next 2 weeks.</p><p><br></p><blockquote>When the 1 month period is completed, you do not have to continue these 2 medications.</blockquote><p>However, if you feel the need, there is no harm in continuing. (Continue if there is still crusting, dryness etc. inside the nose)</p>"
               },
               {
                 "title": "What are the post-operative nutrition recommendations?",
@@ -687,6 +716,35 @@ export const content = {
               {
                 "title": "When can I use glasses after surgery?",
                 "text": "<p>You can use lightweight glasses for a short time starting from the 3rd month at the earliest.</p><p><br></p><blockquote>As of the <strong style=\"background-color: rgb(255, 255, 0);\">6th month</strong>, you can use glasses as you wish.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Is a companion necessary?</p>",
+                "text": "<p>It is recommended to have a companion with you during your hospital stay (1 night) for your comfort and to meet your needs more easily. However, in mandatory cases, our hospital nurses will also support you. Having someone to help you at home for the first few days after discharge will also facilitate your recovery process.</p>"
+              },
+              {
+                "title": "<p>What should I do if I need to sneeze?</p>",
+                "text": "<p>Do not try to stop the urge to sneeze. However, it is very important to sneeze with your <strong>mouth open</strong> so that the pressure does not damage your nose. Sneezing with your mouth closed can increase intranasal pressure and cause bleeding or tissue damage.</p>"
+              },
+              {
+                "title": "<p>When can I blow my nose?</p>",
+                "text": "<p>You should <strong>not blow your nose for the first 1 month</strong> after surgery. During this period, you should clean your nose with the recommended ocean water sprays or washing kits. Blowing your nose can increase intranasal pressure and cause bleeding and damage to the healing tissues. You can blow your nose gently after the 1st month.</p>"
+              },
+              {
+                "title": "<p>Can I go out in the sun / use a solarium?</p>",
+                "text": "<p>You should protect your nose from direct sunlight and high heat (solarium, sauna, turkish bath) for the first <strong>2 months</strong> after surgery. Sunlight can cause increased edema and permanent color changes (spotting) in healing tissues. If you need to go out in the sun, you must use high factor (50+ SPF) sunscreen and wear a hat.</p>"
+              },
+              {
+                "title": "<p>When can I have skin care / peeling?</p>",
+                "text": "<p>You can gently clean your skin after the tapes on your nose are removed. However, it is recommended to wait <strong>at least 2 months</strong> for procedures such as professional skin care, peeling or blackhead cleaning. Since these procedures may apply pressure to the nasal skin, it is inconvenient to perform them in the early period. After the 2nd month, you can have skin care provided that no hard pressure is applied to your nose.</p>"
+              },
+              {
+                "title": "<p>Will I be able to breathe comfortably immediately after surgery?</p>",
+                "text": "<p>Since the silicone tampons placed inside the nose after surgery are grooved, they partially allow you to breathe. However, it is very normal to feel nasal congestion in the first days due to surgery-related edema, crusting and secretions. After the tampons are removed (5-7th day), your breathing will relax a little, but as the edema decreases and the inside of the nose heals (within about 1-3 months), your breathing quality will gradually increase and reach the ideal level.</p>"
               }
             ]
           },
@@ -992,6 +1050,35 @@ export const content = {
             ]
           },
           {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Ist eine Begleitperson notwendig?</p>",
+                "text": "<p>Es wird empfohlen, während Ihres Krankenhausaufenthalts (1 Nacht) eine Begleitperson bei sich zu haben, um Ihren Komfort zu gewährleisten und Ihre Bedürfnisse leichter zu erfüllen. In zwingenden Fällen werden Sie jedoch auch von unseren Krankenschwestern unterstützt. Wenn Sie in den ersten Tagen nach der Entlassung jemanden haben, der Ihnen zu Hause hilft, wird dies Ihren Genesungsprozess ebenfalls erleichtern.</p>"
+              },
+              {
+                "title": "<p>Was soll ich tun, wenn ich niesen muss?</p>",
+                "text": "<p>Versuchen Sie nicht, den Niesreiz zu unterdrücken. Es ist jedoch sehr wichtig, mit <strong>offenem Mund</strong> zu niesen, damit der Druck Ihre Nase nicht beschädigt. Niesen mit geschlossenem Mund kann den intranasalen Druck erhöhen und Blutungen oder Gewebeschäden verursachen.</p>"
+              },
+              {
+                "title": "<p>Wann darf ich mir die Nase putzen?</p>",
+                "text": "<p>Sie sollten sich in den ersten <strong>1 Monat nach der Operation nicht die Nase putzen</strong>. In dieser Zeit sollten Sie Ihre Nase mit den empfohlenen Meerwassersprays oder Spülsets reinigen. Das Schnäuzen kann den intranasalen Druck erhöhen und Blutungen oder Schäden an den heilenden Geweben verursachen. Nach dem 1. Monat können Sie sich vorsichtig die Nase putzen.</p>"
+              },
+              {
+                "title": "<p>Darf ich in die Sonne / ins Solarium gehen?</p>",
+                "text": "<p>Sie sollten Ihre Nase in den ersten <strong>2 Monaten</strong> nach der Operation vor direkter Sonneneinstrahlung und starker Hitze (Solarium, Sauna, Hamam) schützen. Sonnenlicht kann zu verstärkten Ödemen und dauerhaften Farbveränderungen (Fleckenbildung) im heilenden Gewebe führen. Wenn Sie in die Sonne gehen müssen, müssen Sie unbedingt Sonnencreme mit hohem Lichtschutzfaktor (50+ SPF) verwenden und einen Hut tragen.</p>"
+              },
+              {
+                "title": "<p>Wann kann ich eine Hautpflege / ein Peeling machen lassen?</p>",
+                "text": "<p>Nachdem die Bänder auf Ihrer Nase entfernt wurden, können Sie Ihre Haut sanft reinigen. Es wird jedoch empfohlen, für Verfahren wie professionelle Hautpflege, Peeling oder Mitesserreinigung <strong>mindestens 2 Monate</strong> zu warten. Da diese Verfahren Druck auf die Nasenhaut ausüben können, ist ihre Durchführung in der frühen Phase ungeeignet. Nach dem 2. Monat können Sie eine Hautpflege durchführen lassen, vorausgesetzt, es wird kein harter Druck auf Ihre Nase ausgeübt.</p>"
+              },
+              {
+                "title": "<p>Werde ich nach der Operation sofort wieder frei atmen können?</p>",
+                "text": "<p>Da die nach der Operation in die Nase eingesetzten Silikontampons gerillt sind, ermöglichen sie Ihnen teilweise das Atmen. Es ist jedoch ganz normal, dass Sie in den ersten Tagen aufgrund von operationsbedingten Ödemen, Verkrustungen und Sekreten eine verstopfte Nase verspüren. Nachdem die Tampons entfernt wurden (5.-7. Tag), wird sich Ihre Atmung etwas entspannen, aber da die Ödeme abnehmen und das Innere der Nase heilt (innerhalb von etwa 1-3 Monaten), wird Ihre Atemqualität allmählich zunehmen und das ideale Niveau erreichen.</p>"
+              }
+            ]
+          },
+          {
             "bgColor": "#f3e5f5",
             "subsections": [
               {
@@ -1293,6 +1380,35 @@ export const content = {
             ]
           },
           {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>¿Es necesario un acompañante?</p>",
+                "text": "<p>Se recomienda tener un acompañante con usted durante su estancia en el hospital (1 noche) para su comodidad y para satisfacer sus necesidades más fácilmente. Sin embargo, en casos obligatorios, nuestras enfermeras del hospital también lo apoyarán. Tener a alguien que lo ayude en casa durante los primeros días después del alta también facilitará su proceso de recuperación.</p>"
+              },
+              {
+                "title": "<p>¿Qué debo hacer si necesito estornudar?</p>",
+                "text": "<p>No intente detener el impulso de estornudar. Sin embargo, es muy importante estornudar con la <strong>boca abierta</strong> para que la presión no dañe su nariz. Estornudar con la boca cerrada puede aumentar la presión intranasal y causar sangrado o daño tisular.</p>"
+              },
+              {
+                "title": "<p>¿Cuándo puedo sonarme la nariz?</p>",
+                "text": "<p>No debe <strong>sonarse la nariz durante el primer mes</strong> después de la cirugía. Durante este período, debe limpiarse la nariz con los aerosoles de agua de mar o kits de lavado recomendados. Sonarse la nariz puede aumentar la presión intranasal y causar sangrado y daño a los tejidos en curación. Puede sonarse la nariz suavemente después del primer mes.</p>"
+              },
+              {
+                "title": "<p>¿Puedo tomar el sol / ir al solárium?</p>",
+                "text": "<p>Debe proteger su nariz de la luz solar directa y del calor intenso (solárium, sauna, baño turco) durante los primeros <strong>2 meses</strong> después de la cirugía. La luz solar puede causar un aumento del edema y cambios permanentes de color (manchas) en los tejidos en curación. Si necesita salir al sol, debe usar protector solar de factor alto (50+ SPF) y usar un sombrero.</p>"
+              },
+              {
+                "title": "<p>¿Cuándo puedo hacerme una limpieza facial / peeling?</p>",
+                "text": "<p>Puede limpiar suavemente su piel después de que se retiren las cintas de su nariz. Sin embargo, se recomienda esperar <strong>al menos 2 meses</strong> para procedimientos como limpieza facial profesional, peeling o limpieza de puntos negros. Dado que estos procedimientos pueden aplicar presión a la piel nasal, es inconveniente realizarlos en el período temprano. Después del segundo mes, puede hacerse una limpieza facial siempre que no se aplique una presión fuerte en la nariz.</p>"
+              },
+              {
+                "title": "<p>¿Podré respirar cómodamente inmediatamente después de la cirugía?</p>",
+                "text": "<p>Dado que los tapones de silicona colocados dentro de la nariz después de la cirugía están ranurados, le permiten respirar parcialmente. Sin embargo, es muy normal sentir congestión nasal en los primeros días debido al edema, costras y secreciones relacionadas con la cirugía. Después de que se retiren los tapones (5-7º día), su respiración se relajará un poco, pero a medida que disminuya el edema y sane el interior de la nariz (dentro de aproximadamente 1-3 meses), su respiración aumentará gradualmente y alcanzará el nivel ideal.</p>"
+              }
+            ]
+          },
+          {
             "bgColor": "#f3e5f5",
             "subsections": [
               {
@@ -1582,28 +1698,23 @@ export const content = {
               {
                 "title": "Когда я смогу вернуться на работу?",
                 "text": "<p>Рекомендуется <strong>отдыхать в течение 7 дней</strong> после операции.</p><p>По вашему запросу будет выдан больничный лист. Мы можем помочь пациентам, которые запрашивают более длительный больничный до 10 дней.</p><p><br></p><p>Если вам нужно выполнять работу за столом/экраном, вы можете делать это, пока в носу есть силиконовый тампон и гипс в первую неделю. Однако мы рекомендуем вам отдыхать.</p><p><br></p><p>В этот период первой недели важно потреблять много жидкости, ходить и отдыхать с высоко поднятой головой.</p>"
-              },
-              {
-                "title": "Когда я смогу наносить макияж?",
-                "text": "<p><strong>Вы можете наносить макияж даже в первый день</strong> после операции, не касаясь хирургической области.</p><p>Однако у вас могут возникнуть трудности из-за отека.</p><p>Но нет вреда в том, чтобы прийти на осмотр в первую неделю с макияжем.</p>"
-              },
-              {
-                "title": "Когда я смогу носить очки после операции?",
-                "text": "<p>Вы можете носить легкие очки в течение короткого времени, начиная с 3-го месяца, не ранее.</p><p><br></p><blockquote>С <strong style=\"background-color: rgb(255, 255, 0);\">6-го месяца</strong> вы можете носить очки по своему желанию.</blockquote>"
               }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              { "title": "<p>Нужен ли сопровождающий?</p>", "text": "<p>Рекомендуется иметь сопровождающего во время вашего пребывания в больнице (1 ночь) для вашего комфорта и более легкого удовлетворения ваших потребностей. Однако в обязательных случаях наши медсестры также окажут вам поддержку. Наличие кого-то, кто поможет вам дома в первые несколько дней после выписки, также облегчит ваш процесс восстановления.</p>" },
+              { "title": "<p>Что делать, если я хочу чихнуть?</p>", "text": "<p>Не пытайтесь сдерживать позыв к чиханию. Однако очень важно чихать с <strong>открытым ртом</strong>, чтобы давление не повредило ваш нос. Чихание с закрытым ртом может повысить внутриносовое давление и вызвать кровотечение или повреждение тканей.</p>" },
+              { "title": "<p>Когда можно сморкаться?</p>", "text": "<p>Вы <strong>не должны сморкаться в течение первого месяца</strong> после операции. В этот период следует очищать нос рекомендованными спреями с морской водой или наборами для промывания. Сморкание может повысить внутриносовое давление и вызвать кровотечение и повреждение заживающих тканей. Вы можете осторожно сморкаться после 1-го месяца.</p>" },
+              { "title": "<p>Можно ли загорать / ходить в солярий?</p>", "text": "<p>Вы должны защищать свой нос от прямых солнечных лучей и высокой температуры (солярий, сауна, турецкая баня) в течение первых <strong>2 месяцев</strong> после операции. Солнечный свет может вызвать усиление отека и необратимые изменения цвета (пятна) в заживающих тканях. Если вам нужно выйти на солнце, вы должны использовать солнцезащитный крем с высоким фактором (50+ SPF) и носить шляпу.</p>" },
+              { "title": "<p>Когда можно делать чистку лица / пилинг?</p>", "text": "<p>Вы можете аккуратно очищать кожу после снятия лент с носа. Однако рекомендуется подождать <strong>не менее 2 месяцев</strong> для таких процедур, как профессиональная чистка лица, пилинг или чистка черных точек. Поскольку эти процедуры могут оказывать давление на кожу носа, их нежелательно проводить в ранний период. После 2-го месяца вы можете делать уход за кожей при условии, что на нос не будет оказываться сильного давления.</p>" },
+              { "title": "<p>Смогу ли я свободно дышать сразу после операции?</p>", "text": "<p>Поскольку силиконовые тампоны, помещенные внутрь носа после операции, имеют канавки, они частично позволяют вам дышать. Однако в первые дни вполне нормально чувствовать заложенность носа из-за отека, корок и выделений, связанных с операцией. После удаления тампонов (5-7-й день) ваше дыхание немного облегчится, но по мере уменьшения отека и заживления внутренней части носа (в течение примерно 1-3 месяцев) качество вашего дыхания будет постепенно улучшаться и достигнет идеального уровня.</p>" }
             ]
           },
           {
             "bgColor": "#f3e5f5",
             "subsections": [
-              {
-                "title": "Как проходит процесс послеоперационного контроля и как часто мне следует приходить на осмотр?",
-                "text": "<p>Послеоперационные осмотры после ринопластики очень важны.</p><blockquote>Некоторые проблемы, которые могут быть обнаружены на ранней стадии в процессе осмотра, могут быть решены с помощью соответствующих лекарств, массажа или аналогичных незначительных вмешательств. Однако в запущенных случаях могут потребоваться более сложные процессы.</blockquote><blockquote>Поэтому важно не прерывать осмотры и регулярно их проходить.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Следить за процессами контроля и обеспечивать непрерывность - это ответственность пациента.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">График </span><strong style=\"background-color: rgb(204, 224, 245);\">рутинных осмотров </strong><span style=\"background-color: rgb(204, 224, 245);\">для наших пациентов выглядит следующим образом:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1-я неделя (удаление силиконового тампона и гипса)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2-я неделя (удаление лент и общая оценка)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 месяца</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 месяца</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 месяцев</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 месяцев</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 месяца</span></li></ol><p>Если физический осмотр невозможен для пациентов за пределами Стамбула или за границей, мы просим пациентов соблюдать указанные выше сроки и присылать нам свой текущий статус в письменном виде и дополнительно с фото и видео в это время.</p><p>Эти осмотры, даже если они проводятся удаленно, очень важны для процесса заживления.</p><blockquote><em>Вы можете нажать на кнопку Whatsapp внизу страницы для связи.</em></blockquote>"
-              },
-              {
-                "title": "Когда нос заживает полностью? Когда формируется окончательная форма?",
-                "text": "<p>Процесс заживления носа требует длительного времени. Хотя это варьируется в зависимости от структуры кожи и тканей, мы можем сказать, что нос принимает свою окончательную форму, когда проходит примерно <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 года </strong>.</p><p><br></p><p>Однако примерно 80% заживления и отека в носу проходит через 3 месяца после операции. Нос примерно показывает свою форму красиво. </p><p>Однако, если кожа толстая, вам не полностью понравится внешний вид носа из-за отека, особенно на кончике носа в течение первых 6 месяцев. Он начнет выглядеть красиво после 6-го месяца, и в желаемой форме после 1-го года.</p><p><br></p><p><strong>Нужно будет подождать примерно 2 года, чтобы увидеть полный результат.</strong></p>"
-              },
               {
                 "title": "Когда можно проводить ревизионную операцию?",
                 "text": "<p>Ревизионная операция <strong>не должна проводиться ранее 6-го месяца</strong> после операции, за исключением исключительных случаев.</p><p><strong>Идеальное время - сделать это через 12 месяцев</strong>.</p><p><br></p><blockquote>Однако, если проблема в носу создает необратимые проблемы, и прошедшее время уничтожит возможный шанс, также могут быть выполнены более ранние ревизионные операции. Но если визуальные функциональные проблемы не требуют срочного вмешательства, ожидание минимум 12 месяцев максимизирует пользу, которую можно получить от ревизионной операции.</blockquote>"
@@ -1891,6 +2002,35 @@ export const content = {
               {
                 "title": "Quand puis-je utiliser des lunettes après l'opération ?",
                 "text": "<p>Vous pouvez utiliser des lunettes légères pendant une courte période à partir du 3ème mois au plus tôt.</p><p><br></p><blockquote>À partir du <strong style=\"background-color: rgb(255, 255, 0);\">6ème mois</strong>, vous pouvez utiliser des lunettes comme vous le souhaitez.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Un accompagnateur est-il nécessaire ?</p>",
+                "text": "<p>Il est recommandé d'avoir un accompagnateur avec vous pendant votre séjour à l'hôpital (1 nuit) pour votre confort et pour répondre plus facilement à vos besoins. Cependant, dans les cas obligatoires, nos infirmières de l'hôpital vous soutiendront également. Avoir quelqu'un pour vous aider à la maison pendant les premiers jours après votre sortie facilitera également votre processus de récupération.</p>"
+              },
+              {
+                "title": "<p>Que dois-je faire si j'ai besoin d'éternuer ?</p>",
+                "text": "<p>N'essayez pas d'arrêter l'envie d'éternuer. Cependant, il est très important d'éternuer la <strong>bouche ouverte</strong> pour que la pression n'endommage pas votre nez. Éternuer la bouche fermée peut augmenter la pression intranasale et provoquer des saignements ou des lésions tissulaires.</p>"
+              },
+              {
+                "title": "<p>Quand puis-je me moucher ?</p>",
+                "text": "<p>Vous ne devez <strong>pas vous moucher pendant le premier mois</strong> après l'opération. Pendant cette période, vous devez nettoyer votre nez avec les sprays d'eau de mer ou les kits de lavage recommandés. Se moucher peut augmenter la pression intranasale et provoquer des saignements et des dommages aux tissus en guérison. Vous pouvez vous moucher doucement après le 1er mois.</p>"
+              },
+              {
+                "title": "<p>Puis-je aller au soleil / au solarium ?</p>",
+                "text": "<p>Vous devez protéger votre nez de la lumière directe du soleil et de la chaleur intense (solarium, sauna, hammam) pendant les <strong>2 premiers mois</strong> après l'opération. La lumière du soleil peut provoquer une augmentation de l'œdème et des changements de couleur permanents (taches) dans les tissus en guérison. Si vous devez aller au soleil, vous devez absolument utiliser un écran solaire à indice élevé (50+ SPF) et porter un chapeau.</p>"
+              },
+              {
+                "title": "<p>Quand puis-je faire un soin de la peau / un peeling ?</p>",
+                "text": "<p>Vous pouvez nettoyer doucement votre peau après le retrait des bandes sur votre nez. Cependant, il est recommandé d'attendre <strong>au moins 2 mois</strong> pour des procédures telles que les soins de la peau professionnels, le peeling ou le nettoyage des points noirs. Comme ces procédures peuvent exercer une pression sur la peau nasale, il est déconseillé de les effectuer dans la période précoce. Après le 2ème mois, vous pouvez faire un soin de la peau à condition qu'aucune pression forte ne soit appliquée sur votre nez.</p>"
+              },
+              {
+                "title": "<p>Pourrai-je respirer confortablement immédiatement après l'opération ?</p>",
+                "text": "<p>Comme les tampons en silicone placés à l'intérieur du nez après l'opération sont rainurés, ils vous permettent partiellement de respirer. Cependant, il est très normal de ressentir une congestion nasale les premiers jours en raison de l'œdème, des croûtes et des sécrétions liés à l'opération. Après le retrait des tampons (5-7ème jour), votre respiration se détendra un peu, mais à mesure que l'œdème diminuera et que l'intérieur du nez guérira (environ 1 à 3 mois), votre qualité respiratoire augmentera progressivement et atteindra le niveau idéal.</p>"
               }
             ]
           },
@@ -2196,11 +2336,40 @@ export const content = {
             ]
           },
           {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>È necessario un accompagnatore?</p>",
+                "text": "<p>Si raccomanda di avere un accompagnatore con voi durante il vostro soggiorno in ospedale (1 notte) per il vostro comfort e per soddisfare più facilmente le vostre esigenze. Tuttavia, in casi obbligatori, le nostre infermiere dell'ospedale vi supporteranno anche. Avere qualcuno che vi aiuti a casa durante i primi giorni dopo la dimissione faciliterà anche il vostro processo di recupero.</p>"
+              },
+              {
+                "title": "<p>Cosa devo fare se ho bisogno di starnutire?</p>",
+                "text": "<p>Non cercate di fermare l'impulso di starnutire. Tuttavia, è molto importante starnutire con la <strong>bocca aperta</strong> in modo che la pressione non danneggi il naso. Starnutire a bocca chiusa può aumentare la pressione intranasale e causare sanguinamento o danni ai tessuti.</p>"
+              },
+              {
+                "title": "<p>Quando posso soffiarmi il naso?</p>",
+                "text": "<p>Non dovete <strong>soffiarvi il naso per il primo mese</strong> dopo l'intervento. Durante questo periodo, dovete pulire il naso con gli spray all'acqua di mare o i kit di lavaggio raccomandati. Soffiarsi il naso può aumentare la pressione intranasale e causare sanguinamento e danni ai tessuti in guarigione. Potete soffiarvi il naso delicatamente dopo il 1° mese.</p>"
+              },
+              {
+                "title": "<p>Posso andare al sole / entrare nel solarium?</p>",
+                "text": "<p>Dovete proteggere il naso dalla luce solare diretta e dal calore intenso (solarium, sauna, bagno turco) per i primi <strong>2 mesi</strong> dopo l'intervento. La luce solare può causare un aumento dell'edema e cambiamenti permanenti di colore (macchie) nei tessuti in guarigione. Se dovete uscire al sole, dovete assolutamente usare una protezione solare ad alto fattore (50+ SPF) e indossare un cappello.</p>"
+              },
+              {
+                "title": "<p>Quando posso fare una pulizia del viso / peeling?</p>",
+                "text": "<p>Potete pulire delicatamente la pelle dopo la rimozione dei nastri dal naso. Tuttavia, si raccomanda di attendere <strong>almeno 2 mesi</strong> per procedure come pulizia del viso professionale, peeling o pulizia dei punti neri. Poiché queste procedure possono applicare pressione alla pelle nasale, è sconveniente eseguirle nel periodo iniziale. Dopo il 2° mese, potete fare una pulizia del viso a condizione che non venga applicata una forte pressione sul naso.</p>"
+              },
+              {
+                "title": "<p>Potrò respirare comodamente subito dopo l'intervento?</p>",
+                "text": "<p>Poiché i tamponi in silicone posizionati all'interno del naso dopo l'intervento sono scanalati, vi permettono parzialmente di respirare. Tuttavia, è molto normale sentire congestione nasale nei primi giorni a causa di edema, croste e secrezioni legate all'intervento. Dopo la rimozione dei tamponi (5-7° giorno), la respirazione si rilasserà un po', ma man mano che l'edema diminuisce e l'interno del naso guarisce (entro circa 1-3 mesi), la qualità della respirazione aumenterà gradualmente e raggiungerà il livello ideale.</p>"
+              }
+            ]
+          },
+          {
             "bgColor": "#f3e5f5",
             "subsections": [
               {
                 "title": "Come si svolge il processo di controllo post-operatorio e quanto spesso devo venire per un controllo?",
-                "text": "<p>I controlli post-operatori dopo la rinoplastica sono molto importanti.</p><blockquote>Alcuni problemi che possono essere rilevati precocemente durante il processo di controllo possono essere risolti con farmaci appropriati, massaggi o interventi minori simili. Tuttavia, processi più complessi potrebbero essere richiesti in casi ritardati.</blockquote><blockquote>Pertanto, è importante non interrompere i vostri controlli e seguirli regolarmente.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Seguire i processi di controllo e garantire la continuità è responsabilità del paziente.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Il </span><strong style=\"background-color: rgb(204, 224, 245);\">programma di controllo di routine </strong><span style=\"background-color: rgb(204, 224, 245);\">per i nostri pazienti è il seguente:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1a settimana (rimozione di stent in silicone e gesso)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2a settimana (rimozione dei nastri e valutazione generale)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 mesi</span></li></ol><p>Se il controllo fisico non è possibile per i pazienti fuori Istanbul o all'estero, chiediamo ai pazienti di seguire i tempi sopra elencati e inviarci il loro stato attuale per iscritto e inoltre con foto e video in questi momenti.</p><p>Questi controlli, anche se fatti a distanza, sono molto importanti per il processo di guarigione.</p><blockquote><em>Potete cliccare sul pulsante Whatsapp in fondo alla pagina per la comunicazione.</em></blockquote>"
+                "text": "<p>I controlli post-operatori dopo la rinoplastica sono molto importanti.</p><blockquote>Alcuni problemi che possono essere rilevati precocemente durante il processo di controllo possono essere risolti con farmaci appropriati, massaggi o interventi minori simili. Tuttavia, processi più complessi possono essere richiesti in casi ritardati.</blockquote><blockquote>Pertanto, è importante non interrompere i controlli e seguirli regolarmente.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Seguire i processi di controllo e garantire la continuità è responsabilità del paziente.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Il </span><strong style=\"background-color: rgb(204, 224, 245);\">programma di controllo di routine </strong><span style=\"background-color: rgb(204, 224, 245);\">per i nostri pazienti è il seguente:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1a settimana (rimozione tampone in silicone e gesso)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2a settimana (rimozione nastri e valutazione generale)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 mesi</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 mesi</span></li></ol><p>Se il controllo fisico non è possibile per i pazienti fuori Istanbul o all'estero, chiediamo ai pazienti di seguire i tempi sopra elencati e inviarci il loro stato attuale per iscritto e in aggiunta con foto e video in questi momenti.</p><p>Questi controlli, anche se fatti a distanza, sono molto importanti per il processo di guarigione.</p><blockquote><em>Potete cliccare sul pulsante Whatsapp in fondo alla pagina per comunicare.</em></blockquote>"
               },
               {
                 "title": "Quando guarisce completamente il naso? Quando si forma la forma finale?",
@@ -2457,8 +2626,41 @@ export const content = {
               },
               {
                 "title": "Se folosește un conformator nazal pentru fiecare pacient?",
-                "text": "<p>Majoritatea pacienților trebuie să folosească acest produs.</p><p>Totuși, în funcție de operația efectuată și starea pacientului, pot exista cazuri în care nu ar trebui folosit.</p><p><br></p><p>Prin urmare, ar trebui să folosiți acest produs doar dacă medicul dumneavoastră vi-l recomandă, în modul specific și pentru durata specifică recomandată pentru dumneavoastră.</p><p><strong>Nu îl folosiți/opriți utilizarea fără a consulta medicul dumneavoastră.</strong></p>"
+                "text": "<p>Majoritatea pacienților trebuie să folosească acest produs.</p><p>Totuși, în funcție de operația efectuată și starea pacientului, pot exista cazuri în care nu ar trebui folosit.</p><p><br></p><p>Prin urmare, trebuie să folosiți acest produs doar dacă medicul dumneavoastră vi-l recomandă, în modul specific și pentru durata specifică recomandată pentru dumneavoastră.</p><p><strong>Nu îl folosiți/opriți utilizarea fără a consulta medicul dumneavoastră.</strong></p>"
               },
+              {
+                "title": "Când pot folosi ochelari după operație?",
+                "text": "<p>Puteți folosi ochelari ușori pentru o perioadă scurtă de timp începând cu a 3-a lună cel mai devreme.</p><p><br></p><blockquote>Începând cu a <strong style=\"background-color: rgb(255, 255, 0);\">6-a lună</strong>, puteți folosi ochelari așa cum doriți.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Este necesar un însoțitor?</p>",
+                "text": "<p>Se recomandă să aveți un însoțitor cu dumneavoastră în timpul șederii la spital (1 noapte) pentru confortul dumneavoastră și pentru a vă satisface nevoile mai ușor. Cu toate acestea, în cazuri obligatorii, asistentele noastre din spital vă vor sprijini și ele. A avea pe cineva care să vă ajute acasă în primele zile după externare va facilita, de asemenea, procesul de recuperare.</p>"
+              },
+              {
+                "title": "<p>Ce ar trebui să fac dacă trebuie să strănut?</p>",
+                "text": "<p>Nu încercați să opriți impulsul de a strănuta. Cu toate acestea, este foarte important să strănutați cu <strong>gura deschisă</strong>, astfel încât presiunea să nu vă deterioreze nasul. Strănutul cu gura închisă poate crește presiunea intranazală și poate provoca sângerări sau leziuni ale țesuturilor.</p>"
+              },
+              {
+                "title": "<p>Când îmi pot sufla nasul?</p>",
+                "text": "<p>Nu trebuie să <strong>vă suflați nasul în prima lună</strong> după operație. În această perioadă, trebuie să vă curățați nasul cu spray-urile cu apă de mare sau kiturile de spălare recomandate. Suflarea nasului poate crește presiunea intranazală și poate provoca sângerări și leziuni ale țesuturilor în vindecare. Vă puteți sufla nasul ușor după prima lună.</p>"
+              },
+              {
+                "title": "<p>Pot să ies la soare / să intru la solar?</p>",
+                "text": "<p>Trebuie să vă protejați nasul de lumina directă a soarelui și de căldura intensă (solar, saună, baie turcească) în primele <strong>2 luni</strong> după operație. Lumina soarelui poate provoca creșterea edemului și modificări permanente de culoare (pete) în țesuturile în vindecare. Dacă trebuie să ieșiți la soare, trebuie neapărat să folosiți o cremă de protecție solară cu factor ridicat (50+ SPF) și să purtați o pălărie.</p>"
+              },
+              {
+                "title": "<p>Când pot face o curățare facială / peeling?</p>",
+                "text": "<p>Vă puteți curăța ușor pielea după ce benzile de pe nas sunt îndepărtate. Cu toate acestea, se recomandă să așteptați <strong>cel puțin 2 luni</strong> pentru proceduri precum curățarea facială profesională, peeling sau curățarea punctelor negre. Deoarece aceste proceduri pot aplica presiune pe pielea nazală, este incomod să le efectuați în perioada timpurie. După a 2-a lună, puteți face o curățare facială cu condiția să nu se aplice o presiune puternică pe nas.</p>"
+              },
+              {
+                "title": "<p>Voi putea respira confortabil imediat după operație?</p>",
+                "text": "<p>Deoarece tampoanele de silicon plasate în interiorul nasului după operație sunt canelate, acestea vă permit parțial să respirați. Cu toate acestea, este foarte normal să simțiți congestie nazală în primele zile din cauza edemului, crustelor și secrețiilor legate de operație. După îndepărtarea tampoanelor (ziua 5-7), respirația dumneavoastră se va relaxa puțin, dar pe măsură ce edemul scade și interiorul nasului se vindecă (în aproximativ 1-3 luni), calitatea respirației dumneavoastră va crește treptat și va atinge nivelul ideal.</p>"
+              }
             ]
           },
           {
@@ -2466,7 +2668,7 @@ export const content = {
             "subsections": [
               {
                 "title": "Cum este procesul de control post-operator și cât de des ar trebui să vin la control?",
-                "text": "<p>Controalele post-operatorii după rinoplastie sunt foarte importante.</p><blockquote>Unele probleme care pot fi detectate devreme în timpul procesului de control pot fi rezolvate cu medicamente adecvate, masaj sau intervenții minore similare. Totuși, procese mai complexe pot fi necesare în cazurile întârziate.</blockquote><blockquote>Prin urmare, este important să nu întrerupeți controalele și să le urmați regulat.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Urmărirea proceselor de control și asigurarea continuității este responsabilitatea pacientului.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Programul de </span><strong style=\"background-color: rgb(204, 224, 245);\">control de rutină </strong><span style=\"background-color: rgb(204, 224, 245);\">pentru pacienții noștri este următorul:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1 săptămână (scoaterea tamponului de silicon și a ghipsului)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2 săptămâni (scoaterea benzilor și evaluarea generală)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1.5 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 luni</span></li></ol><p>Dacă controlul fizic nu este posibil pentru pacienții din afara Istanbulului sau din străinătate, rugăm pacienții să urmeze timpii enumerați mai sus și să ne trimită starea lor actuală în scris și suplimentar cu fotografii și videoclipuri la acești timpi.</p><p>Aceste controale, chiar dacă sunt făcute de la distanță, sunt foarte importante pentru procesul de vindecare.</p><blockquote><em>Puteți apăsa pe butonul Whatsapp din partea de jos a paginii pentru comunicare.</em></blockquote>"
+                "text": "<p>Controalele post-operatorii după rinoplastie sunt foarte importante.</p><blockquote>Unele probleme care pot fi detectate devreme în timpul procesului de control pot fi rezolvate cu medicamente adecvate, masaj sau intervenții minore similare. Cu toate acestea, procese mai complexe pot fi necesare în cazurile întârziate.</blockquote><blockquote>Prin urmare, este important să nu vă întrerupeți controalele și să le urmați în mod regulat.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Urmărirea proceselor de control și asigurarea continuității este responsabilitatea pacientului.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Programul de </span><strong style=\"background-color: rgb(204, 224, 245);\">control de rutină </strong><span style=\"background-color: rgb(204, 224, 245);\">pentru pacienții noștri este următorul:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Săptămâna 1 (îndepărtarea tamponului de silicon și a ghipsului)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Săptămâna 2 (îndepărtarea benzilor și evaluarea generală)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 luni</span></li></ol><p>Dacă controlul fizic nu este posibil pentru pacienții din afara Istanbulului sau din străinătate, rugăm pacienții să respecte timpii enumerați mai sus și să ne trimită starea lor actuală în scris și suplimentar cu fotografii și videoclipuri în aceste momente.</p><p>Aceste controale, chiar dacă sunt făcute de la distanță, sunt foarte importante pentru procesul de vindecare.</p><blockquote><em>Puteți face clic pe butonul Whatsapp din partea de jos a paginii pentru comunicare.</em></blockquote>"
               },
               {
                 "title": "Când se vindecă nasul complet? Când se formează forma finală?",
@@ -2811,8 +3013,37 @@ export const content = {
                 "text": "<p><strong>Akár az első napon is sminkelhet</strong> a műtét után, anélkül, hogy megérintené a műtéti területet.</p><p>Azonban nehézségei lehetnek az ödéma miatt.</p><p>De nincs akadálya annak, hogy sminkkel jöjjön az első heti kontrollra.</p>"
               },
               {
-                "title": "Mikor használhatok szemüveget műtét után?",
-                "text": "<p>Könnyű szemüveget rövid ideig legkorábban a 3. hónaptól használhat.</p><p><br></p><blockquote>A <strong style=\"background-color: rgb(255, 255, 0);\">6. hónaptól</strong> kezdve úgy használhat szemüveget, ahogy szeretne.</blockquote>"
+                "title": "Mikor használhatok szemüveget a műtét után?",
+                "text": "<p>Könnyű szemüveget rövid ideig legkorábban a 3. hónaptól használhat.</p><p><br></p><blockquote>A <strong style=\"background-color: rgb(255, 255, 0);\">6. hónaptól</strong> kezdve úgy használhatja a szemüveget, ahogy szeretné.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Szükséges kísérő?</p>",
+                "text": "<p>Javasoljuk, hogy a kórházi tartózkodás alatt (1 éjszaka) legyen Önnel kísérő a kényelme és az igényeinek könnyebb kielégítése érdekében. Kötelező esetekben azonban kórházi nővéreink is támogatják Önt. Ha valaki segít Önnek otthon a hazabocsátás utáni első napokban, az szintén megkönnyíti a gyógyulási folyamatot.</p>"
+              },
+              {
+                "title": "<p>Mit tegyek, ha tüsszentenem kell?</p>",
+                "text": "<p>Ne próbálja meg elfojtani a tüsszentési ingert. Nagyon fontos azonban, hogy <strong>nyitott szájjal</strong> tüsszentsen, hogy a nyomás ne károsítsa az orrát. A csukott szájjal történő tüsszentés növelheti az orron belüli nyomást, és vérzést vagy szövetkárosodást okozhat.</p>"
+              },
+              {
+                "title": "<p>Mikor fújhatom ki az orrom?</p>",
+                "text": "<p>A műtét utáni <strong>első hónapban nem szabad kifújnia az orrát</strong>. Ebben az időszakban az ajánlott tengervizes spray-kkel vagy mosókészletekkel kell tisztítania az orrát. Az orrfújás növelheti az orron belüli nyomást, és vérzést, valamint a gyógyuló szövetek károsodását okozhatja. Az 1. hónap után óvatosan kifújhatja az orrát.</p>"
+              },
+              {
+                "title": "<p>Mehetek napra / szoláriumba?</p>",
+                "text": "<p>A műtét utáni első <strong>2 hónapban</strong> védenie kell orrát a közvetlen napfénytől és az intenzív hőtől (szolárium, szauna, törökfürdő). A napfény az ödéma növekedését és tartós színváltozásokat (foltokat) okozhat a gyógyuló szövetekben. Ha napra kell mennie, feltétlenül használjon magas faktorszámú (50+ SPF) fényvédőt és viseljen kalapot.</p>"
+              },
+              {
+                "title": "<p>Mikor végezhetek bőrápolást / peelinget?</p>",
+                "text": "<p>Az orron lévő szalagok eltávolítása után óvatosan megtisztíthatja bőrét. Azonban olyan eljárásokkal, mint a professzionális bőrápolás, peeling vagy mitesszer tisztítás, javasolt <strong>legalább 2 hónapot</strong> várni. Mivel ezek az eljárások nyomást gyakorolhatnak az orr bőrére, a korai időszakban nem ajánlott elvégezni őket. A 2. hónap után végezhet bőrápolást, feltéve, hogy nem gyakorolnak erős nyomást az orrára.</p>"
+              },
+              {
+                "title": "<p>Képes leszek kényelmesen lélegezni közvetlenül a műtét után?</p>",
+                "text": "<p>Mivel a műtét után az orrba helyezett szilikon tamponok barázdáltak, részben lehetővé teszik a légzést. Azonban teljesen normális, ha az első napokban orrdugulást érez az ödéma, a pörkök és a műtéttel kapcsolatos váladékok miatt. A tamponok eltávolítása után (5-7. nap) a légzése kissé megkönnyebbül, de ahogy az ödéma csökken és az orr belseje gyógyul (kb. 1-3 hónap alatt), a légzés minősége fokozatosan javulni fog, és eléri az ideális szintet.</p>"
               }
             ]
           },
@@ -2821,7 +3052,7 @@ export const content = {
             "subsections": [
               {
                 "title": "Hogyan zajlik a műtét utáni ellenőrzési folyamat, és milyen gyakran kell ellenőrzésre jönnöm?",
-                "text": "<p>A rinoplasztika utáni ellenőrzések nagyon fontosak.</p><blockquote>Néhány probléma, amely az ellenőrzési folyamat során korán észlelhető, megfelelő gyógyszeres kezeléssel, masszázzsal vagy hasonló kisebb beavatkozásokkal megoldható. A késleltetett esetekben azonban összetettebb folyamatokra lehet szükség.</blockquote><blockquote>Ezért fontos, hogy ne szakítsa meg az ellenőrzéseket, és rendszeresen kövesse azokat.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Az ellenőrzési folyamatok nyomon követése és a folyamatosság biztosítása a beteg felelőssége.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">A </span><strong style=\"background-color: rgb(204, 224, 245);\">rutin ellenőrzési ütemterv </strong><span style=\"background-color: rgb(204, 224, 245);\">betegeink számára a következő:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1. hét (Szilikon tampon és Gipsz eltávolítása)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2. hét (Szalag-ok eltávolítása és általános értékelés)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 hónap</span></li></ol><p>Ha a fizikai ellenőrzés nem lehetséges az Isztambulon kívüli vagy külföldi betegek számára, kérjük a betegeket, hogy kövessék a fent felsorolt időpontokat, és írásban, valamint fotókkal és videókkal küldjék el nekünk aktuális állapotukat ezekben az időpontokban.</p><p>Ezek az ellenőrzések, még ha távolról is történnek, nagyon fontosak a gyógyulási folyamat szempontjából.</p><blockquote><em>A kommunikációhoz kattintson az oldal alján található Whatsapp gombra.</em></blockquote>"
+                "text": "<p>A rinoplasztika utáni ellenőrzések nagyon fontosak.</p><blockquote>Néhány probléma, amely az ellenőrzési folyamat során korán észlelhető, megfelelő gyógyszeres kezeléssel, masszázzsal vagy hasonló kisebb beavatkozásokkal megoldható. A késleltetett esetekben azonban összetettebb folyamatokra lehet szükség.</blockquote><blockquote>Ezért fontos, hogy ne szakítsa meg az ellenőrzéseket, és rendszeresen kövesse azokat.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Az ellenőrzési folyamatok követése és a folyamatosság biztosítása a beteg felelőssége.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">A </span><strong style=\"background-color: rgb(204, 224, 245);\">rutin ellenőrzési ütemterv </strong><span style=\"background-color: rgb(204, 224, 245);\">betegeink számára a következő:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1. hét (Szilikon tampon és Gipsz eltávolítása)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2. hét (Szalag-ok eltávolítása és általános értékelés)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 hónap</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 hónap</span></li></ol><p>Ha a fizikai ellenőrzés nem lehetséges az Isztambulon kívüli vagy külföldi betegek számára, kérjük a betegeket, hogy kövessék a fent felsorolt időpontokat, és írásban, valamint fotókkal és videókkal küldjék el nekünk aktuális állapotukat ezekben az időpontokban.</p><p>Ezek az ellenőrzések, még ha távolról is történnek, nagyon fontosak a gyógyulási folyamat szempontjából.</p><blockquote><em>A kommunikációhoz kattintson az oldal alján található Whatsapp gombra.</em></blockquote>"
               },
               {
                 "title": "Mikor gyógyul meg teljesen az orr? Mikor alakul ki a végső forma?",
@@ -3155,12 +3386,46 @@ export const content = {
                 "text": "<p><strong>Nawet pierwszego dnia po operacji</strong> mogą Państwo <strong>zrobić makijaż</strong>, nie dotykając okolicy operowanej.</p><p>Może to być jednak trudne z powodu obrzęku.</p><p>Nie ma jednak przeciwwskazań, aby przyjść na kontrolę w pierwszym tygodniu w makijażu.</p>"
               },
               {
-                "title": "Kiedy mogę używać <strong>okularów</strong> po operacji?",
-                "text": "<p>Najwcześniej od 3. miesiąca mogą Państwo używać lekkich okularów przez krótki czas.</p><p><br></p><blockquote><strong style=\"background-color: rgb(255, 255, 0);\">Od 6. miesiąca</strong> mogą Państwo używać okularów w dowolny sposób.</blockquote>"
+                "title": "Kiedy mogę nosić okulary po operacji?",
+                "text": "<p>Możesz nosić lekkie okulary przez krótki czas najwcześniej od 3. miesiąca.</p><p><br></p><blockquote>Począwszy od <strong style=\"background-color: rgb(255, 255, 0);\">6. miesiąca</strong>, możesz używać okularów tak, jak chcesz.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>Czy potrzebna jest osoba towarzysząca?</p>",
+                "text": "<p>Zaleca się, aby podczas pobytu w szpitalu (1 noc) towarzyszyła Ci osoba bliska dla Twojego komfortu i łatwiejszego zaspokajania potrzeb. Jednak w sytuacjach koniecznych nasze pielęgniarki szpitalne również będą Cię wspierać. Posiadanie kogoś do pomocy w domu w pierwszych dniach po wypisie również ułatwi proces rekonwalescencji.</p>"
               },
               {
-                "title": "Jak wygląda proces kontrolny po operacji i jak często powinnam/powinienem przychodzić na kontrolę?",
-                "text": "<p>Kontrole po operacji plastyki nosa są bardzo ważne.</p><blockquote>Niektóre problemy, które można wykryć wcześnie w procesie kontrolnym, można rozwiązać za pomocą odpowiedniego leczenia farmakologicznego, masażu lub podobnych drobnych interwencji. Jednak w przypadkach opóźnionych mogą być wymagane bardziej skomplikowane procesy.</blockquote><blockquote>Dlatego ważne jest, aby nie zaniedbywać kontroli i regularnie ich przestrzegać.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Odpowiedzialność za śledzenie procesów kontrolnych i zapewnienie ciągłości spoczywa na pacjencie.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Dla naszych pacjentów </span><strong style=\"background-color: rgb(204, 224, 245);\">rutynowy kalendarz kontroli </strong><span style=\"background-color: rgb(204, 224, 245);\">wygląda następująco.</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1. tydzień (usunięcie tamponu i gipsu)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2. tydzień (zdjęcie plastrów i ogólna ocena)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 miesiąca</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 miesiące</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 miesiące</span></li></ol><p>Jeśli fizyczna kontrola nie jest możliwa dla pacjentów spoza Stambułu / z zagranicy, prosimy pacjentów o przestrzeganie terminów wymienionych powyżej i przesyłanie nam w tych terminach swojego aktualnego stanu w formie pisemnej oraz dodatkowo zdjęć i filmów.</p><p>Te kontrole, nawet jeśli wykonywane zdalnie, są bardzo ważne dla procesu gojenia.</p><blockquote><em>W celu kontaktu mogą Państwo kliknąć przycisk Whatsapp na dole strony.</em></blockquote>"
+                "title": "<p>Co powinienem zrobić, jeśli muszę kichnąć?</p>",
+                "text": "<p>Nie próbuj powstrzymywać odruchu kichania. Jednak bardzo ważne jest, aby kichać z <strong>otwartymi ustami</strong>, aby ciśnienie nie uszkodziło nosa. Kichanie z zamkniętymi ustami może zwiększyć ciśnienie wewnątrz nosa i spowodować krwawienie lub uszkodzenie tkanek.</p>"
+              },
+              {
+                "title": "<p>Kiedy mogę wydmuchać nos?</p>",
+                "text": "<p>Nie powinieneś <strong>wydmuchiwać nosa przez pierwszy miesiąc</strong> po operacji. W tym okresie należy czyścić nos zalecanymi sprayami z wodą morską lub zestawami do płukania. Wydmuchiwanie nosa może zwiększyć ciśnienie wewnątrz nosa i spowodować krwawienie oraz uszkodzenie gojących się tkanek. Po pierwszym miesiącu możesz delikatnie wydmuchać nos.</p>"
+              },
+              {
+                "title": "<p>Czy mogę wychodzić na słońce / korzystać z solarium?</p>",
+                "text": "<p>Przez pierwsze <strong>2 miesiące</strong> po operacji należy chronić nos przed bezpośrednim działaniem promieni słonecznych i intensywnym ciepłem (solarium, sauna, łaźnia turecka). Światło słoneczne może powodować zwiększenie obrzęku i trwałe zmiany koloru (plamy) w gojących się tkankach. Jeśli musisz wyjść na słońce, koniecznie użyj kremu z filtrem o wysokim współczynniku (50+ SPF) i noś kapelusz.</p>"
+              },
+              {
+                "title": "<p>Kiedy mogę wykonać zabieg pielęgnacyjny twarzy / peeling?</p>",
+                "text": "<p>Możesz delikatnie oczyścić skórę po zdjęciu plastrów z nosa. Jednak w przypadku zabiegów takich jak profesjonalne oczyszczanie twarzy, peeling czy oczyszczanie zaskórników zaleca się odczekanie <strong>co najmniej 2 miesięcy</strong>. Ponieważ zabiegi te mogą wywierać nacisk na skórę nosa, ich wykonywanie we wczesnym okresie jest niewskazane. Po 2. miesiącu możesz wykonać zabieg pielęgnacyjny twarzy, pod warunkiem, że nie będzie wywierany silny nacisk na nos.</p>"
+              },
+              {
+                "title": "<p>Czy będę mógł swobodnie oddychać natychmiast po operacji?</p>",
+                "text": "<p>Ponieważ silikonowe tampony umieszczone wewnątrz nosa po operacji są rowkowane, częściowo umożliwiają oddychanie. Jednak uczucie zatkania nosa w pierwszych dniach z powodu obrzęku, strupów i wydzieliny związanej z operacją jest całkowicie normalne. Po usunięciu tamponów (5-7 dzień) oddychanie nieco się poprawi, ale w miarę ustępowania obrzęku i gojenia się wnętrza nosa (w ciągu około 1-3 miesięcy), jakość oddychania będzie stopniowo wzrastać i osiągnie idealny poziom.</p>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#f3e5f5",
+            "subsections": [
+              {
+                "title": "Jak wygląda proces kontroli pooperacyjnej i jak często powinienem przychodzić na kontrolę?",
+                "text": "<p>Kontrole pooperacyjne po plastyce nosa są bardzo ważne.</p><blockquote>Niektóre problemy, które można wykryć wcześnie podczas procesu kontroli, można rozwiązać za pomocą odpowiednich leków, masażu lub podobnych drobnych interwencji. Jednak w przypadkach opóźnionych mogą być wymagane bardziej złożone procesy.</blockquote><blockquote>Dlatego ważne jest, aby nie przerywać kontroli i regularnie na nie uczęszczać.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Śledzenie procesów kontroli i zapewnienie ciągłości jest obowiązkiem pacjenta.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Harmonogram </span><strong style=\"background-color: rgb(204, 224, 245);\">rutynowych kontroli </strong><span style=\"background-color: rgb(204, 224, 245);\">dla naszych pacjentów jest następujący:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Tydzień 1 (usunięcie silikonowego tamponu i gipsu)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Tydzień 2 (usunięcie taśm i ogólna ocena)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 miesiąca</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 miesiące</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 miesiące</span></li></ol><p>Jeśli kontrola fizyczna nie jest możliwa dla pacjentów spoza Stambułu lub z zagranicy, prosimy pacjentów o przestrzeganie wyżej wymienionych terminów i przesyłanie nam swojego aktualnego stanu w formie pisemnej oraz dodatkowo ze zdjęciami i filmami w tych terminach.</p><p>Te kontrole, nawet jeśli są wykonywane zdalnie, są bardzo ważne dla procesu gojenia.</p><blockquote><em>Możesz kliknąć przycisk Whatsapp na dole strony, aby się skontaktować.</em></blockquote>"
               },
               {
                 "title": "Kiedy nos całkowicie się zagoi? Kiedy powstanie ostateczny kształt?",

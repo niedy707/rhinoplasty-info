@@ -105,66 +105,94 @@ function AppContent() {
     setLang(value);
   };
 
+  // Handle internal tab links
+  useEffect(() => {
+    const handleTabClick = (e) => {
+      if (e.target.classList.contains('tab-link')) {
+        const tabId = e.target.getAttribute('data-tab');
+        if (tabId) {
+          setActiveTabId(tabId);
+          window.scrollTo(0, 0);
+        }
+      }
+    };
+
+    document.addEventListener('click', handleTabClick);
+    return () => {
+      document.removeEventListener('click', handleTabClick);
+    };
+  }, []);
+
   // Footer text translations
   const footerTranslations = {
     tr: {
       title: "Rinoplasti",
       country: "Türkiye",
       appointment: "Bilgi için",
+      agencyLabel: "Tüm sorularınız ve planlamalar için",
       note: <i>Cerrah, <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Medproper Sağlık Turizm Acentesi</span> ile işbirliği içindedir.</i>
     },
     en: {
       title: "Rhinoplasty",
       country: "Türkiye",
-      appointment: "For Information",
+      appointment: "For medical questions only",
+      agencyLabel: "For all inquiries and planning",
       note: <i>The surgeon is in cooperation with <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Medproper Health Tourism Agency.</span></i>
     },
     de: {
       title: "Rhinoplastik",
       country: "Türkiye",
-      appointment: "Für Informationen",
+      appointment: "Nur für medizinische Fragen",
+      agencyLabel: "Für alle Anfragen und Planungen",
       note: <i>Der Chirurg arbeitet mit der <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Medproper Gesundheitstourismusagentur</span> zusammen.</i>
     },
     es: {
       title: "Rinoplastia",
       country: "Türkiye",
-      appointment: "Para Información",
+      appointment: "Solo para preguntas médicas",
+      agencyLabel: "Para todas las consultas y planificación",
       note: <i>El cirujano colabora con la <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agencia de Turismo de Salud Medproper.</span></i>
     },
     ru: {
       title: "Ринопластика",
       country: "Türkiye",
-      appointment: "Для информации",
+      appointment: "Только по медицинским вопросам",
+      agencyLabel: "По всем вопросам и планированию",
       note: <i>Хирург сотрудничает с <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>агентством медицинского туризма Medproper.</span></i>
     },
     fr: {
       title: "Rhinoplastie",
       country: "Türkiye",
-      appointment: "Pour Information",
+      appointment: "Uniquement pour les questions médicales",
+      agencyLabel: "Pour toutes demandes et planification",
       note: <i>Le chirurgien collabore avec l'<span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>agence de tourisme de santé Medproper.</span></i>
     },
     it: {
       title: "Rinoplastica",
       country: "Türkiye",
-      appointment: "Per Informazioni",
+      appointment: "Solo per domande mediche",
+      agencyLabel: "Per tutte le richieste e la pianificazione",
       note: <i>Il chirurgo collabora con l'<span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agenzia di Turismo Sanitario Medproper.</span></i>
     },
     ro: {
       title: "Rinoplastie",
       country: "Türkiye",
-      appointment: "Pentru Informații",
+      appointment: "Doar pentru întrebări medicale",
+      agencyLabel: "Pentru toate întrebările și planificarea",
       note: <i>Chirurgul colaborează cu <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agenția de Turism de Sănătate Medproper.</span></i>
     },
     hu: {
       title: "Rinoplasztika",
       country: "Türkiye",
-      appointment: "Információért",
+      appointment: "Csak orvosi kérdések esetén",
+      agencyLabel: "Minden kérdés és tervezés esetén",
       note: <i>A sebész együttműködik a <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Medproper Egészségturisztikai Ügynökséggel.</span></i>
     },
     pl: {
       title: "Rynoplastyka",
       country: "Türkiye",
-      appointment: "W celu uzyskania informacji",
+      appointment: "Tylko w sprawach medycznych",
+      agencyLabel: "W przypadku wszystkich zapytań i planowania",
       note: <i>Chirurg współpracuje z <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agencją Turystyki Zdrowotnej Medproper.</span></i>
     }
   };
@@ -253,6 +281,7 @@ function AppContent() {
           {footerText.note}
           <br />
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '5px' }}>
+            <span>{footerText.agencyLabel}: </span>
             <a href="tel:+19706959087" style={{ color: 'inherit', textDecoration: 'none' }}>+1 (970) 695‑9087</a>
             <a href="http://wa.me/+19706959087" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', display: 'flex' }} aria-label="WhatsApp">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
