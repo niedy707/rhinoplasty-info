@@ -380,6 +380,23 @@ export const content = {
                 "text": "<p>Ameliyat sonrası burun içine yerleştirilen silikon tamponlar oluklu olduğu için nefes almanıza kısmen izin verir. Ancak ameliyata bağlı ödem, kabuklanma ve salgılar nedeniyle ilk günlerde burun tıkanıklığı hissetmeniz çok normaldir. Tamponlar alındıktan sonra (5-7. gün) nefesiniz bir miktar rahatlar, ancak ödemler azaldıkça ve burun içi iyileştikçe (yaklaşık 1-3 ay içinde) nefes kaliteniz giderek artacak ve ideal seviyeye ulaşacaktır.</p>"
               }
             ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Gözlük yerine lens kullanamıyorum. Göz numaram çok yüksek ve gözlük kullanmak zorundayım? Rinoplasti olabilir miyim?</p>",
+                "text": "<p>Evet olabilirsiniz. Ancak gözlük kullanılmasını yasaklamamızın sebebi, kırılan/kesilen kemiklerin üzerine binecek yük nedenli iyileşme sorunları olabilmesidir. Bu nedenle hastalarımıza ameliyat sonrası 4-6 ay süre ile kontakt lens kullanmalarını öneriyoruz.</p><p>Soruda anlattığınız durum nedeni ile gözlük dışında kullanabileceğiniz bir çözüm yok ise, kemikte kırma işlemi yapılmadan sadece törpüleme ve burun ucuna yönelik estetik işlemler yapılabilir. Bu durumda ameliyatın hemen sonrasında hastanede iken bile gözlük kullanabilirsiniz.</p>"
+              },
+              {
+                "title": "<p>Ultrasonik rinoplasti yaptırmak istiyorum. Siz yapıyor musunuz?</p>",
+                "text": "<p>Rinoplasti ameliyatında kullandığımız tüm ekipmanlar son teknoloji ürünü olan cihazlardır. Hastalar tarafından ultrasonik rinoplasti olarak isimlendirilen cihaz piezo ismindeki cihazdır, ve ameliyatlarımızda rutin olarak bu cihazı kullanmaktayız. Bazı hastalarda yine de eski teknik kemik müdahaleleri daha uygun olduğundan bazen piezo cihazı hazırda olsa da eski teknik ekipmanları kullanmak gerekebilmektedir.</p><p>Piezo her dokunduğu burnu mükemmelleştiren mucizevi bir alet değildir. Ameliyatın bir kısmında kullandığımız, çok işe yarayan ve ameliyat sonrası morluk / ödemin daha az olmasını belirgin şekilde etkileyen bir alettir.</p><p><br></p><p>Bu arada bu alet, sadece benim kullandığım bir cihaz değildir. Çağımızda rinoplasti yapan bir çok cerrah bu aleti kullanarak ameliyat yapmaktadır.</p>"
+              },
+              {
+                "title": "<p>Burnuma dolgu yaptırmıştım. Rinoplasti ameliyatına engel mi?</p>",
+                "text": "<p>Burun dolgusu olan hastalar da ameliyat edilebilir. Ancak bu ameliyatın öncesinde mutlaka dolgunun tüm etkisinin geçmiş olması gerekmektedir. Aksi takdirde ameliyatta uygulanan işlemler dolgunun yok olması sonrasında istenmeyen sonuçlara yol açabilir.</p><p>Bu nedenle, eğer dolgu sonrası ilk 1 yıllık dönemde ameliyat yapılacak ise, ya da daha çok süre geçti ancak hala dolgu etkisi devam ediyor ise, ameliyat öncesinde mutlaka dolgu eritme işlemi yapmak gerekmektedir. Bu işlem, hyaluronidaz isimli bir ilaç ile sağlanmaktadır.</p>"
+              }
+            ]
           }
         ]
       }
@@ -714,8 +731,8 @@ export const content = {
                 "text": "<p><strong>You can apply makeup even on the first day</strong> after surgery, without touching the surgical area.</p><p>However, you may have difficulty due to edema.</p><p>But there is no harm in coming to your check-up in the first week with makeup.</p>"
               },
               {
-                "title": "When can I use glasses after surgery?",
-                "text": "<p>You can use lightweight glasses for a short time starting from the 3rd month at the earliest.</p><p><br></p><blockquote>As of the <strong style=\"background-color: rgb(255, 255, 0);\">6th month</strong>, you can use glasses as you wish.</blockquote>"
+                "title": "<p>I cannot use contact lenses instead of glasses. My prescription is very high and I have to use glasses. Can I have rhinoplasty?</p>",
+                "text": "<p>Yes, you can. However, the reason we forbid the use of glasses is that the load on the broken/cut bones may cause healing problems. Therefore, we recommend our patients to use contact lenses for 4-6 months after surgery. If there is no solution other than glasses due to the situation you described in the question, aesthetic procedures can be performed only for filing and the nasal tip without breaking the bone. In this case, you can use glasses even while in the hospital immediately after surgery.</p>"
               }
             ]
           },
@@ -762,6 +779,23 @@ export const content = {
               {
                 "title": "When can revision surgery be performed?",
                 "text": "<p>Revision surgery <strong>should not be performed before the 6th month</strong> of the surgery except for exceptional cases.</p><p><strong>The ideal time is to do it after 12 months</strong>.</p><p><br></p><blockquote>However, if the problem in the nose creates irreversible problems and the passing time will destroy the possible chance, earlier revision surgeries can also be performed. But if visual functional problems are not of a nature requiring urgent intervention, waiting minimum 12 months will maximize the benefit to be obtained from revision surgery.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>I have high prescription glasses, what should I do?</p>",
+                "text": "<p>You can use contact lenses 2-3 days after surgery. If you have to use glasses, we can adjust your glasses with a plaster on your forehead so that they do not touch your nose.</p>"
+              },
+              {
+                "title": "<p>I want to have ultrasonic rhinoplasty. Do you perform it?</p>",
+                "text": "<p>All equipment we use in rhinoplasty surgery is state-of-the-art devices. The device called ultrasonic rhinoplasty by patients is the device named piezo, and we routinely use this device in our surgeries. In some patients, since old technique bone interventions are more suitable, it may be necessary to use old technique equipment even if the piezo device is ready. Piezo is not a miraculous tool that perfects every nose it touches. It is a tool that we use in a part of the surgery, which works very well and significantly affects having less bruising / edema after surgery. By the way, this tool is not a device used only by me. Many surgeons performing rhinoplasty in our age perform surgery using this tool.</p>"
+              },
+              {
+                "title": "<p>I had nose fillers before. Is it an obstacle to rhinoplasty surgery?</p>",
+                "text": "<p>Patients with nose fillers can also be operated on. However, before this surgery, the effect of the filler must have completely passed. Otherwise, the procedures performed in the surgery may cause unwanted results after the filler disappears. Therefore, if surgery is to be performed in the first 1-year period after filling, or if more time has passed but the filler effect still continues, it is absolutely necessary to perform a filler dissolving process before surgery. This process is provided with a medication named hyaluronidase.</p>"
               }
             ]
           }
@@ -1044,8 +1078,8 @@ export const content = {
                 "text": "<p><strong>Sie können sogar am ersten Tag</strong> nach der Operation Make-up auftragen, ohne den Operationsbereich zu berühren.</p><p>Aufgrund von Ödemen können Sie jedoch Schwierigkeiten haben.</p><p>Es schadet jedoch nicht, in der ersten Woche mit Make-up zu Ihrer Kontrolle zu kommen.</p>"
               },
               {
-                "title": "Wann kann ich nach der Operation eine Brille benutzen?",
-                "text": "<p>Sie können frühestens ab dem 3. Monat kurzzeitig leichte Brillen verwenden.</p><p><br></p><blockquote><strong style=\"background-color: rgb(255, 255, 0);\">Ab dem 6. Monat</strong> können Sie Brillen nach Belieben verwenden.</blockquote>"
+                "title": "<p>Ich kann keine Kontaktlinsen anstelle einer Brille tragen. Meine Dioptrienwerte sind sehr hoch und ich muss eine Brille tragen. Kann ich eine Rhinoplastik durchführen lassen?</p>",
+                "text": "<p>Ja, das können Sie. Der Grund, warum wir das Tragen einer Brille verbieten, ist jedoch, dass die Belastung der gebrochenen/geschnittenen Knochen zu Heilungsproblemen führen kann. Daher empfehlen wir unseren Patienten, nach der Operation 4-6 Monate lang Kontaktlinsen zu tragen. Wenn es aufgrund der von Ihnen beschriebenen Situation keine andere Lösung als eine Brille gibt, können ästhetische Eingriffe nur zum Feilen und an der Nasenspitze durchgeführt werden, ohne den Knochen zu brechen. In diesem Fall können Sie sogar noch im Krankenhaus unmittelbar nach der Operation eine Brille tragen.</p>"
               }
             ]
           },
@@ -1092,6 +1126,23 @@ export const content = {
               {
                 "title": "Wann kann eine Revisionsoperation durchgeführt werden?",
                 "text": "<p>Eine Revisionsoperation <strong>sollte nicht vor dem 6. Monat</strong> der Operation durchgeführt werden, außer in Ausnahmefällen.</p><p><strong>Der ideale Zeitpunkt ist nach 12 Monaten</strong>.</p><p><br></p><blockquote>Wenn das Problem in der Nase jedoch irreversible Probleme verursacht und die vergehende Zeit die mögliche Chance zunichte macht, können auch frühere Revisionsoperationen durchgeführt werden. Aber wenn visuelle funktionelle Probleme nicht von einer Art sind, die ein dringendes Eingreifen erfordern, wird das Warten von mindestens 12 Monaten den Nutzen aus der Revisionsoperation maximieren.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Ich habe eine starke Brillenstärke, was soll ich tun?</p>",
+                "text": "<p>Sie können 2-3 Tage nach der Operation Kontaktlinsen tragen. Wenn Sie eine Brille tragen müssen, können wir Ihre Brille mit einem Pflaster an Ihrer Stirn befestigen, sodass sie Ihre Nase nicht berührt.</p>"
+              },
+              {
+                "title": "<p>Ich möchte eine Ultraschall-Rhinoplastik durchführen lassen. Führen Sie diese durch?</p>",
+                "text": "<p>Alle Geräte, die wir bei der Rhinoplastik verwenden, sind auf dem neuesten Stand der Technik. Das von Patienten als Ultraschall-Rhinoplastik bezeichnete Gerät ist das Gerät namens Piezo, und wir verwenden dieses Gerät routinemäßig bei unseren Operationen. Bei einigen Patienten sind Knocheneingriffe nach alter Technik besser geeignet, sodass es manchmal notwendig sein kann, Geräte nach alter Technik zu verwenden, auch wenn das Piezo-Gerät bereitsteht. Piezo ist kein Wunderwerkzeug, das jede Nase, die es berührt, perfektioniert. Es ist ein Werkzeug, das wir in einem Teil der Operation verwenden, das sehr gut funktioniert und deutlich dazu beiträgt, dass nach der Operation weniger Blutergüsse / Ödeme auftreten. Übrigens ist dieses Werkzeug kein Gerät, das nur von mir verwendet wird. Viele Chirurgen, die in unserer Zeit Rhinoplastiken durchführen, operieren mit diesem Werkzeug.</p>"
+              },
+              {
+                "title": "<p>Ich habe mir Nasenfiller spritzen lassen. Ist das ein Hindernis für eine Rhinoplastik?</p>",
+                "text": "<p>Patienten mit Nasenfillern können ebenfalls operiert werden. Vor dieser Operation muss die Wirkung des Fillers jedoch vollständig abgeklungen sein. Andernfalls können die bei der Operation durchgeführten Eingriffe nach dem Verschwinden des Fillers zu unerwünschten Ergebnissen führen. Wenn die Operation also im ersten Jahr nach der Unterspritzung durchgeführt werden soll oder wenn mehr Zeit vergangen ist, die Wirkung des Fillers aber noch anhält, ist es unbedingt erforderlich, vor der Operation einen Filler-Auflösungsprozess durchzuführen. Dieser Prozess wird mit einem Medikament namens Hyaluronidase durchgeführt.</p>"
               }
             ]
           }
@@ -1374,8 +1425,8 @@ export const content = {
                 "text": "<p><strong>Puede maquillarse incluso el primer día</strong> después de la cirugía, sin tocar el área quirúrgica.</p><p>Sin embargo, puede tener dificultades debido al edema.</p><p>Pero no hay daño en venir a su control en la primera semana con maquillaje.</p>"
               },
               {
-                "title": "¿Cuándo puedo usar gafas después de la cirugía?",
-                "text": "<p>Puede usar gafas ligeras por un corto tiempo a partir del 3er mes como muy pronto.</p><p><br></p><blockquote>A partir del <strong style=\"background-color: rgb(255, 255, 0);\">6º mes</strong>, puede usar gafas como desee.</blockquote>"
+                "title": "<p>No puedo usar lentes de contacto en lugar de gafas. Mi graduación es muy alta y tengo que usar gafas. ¿Puedo someterme a una rinoplastia?</p>",
+                "text": "<p>Sí, puede. Sin embargo, la razón por la que prohibimos el uso de gafas es que la carga sobre los huesos rotos/cortados puede causar problemas de curación. Por lo tanto, recomendamos a nuestros pacientes que usen lentes de contacto durante 4-6 meses después de la cirugía. Si no hay otra solución que las gafas debido a la situación que describió en la pregunta, se pueden realizar procedimientos estéticos solo para limar y en la punta nasal sin romper el hueso. En este caso, puede usar gafas incluso mientras esté en el hospital inmediatamente después de la cirugía.</p>"
               }
             ]
           },
@@ -1422,6 +1473,23 @@ export const content = {
               {
                 "title": "¿Cuándo se puede realizar la cirugía de revisión?",
                 "text": "<p>La cirugía de revisión <strong>no debe realizarse antes del 6º mes</strong> de la cirugía, excepto en casos excepcionales.</p><p><strong>El momento ideal es hacerlo después de 12 meses</strong>.</p><p><br></p><blockquote>Sin embargo, si el problema en la nariz crea problemas irreversibles y el paso del tiempo destruirá la posible oportunidad, también se pueden realizar cirugías de revisión anteriores. Pero si los problemas funcionales visuales no son de una naturaleza que requiera una intervención urgente, esperar un mínimo de 12 meses maximizará el beneficio que se obtendrá de la cirugía de revisión.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Tengo una graduación alta en mis gafas, ¿qué debo hacer?</p>",
+                "text": "<p>Puede usar lentes de contacto 2-3 días después de la cirugía. Si tiene que usar gafas, podemos ajustar sus gafas con un esparadrapo en la frente para que no toquen su nariz.</p>"
+              },
+              {
+                "title": "<p>Quiero hacerme una rinoplastia ultrasónica. ¿Usted la realiza?</p>",
+                "text": "<p>Todos los equipos que utilizamos en la cirugía de rinoplastia son dispositivos de última generación. El dispositivo llamado rinoplastia ultrasónica por los pacientes es el dispositivo llamado piezo, y utilizamos este dispositivo de forma rutinaria en nuestras cirugías. En algunos pacientes, dado que las intervenciones óseas con técnicas antiguas son más adecuadas, a veces puede ser necesario utilizar equipos de técnicas antiguas incluso si el dispositivo piezoeléctrico está listo. Piezo no es una herramienta milagrosa que perfecciona cada nariz que toca. Es una herramienta que utilizamos en una parte de la cirugía, que funciona muy bien y afecta significativamente a tener menos hematomas / edemas después de la cirugía. Por cierto, esta herramienta no es un dispositivo utilizado solo por mí. Muchos cirujanos que realizan rinoplastias en nuestra época operan utilizando esta herramienta.</p>"
+              },
+              {
+                "title": "<p>Me he puesto rellenos nasales antes. ¿Es un obstáculo para la rinoplastia?</p>",
+                "text": "<p>Los pacientes con rellenos nasales también pueden ser operados. Sin embargo, antes de esta cirugía, el efecto del relleno debe haber pasado por completo. De lo contrario, los procedimientos realizados en la cirugía pueden causar resultados no deseados después de que desaparezca el relleno. Por lo tanto, si la cirugía se va a realizar en el primer período de 1 año después del relleno, o si ha pasado más tiempo pero el efecto del relleno aún continúa, es absolutamente necesario realizar un proceso de disolución del relleno antes de la cirugía. Este proceso se proporciona con un medicamento llamado hialuronidasa.</p>"
               }
             ]
           }
@@ -1704,12 +1772,30 @@ export const content = {
           {
             "bgColor": "#ffebee",
             "subsections": [
-              { "title": "<p>Нужен ли сопровождающий?</p>", "text": "<p>Рекомендуется иметь сопровождающего во время вашего пребывания в больнице (1 ночь) для вашего комфорта и более легкого удовлетворения ваших потребностей. Однако в обязательных случаях наши медсестры также окажут вам поддержку. Наличие кого-то, кто поможет вам дома в первые несколько дней после выписки, также облегчит ваш процесс восстановления.</p>" },
-              { "title": "<p>Что делать, если я хочу чихнуть?</p>", "text": "<p>Не пытайтесь сдерживать позыв к чиханию. Однако очень важно чихать с <strong>открытым ртом</strong>, чтобы давление не повредило ваш нос. Чихание с закрытым ртом может повысить внутриносовое давление и вызвать кровотечение или повреждение тканей.</p>" },
-              { "title": "<p>Когда можно сморкаться?</p>", "text": "<p>Вы <strong>не должны сморкаться в течение первого месяца</strong> после операции. В этот период следует очищать нос рекомендованными спреями с морской водой или наборами для промывания. Сморкание может повысить внутриносовое давление и вызвать кровотечение и повреждение заживающих тканей. Вы можете осторожно сморкаться после 1-го месяца.</p>" },
-              { "title": "<p>Можно ли загорать / ходить в солярий?</p>", "text": "<p>Вы должны защищать свой нос от прямых солнечных лучей и высокой температуры (солярий, сауна, турецкая баня) в течение первых <strong>2 месяцев</strong> после операции. Солнечный свет может вызвать усиление отека и необратимые изменения цвета (пятна) в заживающих тканях. Если вам нужно выйти на солнце, вы должны использовать солнцезащитный крем с высоким фактором (50+ SPF) и носить шляпу.</p>" },
-              { "title": "<p>Когда можно делать чистку лица / пилинг?</p>", "text": "<p>Вы можете аккуратно очищать кожу после снятия лент с носа. Однако рекомендуется подождать <strong>не менее 2 месяцев</strong> для таких процедур, как профессиональная чистка лица, пилинг или чистка черных точек. Поскольку эти процедуры могут оказывать давление на кожу носа, их нежелательно проводить в ранний период. После 2-го месяца вы можете делать уход за кожей при условии, что на нос не будет оказываться сильного давления.</p>" },
-              { "title": "<p>Смогу ли я свободно дышать сразу после операции?</p>", "text": "<p>Поскольку силиконовые тампоны, помещенные внутрь носа после операции, имеют канавки, они частично позволяют вам дышать. Однако в первые дни вполне нормально чувствовать заложенность носа из-за отека, корок и выделений, связанных с операцией. После удаления тампонов (5-7-й день) ваше дыхание немного облегчится, но по мере уменьшения отека и заживления внутренней части носа (в течение примерно 1-3 месяцев) качество вашего дыхания будет постепенно улучшаться и достигнет идеального уровня.</p>" }
+              {
+                "title": "<p>Нужен ли сопровождающий?</p>",
+                "text": "<p>Рекомендуется иметь сопровождающего во время вашего пребывания в больнице (1 ночь) для вашего комфорта и более легкого удовлетворения ваших потребностей. Однако в обязательных случаях наши медсестры также окажут вам поддержку. Наличие кого-то, кто поможет вам дома в первые несколько дней после выписки, также облегчит ваш процесс восстановления.</p>"
+              },
+              {
+                "title": "<p>Что делать, если я хочу чихнуть?</p>",
+                "text": "<p>Не пытайтесь сдерживать позыв к чиханию. Однако очень важно чихать с <strong>открытым ртом</strong>, чтобы давление не повредило ваш нос. Чихание с закрытым ртом может повысить внутриносовое давление и вызвать кровотечение или повреждение тканей.</p>"
+              },
+              {
+                "title": "<p>Когда можно сморкаться?</p>",
+                "text": "<p>Вы <strong>не должны сморкаться в течение первого месяца</strong> после операции. В этот период следует очищать нос рекомендованными спреями с морской водой или наборами для промывания. Сморкание может повысить внутриносовое давление и вызвать кровотечение и повреждение заживающих тканей. Вы можете осторожно сморкаться после 1-го месяца.</p>"
+              },
+              {
+                "title": "<p>Можно ли загорать / ходить в солярий?</p>",
+                "text": "<p>Вы должны защищать свой нос от прямых солнечных лучей и высокой температуры (солярий, сауна, турецкая баня) в течение первых <strong>2 месяцев</strong> после операции. Солнечный свет может вызвать усиление отека и необратимые изменения цвета (пятна) в заживающих тканях. Если вам нужно выйти на солнце, вы должны использовать солнцезащитный крем с высоким фактором (50+ SPF) и носить шляпу.</p>"
+              },
+              {
+                "title": "<p>Когда можно делать чистку лица / пилинг?</p>",
+                "text": "<p>Вы можете аккуратно очищать кожу после снятия лент с носа. Однако рекомендуется подождать <strong>не менее 2 месяцев</strong> для таких процедур, как профессиональная чистка лица, пилинг или чистка черных точек. Поскольку эти процедуры могут оказывать давление на кожу носа, их нежелательно проводить в ранний период. После 2-го месяца вы можете делать уход за кожей при условии, что на нос не будет оказываться сильного давления.</p>"
+              },
+              {
+                "title": "<p>Смогу ли я свободно дышать сразу после операции?</p>",
+                "text": "<p>Поскольку силиконовые тампоны, помещенные внутрь носа после операции, имеют канавки, они частично позволяют вам дышать. Однако в первые дни вполне нормально чувствовать заложенность носа из-за отека, корок и выделений, связанных с операцией. После удаления тампонов (5-7-й день) ваше дыхание немного облегчится, но по мере уменьшения отека и заживления внутренней части носа (в течение примерно 1-3 месяцев) качество вашего дыхания будет постепенно улучшаться и достигнет идеального уровня.</p>"
+              }
             ]
           },
           {
@@ -1718,6 +1804,23 @@ export const content = {
               {
                 "title": "Когда можно проводить ревизионную операцию?",
                 "text": "<p>Ревизионная операция <strong>не должна проводиться ранее 6-го месяца</strong> после операции, за исключением исключительных случаев.</p><p><strong>Идеальное время - сделать это через 12 месяцев</strong>.</p><p><br></p><blockquote>Однако, если проблема в носу создает необратимые проблемы, и прошедшее время уничтожит возможный шанс, также могут быть выполнены более ранние ревизионные операции. Но если визуальные функциональные проблемы не требуют срочного вмешательства, ожидание минимум 12 месяцев максимизирует пользу, которую можно получить от ревизионной операции.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Я не могу носить контактные линзы вместо очков. У меня очень плохое зрение, и я вынужден носить очки. Можно ли мне делать ринопластику?</p>",
+                "text": "<p>Да, можно. Однако причина, по которой мы запрещаем ношение очков, заключается в том, что нагрузка на сломанные/разрезанные кости может вызвать проблемы с заживлением. Поэтому мы рекомендуем нашим пациентам использовать контактные линзы в течение 4-6 месяцев после операции. Если из-за ситуации, которую вы описали в вопросе, нет другого решения, кроме очков, эстетические процедуры могут быть выполнены только для подпиливания и кончика носа без перелома кости. В этом случае вы можете носить очки даже находясь в больнице сразу после операции.</p>"
+              },
+              {
+                "title": "<p>Я хочу сделать ультразвуковую ринопластику. Вы ее делаете?</p>",
+                "text": "<p>Все оборудование, которое мы используем при ринопластике, является самыми современными устройствами. Устройство, называемое пациентами ультразвуковой ринопластикой, — это устройство под названием пьезо, и мы регулярно используем это устройство в наших операциях. У некоторых пациентов, поскольку вмешательства на костях по старой методике более подходят, иногда может потребоваться использование оборудования по старой методике, даже если пьезоустройство готово. Пьезо — это не чудодейственный инструмент, который совершенствует каждый нос, к которому прикасается. Это инструмент, который мы используем в части операции, который очень хорошо работает и существенно влияет на уменьшение синяков / отеков после операции. Кстати, этот инструмент используется не только мной. Многие хирурги, выполняющие ринопластику в наше время, проводят операции с использованием этого инструмента.</p>"
+              },
+              {
+                "title": "<p>Я делал(а) филлеры в нос. Является ли это препятствием для ринопластики?</p>",
+                "text": "<p>Пациентов с филлерами в носу также можно оперировать. Однако перед этой операцией действие филлера должно полностью пройти. В противном случае процедуры, выполняемые во время операции, могут привести к нежелательным результатам после исчезновения филлера. Поэтому, если операция будет проводиться в первый год после введения филлера или если прошло больше времени, но эффект филлера все еще сохраняется, перед операцией абсолютно необходимо выполнить процедуру растворения филлера. Этот процесс обеспечивается препаратом под названием гиалуронидаза.</p>"
               }
             ]
           }
@@ -2000,8 +2103,8 @@ export const content = {
                 "text": "<p><strong>Vous pouvez vous maquiller même le premier jour</strong> après l'opération, sans toucher la zone chirurgicale.</p><p>Cependant, vous pouvez avoir des difficultés en raison de l'œdème.</p><p>Mais il n'y a aucun mal à venir à votre contrôle la première semaine avec du maquillage.</p>"
               },
               {
-                "title": "Quand puis-je utiliser des lunettes après l'opération ?",
-                "text": "<p>Vous pouvez utiliser des lunettes légères pendant une courte période à partir du 3ème mois au plus tôt.</p><p><br></p><blockquote>À partir du <strong style=\"background-color: rgb(255, 255, 0);\">6ème mois</strong>, vous pouvez utiliser des lunettes comme vous le souhaitez.</blockquote>"
+                "title": "<p>Je ne peux pas porter de lentilles de contact à la place de lunettes. Ma correction est très forte et je dois porter des lunettes. Puis-je subir une rhinoplastie ?</p>",
+                "text": "<p>Oui, vous le pouvez. Cependant, la raison pour laquelle nous interdisons le port de lunettes est que la charge sur les os cassés/coupés peut causer des problèmes de guérison. Par conséquent, nous recommandons à nos patients d'utiliser des lentilles de contact pendant 4 à 6 mois après la chirurgie. S'il n'y a pas d'autre solution que les lunettes en raison de la situation que vous avez décrite dans la question, des procédures esthétiques peuvent être effectuées uniquement pour le limage et la pointe nasale sans casser l'os. Dans ce cas, vous pouvez utiliser des lunettes même à l'hôpital immédiatement après la chirurgie.</p>"
               }
             ]
           },
@@ -2048,6 +2151,23 @@ export const content = {
               {
                 "title": "Quand une chirurgie de révision peut-elle être effectuée ?",
                 "text": "<p>La chirurgie de révision <strong>ne doit pas être effectuée avant le 6ème mois</strong> de l'opération, sauf cas exceptionnels.</p><p><strong>Le moment idéal est de le faire après 12 mois</strong>.</p><p><br></p><blockquote>Cependant, si le problème dans le nez crée des problèmes irréversibles et que le temps qui passe détruira la chance possible, des chirurgies de révision plus précoces peuvent également être effectuées. Mais si les problèmes fonctionnels visuels ne sont pas de nature à nécessiter une intervention urgente, attendre au minimum 12 mois maximisera le bénéfice à obtenir de la chirurgie de révision.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>J'ai une forte correction de lunettes, que dois-je faire ?</p>",
+                "text": "<p>Vous pouvez utiliser des lentilles de contact 2-3 jours après l'opération. Si vous devez porter des lunettes, nous pouvons les ajuster avec un pansement sur votre front afin qu'elles ne touchent pas votre nez.</p>"
+              },
+              {
+                "title": "<p>Je veux faire une rhinoplastie ultrasonique. La pratiquez-vous ?</p>",
+                "text": "<p>Tous les équipements que nous utilisons dans la chirurgie de rhinoplastie sont des appareils de pointe. L'appareil appelé rhinoplastie ultrasonique par les patients est l'appareil nommé piézo, et nous utilisons régulièrement cet appareil dans nos chirurgies. Chez certains patients, comme les interventions osseuses selon l'ancienne technique sont plus appropriées, il peut parfois être nécessaire d'utiliser des équipements de l'ancienne technique même si l'appareil piézo est prêt. Le piézo n'est pas un outil miraculeux qui perfectionne chaque nez qu'il touche. C'est un outil que nous utilisons dans une partie de la chirurgie, qui fonctionne très bien et affecte considérablement la réduction des ecchymoses / œdèmes après la chirurgie. Soit dit en passant, cet outil n'est pas un appareil utilisé uniquement par moi. De nombreux chirurgiens pratiquant la rhinoplastie à notre époque opèrent en utilisant cet outil.</p>"
+              },
+              {
+                "title": "<p>J'ai déjà eu des injections de comblement dans le nez. Est-ce un obstacle à la rhinoplastie ?</p>",
+                "text": "<p>Les patients ayant des produits de comblement dans le nez peuvent également être opérés. Cependant, avant cette chirurgie, l'effet du produit de comblement doit avoir complètement disparu. Sinon, les procédures effectuées lors de la chirurgie peuvent entraîner des résultats indésirables après la disparition du produit de comblement. Par conséquent, si la chirurgie doit être effectuée dans la première période d'un an après le comblement, ou si plus de temps s'est écoulé mais que l'effet du produit de comblement persiste, il est absolument nécessaire d'effectuer un processus de dissolution du produit de comblement avant la chirurgie. Ce processus est assuré par un médicament nommé hyaluronidase.</p>"
               }
             ]
           }
@@ -2330,8 +2450,8 @@ export const content = {
                 "text": "<p><strong>Potete truccarvi anche il primo giorno</strong> dopo l'intervento, senza toccare l'area chirurgica.</p><p>Tuttavia, potreste avere difficoltà a causa dell'edema.</p><p>Ma non c'è nulla di male nel venire al vostro controllo nella prima settimana con il trucco.</p>"
               },
               {
-                "title": "Quando posso usare gli occhiali dopo l'intervento?",
-                "text": "<p>Potete usare occhiali leggeri per un breve periodo a partire dal 3° mese al più presto.</p><p><br></p><blockquote>Dal <strong style=\"background-color: rgb(255, 255, 0);\">6° mese</strong>, potete usare gli occhiali come desiderate.</blockquote>"
+                "title": "<p>Non posso usare lenti a contatto al posto degli occhiali. La mia gradazione è molto alta e devo usare gli occhiali. Posso sottopormi a rinoplastica?</p>",
+                "text": "<p>Sì, puoi. Tuttavia, il motivo per cui vietiamo l'uso degli occhiali è che il carico sulle ossa rotte/tagliate può causare problemi di guarigione. Pertanto, raccomandiamo ai nostri pazienti di utilizzare lenti a contatto per 4-6 mesi dopo l'intervento. Se non c'è altra soluzione oltre agli occhiali a causa della situazione descritta nella domanda, le procedure estetiche possono essere eseguite solo per la limatura e sulla punta nasale senza rompere l'osso. In questo caso, puoi usare gli occhiali anche mentre sei in ospedale subito dopo l'intervento.</p>"
               }
             ]
           },
@@ -2380,10 +2500,26 @@ export const content = {
                 "text": "<p>L'intervento di revisione <strong>non dovrebbe essere eseguito prima del 6° mese</strong> dell'intervento eccetto per casi eccezionali.</p><p><strong>Il momento ideale è farlo dopo 12 mesi</strong>.</p><p><br></p><blockquote>Tuttavia, se il problema nel naso crea problemi irreversibili e il tempo che passa distruggerà la possibile possibilità, possono essere eseguiti anche interventi di revisione precoci. Ma se i problemi funzionali visivi non sono di natura tale da richiedere un intervento urgente, attendere minimo 12 mesi massimizzerà il beneficio da ottenere dall'intervento di revisione.</blockquote>"
               }
             ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Ho una gradazione alta degli occhiali, cosa devo fare?</p>",
+                "text": "<p>Puoi usare le lenti a contatto 2-3 giorni dopo l'intervento. Se devi usare gli occhiali, possiamo regolarli con un cerotto sulla fronte in modo che non tocchino il naso.</p>"
+              },
+              {
+                "title": "<p>Voglio fare una rinoplastica ultrasonica. La eseguite?</p>",
+                "text": "<p>Tutte le attrezzature che utilizziamo nella chirurgia di rinoplastica sono dispositivi all'avanguardia. Il dispositivo chiamato rinoplastica ultrasonica dai pazienti è il dispositivo chiamato piezo, e utilizziamo regolarmente questo dispositivo nei nostri interventi. In alcuni pazienti, poiché gli interventi ossei con la vecchia tecnica sono più adatti, a volte potrebbe essere necessario utilizzare attrezzature della vecchia tecnica anche se il dispositivo piezo è pronto. Il piezo non è uno strumento miracoloso che perfeziona ogni naso che tocca. È uno strumento che utilizziamo in una parte dell'intervento, che funziona molto bene e influisce in modo significativo sulla riduzione di lividi / edemi dopo l'intervento. A proposito, questo strumento non è un dispositivo utilizzato solo da me. Molti chirurghi che eseguono rinoplastiche nella nostra epoca operano utilizzando questo strumento.</p>"
+              },
+              {
+                "title": "<p>Ho fatto dei filler al naso in precedenza. È un ostacolo alla rinoplastica?</p>",
+                "text": "<p>Anche i pazienti con filler al naso possono essere operati. Tuttavia, prima di questo intervento, l'effetto del filler deve essere completamente passato. Altrimenti, le procedure eseguite durante l'intervento potrebbero causare risultati indesiderati dopo la scomparsa del filler. Pertanto, se l'intervento deve essere eseguito nel primo periodo di 1 anno dopo il filler, o se è passato più tempo ma l'effetto del filler continua ancora, è assolutamente necessario eseguire un processo di dissoluzione del filler prima dell'intervento. Questo processo viene fornito con un farmaco chiamato ialuronidasi.</p>"
+              }
+            ]
           }
         ]
-      },
-
+      }
     ]
   },
   "ro": {
@@ -2629,8 +2765,8 @@ export const content = {
                 "text": "<p>Majoritatea pacienților trebuie să folosească acest produs.</p><p>Totuși, în funcție de operația efectuată și starea pacientului, pot exista cazuri în care nu ar trebui folosit.</p><p><br></p><p>Prin urmare, trebuie să folosiți acest produs doar dacă medicul dumneavoastră vi-l recomandă, în modul specific și pentru durata specifică recomandată pentru dumneavoastră.</p><p><strong>Nu îl folosiți/opriți utilizarea fără a consulta medicul dumneavoastră.</strong></p>"
               },
               {
-                "title": "Când pot folosi ochelari după operație?",
-                "text": "<p>Puteți folosi ochelari ușori pentru o perioadă scurtă de timp începând cu a 3-a lună cel mai devreme.</p><p><br></p><blockquote>Începând cu a <strong style=\"background-color: rgb(255, 255, 0);\">6-a lună</strong>, puteți folosi ochelari așa cum doriți.</blockquote>"
+                "title": "<p>Nu pot folosi lentile de contact în loc de ochelari. Dioptriile mele sunt foarte mari și trebuie să port ochelari. Pot face rinoplastie?</p>",
+                "text": "<p>Da, puteți. Cu toate acestea, motivul pentru care interzicem purtarea ochelarilor este că greutatea pe oasele rupte/tăiate poate cauza probleme de vindecare. Prin urmare, recomandăm pacienților noștri să folosească lentile de contact timp de 4-6 luni după operație. Dacă nu există altă soluție decât ochelarii din cauza situației descrise în întrebare, procedurile estetice pot fi efectuate doar pentru pilire și la vârful nasului fără a rupe osul. În acest caz, puteți purta ochelari chiar și în spital imediat după operație.</p>"
               }
             ]
           },
@@ -2677,6 +2813,23 @@ export const content = {
               {
                 "title": "Când se poate efectua operația de revizie?",
                 "text": "<p>Operația de revizie <strong>nu ar trebui efectuată înainte de a 6-a lună</strong> de la operație, cu excepția cazurilor excepționale.</p><p><strong>Timpul ideal este de a o face după 12 luni</strong>.</p><p><br></p><blockquote>Totuși, dacă problema din nas creează probleme ireversibile și timpul care trece va distruge șansa posibilă, operațiile de revizie mai timpurii pot fi de asemenea efectuate. Dar dacă problemele funcționale vizuale nu sunt de o natură care necesită intervenție urgentă, așteptarea a minim 12 luni va maximiza beneficiul care urmează să fie obținut din operația de revizie.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Am o dioptrie mare la ochelari, ce ar trebui să fac?</p>",
+                "text": "<p>Puteți folosi lentile de contact la 2-3 zile după operație. Dacă trebuie să purtați ochelari, îi putem ajusta cu un plasture pe frunte, astfel încât să nu atingă nasul.</p>"
+              },
+              {
+                "title": "<p>Vreau să fac rinoplastie ultrasonică. O efectuați?</p>",
+                "text": "<p>Toate echipamentele pe care le folosim în operația de rinoplastie sunt dispozitive de ultimă generație. Dispozitivul numit rinoplastie ultrasonică de către pacienți este dispozitivul numit piezo, și folosim în mod obișnuit acest dispozitiv în operațiile noastre. La unii pacienți, deoarece intervențiile osoase prin tehnica veche sunt mai potrivite, uneori poate fi necesar să folosim echipamente de tehnică veche chiar dacă dispozitivul piezo este pregătit. Piezo nu este un instrument miraculos care perfecționează fiecare nas pe care îl atinge. Este un instrument pe care îl folosim într-o parte a operației, care funcționează foarte bine și afectează semnificativ reducerea vânătăilor / edemelor după operație. Apropo, acest instrument nu este un dispozitiv folosit doar de mine. Mulți chirurgi care efectuează rinoplastii în epoca noastră operează folosind acest instrument.</p>"
+              },
+              {
+                "title": "<p>Mi-am făcut fillere nazale înainte. Este un obstacol pentru rinoplastie?</p>",
+                "text": "<p>Pacienții cu fillere nazale pot fi, de asemenea, operați. Cu toate acestea, înainte de această operație, efectul fillerului trebuie să fi trecut complet. În caz contrar, procedurile efectuate în timpul operației pot provoca rezultate nedorite după dispariția fillerului. Prin urmare, dacă operația urmează să fie efectuată în prima perioadă de 1 an după filler, sau dacă a trecut mai mult timp, dar efectul fillerului continuă, este absolut necesar să se efectueze un proces de dizolvare a fillerului înainte de operație. Acest proces este asigurat cu un medicament numit hialuronidază.</p>"
               }
             ]
           }
@@ -3013,8 +3166,8 @@ export const content = {
                 "text": "<p><strong>Akár az első napon is sminkelhet</strong> a műtét után, anélkül, hogy megérintené a műtéti területet.</p><p>Azonban nehézségei lehetnek az ödéma miatt.</p><p>De nincs akadálya annak, hogy sminkkel jöjjön az első heti kontrollra.</p>"
               },
               {
-                "title": "Mikor használhatok szemüveget a műtét után?",
-                "text": "<p>Könnyű szemüveget rövid ideig legkorábban a 3. hónaptól használhat.</p><p><br></p><blockquote>A <strong style=\"background-color: rgb(255, 255, 0);\">6. hónaptól</strong> kezdve úgy használhatja a szemüveget, ahogy szeretné.</blockquote>"
+                "title": "<p>Nem tudok kontaktlencsét használni szemüveg helyett. Nagyon erős a szemüvegem, és szemüveget kell viselnem. Lehet rinoplasztikám?</p>",
+                "text": "<p>Igen, lehet. Azonban az ok, amiért tiltjuk a szemüveg viselését, az az, hogy a törött/vágott csontokra nehezedő terhelés gyógyulási problémákat okozhat. Ezért javasoljuk pácienseinknek, hogy a műtét után 4-6 hónapig kontaktlencsét használjanak. Ha a kérdésben leírt helyzet miatt nincs más megoldás, mint a szemüveg, akkor esztétikai beavatkozások csak reszelésre és az orrcsúcsra végezhetők a csont eltörése nélkül. Ebben az esetben akár közvetlenül a műtét után a kórházban is viselhet szemüveget.</p>"
               }
             ]
           },
@@ -3061,6 +3214,23 @@ export const content = {
               {
                 "title": "Mikor végezhető el a revíziós műtét?",
                 "text": "<p>A revíziós műtétet <strong>nem szabad a műtét 6. hónapja előtt elvégezni</strong>, kivételes esetektől eltekintve.</p><p><strong>Az ideális időpont 12 hónap után van</strong>.</p><p><br></p><blockquote>Azonban, ha az orrban lévő probléma visszafordíthatatlan problémákat okoz, és az idő múlása tönkreteszi a lehetséges esélyt, korábbi revíziós műtétek is elvégezhetők. De ha a vizuális funkcionális problémák nem igényelnek sürgős beavatkozást, a minimum 12 hónapos várakozás maximalizálja a revíziós műtétből származó előnyöket.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Erős szemüvegem van, mit tegyek?</p>",
+                "text": "<p>A műtét után 2-3 nappal használhat kontaktlencsét. Ha szemüveget kell viselnie, egy tapasszal a homlokához rögzíthetjük, hogy ne érintkezzen az orrával.</p>"
+              },
+              {
+                "title": "<p>Ultrahangos rinoplasztikát szeretnék. Végeznek ilyet?</p>",
+                "text": "<p>A rinoplasztikai műtétek során használt összes berendezésünk a legkorszerűbb eszköz. A betegek által ultrahangos rinoplasztikának nevezett eszköz a piezo nevű eszköz, és rutinszerűen használjuk ezt az eszközt műtéteink során. Néhány betegnél, mivel a régi technikájú csontbeavatkozások megfelelőbbek, néha szükség lehet a régi technikájú berendezések használatára akkor is, ha a piezo eszköz készen áll. A piezo nem egy csodaeszköz, amely minden orrot tökéletesít, amihez hozzáér. Ez egy olyan eszköz, amelyet a műtét egy részében használunk, nagyon jól működik, és jelentősen befolyásolja, hogy kevesebb véraláfutás / ödéma legyen a műtét után. Egyébként ez az eszköz nem csak általam használt eszköz. Korunkban sok rinoplasztikát végző sebész használja ezt az eszközt műtétek során.</p>"
+              },
+              {
+                "title": "<p>Korábban töltettem fel az orromat. Ez akadálya a rinoplasztikának?</p>",
+                "text": "<p>Az orrtöltéssel rendelkező betegek is műthetők. Azonban a műtét előtt a töltőanyag hatásának teljesen el kell múlnia. Ellenkező esetben a műtét során végzett beavatkozások nem kívánt eredményeket okozhatnak a töltőanyag eltűnése után. Ezért, ha a műtétet a töltés utáni első 1 éves időszakban végzik, vagy ha több idő telt el, de a töltőanyag hatása még mindig tart, a műtét előtt feltétlenül el kell végezni a töltőanyag oldási folyamatát. Ezt a folyamatot egy hialuronidáz nevű gyógyszerrel biztosítják.</p>"
               }
             ]
           }
@@ -3386,8 +3556,8 @@ export const content = {
                 "text": "<p><strong>Nawet pierwszego dnia po operacji</strong> mogą Państwo <strong>zrobić makijaż</strong>, nie dotykając okolicy operowanej.</p><p>Może to być jednak trudne z powodu obrzęku.</p><p>Nie ma jednak przeciwwskazań, aby przyjść na kontrolę w pierwszym tygodniu w makijażu.</p>"
               },
               {
-                "title": "Kiedy mogę nosić okulary po operacji?",
-                "text": "<p>Możesz nosić lekkie okulary przez krótki czas najwcześniej od 3. miesiąca.</p><p><br></p><blockquote>Począwszy od <strong style=\"background-color: rgb(255, 255, 0);\">6. miesiąca</strong>, możesz używać okularów tak, jak chcesz.</blockquote>"
+                "title": "<p>Nie mogę używać soczewek kontaktowych zamiast okularów. Mam bardzo dużą wadę wzroku i muszę nosić okulary. Czy mogę poddać się rynoplastyce?</p>",
+                "text": "<p>Tak, możesz. Jednak powodem, dla którego zabraniamy noszenia okularów, jest to, że obciążenie złamanych/przeciętych kości może powodować problemy z gojeniem. Dlatego zalecamy naszym pacjentom używanie soczewek kontaktowych przez 4-6 miesięcy po operacji. Jeśli z powodu sytuacji opisanej w pytaniu nie ma innego rozwiązania niż okulary, zabiegi estetyczne można wykonywać tylko w celu spiłowania i na czubku nosa bez łamania kości. W takim przypadku możesz nosić okulary nawet w szpitalu bezpośrednio po operacji.</p>"
               }
             ]
           },
@@ -3435,7 +3605,24 @@ export const content = {
                 "title": "Kiedy można wykonać operację rewizyjną?",
                 "text": "<p>Operacja rewizyjna, z wyjątkiem wyjątkowych sytuacji, <strong>nie powinna być wykonywana przed 6. miesiącem</strong> od operacji.</p><p><strong>Idealny czas to po 12 miesiącach</strong>.</p><p><br></p><blockquote>Jeśli jednak problem w nosie powoduje nieodwracalne problemy, a upływ czasu zniszczy ewentualną szansę, można wykonać wcześniejsze operacje rewizyjne. Ale jeśli wizualne problemy funkcjonalne nie wymagają pilnej interwencji, odczekanie minimum 12 miesięcy zmaksymalizuje korzyści z operacji rewizyjnej.</blockquote>"
               }
-            ],
+            ]
+          },
+          {
+            "bgColor": "#e3f2fd",
+            "subsections": [
+              {
+                "title": "<p>Nie mogę nosić soczewek kontaktowych zamiast okularów. Mam bardzo dużą wadę wzroku i muszę nosić okulary. Czy mogę poddać się rynoplastyce?</p>",
+                "text": "<p>Tak, możesz. Powodem, dla którego zabraniamy noszenia okularów, są możliwe problemy z gojeniem spowodowane obciążeniem złamanych/przeciętych kości. Jeśli występuje sytuacja opisana w pytaniu, zabiegi estetyczne można wykonać tylko poprzez piłowanie i na czubku nosa bez łamania kości. W takim przypadku możesz nosić okulary nawet bezpośrednio po operacji, będąc w szpitalu.</p>"
+              },
+              {
+                "title": "<p>Chcę poddać się rynoplastyce ultradźwiękowej. Czy wykonuje ją Pan/Pani?</p>",
+                "text": "<p>Wszystkie urządzenia, których używamy podczas operacji rynoplastyki, to najnowocześniejszy sprzęt. Urządzenie nazywane przez pacjentów rynoplastyką ultradźwiękową to urządzenie o nazwie piezo, którego rutynowo używamy podczas naszych operacji. U niektórych pacjentów, ponieważ interwencje kostne starą techniką są bardziej odpowiednie, czasami konieczne może być użycie sprzętu starej techniki, nawet jeśli urządzenie piezo jest gotowe. Piezo nie jest cudownym narzędziem, które udoskonala każdy nos, którego dotknie. Jest to narzędzie, którego używamy w części operacji, które działa bardzo dobrze i znacząco wpływa na mniejsze zasinienie / obrzęk po operacji. Swoją drogą, to narzędzie nie jest używane tylko przeze mnie. Wielu chirurgów wykonujących rynoplastykę w naszych czasach operuje przy użyciu tego narzędzia.</p>"
+              },
+              {
+                "title": "<p>Miałem/am wcześniej wypełniacze nosa. Czy jest to przeszkoda do rynoplastyki?</p>",
+                "text": "<p>Pacjenci z wypełniaczami nosa również mogą być operowani. Jednak przed tą operacją efekt wypełniacza musi całkowicie minąć. W przeciwnym razie zabiegi wykonywane podczas operacji mogą spowodować niepożądane rezultaty po zniknięciu wypełniacza. Dlatego, jeśli operacja ma być przeprowadzona w pierwszym okresie 1 roku po wypełnieniu lub jeśli minęło więcej czasu, ale efekt wypełniacza nadal się utrzymuje, absolutnie konieczne jest przeprowadzenie procesu rozpuszczania wypełniacza przed operacją. Proces ten zapewnia lek o nazwie hialuronidaza.</p>"
+              }
+            ]
           }
         ]
       }

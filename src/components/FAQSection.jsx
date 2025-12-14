@@ -183,7 +183,7 @@ const FAQSection = ({ lang, data }) => {
   const loadFaqs = React.useCallback(() => {
     if (!data || !data.content) return [];
 
-    const storageKey = `faq_overrides_v2_${lang}`;
+    const storageKey = `faq_overrides_v5_${lang}`;
     const savedFaqs = localStorage.getItem(storageKey);
 
     if (savedFaqs) {
@@ -207,7 +207,7 @@ const FAQSection = ({ lang, data }) => {
   const prevEditModeRef = useRef(isEditMode);
 
   const saveChanges = React.useCallback(async (silent = false) => {
-    const storageKey = `faq_overrides_v2_${lang}`;
+    const storageKey = `faq_overrides_v5_${lang}`;
     localStorage.setItem(storageKey, JSON.stringify(faqs));
 
     try {
@@ -309,7 +309,7 @@ const FAQSection = ({ lang, data }) => {
 
   const resetToDefault = () => {
     if (window.confirm('Are you sure you want to reset all changes for this language?')) {
-      const storageKey = `faq_overrides_v2_${lang}`;
+      const storageKey = `faq_overrides_v5_${lang}`;
       localStorage.removeItem(storageKey);
       const initialFaqs = data.content.flatMap(item => {
         if (item.subsections) {
