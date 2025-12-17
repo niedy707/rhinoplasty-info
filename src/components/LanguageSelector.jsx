@@ -13,25 +13,29 @@ const languages = [
     { code: 'pl', name: 'Polski', flag: '🇵🇱' },
 ];
 
-export default function LanguageSelector({ currentLang, onSelect }) {
+export function QuickFlags({ currentLang, onSelect }) {
+    return (
+        <div className="quick-flags">
+            {languages.map((lang) => (
+                <button
+                    key={lang.code}
+                    className={`quick-flag-btn ${currentLang === lang.code ? 'active' : ''}`}
+                    onClick={() => onSelect(lang.code)}
+                    title={lang.name}
+                    aria-label={`Switch to ${lang.name}`}
+                >
+                    {lang.flag}
+                </button>
+            ))}
+        </div>
+    );
+}
+
+export function LanguageDropdown({ currentLang, onSelect }) {
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <div className="language-selector">
-            <div className="quick-flags">
-                {languages.map((lang) => (
-                    <button
-                        key={lang.code}
-                        className={`quick-flag-btn ${currentLang === lang.code ? 'active' : ''}`}
-                        onClick={() => onSelect(lang.code)}
-                        title={lang.name}
-                        aria-label={`Switch to ${lang.name}`}
-                    >
-                        {lang.flag}
-                    </button>
-                ))}
-            </div>
-
+        <div className="language-dropdown-container">
             <button
                 className="lang-btn"
                 onClick={() => setIsOpen(!isOpen)}
@@ -65,6 +69,15 @@ export default function LanguageSelector({ currentLang, onSelect }) {
                     </div>
                 </>
             )}
+        </div>
+    );
+}
+
+export default function LanguageSelector({ currentLang, onSelect }) {
+    return (
+        <div className="language-selector">
+            <QuickFlags currentLang={currentLang} onSelect={onSelect} />
+            <LanguageDropdown currentLang={currentLang} onSelect={onSelect} />
         </div>
     );
 }

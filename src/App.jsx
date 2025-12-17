@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import { content } from './data/content';
-import LanguageSelector from './components/LanguageSelector';
+import LanguageSelector, { QuickFlags, LanguageDropdown } from './components/LanguageSelector';
 import FAQSection from './components/FAQSection';
 import EditableContentSection from './components/EditableContentSection';
 import { AdminProvider } from './context/AdminContext';
@@ -202,14 +202,16 @@ function AppContent() {
   return (
     <div className="app-container">
       <div className="language-bar">
-        <LanguageSelector currentLang={lang} onSelect={handleLanguageChange} />
+        <QuickFlags currentLang={lang} onSelect={handleLanguageChange} />
       </div>
       <header className="app-header">
         <div className="header-content">
-          <h1>{currentContent.title}</h1>
-          {currentContent.subtitle && <p className="app-subtitle"><i>{currentContent.subtitle}</i></p>}
+          <div className="header-text">
+            <h1>{currentContent.title}</h1>
+            {currentContent.subtitle && <p className="app-subtitle"><i>{currentContent.subtitle}</i></p>}
+          </div>
           <div className="header-controls">
-            {/* LanguageSelector moved to top bar */}
+            <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
           </div>
         </div>
       </header>
