@@ -3086,7 +3086,357 @@ export const content = {
       }
     ]
   },
-  "hu": {
+  "md": {
+    "title": "Pagina de informare a pacienților pentru rinoplastie",
+    "subtitle": "Răspunsul la toate întrebările dumneavoastră înainte și după rinoplastie este aici..",
+    "tabs": [
+      {
+        "id": "tab1",
+        "title": "1. INFORMAȚII GENERALE",
+        "content": [
+          {
+            "title": "<p>Ce este Rinoplastia?</p>",
+            "text": "<p>Nasul este un organ funcțional situat chiar în mijlocul feței. </p><p>Sarcina funcțională a nasului este de a respira și de a mirosi, iar sarcina sa vizuală este de a asigura că fața arată frumos. </p><p>Nasul trebuie să îndeplinească aceste 2 sarcini complet și trebuie să fie în armonie și proporție cu celelalte organe de pe față. </p><p>În plus, ar trebui să fie simetric și potrivit pentru față. </p><p><br></p><p><strong>Scopul operației de Rinoplastie (Septorinoplastie) este de a oferi nasului o frumusețe funcțională și estetică.</strong></p>"
+          },
+          {
+            "title": "<p>Care este scopul operației de rinoplastie?</p>",
+            "text": "<p>Scopul operației de rinoplastie este de a obține un aspect al nasului care să facă pacientul fericit, oferind o soluție la problemele din nasul pacientului, precum și o respirație confortabilă. </p><p>Deoarece problema în fiecare nas este diferită, procedurile de aplicat variază, de asemenea. </p><p><br></p><p>Procedurile care pot fi efectuate pe nasul dumneavoastră și rezultatele posibile care pot fi obținute vor fi împărtășite cu dumneavoastră în timpul examinării. </p>",
+            "items": [
+              "<p>Operația se efectuează cu o decizie și un acord reciproc.</p><p>Atât pacientul trebuie să dorească să fie operat de medic, cât și medicul trebuie să efectueze operația crezând că va beneficia pacientul.</p>",
+              "<p>Prin urmare, examinarea și evaluarea preoperatorie ar trebui făcute la momentul potrivit și în condițiile potrivite.</p>",
+              "<p>Probabilitatea unui rezultat fericit pentru o operație pe care niciuna dintre părți nu o dorește este destul de scăzută.</p>"
+            ]
+          },
+          {
+            "title": "<p>INFORMAȚII GENERALE</p>",
+            "items": [
+              "<p><strong>Tipul de Anestezie:</strong> Anestezie Generală</p>",
+              "<p><strong>Spitalizare: </strong>1 noapte </p><p><br></p><p>Dacă sunteți operat dimineața devreme sau după operații pe termen scurt, dacă starea dumneavoastră medicală este adecvată, puteți fi externat în aceeași zi, dar majoritatea pacienților vor fi externați în dimineața următoare după 1 noapte de spitalizare.</p>",
+              "<p><strong>Durata: </strong>2,5 ore </p><p><br></p><p>Se preconizează că operația de rinoplastie va dura ~2 ore (±1) pentru dificultate standard și ~3 ore (±1) pentru operațiile de revizuire.)</p>",
+              "<p><strong>Tehnica Chirurgicală: </strong>Tehnică deschisă, rinoplastie structurală (structure). </p><p>Efectuez operația în mod obișnuit folosind tehnica deschisă. </p><p>În această tehnică, se face o incizie în pielea dintre nări și această incizie este cusută în conformitate cu scopul estetic la sfârșitul operației.</p>"
+            ],
+            "subsections": [
+              {
+                "title": "<p>Tehnica închisă poate fi aplicată în următoarele cazuri:</p>",
+                "items": [
+                  "<p>Operații de revizuire pe termen scurt și limitate</p>",
+                  "<p>Proceduri limitate de efectuat doar pentru arcul nazal</p>",
+                  "<p>Operații funcționale doar acolo unde nu există un scop estetic</p>"
+                ],
+                "text": "<p><br></p>"
+              },
+              {
+                "title": "<p>Echipament Tehnic</p>",
+                "items": [
+                  "<p><strong>Piezo</strong> este utilizat în mod obișnuit în operații. </p><p>Acest dispozitiv este unul dintre echipamentele tehnice care asigură o modelare precisă a osului.</p>",
+                  "<p>Utilizarea Piezo nu înseamnă că nu vor exista vânătăi. </p><p>Vor exista vânătăi și edem tisular în perioada postoperatorie din cauza țesutului subcutanat și a structurii vasculare. </p><p>Cu toate acestea, ~90% dintre pacienți nu au vânătăi vizibile în prima săptămână.</p>"
+                ],
+                "text": "<p><br></p>"
+              }
+            ],
+            "text": "<p><br></p>"
+          }
+        ]
+      },
+      {
+        "id": "tab2",
+        "title": "2. FOTOGRAFIERE",
+        "content": [
+          {
+            "subsections": [
+              {
+                "title": "<p>FOTOGRAFIERE</p>",
+                "text": "<p>Fotografierea se efectuează înainte, în timpul și după operație. Fotografierea preoperatorie face parte din examinare.</p><p>Scopul fotografierii este de a înțelege, explica și aminti problemele din nas și de a utiliza date obiective în planificarea operației.</p>"
+              },
+              {
+                "title": "<p>Simulare</p>",
+                "text": "<p>Simularea nu se efectuează pe fotografie după fotografiere.</p><p>Nu este nevoie de simulare la pacienții care pot explica ce cer și sunt înțeleși.</p><p><br></p><p>Pacienții care cred că nu pot exprima pe deplin verbal ce fel de nas doresc pot arăta fotografiile nasului care le plac în timpul examinării și le pot trimite pentru a fi adăugate la dosarul pacientului. </p><p><br></p><p>Pacienții care doresc să își imagineze armonia posibilelor modificări ale nasului cu fața lor își pot simula propriile fotografii și pot împărtăși cererile lor cu medicul în acest fel.</p><p>Fotografiile arătate de pacient nu trebuie percepute ca o comandă. Este un instrument pentru persoană de a explica stilul care îi place și cererea sa. Această informație nu trebuie uitată cu siguranță.</p><p>Nu este realist să desenezi exact ce fel de rezultat se va obține la sfârșitul vindecării pe fotografie după operație.</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab3",
+        "title": "3. PROCESUL POST-OPERATOR",
+        "content": [
+          {
+            "title": "PROCESUL POST-OPERATOR",
+            "text": "La sfârșitul operației, va exista o incizie estetică fină și o sutură pe pielea dintre nări (columelă), un stent/tampon cu o gaură în interior care nu vă împiedică să respirați în interiorul nasului, și o bandă specială și o atelă de plastic (ghips) pe nas. Dacă aripile nazale au fost intervenite, vor exista și suturi în partea aripii nazale.",
+            "subsections": [
+              {
+                "title": "Îndepărtarea tamponului și a ghipsului",
+                "text": "Tamponul, banda și atela de pe nas vor fi îndepărtate la controlul din prima săptămână (5-7 zile) a operației dumneavoastră. (În unele cazuri speciale, tamponul din interiorul nasului poate fi îndepărtat mai devreme.)\n\nUneori în timpul operației, și alteori după îndepărtarea tamponului după operație, poate fi necesară utilizarea unui aparat de silicon (dispozitiv de reținere a nărilor) pentru forma vârfului nazal și simetria nărilor.\nLa pacienții cu edem excesiv în nas, ghipsul poate fi reaplicat la primul control.\nLa pacienții cu piele nazală groasă și edematoasă, se poate recomanda bandajarea continuă și/sau nocturnă după operație. (Pentru o perioadă de 1-2 luni)"
+              },
+              {
+                "title": "Vânătăi și umflături sub ochi",
+                "text": "În cazurile în care se efectuează o intervenție osoasă în operația dumneavoastră, va exista o oarecare umflare și vânătăi în jurul nasului și sub ochi. Această situație atinge maximul în a 3-a - 4-a zi după operație.\nUmflarea și vânătăile sunt reduse semnificativ în prima săptămână și dispar complet la majoritatea pacienților în a 2-a săptămână.\nImplementarea completă a medicamentelor postoperatorii și a aplicațiilor necesare va asigura că veți trece prin acest proces mult mai ușor.\n\nAplicarea rece ar trebui făcută în jurul nasului și sub ochi pentru a minimiza vânătăile și umflarea după operație.\nGheața vă va fi dată în timpul spitalizării, dar puteți obține un pachet de gheață sub formă de gel pentru uz casnic.\n(Soluție practică: Puteți folosi mazăre congelată, năut etc. într-o pungă de frigider pentru aplicarea rece.)"
+              },
+              {
+                "title": "Edem postoperator și forma finală a nasului",
+                "text": "Edemul format în nas scade în 3 perioade principale:",
+                "items": [
+                  "După reducerea rapidă a edemului în prima perioadă de 2 săptămâni, veți vedea noua structură a nasului dumneavoastră cu liniile și unghiurile sale principale în a doua săptămână. Cu toate acestea, nasul dumneavoastră va fi încă foarte umflat.",
+                  "În perioada următoare de aproximativ 2-3 luni, edemul, în special în spate, vârf și părțile laterale ale aripilor nasului, va scădea treptat în timp și aproximativ 70% din edem va trece.",
+                  "Pentru partea rămasă de 30%, va fi necesar aproximativ 1-1,5 ani mai mult timp."
+                ],
+                "subtext": "Aceste perioade menționate sunt perioade medii, iar structura pielii nasului și caracteristicile de vindecare a rănilor sunt principalii factori determinanți pentru procesul și cantitatea de edem și umflare în nas care trece. (Timp x1,5-2 pentru piele groasă)\n\nProcedurile efectuate pe țesuturile cartilaginoase și osoase din interiorul nasului sunt diferite la fiecare pacient.\nÎn unele tehnici chirurgicale utilizate, poate exista o mișcare descendentă în vârful nazal în perioada de 4-6 săptămâni după operație asociată cu așezarea și o oarecare slăbire a cartilajelor și suturilor în timp și cu efectul gravitației. Datorită acestei situații, vârful nazal poate fi ușor ridicat în perioada timpurie după operație. (nu este valabil pentru fiecare pacient.)"
+              },
+              {
+                "title": "Evitarea forțelor fizice pe nas",
+                "text": "Nasul dumneavoastră nu ar trebui să fie expus la o forță fizică necontrolată timp de 4 luni după operație. Problemele care pot apărea în această perioadă când vindecarea osoasă nu este încă finalizată pot crea probleme permanente în vindecarea nazală. Ar trebui să evitați activitățile care pot crea traume nazale și nu ar trebui să purtați ochelari în această perioadă de 4 luni.\n\nDacă nu puteți folosi lentile, trebuie neapărat să fiți evaluat în acest sens înainte de operație. Ar trebui să puteți folosi lentile înainte de operație."
+              },
+              {
+                "title": "Sport/Exerciții",
+                "text": "Activități sportive ușoare care nu cauzează creșterea pulsului pot fi făcute începând cu a 2-a săptămână după operație.\nDin a 4-a săptămână, activitățile care cresc pulsul unde nu există risc de traumă sunt libere. Din a 2-a lună, puteți face sport în ritmul dorit.\nPuteți intra în mare începând cu a 2-a săptămână după operație, și în piscină începând cu prima lună."
+              }
+            ]
+          },
+          {
+            "title": "FUMATUL",
+            "text": "Fumul de țigară este CEL MAI IMPORTANT factor care cauzează întârzierea vindecării rănilor.\n\nÎntârzierea vindecării: face ca nasul să ajungă la un rezultat prost atât funcțional, cât și vizual. \nDin cauza întârzierii vindecării, crește riscul de infecție în nas, dehiscența suturilor, creșterea edemului în nas și riscul ca rezultatul dorit să fie diferit de cel așteptat și rău din cauza vindecării întârziate.\n\nPacientul care continuă să fumeze după operație este considerat a fi acceptat responsabilitatea pentru astfel de probleme care pot apărea.\n\n—\n\nCU CEL PUȚIN 10 ZILE ÎNAINTE DE OPERAȚIE, FUMATUL TREBUIE OPRIT COMPLET.\n \nFUMATUL nu trebuie utilizat timp de 3 LUNI după operație.\n\nPacientul care consumă țigări se va vindeca DEFINITIV prost."
+          }
+        ]
+      },
+      {
+        "id": "tab4",
+        "title": "4. RISCURI POSIBILE",
+        "content": [
+          {
+            "title": "RISCURI POSIBILE LEGATE DE CHIRURGIE",
+            "text": "Deoarece operația dumneavoastră va fi efectuată sub anestezie generală, testele dumneavoastră vor fi efectuate pentru evaluarea riscurilor înainte de operație și veți fi evaluat de medicii departamentului de Anesteziologie.\nDacă aveți un risc suplimentar, altul decât cel standard legat de anestezie, veți fi informat separat.\nRiscurile chirurgicale posibile care pot fi întâlnite în mod specific cu nasul dumneavoastră vă vor fi, de asemenea, explicate în timpul examinării.Vă rugăm să citiți cu atenție restul paginii.",
+            "subsections": [
+              {
+                "title": "Riscul de Sângerare",
+                "text": "Sângerarea sub forma unei cantități mici de scurgere din nas timp de 24 - 48 de ore după operație este o situație așteptată.Pentru aceasta, veți avea un tampon de pânză lipit pe vârful nasului.Puteți scoate această bandă când mergeți acasă după externare a doua zi după operație.În zilele următoare, puteți avea o cantitate mică de sângerare sub formă de picături care va fi suficientă pentru a șterge cu un șervețel.Cu toate acestea, deși rar, dacă există mai multă sângerare, poate fi necesar să aplicați bumbac / tampon medicat pe nas, să administrați medicamente prin venă sau să efectuați o intervenție chirurgicală pentru sângerarea din nas."
+              },
+              {
+                "title": "Riscul de Infecție",
+                "text": "Condițiile de sterilizare sunt pe deplin respectate și tratamentul cu antibiotice este aplicat pentru a proteja zona chirurgicală de infecție în timpul și după operație.În plus, este foarte important să nu atingeți zona chirurgicală și suturile cu mâini necurate după operație.Cu toate acestea, în ciuda tuturor acestor precauții, o infecție poate apărea în nas după operație.Poate fi necesar să utilizați antibiotice pentru o perioadă mai lungă de timp sau să efectuați intervenții simple sau complicate din cauza infecțiilor care apar în interiorul nasului.Infecția care poate apărea poate cauza probleme funcționale sau cosmetice în nas.Poate fi necesară o intervenție chirurgicală de revizuire din cauza problemelor cosmetice care apar."
+              },
+              {
+                "title": "Riscul de Revizuire (Re-operație)",
+                "text": "<p>Deși singurul nostru obiectiv este să obținem cel mai bun rezultat după operație, un rezultat care necesită o intervenție chirurgicală de revizuire poate apărea din cauza problemelor care apar în timpul procesului de vindecare.</p><p>Motivele posibile includ; un traumatism la nas, probleme legate de cartilaj / os / sutură în interiorul nasului sau probleme care pot apărea în piele și țesuturile moi de pe nas.</p><p>Probabilitatea ca o astfel de situație să apară este de <strong><u>aproximativ 3 - 5 %.</u></strong></p><p><br></p><p>Intervenția necesară poate fi o procedură limitată care poate fi rezolvată cu anestezie locală sau poate fi o intervenție chirurgicală în care nasul trebuie remodelat.</p><blockquote>Nici în prima operație, nici în intervenția chirurgicală de revizuire care poate fi efectuată dacă este necesar, nu vi se poate promite o garanție cu privire la rezultat.</blockquote><p>Nu se percepe nicio taxă medicală în caz de cerință de revizuire.</p><p>Cu toate acestea, dacă intervenția de revizuire este o procedură care trebuie efectuată în sala de operație, vi se va percepe o taxă pentru a include doar costurile sălii de operație, medicamentelor, asistenței medicale și anesteziei fără profitabilitatea spitalului.</p><p><br></p><p>Revizuirea poate să nu fie efectuată pentru toate problemele care pot apărea în nas la sfârșitul vindecării. Chiar dacă se efectuează revizuirea, se poate obține un rezultat prost.</p><p>Deși rata de succes a intervenției chirurgicale de revizuire variază în funcție de procedura care trebuie efectuată, este mai mică în comparație cu un pacient care nu a avut niciodată o intervenție chirurgicală. Prin urmare, primul și singurul obiectiv în operația dumneavoastră este să rezolvați întreaga problemă cu o singură operație și să aveți o perioadă de recuperare fără probleme.</p><blockquote><strong><em>Pentru a obține acest rezultat, utilizarea regulată a medicamentelor postoperatorii, NU FUMAȚI, aplicarea masajelor etc. necesare pentru a fi aplicate la controale și pe nas așa cum este recomandat este FOARTE IMPORTANTĂ, la fel de mult ca ceea ce se face în operație.</em></strong></blockquote>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tab5",
+        "title": "5. INFORMAȚII IMPORTANTE",
+        "content": [
+          {
+            "title": "INFORMAȚII IMPORTANTE",
+            "text": "Informații despre fillerele nazale:\nOperația unui pacient care a avut anterior fillere nazale trebuie efectuată prin dizolvarea fillerului dacă efectul fillerului persistă.Uneori, chiar dacă fillerul este dizolvat, poate dura timp pentru ca unele probleme care apar în pielea nasului să se vindece și să devină potrivite pentru operație.\n\nProcesul de dizolvare a fillerului se efectuează cu un medicament numit \"Hialuronidază\". (injecție în nas)\nSe recomandă dizolvarea acestuia de preferință cu 1 săptămână înainte de operație.Cu toate acestea, procesul de dizolvare poate fi aplicat și în timpul operației. (Acest proces creează costuri suplimentare.)\n\n—\n\nInformații despre prelevarea cartilajului costal:\nPentru a obține un nas care poate respira sănătos și să fie simetric la sfârșitul operației, este foarte important ca scheletul principal al nasului să fie sănătos și simetric.Scheletul principal al nasului este format din os și cartilaj.\n\nÎn unele operații, nu este posibil să se obțină cartilaj sănătos, suficient și drept din interiorul nasului. \nÎn acest caz, folosim un alt cartilaj din corpul nostru în operațiile la nas pentru a menține rata de succes ridicată la sfârșitul operației și a obține rezultatul dorit. \nDacă avem nevoie de cartilaj flexibil, se folosește cartilajul urechii, dacă avem nevoie de cartilaj mai dur și în cantitate mai mare, se folosește cartilajul costal(coastă).\n\nNecesitatea utilizării unei grefe de cartilaj și care ar trebui utilizată dacă este necesar vă va fi explicată în timpul examinării. \nÎn unele cazuri, necesitatea prelevării de cartilaj este certă, în timp ce în unele cazuri este posibilă. \nCu toate acestea, în cazurile posibile, consimțământul / permisiunea dumneavoastră va fi obținută înainte de operație pentru ca cartilajul să fie prelevat.În timpul operației, decizia de a preleva sau nu cartilajul costal va fi luată în funcție de starea cartilajului din interiorul nasului(cantitate și calitate).\n\nNecesitatea prelevării de cartilaj din coastă sau ureche poate fi necesară nu numai în operațiile de revizuire, ci și la pacienții care nu au mai suferit niciodată o operație la nas, dar au fracturi grave, curburi etc.probleme în nas.\nÎn plus, la pacienții cu piele foarte groasă, poate fi necesar să se preleveze o grefă de cartilaj pentru a da forma dorită vârfului nasului și a crea un vârf nazal puternic care va susține greutatea vârfului nasului.\n\nPiele groasă:\nPielea este un parametru foarte important care afectează rezultatul chirurgiei nasului.\nPielea este un fel de acoperire care acoperă principalele elemente structurale ale nasului, și este o parte imuabilă a nasului.\nAsigurarea că nasul capătă o formă frumoasă după operație este posibilă doar prin acceptarea acestei caracteristici a pielii.\nLa pacienții cu piele groasă, este necesar să se formeze corect scheletul subiacent pentru ca pielea nasului să arate frumos, fără a urmări un vârf nazal excesiv de mic.\nDeși cartilajele din interiorul nasului sunt adesea suficiente în timpul acestui proces, uneori poate fi necesar să se preleveze o grefă de cartilaj costal de la pacient și să se utilizeze pentru a face acest suport puternic."
+          }
+        ]
+      },
+      {
+        "id": "tab6",
+        "title": "6. Recomandări post-operatorii",
+        "content": [
+          {
+            "title": "Recomandări post-operatorii",
+            "text": "Se recomandă să vă odihniți în prima săptămână după operație. (7 zile)\nEvitați exercițiile grele și obositoare în timpul odihnei.\n\nNu ar trebui să zburați din cauza riscului de sângerare.Puteți face călătorii scurte pe cale terestră. (3 ore)\nÎn funcție de natura procedurii aplicate dumneavoastră, puteți zbura începând cu a 5 - a zi după operație dacă medicul dumneavoastră consideră oportun. (va fi pregătit un document de autorizare de zbor.)\n\nPetreceți - vă timpul stând așezat sau în picioare în prima săptămână.Cu toate acestea, când doriți să vă întindeți și să vă odihniți, capul trebuie să fie la o înălțime de 45 de grade.\nCamera dumneavoastră și mediul în care vă aflați nu trebuie să fie calde.\nNu este nimic rău în a face baie.Cu toate acestea, dacă doriți să faceți baie în prima zi, cereți ajutorul unei rude.În timpul băii, apa nu trebuie să intre în contact cu nasul și banda / ghipsul de pe el, spălați / lăsați să vi se spele părul preferabil pe spate. \nBanda de pe nas trebuie protejată de contactul cu apa timp de 14 zile după operație. \n\nEste important să consumați multă apă, să aplicați gheață și să țineți capul sus în procesul postoperator.\n\nProtejați nasul de impacturi fizice externe timp de 4 luni după operație."
+          }
+        ]
+      },
+      {
+        "id": "tab7",
+        "title": "7. REȚETĂ ȘI MEDICAMENTE",
+        "content": [
+          {
+            "title": "Rețeta dumneavoastră și medicamentele de utilizat.",
+            "text": "Vi se vor da 2 rețete pentru medicamentele pe care trebuie să le utilizați începând cu externarea.\n(Una dintre rețete va rămâne la farmacie și cealaltă va rămâne la dumneavoastră pentru a putea vedea medicamentele pe care le veți utiliza și a vă descrie formele lor de utilizare.)\n\n  >> !!!Toate medicamentele vor începe să fie utilizate din prima zi după operație atâta timp cât există un tampon în nas. !!! << (inclusiv spray - urile.)\n\nDeoarece operația dumneavoastră NU este acoperită de asigurarea de sănătate, veți primi rețeta contra cost.VĂ RUGĂM să nu insistați ca rețeta dumneavoastră să fie acoperită de acest domeniu, NU ESTE POSIBIL.\n\nUtilizarea medicamentelor\n\n  * Utilizați comprimatele așa cum este scris pe rețetă.\n    * Comprimate antibiotice: Cefaks, Cipro, Klindan, Macrol, Augmentin etc.)\n        * Vi se pot prescrie 1 sau 2 dintre aceste medicamente în funcție de procedura aplicată dumneavoastră și de starea dumneavoastră medicală.Utilizați aceste medicamente în mod regulat timp de 1 săptămână, de 2 ori pe zi(dimineața și seara).\n    * Comprimat pentru alergie: Bilaxten, Aerius, Desmont, Levmont\n  * Trebuie să utilizați 1 dintre aceste medicamente.Scopul acestui medicament este de a reduce senzația de curgere și congestie în nas, precum și strănutul care poate apărea din această cauză.Dacă aceste plângeri sunt prea intense, puteți lua 2 în prima zi.\n    * Analgezic: Arveles sau Mejezik\n  * Utilizați acest comprimat timp de 4 zile, de 3 ori pe zi.Dacă durerea este intensă, poate fi luat de până la 4 ori pe zi.Nu se preconizează să existe mai multă durere.În acest caz, consultați medicul dumneavoastră.\n    * Unguent: Unguent oftalmic Thiocilline sau Terramycin\n  * Aplicați unguentul oftalmic pe locul suturii la vârful nasului, nu în ochi. \n        * Aplicați de 3 - 4 ori pe zi timp de 2 săptămâni cu un deget curat sau un bețișor de urechi.\n    * Spray decongestant nazal: Otrivine\n  * Utilizați timp de 5 zile. (În tampon) Nu continuați după 5 zile.\n    * Medicamente pentru spălarea și hidratarea nazală:\n        * Aceste medicamente trebuie utilizate timp de 1 lună după operație, începând în timp ce tamponul este în nas și continuând după.De 5 ori pe zi în ambele nări, ambele spray - uri.\n\n        * SinusRinse, NaosRinse, Sinomarine, Quixx etc.\n            * Puteți utiliza medicamente de spălare cu apă de mare sub formă de spray sau sticlă pentru a spăla interiorul nasului.În timp ce cele sub formă de sticlă oferă o curățare mai voluminoasă și eficientă, cele sub formă de spray sunt ușor de utilizat și mai ușor de transportat, dar efectul lor de curățare este mai mic.\n            * Scopul dumneavoastră în spălare nu este de a curăța complet interiorul nasului, ci de a asigura curățarea sângelui și a cheagurilor acumulate.\n            * După procesul de spălare, este suficient să ștergeți secreția care iese cu un șervețel făcând o mișcare de suflare a aerului cu nasul, fără a vă sufla nasul.\n        * Spray Nazalnem:\n            * Scopul acestui spray este de a reduce uscăciunea din interiorul nasului și de a accelera vindecarea țesuturilor din interiorul nasului cu efectul său hidratant și suportul vitaminic.Trebuie pulverizat în ambele nări după spălare.\n\nContinuați să țineți capul sus și aplicați gheață timp de 10 minute în fiecare oră timp de 3 zile(72 de ore) după operație. (Trezirea de 1 - 2 ori pe noapte este suficientă)."
+          }
+        ]
+      },
+      {
+        "id": "tab8",
+        "title": "Întrebări frecvente",
+        "content": [
+          {
+            "bgColor": "#fffde7",
+            "subsections": [
+              {
+                "title": "1. Efectuați simulare foto?",
+                "text": "<p><strong><u>Simularea nu este efectuată de rutină</u></strong> pe fotografii. </p><blockquote>Nu este nevoie de simulare la pacienții care pot explica ce doresc și sunt înțeleși.</blockquote><p>Pacienții care cred că nu pot exprima complet verbal ce fel de nas doresc pot arăta fotografiile cu nasuri care le plac în timpul examinării și le pot trimite pentru a fi adăugate la dosarul pacientului.</p><p><br></p><p><strong>Pacienții care doresc să își imagineze armonia posibilelor schimbări ale nasului cu fața lor pot simula propriile fotografii și pot împărtăși cererile lor cu medicul în acest fel. </strong></p><p>Fotografiile arătate de pacient nu ar trebui percepute ca o comandă. Aceste fotografii sunt un instrument pentru a explica stilul care le place și cererea lor. Această informație nu trebuie uitată cu siguranță.</p><blockquote>Nu este realist să se poată desena exact ce fel de rezultat se va obține la sfârșitul vindecării și după operație pe fotografie.</blockquote>"
+              },
+              {
+                "title": "2. Do you give a guarantee for the surgery result?",
+                "text": "<p>No result guarantee can be given to you for any surgery, not just for rhinoplasty surgery.</p><p><br></p><p>The healing process after surgery is as important as the intervention performed in surgery. Some problems that may be experienced, noticed or unnoticed in this process may cause a negative situation in the healing process and the nose may not reach the desired result.</p><p><strong style=\"background-color: rgb(235, 214, 255);\">There is a possibility of approximately 5% that a situation requiring revision surgery may occur after surgery.</strong></p><p>The only thing we can guarantee you is that maximum effort will be made to provide the best for you as a physician and his team during the surgery process.</p><p><br></p><blockquote>We tell you negative scenarios not to upset you or to make you give up your surgery decision, but because it is a reality.</blockquote>"
+              },
+              {
+                "title": "3. Care sunt recomandările dumneavoastră privind alcoolul și fumatul?",
+                "text": "<p><strong>Fumatul TREBUIE OPRIT COMPLET</strong> înainte de operație. (minim 1 săptămână înainte)</p><p><br></p><p>Fumul de țigară este cel mai IMPORTANT factor care cauzează întârzierea vindecării rănilor.</p><p><strong><u>Întârzierea vindecării rănilor: </u></strong>face ca nasul să ajungă la un rezultat prost atât funcțional cât și vizual.</p><p>Din cauza întârzierii vindecării, riscul de infecție în nas crește, deschiderea suturilor, creșterea edemului în nas și riscul ca rezultatul dorit să rezulte diferit de cel așteptat și prost din cauza vindecării întârziate apare.</p><p><br></p><blockquote>Un pacient care continuă să consume țigări după operație se consideră că a acceptat responsabilitatea pentru astfel de probleme care pot apărea.</blockquote><p><br></p><p><strong>Alcoolul</strong> nu este strict <strong>interzis</strong>, dar este un motiv pentru creșterea edemului după operație.</p><p>De asemenea, este important să nu vă îmbătați pentru a evita să cădeți pe nas sau răniri similare.</p>"
+              },
+              {
+                "title": "4. În ce situații poate fi anulată/amânată operația mea?",
+                "text": "<p>Deși planificarea operației se face prin confirmarea aprobărilor reciproce după ce detaliile privind rinoplastia v-au fost explicate în întâlnirile noastre preoperatorii, operația dumneavoastră poate fi <strong><u>AMÂNATĂ sau ANULATĂ</u></strong> în unele cazuri înainte de operație.</p><p><br></p><p><span style=\"background-color: rgb(250, 204, 204);\">Această situație poate apărea din următoarele motive:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Dacă aveți o </span><strong style=\"background-color: rgb(250, 204, 204);\">infecție a tractului respirator</strong><span style=\"background-color: rgb(250, 204, 204);\"> în ziua operației sau imediat înainte.</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Dacă nu ați </span><strong style=\"background-color: rgb(250, 204, 204);\">reușit să renunțați la fumat</strong><span style=\"background-color: rgb(250, 204, 204);\"> înainte de operație. </span></li></ol><blockquote class=\"ql-indent-1\"><em>(Un pacient care nu a reușit să renunțați la fumat nu ar trebui operat deoarece va afecta grav recuperarea după operație.) Dacă ne ascundeți această informație, înseamnă că ați acceptat răul care va apărea de la început.)</em></blockquote><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Dacă aveți o </span><strong style=\"background-color: rgb(250, 204, 204);\">valoare a sângelui care poate împiedica operația dumneavoastră</strong><span style=\"background-color: rgb(250, 204, 204);\"> în testele efectuate înainte de operație.</span></li></ol><blockquote class=\"ql-indent-1\"><em>Testele de Hemoglobină (HB, Hgb), Trombocite (Plt), aPTT și INR trebuie să fie în limite normale în testul de sânge.</em></blockquote><blockquote class=\"ql-indent-1\"><em>O valoare scăzută a hemoglobinei poate cauza probleme de vindecare și rezultate proaste prin afectarea oxigenării țesuturilor. Creează riscuri similare cu fumatul. Dacă nu este în limite normale, hb>10 ar trebui să fie și pacientul ar trebui să primească tratamentul necesar pentru anemie după operație.</em></blockquote><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Dacă aveți o boală infecțioasă nou diagnosticată (Hepatită, HIV)</span></li></ol><blockquote><span style=\"background-color: rgb(250, 204, 204);\">În acest caz, va fi necesar în primul rând tratamentul acestor boli și evaluarea dumneavoastră în acest sens.</span></blockquote><p><br></p><p>Pacienții care nu doresc să își asume riscul amânării/anulării operației pot face următoarele teste la orice spital doresc înainte de operație:</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Hemoleucogramă, INR, aPTT, Anti-HIV, Anti-HCV, HbsAg</strong></p>"
+              },
+              {
+                "title": "<p>5. I had nose fillers before. Is it an obstacle to rhinoplasty surgery?</p>",
+                "text": "<p>Patients with nose fillers can also be operated on. However, before this surgery, the effect of the filler must have completely passed. Otherwise, the procedures performed in the surgery may cause unwanted results after the filler disappears. Therefore, if surgery is to be performed in the first 1-year period after filling, or if more time has passed but the filler effect still continues, it is absolutely necessary to perform a filler dissolving process before surgery. This process is provided with a medication named hyaluronidase.</p>"
+              },
+              {
+                "title": "<p>6. Vreau să fac rinoplastie ultrasonică. O efectuați?</p>",
+                "text": "<p>Toate echipamentele pe care le folosim în operația de rinoplastie sunt dispozitive de ultimă generație. Dispozitivul numit rinoplastie ultrasonică de către pacienți este dispozitivul numit piezo, și folosim în mod obișnuit acest dispozitiv în operațiile noastre. La unii pacienți, deoarece intervențiile osoase prin tehnica veche sunt mai potrivite, uneori poate fi necesar să folosim echipamente de tehnică veche chiar dacă dispozitivul piezo este pregătit. Piezo nu este un instrument miraculos care perfecționează fiecare nas pe care îl atinge. Este un instrument pe care îl folosim într-o parte a operației, care funcționează foarte bine și afectează semnificativ reducerea vânătăilor / edemelor după operație. Apropo, acest instrument nu este un dispozitiv folosit doar de mine. Mulți chirurgi care efectuează rinoplastii în epoca noastră operează folosind acest instrument.</p>"
+              },
+              {
+                "title": "<p>7. Ameliyat günü için dikkate edilmesi gereken şeyler nelerdir?</p>",
+                "text": "<p>Ameliyat günü <strong>yüzünüzde kesinlikle makyaj olmamalıdır.</strong></p><p>Bu hem sizin yüzünüzü doğru değerlendirmemizi engeller, hem de ameliyat sırasında steril bir ameliyat yapmamızı zorlaştırır. Dolayısı ile ameliyat sırasında makyajsız olmalısınız.</p><p><strong>Takma kirpik</strong> var ise kalabilir. Ancak <strong>oje</strong> var ise çıkartılmalıdır.</p><p>Üzerinde metal bulunan bir iç çamaşırınız olmamalıdır.</p><p><br></p><blockquote><em>Erkek hastalar, ameliyatın 1 gün öncesinde sinek kaydı şekilde sakal-bıyık tıraşı olmalıdır.</em></blockquote>"
+              },
+              {
+                "title": "<p>8. Ameliyat günü için (hemen ameliyat sonrası) önerileriniz nelerdir?</p>",
+                "text": "<p>Ameliyat bitişi sonrası ameliyathane içinde bulunan uyanma/derlenme odasında yeterli süre bekleyip kendinizi iyi hissetmeniz sonrası odanıza alınacaksınız.</p><blockquote><strong>Odanıza geldiğinizde bilinciniz yerinde olacak</strong> ve anestezi etkisi geçmiş olacak. Ama biraz sersemlik hissetmeniz normaldir.</blockquote><p>Ameliyat süresine göre, ameliyat sonrası uygun zaman geçince yemeğiniz gelecek ve besleneceksiniz.</p><p>İlk gün biraz <strong>bulantı</strong> hissetmeniz normaldir. Sık görülmese de kusabilirsiniz. Bu durumda size bu şikayetleriniz için ek ilaçlar uygulanacak.</p><p><br></p><p>Yeterli süre geçip ayağa kalkıp yürümeye başlayınca ve kendinizi iyi hissediyorsanız pıhtı oluşumunu önlemek için size giydirilmiş olan <strong>varis çoraplarını çıkartabilirsiniz.</strong></p><p>Hastanedeki yatışınız sürecinde rahat edeceğiniz <strong>pijama takımı ve terlik </strong>bulundurmanız konforunuzu artıracaktır.</p>"
+              },
+              {
+                "title": "<p>9. Este necesar un însoțitor?</p>",
+                "text": "<p>Se recomandă să aveți un însoțitor cu dumneavoastră în timpul șederii la spital (1 noapte) pentru confortul dumneavoastră și pentru a vă satisface nevoile mai ușor. Cu toate acestea, în cazuri obligatorii, asistentele noastre din spital vă vor sprijini și ele. A avea pe cineva care să vă ajute acasă în primele zile după externare va facilita, de asemenea, procesul de recuperare.</p>"
+              },
+              {
+                "title": "10. Se fac fotografii în timpul operației? Când pot vedea aceste fotografii?",
+                "text": "<p>Fotografierea de rutină se efectuează la începutul și la sfârșitul operației.</p><p>Scopul acestor fotografii este atât de a vedea schimbarea și de a v-o descrie, cât și de a putea privi înapoi și re-evalua momentul operației în timpul procesului de vindecare după operație. Aceste fotografii făcute în timpul operației sunt trimise pacienților noștri care le solicită.</p><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 0);\">Nu este posibil pentru noi să trimitem aceste fotografii imediat ce operația dumneavoastră s-a terminat.</span></blockquote><p>După aranjamente, dacă este posibil, vi se vor trimite în aceeași seară sau 1 zi mai târziu, în funcție de intensitatea programului nostru.</p>"
+              },
+              {
+                "title": "11. Can surgery be performed if there is filler in the nose?",
+                "text": "<p>Nasal fillers can cause some negative results during surgery and the healing period.</p><p>The most important problem is that if shaping is done while there is filler in the nose, the nose shape may turn into an undesirable result after the filler melts and disappears.</p><p>To prevent this, either the filler must be dissolved before the surgery begins, or one must wait until the filler has no effect left (1.5-2 years).</p><p>The filler dissolving process is not a difficult intervention. However, it creates additional cost.</p><p>Consult your doctor for details.</p>"
+              },
+              {
+                "title": "12. How long after surgery can I work? Will you provide a medical report?",
+                "text": "<p>As of the day the tampon and cast are removed after rhinoplasty surgery, you are free to do your job professionally, go to school or take an exam, and/or participate in social activities.</p><p>We can provide a rest report for 7 days after surgery to patients who request it.</p><p>This report is recognized by the social security institution for patients working in Turkey. For our patients coming from abroad, the validity of the document given can be learned by asking the institution to which it will be submitted.</p>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#e8f5e9",
+            "subsections": [
+              {
+                "title": "13. Când pot face baie după operație?",
+                "text": "<p><strong>Puteți face baie în prima zi după operație. </strong></p><p>Nu este niciun rău în a face baie.</p><blockquote>Totuși, dacă veți face baie în prima zi, vă rugăm să cereți ajutorul unei rude.</blockquote><blockquote>Apa nu trebuie să atingă nasul și banda/ghipsul de pe el în timp ce faceți baie; spălați-vă părul pe spate sau lăsați pe cineva să vi-l spele. (Timp de 14 zile.)</blockquote>"
+              },
+              {
+                "title": "14. When should I start using the medications?",
+                "text": "<p><strong>You should start using all medications</strong> on the<strong> first day morning</strong> after surgery (after discharge). <em style=\"background-color: rgb(255, 255, 0);\">(Including nasal washing and moisturizing medications) </em></p><p><br></p><blockquote>You do not need to use medication on the day of surgery while you are in the hospital.</blockquote><blockquote>Your treatment will be administered by hospital nurses.</blockquote>"
+              },
+              {
+                "title": "15. Ce medicament ar trebui să folosesc pentru spălarea nazală? Care sunt diferențele?",
+                "text": "<p>Există 3 produse principale pe care le puteți folosi pentru spălarea nazală.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Spray-uri cu apă de ocean: </strong></li></ol><p>Aceste medicamente sunt cele mai ușor de transportat și utilizat cât timp există un tampon de silicon în interiorul nasului. Totuși, activitățile lor de curățare intranazală sunt ușor mai slabe comparativ cu alte metode. Efectul de curățare este la un nivel suficient.</p><blockquote>Puteți purta medicamentele sub formă de spray în geantă și le puteți folosi cu ușurință oricând doriți. Sunt cele mai ideale pentru muncă, birou, utilizare în afaceri.</blockquote><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Medicamente pentru spălarea nazală sub formă de sticlă (Apă de mare/ apă de ocean): </strong></li></ol><blockquote>Aceste medicamente necesită procedură de preparare și nu le puteți purta cu dumneavoastră și folosi cu ușurință. </blockquote><p>Pentru prepararea medicamentului, medicamentul pudră este amestecat cu apă despre care sunteți sigur că este fiartă și răcită sau curată, și aplicarea se face prin stoarcere în nas.</p><p>Nu este nevoie ca medicamentul să intre printr-o nară și să iasă prin cealaltă. Scopul este de a efectua o spălare mecanică în interiorul nasului.</p><p>O curățare intranazală eficientă și suficientă este oferită cu această metodă.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Ser Fiziologic (ser izotonic): </strong></li></ol><p>Puteți efectua spălarea nazală cu <span style=\"background-color: rgb(204, 232, 204);\">ser 1lt, 0.9% NaCl</span> pe care îl puteți obține de la farmacie.</p><p>Pentru a folosi acest lucru, puteți trage serul cu o <span style=\"background-color: rgb(204, 232, 204);\">seringă de 10cc sau 20cc</span>, scoateți acul din vârf, și efectuați spălarea prin stoarcere în nas cu o seringă fără ac.</p><p><br></p><blockquote>Este cea mai accesibilă și ușor de utilizat, dificil de purtat cu dumneavoastră, metodă practică pentru utilizarea acasă.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">Puteți folosi toate aceste 3 metode pentru a efectua spălarea în interiorul nasului. Deoarece preferințele de utilizare ale fiecărui individ și metoda pe care o pot aplica pot fi diferite, puteți lua decizia împreună cu medicul dumneavoastră.</span></blockquote>"
+              },
+              {
+                "title": "16. Cât timp trebuie continuată spălarea și hidratarea nazală?",
+                "text": "<p>Recomandarea mea de rutină pe acest subiect este de a efectua <strong>spălarea și hidratarea nazală timp de 1 lună</strong> după operație.</p><p>Trebuie să faceți această rutină de <strong>5 ori pe zi</strong> în primele 2 săptămâni.</p><p>Aplicarea de 3 ori pe zi va fi suficientă pentru următoarele 2 săptămâni.</p><p><br></p><blockquote>Când perioada de 1 lună este completă, nu trebuie să continuați aceste 2 medicamente.</blockquote><p>Totuși, dacă simțiți nevoia, nu este niciun rău în a continua. (Continuați dacă mai există cruste, uscăciune etc. în interiorul nasului)</p>"
+              },
+              {
+                "title": "17. Care sunt recomandările de nutriție post-operatorie?",
+                "text": "<p>În ziua operației, prima masă după anestezie va fi organizată de echipa noastră din spital când vine momentul potrivit. Prima masă va fi o masă ușoară care nu vă va solicita.</p><p>Recomandări pentru mai târziu:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Ar trebui să beți multă apă.</strong></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Nu ar trebui să consumați alimente fierbinți</strong> (crește riscul de sângerare și edem).</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Stați departe de <strong>alimentele foarte sărate și foarte picante</strong> care pot cauza edem în corp.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Stați departe de <strong>zahărul excesiv și alimentele de proastă calitate</strong> pentru a reduce inflamația în corp și a afecta pozitiv recuperarea dumneavoastră.</li></ol>"
+              },
+              {
+                "title": "18. Pot să beau cafea?",
+                "text": "<p>Nu este recomandat să consumați alimente fierbinți în perioada post-operatorie timpurie. </p><p>De asemenea, conținutul de cafea poate cauza tensiune arterială ridicată. Prin urmare, nu este recomandat să beți cafea.</p><p><br></p><p>Totuși, dacă sunteți un iubitor de cafea ca mine, puteți bea un <strong style=\"background-color: rgb(255, 255, 0);\">espresso sau o cafea rece</strong>. :)</p>"
+              },
+              {
+                "title": "<p>19. Voi putea respira confortabil imediat după operație?</p>",
+                "text": "<p>Deoarece tampoanele de silicon plasate în interiorul nasului după operație sunt canelate, acestea vă permit parțial să respirați. Cu toate acestea, este foarte normal să simțiți congestie nazală în primele zile din cauza edemului, crustelor și secrețiilor legate de operație. După îndepărtarea tampoanelor (ziua 5-7), respirația dumneavoastră se va relaxa puțin, dar pe măsură ce edemul scade și interiorul nasului se vindecă (în aproximativ 1-3 luni), calitatea respirației dumneavoastră va crește treptat și va atinge nivelul ideal.</p>"
+              },
+              {
+                "title": "<p>20. What should I do if I need to sneeze?</p>",
+                "text": "<p>Do not try to stop the urge to sneeze. However, it is very important to sneeze with your <strong>mouth open</strong> so that the pressure does not damage your nose. Sneezing with your mouth closed can increase intranasal pressure and cause bleeding or tissue damage.</p>"
+              },
+              {
+                "title": "21. When is the silicon tampone inside the nose removed?",
+                "text": "<p>The routine timing for this procedure is <strong>5-7 days, which is the first check-up</strong> after surgery.</p><p><br></p><blockquote>However, in some cases, it may be necessary or appropriate to remove the silicon tampone in the nose earlier.</blockquote><blockquote>In this case, an earlier appointment will be scheduled for you just for silicon tampone removal.</blockquote>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#ffebee",
+            "subsections": [
+              {
+                "title": "<p>22. Când îmi pot sufla nasul?</p>",
+                "text": "<p>Nu trebuie să <strong>vă suflați nasul în prima lună</strong> după operație. În această perioadă, trebuie să vă curățați nasul cu spray-urile cu apă de mare sau kiturile de spălare recomandate. Suflarea nasului poate crește presiunea intranazală și poate provoca sângerări și leziuni ale țesuturilor în vindecare. Vă puteți sufla nasul ușor după prima lună.</p>"
+              },
+              {
+                "title": "23. Cum se folosește conformatorul nazal?",
+                "text": "<p><span style=\"background-color: rgb(255, 255, 0);\">Scopul produsului conformator nazal nu este de a da o formă nasului, ci de a asigura că forma nasului creată în operație se vindecă simetric.</span></p><p>Uneori trebuie să începeți să îl folosiți în timpul operației și uneori când tampoanele de silicon din interiorul nasului ies.</p><p><br></p><p>Este folosit pentru a reduce riscurile de posibilă asimetrie, probleme de formă a vârfului nasului prin vindecarea pe acest mulaj în timpul procesului de vindecare nazală.</p><p><br></p><blockquote>Utilizare:</blockquote><blockquote>Recomandarea mea de rutină; din momentul în care începe utilizarea, <strong>24 de ore pe zi timp de 2 luni, și apoi 8-12 ore pe zi timp de 2 luni</strong>.</blockquote><blockquote>Deoarece durata utilizării și detaliile pot varia de la pacient la pacient, procesul specific dumneavoastră vă va fi explicat în evaluările de control.</blockquote>"
+              },
+              {
+                "title": "24. Se folosește un conformator nazal pentru fiecare pacient?",
+                "text": "<p>Majoritatea pacienților trebuie să folosească acest produs.</p><p>Totuși, în funcție de operația efectuată și starea pacientului, pot exista cazuri în care nu ar trebui folosit.</p><p><br></p><p>Prin urmare, trebuie să folosiți acest produs doar dacă medicul dumneavoastră vi-l recomandă, în modul specific și pentru durata specifică recomandată pentru dumneavoastră.</p><p><strong>Nu îl folosiți/opriți utilizarea fără a consulta medicul dumneavoastră.</strong></p>"
+              },
+              {
+                "title": "25. Should I do nose massage?",
+                "text": "<p>Following the removal of the cast on the nose, nasal massage will be recommended to you.</p><p>You need to apply this recommended massage <strong>5 times a day, 2min+30sec</strong>.</p><p>Applying the massage for approximately <strong>6 months</strong> will contribute to the healing process.</p><p><br></p><p>Massage has 2 main purposes:</p><p><strong>1-By increasing lymphatic drainage</strong>, it ensures the reduction of subcutaneous edema between the bone and skin in the nose.</p><p>2- It <strong>prevents the re-expansion due to edema effect</strong> of the nasal narrowing formed thanks to the broken (cut) nasal bones and provides mechanical support for the nose to heal in the desired way.</p>"
+              },
+              {
+                "title": "<p>26. Ameliyat sonrası <strong>burun bantlaması </strong>ne kadar süre ile yapmalıyım?</p>",
+                "text": "<p>Ameliyat sonrası ilk hafta kontrolde burundaki tampon alınır, burun üzerindeki alçı ve bantlar çıkartılır.</p><p>Doktorunuz tarafından burnunuz yeniden bantlanır.</p><blockquote>Hasta 2. hafta kontrolüne gelebilecek ise 2. hafta hastanın bantları tamamen çıkartılır ve hastaya nasıl bir bantlama yapması gerektiği anlatılır.</blockquote><blockquote>Eğer hasta 2. hafta kontrole fiziki olarak gelemeyecek ise, hastaya nasıl bir bantlama yapması gerektiği anlatılır.</blockquote><p>Her koşulda <strong>hasta ilk 2 haftalık sürede (14 gün) burundaki bantları çıkartmamalıdır.</strong></p><p>Bu <strong>14 günlük sürede banyo sırasında burun ıslanmamalıdır.</strong></p><p><br></p><p><strong>Ameliyatın 14. gününde</strong>, hasta fiziken kontrole gelebiliyor ise kontrol muayenesi sonrası, kontrole gelemiyor ise evde kendisi burun üzerindeki bantlar dahil yıkar, ıslanan bantları çıkartır ve kendi <strong>burun bantlamasına (self-taping) başlar.</strong></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 0);\">Rutin öneri 14. gün sonrası burnun 1 ay süre ile gün boyu (24 sa) bantlanmasıdır.</strong></p><blockquote>Burun cildinin üzerindeki bandın 2 ana amacı vardır:</blockquote><blockquote>1- Ödemin daha hızlı geçmesi,</blockquote><blockquote>2- Masajın daha rahat ve konforlu yapılması.</blockquote><p><br></p><p>Hastanın bu self-taping süresinde <strong>her gün bantları yenilemesine gerek yoktur.</strong></p><blockquote>Banyo sırasında ıslansa da sonrasında kurulandığında eğer bantlar kirli gözükmüyor ve gevşemiş değil ise sadece kurulanması yeterlidir. Ancak bantlar sıkı durmuyor ya da kirli duruyor ise çıkartılıp yenilenmesi uygundur.</blockquote><p>1 aylık bu bantlama sonrasında (Ameliyatın 6. haftası) hastaların +1 ay daha sadece gece bantlaması yapması yararlı olacaktır.</p><p>Bu bantlamaların kurallara uygun şekilde ve süre ile yapılması iyileşmeyi daha hızlı gerçekleştirecek ve burnu istenen şekle ulaştıracaktır.</p>"
+              },
+              {
+                "title": "27. When can I travel after surgery?",
+                "text": "<p>You can <strong>fly</strong> as of the <strong>5th</strong> day if your physician deems it appropriate. This period may be longer depending on the surgery performed.</p><p>You can travel by <u>land</u> on the first day after surgery. (Provided it is not too long)</p>"
+              },
+              {
+                "title": "28. When can I do sports?",
+                "text": "<p>You can do sports that do not involve high pulse activity and light tempo walking starting from the 2nd week after surgery.</p><p><strong style=\"background-color: rgb(255, 255, 0);\">As of the 1st month, </strong><span style=\"background-color: rgb(255, 255, 0);\">sports can be done at the desired tempo. </span>(<em>at home or in the gym)</em></p><p><br></p><p>However, you should avoid competitive sports where force can be applied to your nose and the risk of trauma.</p>"
+              },
+              {
+                "title": "29. When can I swim?",
+                "text": "<p>You can swim in the <strong>sea</strong> from the 2nd week,</p><p>and in the <strong>pool</strong> from the 4th week.</p><p><br></p><p>You should not scuba dive or dive with a mask for 12 months.</p>"
+              },
+              {
+                "title": "<p>30. Mi-am făcut fillere nazale înainte. Este un obstacol pentru rinoplastie?</p>",
+                "text": "<p>Pacienții cu fillere nazale pot fi, de asemenea, operați. Cu toate acestea, înainte de această operație, efectul fillerului trebuie să fi trecut complet. În caz contrar, procedurile efectuate în timpul operației pot provoca rezultate nedorite după dispariția fillerului. Prin urmare, dacă operația urmează să fie efectuată în prima perioadă de 1 an după filler, sau dacă a trecut mai mult timp, dar efectul fillerului continuă, este absolut necesar să se efectueze un proces de dizolvare a fillerului înainte de operație. Acest proces este asigurat cu un medicament numit hialuronidază.</p>"
+              },
+              {
+                "title": "31. When can I return to work?",
+                "text": "<p>It is recommended that you <strong>rest for 7 days</strong> after surgery.</p><p>A rest report will be issued upon your request. We can help patients who request a longer report up to 10 days.</p><p><br></p><p>If you have to do desk/screen work, you can do it while there is a silicon tampone and cast on your nose in the first week. However, we recommend that you rest.</p><p><br></p><p>In this first week period, it is important that you consume plenty of fluids, take steps, and rest with your head high.</p>"
+              },
+              {
+                "title": "<p>32. When can I have skin care / peeling?</p>",
+                "text": "<p>You can gently clean your skin after the tapes on your nose are removed. However, it is recommended to wait <strong>at least 2 months</strong> for procedures such as professional skin care, peeling or blackhead cleaning. Since these procedures may apply pressure to the nasal skin, it is inconvenient to perform them in the early period. After the 2nd month, you can have skin care provided that no hard pressure is applied to your nose.</p>"
+              },
+              {
+                "title": "<p>33. Pot să ies la soare / să intru la solar?</p>",
+                "text": "<p>Trebuie să vă protejați nasul de lumina directă a soarelui și de căldura intensă (solar, saună, baie turcească) în primele <strong>2 luni</strong> după operație. Lumina soarelui poate provoca creșterea edemului și modificări permanente de culoare (pete) în țesuturile în vindecare. Dacă trebuie să ieșiți la soare, trebuie neapărat să folosiți o cremă de protecție solară cu factor ridicat (50+ SPF) și să purtați o pălărie.</p>"
+              },
+              {
+                "title": "34. When can I apply makeup?",
+                "text": "<p><strong>You can apply makeup even on the first day</strong> after surgery, without touching the surgical area.</p><p>However, you may have difficulty due to edema.</p><p>But there is no harm in coming to your check-up in the first week with makeup.</p>"
+              },
+              {
+                "title": "<p>35. Ameliyat sonrası ne zaman <strong>gözlük</strong> kullanabilirim?</p>",
+                "text": "<p>En erken 3üncü aydan itibaren, kısa süre olacak şekilde ve ağırlık olarak hafif gözlükler kullanabilirsiniz.</p><p><br></p><blockquote><strong style=\"background-color: rgb(255, 255, 0);\">6ıncı ay</strong> itibarı ile istediğiniz şekilde gözlük kullanabilirsiniz.</blockquote>"
+              },
+              {
+                "title": "<p>36. Nu pot folosi lentile de contact în loc de ochelari. Dioptriile mele sunt foarte mari și trebuie să port ochelari. Pot face rinoplastie?</p>",
+                "text": "<p>Da, puteți. Cu toate acestea, motivul pentru care interzicem purtarea ochelarilor este că greutatea pe oasele rupte/tăiate poate cauza probleme de vindecare. Prin urmare, recomandăm pacienților noștri să folosească lentile de contact timp de 4-6 luni după operație. Dacă nu există altă soluție decât ochelarii din cauza situației descrise în întrebare, procedurile estetice pot fi efectuate doar pentru pilire și la vârful nasului fără a rupe osul. În acest caz, puteți purta ochelari chiar și în spital imediat după operație.</p>"
+              }
+            ]
+          },
+          {
+            "bgColor": "#f3e5f5",
+            "subsections": [
+              {
+                "title": "37. Cum este procesul de control post-operator și cât de des ar trebui să vin la control?",
+                "text": "<p>Controalele post-operatorii după rinoplastie sunt foarte importante.</p><blockquote>Unele probleme care pot fi detectate devreme în timpul procesului de control pot fi rezolvate cu medicamente adecvate, masaj sau intervenții minore similare. Cu toate acestea, procese mai complexe pot fi necesare în cazurile întârziate.</blockquote><blockquote>Prin urmare, este important să nu vă întrerupeți controalele și să le urmați în mod regulat.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Urmărirea proceselor de control și asigurarea continuității este responsabilitatea pacientului.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Programul de </span><strong style=\"background-color: rgb(204, 224, 245);\">control de rutină </strong><span style=\"background-color: rgb(204, 224, 245);\">pentru pacienții noștri este următorul:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Săptămâna 1 (îndepărtarea tamponului de silicon și a ghipsului)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Săptămâna 2 (îndepărtarea benzilor și evaluarea generală)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 luni</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 luni</span></li></ol><p>Dacă controlul fizic nu este posibil pentru pacienții din afara Istanbulului sau din străinătate, rugăm pacienții să respecte timpii enumerați mai sus și să ne trimită starea lor actuală în scris și suplimentar cu fotografii și videoclipuri în aceste momente.</p><p>Aceste controale, chiar dacă sunt făcute de la distanță, sunt foarte importante pentru procesul de vindecare.</p><blockquote><em>Puteți face clic pe butonul Whatsapp din partea de jos a paginii pentru comunicare.</em></blockquote>"
+              },
+              {
+                "title": "38. When does the nose heal completely? When does the final shape form?",
+                "text": "<p>The nasal healing process requires a long time. Although it varies according to skin and tissue structure, we can say that the nose takes its final shape when approximately <strong style=\"background-color: rgb(255, 255, 0);\">1.5- 2 years </strong>have passed.</p><p><br></p><p>However, approximately 80% of the healing and edema in the nose passes in the 3rd month after surgery. The nose roughly shows its shape beautifully. </p><p>However, if the skin is thick, you will not fully like the nose appearance due to edema especially in the nasal tip for the first 6 months. It will start to look beautiful after the 6th month, and in the desired form after the 1st year.</p><p><br></p><p><strong>It will be necessary to wait approximately 2 years to see the full result.</strong></p>"
+              },
+              {
+                "title": "39. Când se poate efectua operația de revizie?",
+                "text": "<p>Operația de revizie <strong>nu ar trebui efectuată înainte de a 6-a lună</strong> de la operație, cu excepția cazurilor excepționale.</p><p><strong>Timpul ideal este de a o face după 12 luni</strong>.</p><p><br></p><blockquote>Totuși, dacă problema din nas creează probleme ireversibile și timpul care trece va distruge șansa posibilă, operațiile de revizie mai timpurii pot fi de asemenea efectuate. Dar dacă problemele funcționale vizuale nu sunt de o natură care necesită intervenție urgentă, așteptarea a minim 12 luni va maximiza beneficiul care urmează să fie obținut din operația de revizie.</blockquote>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "hu": {
     "title": "Rinoplasztika Betegtájékoztató Oldal",
     "subtitle": "Itt minden kérdésére választ kap a rinoplasztika előtt és után..",
     "tabs": [

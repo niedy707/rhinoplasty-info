@@ -86,6 +86,7 @@ function AppContent() {
       if (hostname.includes('rinoplastie.info')) return 'ro';
       if (hostname.includes('rinoplasztika.info')) return 'hu';
       if (hostname.includes('rynoplastyka.info')) return 'pl';
+      if (hostname.includes('rinoplastie.md')) return 'md'; // Assuming potential domain
     }
     return 'tr'; // Default to Turkish
   });
@@ -194,6 +195,13 @@ function AppContent() {
       appointment: "Tylko w sprawach medycznych",
       agencyLabel: "W przypadku wszystkich zapytań i planowania",
       note: <i>Chirurg współpracuje z <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agencją Turystyki Zdrowotnej Medproper.</span></i>
+    },
+    md: {
+      title: "Rinoplastie",
+      country: "Türkiye",
+      appointment: "Doar pentru întrebări medicale",
+      agencyLabel: "Pentru toate întrebările și planificarea",
+      note: <i>Chirurgul colaborează cu <span style={{ backgroundColor: '#3b82f6', color: 'white', padding: '0 4px', borderRadius: '2px' }}>Agenția de Turism de Sănătate Medproper.</span></i>
     }
   };
 
