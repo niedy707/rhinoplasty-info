@@ -309,6 +309,31 @@ function AppContent() {
         </div>
       </footer>
 
+      {/* Timestamp Footer */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'flex-end',
+        marginTop: '1rem',
+        paddingBottom: '1rem',
+        paddingRight: '1rem',
+        opacity: 0.5,
+        transition: 'opacity 0.3s',
+        marginBottom: '60px' // Space for mobile nav/sticky bars if any
+      }}
+        onMouseEnter={(e) => e.currentTarget.style.opacity = '1'}
+        onMouseLeave={(e) => e.currentTarget.style.opacity = '0.5'}
+      >
+        <span style={{
+          fontFamily: 'monospace',
+          fontSize: '10px',
+          color: '#9ca3af',
+          userSelect: 'none'
+        }}>
+          {/* eslint-disable-next-line no-undef */}
+          {typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : ''}
+        </span>
+      </div>
+
       <EditButton />
     </div>
   );
