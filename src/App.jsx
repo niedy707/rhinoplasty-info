@@ -91,7 +91,16 @@ function AppContent() {
     return 'tr'; // Default to Turkish
   });
 
-  const [activeTabId, setActiveTabId] = useState('tab8');
+  const [activeTabId, setActiveTabId] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get('tab');
+      // If we are on the prescription page, we might want to ignore this or handle it differently
+      // But for now, just check for 'tab' param for the main app
+      if (tabParam) return tabParam;
+    }
+    return 'tab8';
+  });
 
   useEffect(() => {
     window.scrollTo(0, 0);

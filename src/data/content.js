@@ -287,7 +287,7 @@ export const content = {
               },
               {
                 "title": "14. İlaçları kullanmaya ne zaman başlamalıyım?",
-                "text": "<p><strong>Tüm ilaçların kullanımına</strong> ameliyat sonrası <strong>ilk gün sabahında</strong> (taburculuk sonrası) başlamalısınız. <em style=\"background-color: rgb(255, 255, 0);\">(Burun yıkama ve nemlendirme ilaçları dahil) </em></p><p><br></p><blockquote>Ameliyat günü, hastanede olduğunuz sürede sizin ilaç kullanmanıza gerek yoktur.</blockquote><blockquote>Tedaviniz hastane hemşireleri tarafından uygulanacaktır.</blockquote>"
+                "text": "<p><strong>Tüm ilaçların kullanımına</strong> ameliyat sonrası <strong>ilk gün sabahında</strong> (taburculuk sonrası) başlamalısınız. <em style=\"background-color: rgb(255, 255, 0);\">(Burun yıkama ve nemlendirme ilaçları dahil) </em></p><p><strong>Reçeteniz için lütfen <a href=\"?tab=tab7\" target=\"_blank\">tıklayınız</a>.</strong></p><p><br></p><blockquote>Ameliyat günü, hastanede olduğunuz sürede sizin ilaç kullanmanıza gerek yoktur.</blockquote><blockquote>Tedaviniz hastane hemşireleri tarafından uygulanacaktır.</blockquote>"
               },
               {
                 "title": "15. Burun yıkama için nasıl bir ilaç kullanmalıyım? Farkları nedir?",
@@ -692,7 +692,7 @@ export const content = {
               },
               {
                 "title": "14. When should I start using the medications?",
-                "text": "<p><strong>You should start using all medications</strong> on the<strong> first day morning</strong> after surgery (after discharge). <em style=\"background-color: rgb(255, 255, 0);\">(Including nasal washing and moisturizing medications) </em></p><p><br></p><blockquote>You do not need to use medication on the day of surgery while you are in the hospital.</blockquote><blockquote>Your treatment will be administered by hospital nurses.</blockquote>"
+                "text": "<p><strong>You should start using all medications</strong> on the<strong> first day morning</strong> after surgery (after discharge). <em style=\"background-color: rgb(255, 255, 0);\">(Including nasal washing and moisturizing medications) </em></p><p><strong>For prescription details, please <a href=\"?tab=tab7\" target=\"_blank\">click here</a>.</strong></p><p><br></p><blockquote>You do not need to use medication on the day of surgery while you are in the hospital.</blockquote><blockquote>Your treatment will be administered by hospital nurses.</blockquote>"
               },
               {
                 "title": "15. Which medication should I use for nasal washing? What are the differences?",
@@ -1042,7 +1042,7 @@ export const content = {
               },
               {
                 "title": "14. Wann sollte ich mit der Einnahme der Medikamente beginnen?",
-                "text": "<p><strong>Sie sollten mit der Einnahme aller Medikamente</strong> am **ersten Tag morgens** nach der Operation (nach der Entlassung) beginnen. <em style=\"background-color: rgb(255, 255, 0);\">(Einschließlich Nasenspülung und feuchtigkeitsspendenden Medikamenten) </em></p><p><br></p><blockquote>Sie müssen am Tag der Operation, während Sie im Krankenhaus sind, keine Medikamente einnehmen.</blockquote><blockquote>Ihre Behandlung wird von Krankenschwestern durchgeführt.</blockquote>"
+                "text": "<p><strong>Sie sollten mit der Einnahme aller Medikamente</strong> am **ersten Tag morgens** nach der Operation (nach der Entlassung) beginnen. <em style=\"background-color: rgb(255, 255, 0);\">(Einschließlich Nasenspülung und feuchtigkeitsspendenden Medikamenten) </em></p><p><strong>Für Details zum Rezept bitte <a href=\"?tab=tab7\" target=\"_blank\">hier klicken</a>.</strong></p><p><br></p><blockquote>Sie müssen am Tag der Operation, während Sie im Krankenhaus sind, keine Medikamente einnehmen.</blockquote><blockquote>Ihre Behandlung wird von Krankenschwestern durchgeführt.</blockquote>"
               },
               {
                 "title": "15. Welches Medikament sollte ich für die Nasenspülung verwenden? Was sind die Unterschiede?",
@@ -1569,7 +1569,7 @@ export const content = {
               },
               {
                 "title": "14. ¿Cuándo debo empezar a usar los medicamentos?",
-                "text": "<p><strong>Debe comenzar a usar todos los medicamentos</strong> en la<strong> mañana del primer día</strong> después de la cirugía (después del alta). <em style=\"background-color: rgb(255, 255, 0);\">(Incluidos los medicamentos de lavado e hidratación nasal) </em></p><p><br></p><blockquote>No necesita usar medicamentos el día de la cirugía mientras esté en el hospital.</blockquote><blockquote>Su tratamiento será administrado por enfermeras del hospital.</blockquote>"
+                "text": "<p><strong>Debe comenzar a usar todos los medicamentos</strong> en la<strong> mañana del primer día</strong> después de la cirugía (después del alta). <em style=\"background-color: rgb(255, 255, 0);\">(Incluidos los medicamentos de lavado e hidratación nasal) </em></p><p><strong>Para detalles de la receta, por favor <a href=\"?tab=tab7\" target=\"_blank\">haga clic aquí</a>.</strong></p><p><br></p><blockquote>No necesita usar medicamentos el día de la cirugía mientras esté en el hospital.</blockquote><blockquote>Su tratamiento será administrado por enfermeras del hospital.</blockquote>"
               },
               {
                 "title": "15. ¿Qué medicamento debo usar para el lavado nasal? ¿Cuáles son las diferencias?",
@@ -1919,7 +1919,7 @@ export const content = {
               },
               {
                 "title": "14. Когда мне следует начать принимать лекарства?",
-                "text": "<p><strong>Вы должны начать использовать все лекарства</strong> в <strong>первый день утром</strong> после операции (после выписки). <em style=\"background-color: rgb(255, 255, 0);\">(Включая лекарства для промывания и увлажнения носа) </em></p><p><br></p><blockquote>Вам не нужно принимать лекарства в день операции, пока вы находитесь в больнице.</blockquote><blockquote>Ваше лечение будет проводиться медсестрами больницы.</blockquote>"
+                "text": "<p><strong>Вы должны начать использовать все лекарства</strong> в <strong>первый день утром</strong> после операции (после выписки). <em style=\"background-color: rgb(255, 255, 0);\">(Включая лекарства для промывания и увлажнения носа) </em></p><p><strong>Для получения подробной информации о рецепте, пожалуйста, <a href=\"?tab=tab7\" target=\"_blank\">нажмите здесь</a>.</strong></p><p><br></p><blockquote>Вам не нужно принимать лекарства в день операции, пока вы находитесь в больнице.</blockquote><blockquote>Ваше лечение будет проводиться медсестрами больницы.</blockquote>"
               },
               {
                 "title": "15. Какое лекарство мне использовать для промывания носа? В чем различия?",
@@ -2269,7 +2269,7 @@ export const content = {
               },
               {
                 "title": "14. Quand dois-je commencer à prendre les médicaments ?",
-                "text": "<p><strong>Vous devez commencer à utiliser tous les médicaments</strong> le<strong> matin du premier jour</strong> après l'opération (après la sortie). <em style=\"background-color: rgb(255, 255, 0);\">(Y compris les médicaments de lavage et d'hydratation nasale) </em></p><p><br></p><blockquote>Vous n'avez pas besoin d'utiliser de médicaments le jour de l'opération pendant que vous êtes à l'hôpital.</blockquote><blockquote>Votre traitement sera administré par les infirmières de l'hôpital.</blockquote>"
+                "text": "<p><strong>Vous devez commencer à utiliser tous les médicaments</strong> le<strong> matin du premier jour</strong> après l'opération (après la sortie). <em style=\"background-color: rgb(255, 255, 0);\">(Y compris les médicaments de lavage et d'hydratation nasale) </em></p><p><strong>Pour les détails de l'ordonnance, veuillez <a href=\"?tab=tab7\" target=\"_blank\">cliquer ici</a>.</strong></p><p><br></p><blockquote>Vous n'avez pas besoin d'utiliser de médicaments le jour de l'opération pendant que vous êtes à l'hôpital.</blockquote><blockquote>Votre traitement sera administré par les infirmières de l'hôpital.</blockquote>"
               },
               {
                 "title": "15. Quel médicament dois-je utiliser pour le lavage nasal ? Quelles sont les différences ?",
@@ -2619,7 +2619,7 @@ export const content = {
               },
               {
                 "title": "14. Quando devo iniziare a usare i farmaci?",
-                "text": "<p><strong>Dovete iniziare a usare tutti i farmaci</strong> la <strong>mattina del primo giorno</strong> dopo l'intervento (dopo la dimissione). <em style=\"background-color: rgb(255, 255, 0);\">(Inclusi i farmaci per il lavaggio e l'idratazione nasale) </em></p><p><br></p><blockquote>Non è necessario usare farmaci il giorno dell'intervento mentre siete in ospedale.</blockquote><blockquote>Il vostro trattamento sarà somministrato dalle infermiere dell'ospedale.</blockquote>"
+                "text": "<p><strong>Dovete iniziare a usare tutti i farmaci</strong> la <strong>mattina del primo giorno</strong> dopo l'intervento (dopo la dimissione). <em style=\"background-color: rgb(255, 255, 0);\">(Inclusi i farmaci per il lavaggio e l'idratazione nasale) </em></p><p><strong>Per i dettagli della ricetta, per favore <a href=\"?tab=tab7\" target=\"_blank\">clicca qui</a>.</strong></p><p><br></p><blockquote>Non è necessario usare farmaci il giorno dell'intervento mentre siete in ospedale.</blockquote><blockquote>Il vostro trattamento sarà somministrato dalle infermiere dell'ospedale.</blockquote>"
               },
               {
                 "title": "15. Quale farmaco devo usare per il lavaggio nasale? Quali sono le differenze?",
@@ -3319,7 +3319,7 @@ export const content = {
               },
               {
                 "title": "14. Când ar trebui să încep să folosesc medicamentele?",
-                "text": "<p><strong>Trebuie să începeți să utilizați toate medicamentele</strong> în <strong>dimineața primei zile</strong> după operație (după externare). <em style=\"background-color: rgb(255, 255, 0);\">(Inclusiv medicamentele pentru spălarea și hidratarea nazală) </em></p><p><br></p><blockquote>Nu trebuie să utilizați medicamente în ziua operației cât timp sunteți în spital.</blockquote><blockquote>Tratamentul dumneavoastră va fi administrat de asistentele din spital.</blockquote>"
+                "text": "<p><strong>Trebuie să începeți să utilizați toate medicamentele</strong> în <strong>dimineața primei zile</strong> după operație (după externare). <em style=\"background-color: rgb(255, 255, 0);\">(Inclusiv medicamentele pentru spălarea și hidratarea nazală) </em></p><p><strong>Pentru detalii despre rețetă, vă rugăm să <a href=\"?tab=tab7\" target=\"_blank\">faceți clic aici</a>.</strong></p><p><br></p><blockquote>Nu trebuie să utilizați medicamente în ziua operației cât timp sunteți în spital.</blockquote><blockquote>Tratamentul dumneavoastră va fi administrat de asistentele din spital.</blockquote>"
               },
               {
                 "title": "15. Ce medicament ar trebui să folosesc pentru spălarea nazală? Care sunt diferențele?",
