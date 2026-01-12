@@ -4,6 +4,7 @@ import { content } from './data/content';
 import LanguageSelector, { QuickFlags, LanguageDropdown } from './components/LanguageSelector';
 import FAQSection from './components/FAQSection';
 import DischargeDocument from './components/DischargeDocument';
+import PrescriptionGenerator from './components/PrescriptionGenerator';
 import EditableContentSection from './components/EditableContentSection';
 import { AdminProvider } from './context/AdminContext';
 import EditButton from './components/EditButton';
@@ -263,6 +264,8 @@ function AppContent() {
           <FAQSection data={activeTab} lang={lang} />
         ) : activeTabId === 'tab9' ? (
           <DischargeDocument data={activeTab} lang={lang} />
+        ) : activeTabId === 'tab10' ? (
+          <PrescriptionGenerator />
         ) : (
           <EditableContentSection
             key={`${lang}-${activeTabId}`} // Force re-render on tab/lang change

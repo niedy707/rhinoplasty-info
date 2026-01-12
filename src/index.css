@@ -27,6 +27,17 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+}
+
+@media (max-width: 480px) {
+  body {
+    justify-content: flex-start;
+    /* Align left on mobile to prevent left-cut-off */
+    background-color: var(--bg-color);
+    /* Match app bg on mobile */
+  }
 }
 
 .app-container {
