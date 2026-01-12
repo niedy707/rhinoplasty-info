@@ -176,6 +176,59 @@ const ResetButton = styled.button`
   &:hover { background: #c0392b; }
 `;
 
+const PDFButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  gap: 12px;
+  flex-wrap: wrap;
+`;
+
+const PDFLabel = styled.span`
+  font-size: 1rem;
+  color: #2c3e50;
+  font-weight: 500;
+`;
+
+const PDFLink = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #fdf2f2;
+  color: #c0392b;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #f8d7da;
+  font-weight: 600;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #f8d7da;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  svg {
+    color: #e74c3c;
+  }
+`;
+
+const PDFIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+    <polyline points="14 2 14 8 20 8"></polyline>
+    <line x1="16" y1="13" x2="8" y2="13"></line>
+    <line x1="16" y1="17" x2="8" y2="17"></line>
+    <polyline points="10 9 9 9 8 9"></polyline>
+  </svg>
+);
+
 const FAQSection = ({ lang, data }) => {
   const [openIndex, setOpenIndex] = useState(null);
   const itemRefs = useRef([]);
@@ -349,8 +402,32 @@ const FAQSection = ({ lang, data }) => {
     ],
   };
 
+  const pdfLabels = {
+    tr: "Hasta bilgilendirme broşürü (Türkçe) için :",
+    en: "For patient information brochure (Turkish):",
+    de: "Für die Patienteninformationsbroschüre (Türkisch):",
+    es: "Para el folleto de información al paciente (Turco):",
+    ru: "Для брошюры с информацией для пациентов (Турецкий):",
+    fr: "Pour la brochure d'information des patients (Turc) :",
+    it: "Per l'opuscolo informativo per il paziente (Turco):",
+    ro: "Pentru broșura de informare a pacientului (Turcă):",
+    hu: "A páciens tájékoztató füzethez (Török):",
+    pl: "W celu uzyskania broszury informacyjnej dla pacjenta (Język turecki):",
+    md: "Pentru broșura de informare a pacientului (Turcă):"
+  };
+
+  const pdfUrl = "https://www.ibrahimyagci.com/_files/ugd/bc99bb_d1ac4338b4f74882bb5a73997dd2a957.pdf";
+
   return (
     <FAQContainer $isEditMode={isEditMode}>
+      <PDFButtonContainer>
+        <PDFLabel>{pdfLabels[lang] || pdfLabels.en}</PDFLabel>
+        <PDFLink href={pdfUrl} target="_blank" rel="noopener noreferrer">
+          <PDFIcon />
+          PDF
+        </PDFLink>
+      </PDFButtonContainer>
+
       <SectionTitle>{data.title}</SectionTitle>
 
       {isEditMode && (
