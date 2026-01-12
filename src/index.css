@@ -793,3 +793,58 @@ body {
     padding-bottom: 160px;
   }
 }
+/* Fix for list styles in text content */
+.text-content ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
+  margin-bottom: 1rem;
+}
+
+.text-content ol {
+  list-style-type: decimal !important;
+  padding-left: 20px !important;
+  margin-bottom: 1rem;
+}
+
+.text-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Drug Tag Styling for Tab 9 */
+.drug-tag {
+  display: inline-block;
+  background-color: #e3f2fd; /* Light blue modern bg */
+  color: #1565c0; /* Darker blue text */
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-left: 8px;
+  border: 1px solid #bbdefb;
+  vertical-align: middle;
+}
+
+/* Full width override for Tab 10 */
+.app-container.full-width-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow-x: auto !important; /* Allow horizontal scroll if needed for the table */
+  padding: 0 !important;
+}
+
+/* Ensure body also allows expansion */
+body:has(.full-width-container) {
+  justify-content: flex-start !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+/* Modern Green Box for Drug Usage */
+.modern-green-box {
+  background-color: #e8f5e9; /* Light green modern bg */
+  border-left: 5px solid #2e7d32; /* Stronger green Accent */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}

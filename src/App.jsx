@@ -219,7 +219,7 @@ function AppContent() {
   const footerText = footerTranslations[lang] || footerTranslations.en;
 
   return (
-    <div className="app-container">
+    <div className={`app-container ${activeTabId === 'tab10' ? 'full-width-container' : ''}`}>
       <div className="sticky-top-section">
         {/* Row 1: Flags */}
         <div className="language-row">
