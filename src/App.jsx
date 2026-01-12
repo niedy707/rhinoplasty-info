@@ -219,47 +219,44 @@ function AppContent() {
 
   return (
     <div className="app-container">
-      <div className="language-bar">
-        <QuickFlags currentLang={lang} onSelect={handleLanguageChange} />
+      <div className="sticky-top-section">
+        {/* Row 1: Flags */}
+        <div className="language-row">
+          <QuickFlags currentLang={lang} onSelect={handleLanguageChange} />
+        </div>
+
+        {/* Row 2: Tabs + Language Dropdown */}
+        <div className="controls-row">
+          <nav className="tab-navigation compact-nav">
+            <MobileNavigation
+              handlePrevTab={() => {
+                const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+                if (currentIndex > 0) setActiveTabId(currentContent.tabs[currentIndex - 1].id);
+              }}
+              handleNextTab={() => {
+                const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+                if (currentIndex < currentContent.tabs.length - 1) setActiveTabId(currentContent.tabs[currentIndex + 1].id);
+              }}
+              currentContent={currentContent}
+              activeTabId={activeTabId}
+              setActiveTabId={setActiveTabId}
+            />
+          </nav>
+
+          <div className="lang-dropdown-container">
+            <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
+          </div>
+        </div>
       </div>
+
       <header className="app-header">
         <div className="header-content">
           <div className="header-text">
             <h1>{currentContent.title}</h1>
             {currentContent.subtitle && <p className="app-subtitle"><i>{currentContent.subtitle}</i></p>}
           </div>
-          <div className="header-controls">
-            <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
-          </div>
         </div>
       </header>
-
-      <nav className="tab-navigation">
-        <MobileNavigation
-          handlePrevTab={() => {
-            const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-            if (currentIndex > 0) setActiveTabId(currentContent.tabs[currentIndex - 1].id);
-          }}
-          handleNextTab={() => {
-            const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-            if (currentIndex < currentContent.tabs.length - 1) setActiveTabId(currentContent.tabs[currentIndex + 1].id);
-          }}
-          currentContent={currentContent}
-          activeTabId={activeTabId}
-          setActiveTabId={setActiveTabId}
-        />
-        <div className="desktop-tabs">
-          {currentContent.tabs.map(tab => (
-            <button
-              key={tab.id}
-              className={`tab-btn ${activeTabId === tab.id ? 'active' : ''}`}
-              onClick={() => setActiveTabId(tab.id)}
-            >
-              {tab.title}
-            </button>
-          ))}
-        </div>
-      </nav>
 
       <main className="tab-content">
         {activeTabId === 'tab8' ? (
@@ -347,7 +344,7 @@ function AppContent() {
       </div>
 
       <EditButton />
-    </div>
+    </div >
   );
 }
 

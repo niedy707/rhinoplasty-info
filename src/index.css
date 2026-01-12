@@ -19,16 +19,37 @@
 
 body {
   font-family: var(--font-family);
-  background-color: var(--bg-color);
+  background-color: #2c3e50;
+  /* Dark background for desktop view */
   color: var(--text-color);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .app-container {
+  width: 100%;
+  max-width: 480px;
+  /* Mobile width constraint */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--bg-color);
+  /* Restore app background */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  /* Shadow for depth */
+  position: relative;
+}
+
+.sticky-top-section {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bg-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  /* Shadow at bottom of sticky area */
 }
 
 .app-subtitle {
@@ -46,9 +67,6 @@ body {
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -245,7 +263,8 @@ h1 {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-@media (max-width: 600px) {
+/* Force mobile styles always */
+@media screen {
   .desktop-tabs {
     display: none;
   }
@@ -309,7 +328,8 @@ h1 {
 .lang-btn {
   background: var(--card-bg);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 8px 16px;
+  padding: 8px 12px;
+  /* Reduced padding from 16px */
   border-radius: 20px;
   cursor: pointer;
   display: flex;
@@ -406,8 +426,12 @@ h1 {
 .sticky-bottom-bar {
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
+  max-width: 480px;
+  /* Constrain to app width */
+  left: 50%;
+  transform: translateX(-50%);
+  /* Center relative to viewport */
   background: white;
   /* Ensure background is opaque */
   padding: 15px;
@@ -549,7 +573,8 @@ h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-@media (max-width: 600px) {
+/* Force mobile styles always */
+@media screen {
   .header-content {
     flex-direction: row;
     justify-content: space-between;
@@ -572,23 +597,57 @@ h1 {
     flex-shrink: 0;
   }
 
-  .language-selector {
-    /* This applies to the top bar flags now */
-    justify-content: center;
+  .language-row {
     width: 100%;
+    padding: 8px 16px;
+    background: #f1f1f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .quick-flags {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 0;
+    /* Force single line */
+    justify-content: space-between;
+    /* Spread to fill width */
+    gap: 4px;
+    /* Minimal gap */
     width: 100%;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    /* Space for scrollbar if needed */
+    overflow-x: visible;
+    padding: 0;
+    margin: 0;
   }
+
+  .controls-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 8px 12px;
+    /* Reduced padding */
+    background: var(--bg-color);
+  }
+
+  .compact-nav {
+    flex: 1;
+    min-width: 0;
+    /* Allow shrinking */
+    padding: 8px 0 !important;
+    margin: 0 !important;
+    margin-right: 8px !important;
+    /* Reduced margin */
+  }
+
+  .lang-dropdown-container {
+    flex-shrink: 0;
+    /* Keep fixed width */
+  }
+
+  .mobile-tab-select {
+    width: 100%;
+    /* Ensure it fills the nav area */
+  }
+
+
 
   .main-content {
     padding: 20px 16px;

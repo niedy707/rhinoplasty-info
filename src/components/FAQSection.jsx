@@ -5,18 +5,18 @@ import 'react-quill-new/dist/quill.snow.css';
 import { useAdmin } from '../context/AdminContext';
 
 const FAQContainer = styled.div`
-  margin-top: 2rem;
-  padding: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem; /* Minimized padding */
   background: #f8f9fa;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  padding-bottom: ${props => props.$isEditMode ? '80px' : '2rem'}; // Space for sticky button
+  padding-bottom: ${props => props.$isEditMode ? '80px' : '0.5rem'};
 `;
 
 const SectionTitle = styled.h2`
   font-size: 1.8rem;
   color: #2c3e50;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem; /* Reduced margin */
   text-align: center;
   font-weight: 600;
 `;
@@ -31,7 +31,7 @@ const AccordionItem = styled.div`
 
 const AccordionHeader = styled.div`
   width: 100%;
-  padding: 1.2rem;
+  padding: 0.8rem 0.6rem; /* Reduced padding */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,17 +180,24 @@ const PDFButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  background: #ffffff;
-  border-radius: 12px;
-  border: 1px solid #e9ecef;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  background: linear-gradient(to right, #fff5f5, #ffffff);
+  border-radius: 16px;
+  border: 1px solid rgba(231, 76, 60, 0.1);
+  border-left: 4px solid #c0392b;
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.08);
   gap: 12px;
-  flex-wrap: wrap;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.15);
+  }
 `;
 
 const PDFLabel = styled.span`
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #2c3e50;
   font-weight: 500;
 `;
@@ -198,15 +205,16 @@ const PDFLabel = styled.span`
 const PDFLink = styled.a`
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
+  justify-content: center;
+  padding: 8px;
   background: #fdf2f2;
   color: #c0392b;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 50%; /* Circular for icon */
   border: 1px solid #f8d7da;
-  font-weight: 600;
   transition: all 0.2s ease;
+  width: 36px;
+  height: 36px;
 
   &:hover {
     background: #f8d7da;
@@ -216,6 +224,8 @@ const PDFLink = styled.a`
 
   svg {
     color: #e74c3c;
+    width: 20px;
+    height: 20px;
   }
 `;
 
@@ -424,7 +434,6 @@ const FAQSection = ({ lang, data }) => {
         <PDFLabel>{pdfLabels[lang] || pdfLabels.en}</PDFLabel>
         <PDFLink href={pdfUrl} target="_blank" rel="noopener noreferrer">
           <PDFIcon />
-          PDF
         </PDFLink>
       </PDFButtonContainer>
 

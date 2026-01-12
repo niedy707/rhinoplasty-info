@@ -5,15 +5,34 @@ import EditableContentSection from './EditableContentSection';
 const PrintStyles = createGlobalStyle`
   @media print {
     @page {
-      margin: 0.5cm;
+      margin: 5mm; /* Minimum margin for maximum information */
+      size: A4;
     }
-    body {
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
       background: white !important;
+      overflow: visible !important;
+    }
+    .app-container {
+       width: 100% !important;
+       max-width: none !important;
+       min-height: auto !important;
+       background: white !important;
+       box-shadow: none !important;
+       margin: 0 !important;
+       padding: 0 !important;
+       position: static !important;
+    }
+    .main-content {
       padding: 0 !important;
       margin: 0 !important;
-      color: black !important;
-      font-size: 11px !important; /* Slightly smaller base font */
+      max-width: none !important;
+      width: 100% !important;
     }
+    /* Hide UI elements */
     .app-header, 
     .tab-navigation, 
     .language-bar, 
@@ -24,48 +43,43 @@ const PrintStyles = createGlobalStyle`
     .nav-arrow-btn {
       display: none !important;
     }
-    .main-content {
-      padding: 0 !important;
-      margin: 0 !important;
-      max-width: none !important;
-    }
+    
     .tab-content {
       padding: 0 !important;
     }
-    .app-container {
-       min-height: auto !important;
-       background: white !important;
-    }
+
     /* Compaction Styles */
     * {
       box-shadow: none !important;
       text-shadow: none !important;
-      line-height: 1.25 !important; /* Tighter line height */
+      line-height: 1.2 !important; /* Tighter line height */
     }
     p, li {
-      margin-bottom: 4px !important; /* Minimal gap between paragraphs/items */
+      margin-bottom: 4px !important;
       color: black !important;
+      font-size: 11px !important;
     }
     h1, h2, h3 {
       margin-top: 8px !important;
-      margin-bottom: 6px !important;
+      margin-bottom: 4px !important;
       color: black !important;
-      line-height: 1.2 !important;
+      line-height: 1.1 !important;
     }
-    /* Specific overrides for EditableContentSection containers */
+    /* Specific overrides for EditableContentSection */
     div[class*="SectionContainer"], 
     div[class*="subsection"] {
       padding: 0 !important;
-      margin-bottom: 10px !important;
+      margin-bottom: 5px !important;
       border: none !important;
       box-shadow: none !important;
     }
     blockquote {
-      margin: 4px 0 4px 15px !important;
+      margin: 4px 0 4px 10px !important;
       padding: 0 !important;
     }
     ul, ol {
-      margin-bottom: 6px !important;
+      margin-bottom: 4px !important;
+      padding-left: 15px !important;
     }
   }
 `;
