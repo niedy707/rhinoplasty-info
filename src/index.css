@@ -266,6 +266,12 @@ h1 {
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 1em;
+  /* Prevent text overflow */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 
 .bottom-navigation {
@@ -619,14 +625,23 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     /* Force single line */
-    justify-content: space-between;
-    /* Spread to fill width */
-    gap: 4px;
-    /* Minimal gap */
+    justify-content: flex-start;
+    /* Align start to allow scroll */
+    gap: 8px;
     width: 100%;
-    overflow-x: visible;
-    padding: 0;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    padding: 4px 0;
     margin: 0;
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scroll on iOS */
+    scrollbar-width: none;
+    /* Hide scrollbar Firefox */
+  }
+
+  .quick-flags::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar Chrome/Safari */
   }
 
   .controls-row {
@@ -646,6 +661,8 @@ h1 {
     margin: 0 !important;
     margin-right: 8px !important;
     /* Reduced margin */
+    width: 0;
+    /* Critical for flex child to shrink properly */
   }
 
   .lang-dropdown-container {
@@ -793,6 +810,7 @@ body {
     padding-bottom: 160px;
   }
 }
+
 /* Fix for list styles in text content */
 .text-content ul {
   list-style-type: disc !important;
@@ -813,8 +831,10 @@ body {
 /* Drug Tag Styling for Tab 9 */
 .drug-tag {
   display: inline-block;
-  background-color: #e3f2fd; /* Light blue modern bg */
-  color: #1565c0; /* Darker blue text */
+  background-color: #e3f2fd;
+  /* Light blue modern bg */
+  color: #1565c0;
+  /* Darker blue text */
   padding: 2px 8px;
   border-radius: 12px;
   font-size: 0.9em;
@@ -828,7 +848,8 @@ body {
 .app-container.full-width-container {
   max-width: 100% !important;
   width: 100% !important;
-  overflow-x: auto !important; /* Allow horizontal scroll if needed for the table */
+  overflow-x: auto !important;
+  /* Allow horizontal scroll if needed for the table */
   padding: 0 !important;
 }
 
@@ -841,10 +862,19 @@ body:has(.full-width-container) {
 
 /* Modern Green Box for Drug Usage */
 .modern-green-box {
-  background-color: #e8f5e9; /* Light green modern bg */
-  border-left: 5px solid #2e7d32; /* Stronger green Accent */
+  background-color: #e8f5e9;
+  /* Light green modern bg */
+  border-left: 5px solid #2e7d32;
+  /* Stronger green Accent */
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.drug-tag {
+  color: #1565c0;
+  /* Modern Blue */
+  font-weight: 700;
+  font-family: inherit;
 }

@@ -6,12 +6,12 @@ import { content } from '../data/content';
 const PrintStyles = createGlobalStyle`
   @media print {
     @page {
-      margin: 5mm; /* Minimum margin for maximum information */
-      size: auto; /* Fix blank page by allowing auto size */
+      margin: ${props => props.$compact ? '3mm' : '5mm'};
+      size: auto;
     }
     html, body {
       width: 100%;
-      height: auto !important; /* Fix blank page */
+      height: auto !important;
       margin: 0 !important;
       padding: 0 !important;
       background: white !important;
@@ -54,43 +54,59 @@ const PrintStyles = createGlobalStyle`
     * {
       box-shadow: none !important;
       text-shadow: none !important;
-      line-height: 1.15 !important; /* Tighter line height */
+      line-height: ${props => props.$compact ? '1.1' : '1.15'} !important;
     }
     p, li {
+      margin-bottom: ${props => props.$compact ? '1px' : '2px'} !important;
+      color: black !important;
+      font-size: ${props => props.$compact ? '10px' : '11px'} !important;
+    }
+    h1 {
+      ${props => props.$compact && `font-size: 14px !important;`}
+      margin-top: ${props => props.$compact ? '4px' : '5px'} !important;
       margin-bottom: 2px !important;
       color: black !important;
-      font-size: 11px !important;
+      line-height: 1.1 !important;
     }
-    h1, h2, h3 {
-      margin-top: 5px !important;
-      margin-bottom: 2px !important;
+    h2 {
+      ${props => props.$compact && `font-size: 12px !important;`}
+      margin-top: ${props => props.$compact ? '3px' : '5px'} !important;
+      margin-bottom: 1px !important;
+      color: black !important;
+      line-height: 1.1 !important;
+    }
+    h3 {
+      ${props => props.$compact && `font-size: 11px !important;`}
+      margin-top: 2px !important;
+      margin-bottom: 1px !important;
       color: black !important;
       line-height: 1.1 !important;
     }
     
     /* Green Box Print Override */
     .modern-green-box {
-      margin: 8px 0 !important;
-      padding: 10px !important;
-      border-left-width: 3px !important;
+      margin: ${props => props.$compact ? '4px 0' : '8px 0'} !important;
+      padding: ${props => props.$compact ? '6px' : '10px'} !important;
+      border-left-width: ${props => props.$compact ? '2px' : '3px'} !important;
       page-break-inside: avoid !important;
+      ${props => props.$compact && `font-size: 10px !important;`}
     }
     
     /* Specific overrides for EditableContentSection */
     div[class*="SectionContainer"], 
     div[class*="subsection"] {
       padding: 0 !important;
-      margin-bottom: 2px !important;
+      margin-bottom: ${props => props.$compact ? '1px' : '2px'} !important;
       border: none !important;
       box-shadow: none !important;
     }
     blockquote {
-      margin: 2px 0 2px 10px !important;
+      margin: ${props => props.$compact ? '1px 0 1px 18px' : '2px 0 2px 10px'} !important;
       padding: 0 !important;
     }
     ul, ol {
-      margin-bottom: 2px !important;
-      padding-left: 15px !important;
+      margin-bottom: ${props => props.$compact ? '1px' : '2px'} !important;
+      padding-left: ${props => props.$compact ? '14px' : '15px'} !important;
     }
 
     /* Force page break for the second page */
@@ -111,7 +127,8 @@ const DocumentContainer = styled.div`
   @media print {
     max-width: none;
     padding: 0;
-    overflow: visible; /* Ensure nothing is clipped */
+    overflow: visible;
+    ${props => props.$compact && `zoom: 0.95;`}
   }
 `;
 
@@ -220,15 +237,74 @@ const DischargeDocument = ({ data, lang }) => {
     hu: "🇭🇺", pl: "🇵🇱", md: "🇲🇩"
   };
 
+  const footerTranslations = {
+    tr: {
+      medical: "Tüm Tıbbi sorularınız için:",
+      appointments: "Randevu ve planlamalar için:",
+      location: "Rinoplasti , Istanbul / Türkiye"
+    },
+    en: {
+      medical: "For medical questions:",
+      appointments: "For appointments:",
+      location: "Rhinoplasty , Istanbul / Turkey"
+    },
+    de: {
+      medical: "Für medizinische Fragen:",
+      appointments: "Für Termine:",
+      location: "Rhinoplastik , Istanbul / Türkei"
+    },
+    es: {
+      medical: "Para preguntas médicas:",
+      appointments: "Para citas:",
+      location: "Rinoplastia , Estambul / Turquía"
+    },
+    ru: {
+      medical: "По медицинским вопросам:",
+      appointments: "Для записи:",
+      location: "Ринопластика , Стамбул / Турция"
+    },
+    fr: {
+      medical: "Pour les questions médicales:",
+      appointments: "Pour les rendez-vous:",
+      location: "Rhinoplastie , Istanbul / Turquie"
+    },
+    it: {
+      medical: "Per domande mediche:",
+      appointments: "Per appuntamenti:",
+      location: "Rinoplastica , Istanbul / Turchia"
+    },
+    ro: {
+      medical: "Pentru întrebări medicale:",
+      appointments: "Pentru programări:",
+      location: "Rinoplastie , Istanbul / Turcia"
+    },
+    hu: {
+      medical: "Orvosi kérdések esetén:",
+      appointments: "Időpontfoglaláshoz:",
+      location: "Orrplasztika , Isztambul / Törökország"
+    },
+    pl: {
+      medical: "Pytania medyczne:",
+      appointments: "Umów wizytę:",
+      location: "Korekta nosa , Stambuł / Turcja"
+    },
+    md: {
+      medical: "Pentru întrebări medicale:",
+      appointments: "Pentru programări:",
+      location: "Rinoplastie , Istanbul / Turcia"
+    }
+  };
+
   const qrLink = "https://r.ibrahimyagci.com/?tab=tab9";
   const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(qrLink)}`;
 
   const isDualPage = !['tr', 'en'].includes(lang);
+  const needsCompact = isDualPage;
   const englishContent = content['en'].tabs.find(t => t.id === 'tab9').content;
 
   return (
-    <DocumentContainer>
-      <PrintStyles />
+    <DocumentContainer $compact={needsCompact}>
+      <PrintStyles $compact={needsCompact} />
       <PrintMetaInfo>
         <span>{flags[lang]} Selected Language: <strong>{lang.toUpperCase()}</strong></span>
         <span style={{ marginLeft: '10px' }}>({Object.values(flags).join(' ')})</span>
@@ -260,21 +336,18 @@ const DischargeDocument = ({ data, lang }) => {
       />
 
       <PrintFooter>
-        <div className="footer-line primary">
-          <strong>Op. Dr. Ibrahim YAGCI</strong> | Rinoplasti , Istanbul / Türkiye
-        </div>
         <div className="footer-line secondary">
-          <span>Tüm Tıbbi sorularınız için: <strong>+90 555 551 1578</strong></span>
+          <span>{footerTranslations[lang]?.medical || footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
           <span className="divider">•</span>
-          <span>Randevu ve planlamalar için: <strong>+90 551 199 9963</strong></span>
+          <span>{footerTranslations[lang]?.appointments || footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
         </div>
-        <div className="footer-line links">
-          r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
+        <div className="footer-line mixed">
+          <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations[lang]?.location || footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
         </div>
       </PrintFooter>
 
       {/* Page 2: English (Conditional) */}
-      {isDualPage && (
+      {isDualPage && englishContent && englishContent.length > 0 && (
         <EnglishPageContainer>
           <div className="page-break"></div>
 
@@ -295,16 +368,13 @@ const DischargeDocument = ({ data, lang }) => {
           />
 
           <PrintFooter>
-            <div className="footer-line primary">
-              <strong>Op. Dr. Ibrahim YAGCI</strong> | Rhinoplasty , Istanbul / Turkey
-            </div>
             <div className="footer-line secondary">
-              <span>For medical questions: <strong>+90 555 551 1578</strong></span>
+              <span>{footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
               <span className="divider">•</span>
-              <span>For appointments: <strong>+90 551 199 9963</strong></span>
+              <span>{footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
             </div>
-            <div className="footer-line links">
-              r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
+            <div className="footer-line mixed">
+              <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
             </div>
           </PrintFooter>
         </EnglishPageContainer>
@@ -321,8 +391,14 @@ const PrintFooter = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
-    padding-top: 15px;
+    /* Position at absolute bottom */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
     border-top: 1px solid #eee;
     width: 100%;
     
@@ -330,13 +406,19 @@ const PrintFooter = styled.div`
       display: flex;
       align-items: center;
       gap: 10px;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
       color: #444;
-      font-size: 9pt;
+      font-size: 8pt; /* Reduced font size */
+    }
+    
+    .footer-line.mixed {
+      font-size: 8pt;
+      font-weight: bold;
+      color: #000;
     }
     
     .footer-line.primary {
-      font-size: 10pt;
+      font-size: 8pt;
       color: #000;
     }
     

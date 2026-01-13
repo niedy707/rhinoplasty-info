@@ -9,10 +9,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = 3001;
+const PORT = 3002;
 
 app.use(cors());
+
 app.use(bodyParser.json({ limit: '50mb' }));
+
+app.get('/', (req, res) => {
+    res.send('Rhinoplasty Info Backend Server is Running!');
+});
 
 const CONTENT_FILE_PATH = path.join(__dirname, 'src', 'data', 'content.js');
 

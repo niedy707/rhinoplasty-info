@@ -176,50 +176,53 @@ const ResetButton = styled.button`
   &:hover { background: #c0392b; }
 `;
 
-const PDFButtonContainer = styled.div`
+const PDFButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
-  padding: 0.8rem 1rem;
+  padding: 0.8rem 1.5rem;
   background: linear-gradient(to right, #fff5f5, #ffffff);
   border-radius: 16px;
   border: 1px solid rgba(231, 76, 60, 0.1);
   border-left: 4px solid #c0392b;
   box-shadow: 0 4px 15px rgba(231, 76, 60, 0.08);
   gap: 12px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(231, 76, 60, 0.15);
+    background: linear-gradient(to right, #fff0f0, #fffcfc);
   }
 `;
 
 const PDFLabel = styled.span`
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #2c3e50;
-  font-weight: 500;
+  font-weight: 600;
 `;
 
-const PDFLink = styled.a`
+const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px;
   background: #fdf2f2;
   color: #c0392b;
-  text-decoration: none;
-  border-radius: 50%; /* Circular for icon */
+  border-radius: 50%;
   border: 1px solid #f8d7da;
-  transition: all 0.2s ease;
   width: 36px;
   height: 36px;
+  transition: background-color 0.2s ease;
 
-  &:hover {
+  ${PDFButton}:hover & {
     background: #f8d7da;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   }
 
   svg {
@@ -430,12 +433,12 @@ const FAQSection = ({ lang, data }) => {
 
   return (
     <FAQContainer $isEditMode={isEditMode}>
-      <PDFButtonContainer>
+      <PDFButton href={pdfUrl} target="_blank" rel="noopener noreferrer">
         <PDFLabel>{pdfLabels[lang] || pdfLabels.en}</PDFLabel>
-        <PDFLink href={pdfUrl} target="_blank" rel="noopener noreferrer">
+        <IconWrapper>
           <PDFIcon />
-        </PDFLink>
-      </PDFButtonContainer>
+        </IconWrapper>
+      </PDFButton>
 
       <SectionTitle>{data.title}</SectionTitle>
 
