@@ -59,37 +59,37 @@ const PrintStyles = createGlobalStyle`
     p, li {
       margin-bottom: ${props => props.$compact ? '1px' : '2px'} !important;
       color: black !important;
-      font-size: ${props => props.$compact ? '10px' : '11px'} !important;
+      font-size: ${props => props.$compact ? '12px' : '14px'} !important;
     }
     h1 {
-      ${props => props.$compact && `font-size: 14px !important;`}
+      ${props => props.$compact && `font-size: 18px !important;`}
       margin-top: ${props => props.$compact ? '4px' : '5px'} !important;
-      margin-bottom: 2px !important;
+      margin-bottom: 4px !important;
       color: black !important;
-      line-height: 1.1 !important;
+      line-height: 1.2 !important;
     }
     h2 {
-      ${props => props.$compact && `font-size: 12px !important;`}
+      ${props => props.$compact && `font-size: 14px !important;`}
       margin-top: ${props => props.$compact ? '3px' : '5px'} !important;
-      margin-bottom: 1px !important;
+      margin-bottom: 2px !important;
       color: black !important;
-      line-height: 1.1 !important;
+      line-height: 1.2 !important;
     }
     h3 {
-      ${props => props.$compact && `font-size: 11px !important;`}
+      ${props => props.$compact && `font-size: 13px !important;`}
       margin-top: 2px !important;
       margin-bottom: 1px !important;
       color: black !important;
-      line-height: 1.1 !important;
+      line-height: 1.2 !important;
     }
     
     /* Green Box Print Override */
     .modern-green-box {
-      margin: ${props => props.$compact ? '4px 0' : '8px 0'} !important;
-      padding: ${props => props.$compact ? '6px' : '10px'} !important;
-      border-left-width: ${props => props.$compact ? '2px' : '3px'} !important;
+      margin: ${props => props.$compact ? '8px 0' : '12px 0'} !important;
+      padding: ${props => props.$compact ? '8px' : '12px'} !important;
+      border-left-width: ${props => props.$compact ? '3px' : '4px'} !important;
       page-break-inside: avoid !important;
-      ${props => props.$compact && `font-size: 10px !important;`}
+      ${props => props.$compact && `font-size: 12px !important;`}
     }
     
     /* Specific overrides for EditableContentSection */
@@ -129,6 +129,21 @@ const DocumentContainer = styled.div`
     padding: 0;
     overflow: visible;
     ${props => props.$compact && `zoom: 0.95;`}
+  }
+`;
+
+const PageWrapper = styled.div`
+  position: relative;
+  /* Ensure page takes up adequate space to push footer down, close to A4 height logic */
+  min-height: 98vh; 
+  padding-bottom: 60px; /* Space for footer */
+  box-sizing: border-box;
+
+  @media print {
+    min-height: 265mm; /* Reduced to safely fit A4 with margins */
+    height: auto;
+    page-break-after: always;
+    position: relative;
   }
 `;
 
@@ -305,11 +320,7 @@ const DischargeDocument = ({ data, lang }) => {
   return (
     <DocumentContainer $compact={needsCompact}>
       <PrintStyles $compact={needsCompact} />
-      <PrintMetaInfo>
-        <span>{flags[lang]} Selected Language: <strong>{lang.toUpperCase()}</strong></span>
-        <span style={{ marginLeft: '10px' }}>({Object.values(flags).join(' ')})</span>
-      </PrintMetaInfo>
-
+      {/* Page 1: Selected Language */}
       <ButtonContainer>
         <PrintButton onClick={handlePrint}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -321,62 +332,71 @@ const DischargeDocument = ({ data, lang }) => {
         </PrintButton>
       </ButtonContainer>
 
-      <QRCodeContainer>
-        <QRCodeImage src={qrCodeUrl} alt="QR Code" />
-        <QRCodeText>
-          <strong>r.ibrahimyagci.com</strong>
-        </QRCodeText>
-      </QRCodeContainer>
+      <PageWrapper>
+        <PrintMetaInfo>
+          <span>{flags[lang]} Selected Language: <strong>{lang.toUpperCase()}</strong></span>
+          <span style={{ marginLeft: '10px' }}>({Object.values(flags).join(' ')})</span>
+        </PrintMetaInfo>
 
-      {/* Page 1: Selected Language */}
-      <EditableContentSection
-        lang={lang}
-        activeTabId="tab9"
-        initialData={data.content}
-      />
+        <QRCodeContainer>
+          <QRCodeImage src={qrCodeUrl} alt="QR Code" />
+          <QRCodeText>
+            <strong>r.ibrahimyagci.com</strong>
+          </QRCodeText>
+        </QRCodeContainer>
 
-      <PrintFooter>
-        <div className="footer-line secondary">
-          <span>{footerTranslations[lang]?.medical || footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
-          <span className="divider">•</span>
-          <span>{footerTranslations[lang]?.appointments || footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
-        </div>
-        <div className="footer-line mixed">
-          <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations[lang]?.location || footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
-        </div>
-      </PrintFooter>
+        <EditableContentSection
+          lang={lang}
+          activeTabId="tab9"
+          initialData={data.content}
+        />
+
+        <PrintFooter>
+          <div className="footer-line secondary">
+            <span>{footerTranslations[lang]?.medical || footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
+            <span className="divider">•</span>
+            <span>{footerTranslations[lang]?.appointments || footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
+          </div>
+          <div className="footer-line mixed">
+            <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations[lang]?.location || footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
+          </div>
+        </PrintFooter>
+      </PageWrapper>
 
       {/* Page 2: English (Conditional) */}
       {isDualPage && englishContent && englishContent.length > 0 && (
         <EnglishPageContainer>
-          <div className="page-break"></div>
+          {/* PageWrapper is applied via EnglishPageContainer styled as PageWrapper */}
+          <PageWrapper>
+            <div className="page-break"></div>
 
-          {/* Repeat Header for Page 2 */}
-          <PrintMetaInfo style={{ display: 'flex' }}>
-            <span>🇬🇧 Reference Language: <strong>EN</strong></span>
-          </PrintMetaInfo>
+            {/* Repeat Header for Page 2 */}
+            <PrintMetaInfo style={{ display: 'flex' }}>
+              <span>🇬🇧 Reference Language: <strong>EN</strong></span>
+            </PrintMetaInfo>
 
-          <QRCodeContainer style={{ display: 'flex' }}>
-            <QRCodeImage src={qrCodeUrl} alt="QR Code" />
-            <QRCodeText><strong>r.ibrahimyagci.com</strong></QRCodeText>
-          </QRCodeContainer>
+            <QRCodeContainer style={{ display: 'flex' }}>
+              <QRCodeImage src={qrCodeUrl} alt="QR Code" />
+              <QRCodeText><strong>r.ibrahimyagci.com</strong></QRCodeText>
+            </QRCodeContainer>
 
-          <EditableContentSection
-            lang="en"
-            activeTabId="tab9"
-            initialData={englishContent}
-          />
+            <EditableContentSection
+              lang="en"
+              activeTabId="tab9"
+              initialData={englishContent}
+            />
 
-          <PrintFooter>
-            <div className="footer-line secondary">
-              <span>{footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
-              <span className="divider">•</span>
-              <span>{footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
-            </div>
-            <div className="footer-line mixed">
-              <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
-            </div>
-          </PrintFooter>
+            <PrintFooter>
+              <div className="footer-line secondary">
+                <span>{footerTranslations.en.medical} <strong>+90 555 551 1578</strong></span>
+                <span className="divider">•</span>
+                <span>{footerTranslations.en.appointments} <strong>+90 551 199 9963</strong></span>
+              </div>
+              <div className="footer-line mixed">
+                <strong>Op. Dr. Ibrahim YAGCI</strong> | {footerTranslations.en.location} <span className="divider">|</span> r.ibrahimyagci.com <span className="divider">|</span> instagram/dribrahimyagci
+              </div>
+            </PrintFooter>
+          </PageWrapper>
         </EnglishPageContainer>
       )}
     </DocumentContainer>
@@ -391,8 +411,8 @@ const PrintFooter = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* Position at absolute bottom */
-    position: fixed;
+    /* Position adjusted to be inside PageWrapper */
+    position: absolute; 
     bottom: 0;
     left: 0;
     right: 0;
