@@ -293,6 +293,24 @@ const FAQSection = ({ lang, data }) => {
 
   // State for search
   const [searchQuery, setSearchQuery] = useState('');
+  const [placeholder, setPlaceholder] = useState('Soru ya da cevaptaki bir kelime ile arama yapınız...');
+
+  // Responsive placeholder
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 640) {
+        setPlaceholder('Kelime ile arama yapınız...');
+      } else {
+        setPlaceholder('Soru ya da cevaptaki bir kelime ile arama yapınız...');
+      }
+    };
+
+    // Initial check
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Update groups when data changes
   useEffect(() => {
@@ -403,7 +421,7 @@ const FAQSection = ({ lang, data }) => {
 
       <SearchInput
         type="text"
-        placeholder="Soru ya da cevaptaki bir kelime ile arama yapınız..."
+        placeholder={placeholder}
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
