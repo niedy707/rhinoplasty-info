@@ -265,11 +265,11 @@ const renderCategoryIcon = (iconName) => {
 // Helper for colors based on className string
 // Returning RGBA for transparent question backgrounds as requested
 const getColorFromClass = (cls) => {
-  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af', questionBg: 'rgba(219, 234, 254, 0.4)' };
-  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534', questionBg: 'rgba(220, 252, 231, 0.4)' };
-  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8', questionBg: 'rgba(243, 232, 255, 0.4)' };
-  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412', questionBg: 'rgba(255, 237, 213, 0.4)' };
-  return { bg: '#f3f4f6', text: '#1f2937', questionBg: 'rgba(243, 244, 246, 0.4)' };
+  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af', questionBg: 'rgba(219, 234, 254, 0.8)' };
+  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534', questionBg: 'rgba(220, 252, 231, 0.8)' };
+  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8', questionBg: 'rgba(243, 232, 255, 0.8)' };
+  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412', questionBg: 'rgba(255, 237, 213, 0.8)' };
+  return { bg: '#f3f4f6', text: '#1f2937', questionBg: 'rgba(243, 244, 246, 0.8)' };
 };
 
 
