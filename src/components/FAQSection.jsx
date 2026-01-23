@@ -441,6 +441,7 @@ const FAQSection = ({ lang, data }) => {
                     onClick={() => toggleAccordion(uniqueId)}
                     $isOpen={openId === uniqueId}
                     $isEditMode={isEditMode}
+                    $bgColor={colors.questionBg}
                   >
                     <div className="header-content">
                       {isEditMode ? (
