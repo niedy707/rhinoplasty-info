@@ -409,6 +409,10 @@ export const content = {
               {
                 "title": "<p>26. Burun ne zaman tam olarak iyileşir? Son şekil ne zaman oluşur?</p>",
                 "text": "<p>Burun iyileşme süreci uzun bir zaman gerektirmektedir. Cilt ve doku yapısına göre değişmekle birlikte yaklaşık <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 yıl </strong>süre geçtiğinde burun son şeklini aldı diyebiliriz.</p><p><br></p><p>Ancak ameliyat sonrası yaklaşık 3üncü ayda burundaki iyileşme ve ödemin yaklaşık %80 i geçmiş olur. Burun kabaca şeklini güzel bir şekilde gösterir.</p><p>Ancak cilt kalın ise, ilk 6 ay özellikle burun ucundaki ödem nedeni ile burun görüntüsünü tam olarak beğenmeyeceksiniz. 6ıncı aydan sonra güzel gözükmeye, 1inci yıl sonrası ise istenen formda gözükmeye başlayacak.</p><p><br></p><p><strong>Tam sonucu görmek için yaklaşık 2 yıl süre geçmesi gerekecektir.</strong></p>"
+              },
+              {
+                "title": "<p>27. Nostril retainer ürünü nasıl temizleyebilirim?</p>",
+                "text": "<p>Temizlemek için özel bir malzemeye ihtiyacınız yoktur. Çoğu zaman sadece su ile yıkamanız ve kurulamanız yeterlidir.</p><p>Ancak çok kirli ise ya da günde 1 sefer sabun ile güzelce yıkadıktan sonra temiz bir kağıt havlu ile kurulayarak kullanmaya devam edebilirsiniz.</p><p><br></p><p>Rutin kullanım için 1 adet nostril retainer yeterlidir. Ancak kaybolma ya da unutma olasılığı için isterseniz aynı marka ve numara üründen yedek olarak temin edebilirsiniz.</p>"
               }
             ]
           },
