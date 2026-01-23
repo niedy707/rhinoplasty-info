@@ -8,6 +8,7 @@ import PrescriptionGenerator from './components/PrescriptionGenerator';
 import EditableContentSection from './components/EditableContentSection';
 import { AdminProvider } from './context/AdminContext';
 import EditButton from './components/EditButton';
+import LanguagePopup from './components/LanguagePopup';
 
 const MobileNavigation = ({ handlePrevTab, handleNextTab, currentContent, activeTabId, setActiveTabId }) => (
   <div className="mobile-tab-select">
@@ -135,6 +136,23 @@ function AppContent() {
     };
   }, []);
 
+  const [showLanguagePopup, setShowLanguagePopup] = useState(false);
+
+  useEffect(() => {
+    let timer;
+    if (activeTabId === 'tab8') {
+      setShowLanguagePopup(true);
+      timer = setTimeout(() => {
+        setShowLanguagePopup(false);
+      }, 3000);
+    } else {
+      setShowLanguagePopup(false);
+    }
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [activeTabId]);
+
   // Footer text translations
   const footerTranslations = {
     tr: {
@@ -248,6 +266,9 @@ function AppContent() {
             <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
           </div>
         </div>
+        {showLanguagePopup && (
+          <LanguagePopup onClose={() => setShowLanguagePopup(false)} />
+        )}
       </div>
 
       <header className="app-header">
