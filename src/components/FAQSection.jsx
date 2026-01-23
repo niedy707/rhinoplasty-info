@@ -15,7 +15,7 @@ const CategoryCard = styled.div`
   border-radius: 16px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin-bottom: 24px;
-  overflow: hidden;
+  /* overflow: hidden; Removed to support sticky headers properly */
   border: 2px solid ${props => props.$borderColor || '#f3f4f6'};
 `;
 
@@ -28,9 +28,9 @@ const CategoryHeader = styled.div`
   background-color: ${props => props.$bgColor || '#f3f4f6'};
   color: ${props => props.$textColor || '#1f2937'};
   position: sticky;
-  top: 50px; /* Adjust based on flag bar height */
+  top: 56px; /* Exact height of flag bar to remove gap */
   z-index: 10;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Slight shadow for sticky separation */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 `;
 
 const CategoryIconWrapper = styled.div`
@@ -65,7 +65,7 @@ const AccordionHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background: ${props => props.$bgColor || 'white'};
   border: none;
   cursor: ${props => props.$isEditMode ? 'default' : 'pointer'};
   text-align: left;
@@ -214,6 +214,33 @@ const PDFIcon = () => (
 );
 
 
+const SearchInput = styled.input`
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #374151;
+  background-color: white;
+  transition: all 0.2s;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%239ca3af'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px;
+  padding-left: 45px;
+
+  &:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  }
+
+  &::placeholder {
+    color: #9ca3af;
+  }
+`;
+
 // Helper to render icons based on string name
 const renderCategoryIcon = (iconName) => {
   switch (iconName) {
@@ -230,14 +257,14 @@ const renderCategoryIcon = (iconName) => {
   }
 };
 
-// Helper for colors based on className string (mapping tailwind classes to hex for styled-components if needed, or simple classes)
-// Actually we can just pass the classNames to the component or use style map
+// Helper for colors based on className string
+// Returning RGBA for transparent question backgrounds as requested
 const getColorFromClass = (cls) => {
-  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af' };
-  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534' };
-  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8' };
-  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412' };
-  return { bg: '#f3f4f6', text: '#1f2937' };
+  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af', questionBg: 'rgba(219, 234, 254, 0.5)' };
+  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534', questionBg: 'rgba(220, 252, 231, 0.5)' };
+  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8', questionBg: 'rgba(243, 232, 255, 0.5)' };
+  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412', questionBg: 'rgba(255, 237, 213, 0.5)' };
+  return { bg: '#f3f4f6', text: '#1f2937', questionBg: 'rgba(243, 244, 246, 0.5)' };
 };
 
 
@@ -264,10 +291,36 @@ const FAQSection = ({ lang, data }) => {
   const { isEditMode } = useAdmin();
   const prevEditModeRef = useRef(isEditMode);
 
+  // State for search
+  const [searchQuery, setSearchQuery] = useState('');
+
   // Update groups when data changes
   useEffect(() => {
     setGroups(loadFaqs());
   }, [loadFaqs]);
+
+  // Strip HTML helper
+  const stripHtml = (html) => {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent || "";
+  };
+
+  // Filter groups based on search query
+  const filteredGroups = React.useMemo(() => {
+    if (searchQuery.length < 3) return groups;
+
+    const lowerQuery = searchQuery.toLowerCase();
+
+    return groups.map(group => {
+      const matchingSubsections = (group.subsections || []).filter(sub => {
+        const title = stripHtml(sub.title).toLowerCase();
+        const text = stripHtml(sub.text).toLowerCase();
+        return title.includes(lowerQuery) || text.includes(lowerQuery);
+      });
+
+      return { ...group, subsections: matchingSubsections };
+    }).filter(group => group.subsections.length > 0);
+  }, [groups, searchQuery]);
 
   const saveChanges = React.useCallback(async (silent = false) => {
     const storageKey = `faq_groups_v6_${lang}`;
@@ -348,6 +401,13 @@ const FAQSection = ({ lang, data }) => {
         <CategoryIconWrapper style={{ width: 28, height: 28 }}> <PDFIcon /> </CategoryIconWrapper>
       </PDFButton>
 
+      <SearchInput
+        type="text"
+        placeholder="Soru ya da cevaptaki bir kelime ile arama yapınız..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+      />
+
       {isEditMode && (
         <StickyControls>
           <SaveButton onClick={() => saveChanges(false)}>Save Changes</SaveButton>
@@ -355,7 +415,7 @@ const FAQSection = ({ lang, data }) => {
         </StickyControls>
       )}
 
-      {groups.map((group, gIndex) => {
+      {filteredGroups.map((group, gIndex) => {
         const colors = getColorFromClass(group.headerColor || '');
         return (
           <CategoryCard key={gIndex}>
