@@ -144,7 +144,7 @@ function AppContent() {
       setShowLanguagePopup(true);
       timer = setTimeout(() => {
         setShowLanguagePopup(false);
-      }, 3000);
+      }, 5000);
     } else {
       setShowLanguagePopup(false);
     }
