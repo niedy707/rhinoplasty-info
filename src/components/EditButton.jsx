@@ -20,6 +20,7 @@ const StyledEditButton = styled.button`
   align-items: center;
   z-index: 1000;
   transition: all 0.3s ease;
+  display: none; /* Hidden as per request */
 
   &:hover {
     transform: scale(1.1);

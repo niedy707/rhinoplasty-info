@@ -199,6 +199,7 @@ const PDFButton = styled.a`
   cursor: pointer;
   color: #991b1b; /* Dark red text */
   font-weight: 600;
+  font-size: 0.9rem;
   transition: all 0.2s;
 
   &:hover {
@@ -225,7 +226,7 @@ const SearchInput = styled.input`
   margin-bottom: 24px;
   border: 2px solid #e5e7eb;
   border-radius: 12px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #374151;
   background-color: white;
   transition: all 0.2s;
@@ -276,6 +277,32 @@ const getColorFromClass = (cls) => {
 const FAQSection = ({ lang, data }) => {
   const [openId, setOpenId] = useState(null); // String "groupIndex-questionIndex"
   const itemRefs = useRef({});
+
+  // Scroll to element function
+  const scrollToQuestion = (id) => {
+    setTimeout(() => {
+      const element = document.getElementById(`question-${id}`);
+      if (element) {
+        const headerOffset = 140; // Approx height of flags (56) + sticky header (60) + padding
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    }, 100); // Small delay to allow state update/closing animation start
+  };
+
+  const toggleAccordion = (id) => {
+    if (openId === id) {
+      setOpenId(null);
+    } else {
+      setOpenId(id);
+      scrollToQuestion(id);
+    }
+  };
 
   const loadFaqs = React.useCallback(() => {
     if (!data || !data.content) return [];
@@ -360,11 +387,7 @@ const FAQSection = ({ lang, data }) => {
     prevEditModeRef.current = isEditMode;
   }, [isEditMode, saveChanges]);
 
-  const toggleAccordion = (id) => {
-    if (!isEditMode) {
-      setOpenId(openId === id ? null : id);
-    }
-  };
+
 
   const handleUpdate = (gIndex, qIndex, field, value) => {
     const newGroups = [...groups];
@@ -438,6 +461,7 @@ const FAQSection = ({ lang, data }) => {
               return (
                 <AccordionItem key={qIndex} $isEditMode={isEditMode}>
                   <AccordionHeader
+                    id={`question-${uniqueId}`}
                     onClick={() => toggleAccordion(uniqueId)}
                     $isOpen={openId === uniqueId}
                     $isEditMode={isEditMode}
