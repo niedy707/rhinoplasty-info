@@ -292,7 +292,7 @@ const FAQSection = ({ lang, data }) => {
           behavior: "smooth"
         });
       }
-    }, 100); // Small delay to allow state update/closing animation start
+    }, 350); // Wait for closing animation (300ms) to finish for accurate position
   };
 
   const toggleAccordion = (id) => {
