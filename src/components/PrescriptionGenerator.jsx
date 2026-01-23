@@ -65,11 +65,11 @@ const A4Page = styled.div`
   width: 210mm;
   min-height: 297mm;
   background: white;
-  padding: 10mm 15mm;
+  padding: 5mm 15mm; /* Reduced top/bottom padding from 10mm to 5mm */
   box-shadow: 0 0 15px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
-  font-family: 'Times New Roman', serif; /* Match the document font */
+  font-family: 'Times New Roman', serif;
   position: relative;
   box-sizing: border-box;
   color: #000;
@@ -77,36 +77,25 @@ const A4Page = styled.div`
 
   @media print {
     box-shadow: none;
-    width: 100%;
-    height: 100%; /* Force fill */
+    width: 210mm;
+    height: 297mm;
     margin: 0;
-  }
-  
-  /* Mobile Scale - SCREEN ONLY */
-  @media screen and (max-width: 768px) {
-    transform: scale(0.65);
-    transform-origin: top left;
-    margin-bottom: -40%;
-  }
-
-  /* Force A4 specifics on print */
-  @media print {
-    transform: none !important;
-    width: 210mm !important;
-    height: 297mm !important;
-    margin: 0 auto !important;
-    padding: 10mm 15mm !important; /* Restore padding */
-    overflow: visible !important;
+    padding: 5mm 15mm !important;
+    overflow: hidden; /* Force hide overflow */
   }
 `;
 
+/* ... intermediate code ... */
+
+
+
 const HeaderBox = styled.div`
   border: 2px solid #000;
-  padding: 10px 15px;
+  padding: 8px 10px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-  font-family: Arial, sans-serif; /* Header often sans-serif */
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 10pt;
 `;
@@ -135,33 +124,21 @@ const HeaderRight = styled.div`
   span.label { margin-right: 5px; width: 80px; text-align: right; }
 `;
 
-const DiagnosisSection = styled.div`
-  margin-bottom: 20px;
-  font-size: 10pt;
-  line-height: 1.3;
-  
-  div.title {
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-decoration: underline;
-  }
-`;
-
-// Table Styles
 const DrugTable = styled.table`
   width: 100%;
   border-collapse: collapse;
-  font-size: 10pt;
+  font-size: 8pt;
   
   th {
      text-align: left;
-     padding-bottom: 10px;
+     padding-bottom: 5px;
      border-bottom: 1px solid #000;
      font-weight: bold;
+     font-size: 9pt;
   }
 
   td {
-    padding: 8px 0;
+    padding: 2px 0;
     vertical-align: top;
   }
 
@@ -177,7 +154,7 @@ const NoteArrow = styled.div`
   transform: translateY(-50%);
   width: 150px;
   margin-left: 10px;
-  font-size: 9pt;
+  font-size: 8pt;
   border: 1px solid #000;
   padding: 3px;
   background: white;
@@ -194,14 +171,29 @@ const NoteArrow = styled.div`
   }
 `;
 
+const DiagnosisSection = styled.div`
+  margin-bottom: 10px;
+  font-size: 10pt;
+  line-height: 1.2;
+  
+  div.title {
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-decoration: underline;
+  }
+`;
+
+// ...
+
 const InfoBox = styled.div`
   display: flex;
   align-items: flex-start;
   gap: 5px;
-  margin-top: 10px;
-  font-size: 9pt;
+  margin-top: 4px;
+  font-size: 8pt;
   font-weight: bold;
   color: ${props => props.type === 'danger' ? 'red' : '#333'};
+  line-height: 1.2;
   
   .icon {
     background: #7f8c8d;
@@ -337,10 +329,7 @@ const PrescriptionGenerator = () => {
           <label>Hasta Adı:</label>
           <input className="input-field" style={{ width: '100%', padding: '8px' }} value={patientName} onChange={e => setPatientName(e.target.value)} placeholder="Ad Soyad" />
         </div>
-        <div>
-          <label>TC Kimlik:</label>
-          <input className="input-field" style={{ width: '100%', padding: '8px' }} value={tcNo} onChange={e => setTcNo(e.target.value)} placeholder="11 Haneli TC" />
-        </div>
+
 
         <h4>İlaç Listesi (Sıralama)</h4>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px', maxHeight: '400px', overflowY: 'auto' }}>
@@ -377,80 +366,119 @@ const PrescriptionGenerator = () => {
           {/* Header Box */}
           <HeaderBox>
             <HeaderLeft>
-              <div><span className="label">Adı - Soyadı</span>: <Input value={patientName} onChange={e => setPatientName(e.target.value)} /></div>
-              <div><span className="label">TC Kimlik No</span>: <Input value={tcNo} onChange={e => setTcNo(e.target.value)} /></div>
+
+              {/* Barcode Area: Approx 2cm height */}
+              <div style={{
+                height: '2.2cm',
+                width: '6cm',
+                border: '1px dashed #e0e0e0',
+                borderRadius: '4px',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#ccc',
+                fontSize: '8pt',
+                gap: '2px'
+              }}>
+                <span style={{ fontWeight: 'bold', color: 'black' }}>Hasta Adı Soyadı:</span>
+                <span>(Barkod Alanı)</span>
+              </div>
             </HeaderLeft>
             <HeaderRight>
-              <div><span className="label">Kurum Adı</span>: {DEFAULT_TEMPLATE.paymentType}</div>
-              <div><span className="label">Bölüm Adı</span>: {DEFAULT_TEMPLATE.department}</div>
-              <div><span className="label">Doktor Adı</span>: {DEFAULT_TEMPLATE.doctorName}</div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: '#555', fontStyle: 'italic', fontFamily: "'Segoe UI', 'Helvetica Neue', sans-serif", gap: '1px' }}>
+                <div style={{ fontWeight: 'bold', fontSize: '10pt' }}>Op. Dr. İbrahim YAĞCI</div>
+                <div style={{ fontSize: '9pt' }}>KBB Uzmanı</div>
+                <div style={{ fontSize: '8pt' }}>Dip No: 162657</div>
+              </div>
             </HeaderRight>
           </HeaderBox>
 
-          {/* Diagnosis */}
           <DiagnosisSection>
             <div className="title">Tanı :</div>
             {DEFAULT_TEMPLATE.diagnosis.map((d, i) => <div key={i}>{d}</div>)}
           </DiagnosisSection>
+
+          {/* Divider */}
+          <div style={{ height: '1px', background: '#000', margin: '0 0 10px 0' }}></div>
 
           {/* DRUG TABLE */}
           <DrugTable>
             <thead>
               <tr>
                 <th style={{ width: '40%' }}>İlaç</th>
-                <th style={{ width: '5%' }}>Kutu</th>
-                <th style={{ width: '20%' }}>Kullanım Şekli</th>
-                <th style={{ textAlign: 'center', width: '15%' }}>Günlük<br />Kullanım</th>
-                <th style={{ textAlign: 'center', width: '15%' }}>1 Defada<br />Alınacak</th>
+                <th style={{ width: '10%' }}>Kutu</th>
+                <th style={{ textAlign: 'center', width: '30%' }}>İlaçların kullanım şekli</th>
+                <th style={{ textAlign: 'center', width: '20%' }}>Kullanım Süresi</th>
               </tr>
             </thead>
             <tbody>
-              {activeDrugs.map((drug, index) => (
-                <tr key={drug.id} className="drug-row" style={{ position: 'relative' }}>
-                  <td style={{ paddingRight: '10px' }}>
-                    <div style={{ fontWeight: 'bold' }}>{index + 1}- {drug.name}</div>
-                    {drug.subNote && <div style={{ color: 'red', fontSize: '9pt', fontStyle: 'italic' }}>{drug.subNote}</div>}
-                    {drug.isSubItem && <div style={{ paddingLeft: '15px', fontSize: '9pt', fontStyle: 'italic' }}>{drug.note}</div>}
-                  </td>
-                  <td>{drug.boxCount}</td>
-                  <td>
-                    {drug.method}
-                    {/* Some drugs imply duration in method column in generic templates but here it is specific */}
-                  </td>
-                  <td style={{ textAlign: 'center' }}>{drug.dailyAmount}</td>
-                  <td style={{ textAlign: 'center', position: 'relative' }}>
-                    {drug.dose}
-                    {/* Arrow Note Logic */}
-                    {!drug.isSubItem && !drug.isExtra && drug.note && (
-                      <ArrowNote text={drug.note} />
-                    )}
-                  </td>
-                </tr>
-              ))}
+              {activeDrugs.map((drug, index) => {
+                // Group Styling Logic
+                const group1 = ['drug_2', 'drug_cipro']; // Antibiotics
+                const group2 = ['drug_5', 'drug_6', 'drug_7']; // Sprays
+
+                let rowBg = 'transparent';
+                let borderColor = 'transparent';
+
+                if (group1.includes(drug.id)) {
+                  rowBg = 'rgba(236, 253, 245, 1)'; // Emerald-50
+                  borderColor = '#059669'; // Emerald-600
+                } else if (group2.includes(drug.id)) {
+                  rowBg = 'rgba(239, 246, 255, 1)'; // Blue-50
+                  borderColor = '#2563eb'; // Blue-600
+                }
+
+                return (
+                  <tr key={drug.id} className="drug-row" style={{ backgroundColor: rowBg }}>
+                    <td style={{
+                      paddingRight: '10px',
+                      paddingLeft: '5px',
+                      borderLeft: `5px solid ${borderColor !== 'transparent' ? borderColor : 'transparent'}`
+                    }}>
+                      <div style={{ fontWeight: 'bold' }}>{index + 1}- {drug.name}</div>
+                      {/* Notes now appear directly under the drug name */}
+                      {!drug.isSubItem && !drug.isExtra && drug.note && (
+                        <div style={{ fontSize: '8pt', fontStyle: 'italic', marginTop: '2px', color: '#444' }}>
+                          {drug.note}
+                        </div>
+                      )}
+                      {drug.subNote && <div style={{ color: 'red', fontSize: '8pt', fontStyle: 'italic' }}>{drug.subNote}</div>}
+                      {drug.isSubItem && <div style={{ paddingLeft: '15px', fontSize: '8pt', fontStyle: 'italic' }}>{drug.note}</div>}
+                    </td>
+                    <td style={{ fontSize: '8pt', textAlign: 'center' }}>
+                      {drug.boxCount == 1 ? 'DI(Bir)B' : drug.boxCount}
+                    </td>
+                    <td style={{ textAlign: 'center', fontWeight: 'bold' }}>
+                      {/* If dailyAmount is present, likely regular format. If method is specific (like S:5x2), use method directly?
+                          Wait, checking my data update: I cleared dailyAmount for sprays and put usage in method 'S:5x2'.
+                          For pills, I used dailyAmount '3' and dose '1'.
+                          So logic needs to handle both.
+                      */}
+                      {drug.dailyAmount && drug.dose
+                        ? `${drug.dailyAmount} x ${drug.dose}`
+                        : drug.method.replace('S:', '') /* Cleanup S: prefix if present in method */
+                      }
+                    </td>
+                    <td style={{ textAlign: 'center', fontWeight: 'bold' }}>
+                      {drug.duration}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </DrugTable>
 
-          <div style={{ marginTop: '10px', fontWeight: 'bold', fontSize: '10pt' }}>Açıklamalar :</div>
 
-          {/* Extra items like Enfla-C which are listed separately in the visual */}
-          {activeDrugs.filter(d => d.isExtra).map(drug => (
-            <div key={drug.id} style={{ marginTop: '15px', display: 'flex', fontSize: '10pt', fontWeight: 'bold' }}>
-              <div style={{ width: '100px' }}>8- (Ek):</div>
-              <div style={{ flex: 1 }}>
-                {drug.name} <span style={{ marginLeft: '50px' }}>DIB. {drug.method}</span>
-                <div style={{ fontWeight: 'normal', fontSize: '9pt', marginTop: '2px' }}>{drug.note}</div>
-              </div>
-            </div>
-          ))}
 
-          <div style={{ display: 'flex', marginTop: '30px' }}>
+          <div style={{ display: 'flex', marginTop: '10px' }}>
             <div style={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ fontSize: '12pt', color: '#eaeaea', fontWeight: 'bold' }}>Doktor</div>
-              <div style={{ fontSize: '16pt', color: '#eaeaea', fontWeight: 'bold', borderTop: '1px solid #eee', marginTop: '5px', padding: '10px' }}>Kaşe -İmza</div>
+              <div style={{ fontSize: '10pt', color: '#eaeaea', fontWeight: 'bold' }}>Doktor</div>
+              <div style={{ fontSize: '14pt', color: '#eaeaea', fontWeight: 'bold', borderTop: '1px solid #eee', marginTop: '2px', padding: '5px' }}>Kaşe -İmza</div>
             </div>
           </div>
 
-          <div style={{ marginTop: 'auto' }}>
+          <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '2px' }}>
             {DEFAULT_TEMPLATE.footerNotes.map((note, i) => (
               <InfoBox key={i} type={note.type}>
                 <div className="icon">i</div>
@@ -459,7 +487,7 @@ const PrescriptionGenerator = () => {
             ))}
           </div>
 
-          <div style={{ borderTop: '1px solid #000', marginTop: '15px', paddingTop: '5px', fontSize: '9pt', textAlign: 'center' }}>
+          <div style={{ borderTop: '2px solid #000', marginTop: '10px', paddingTop: '5px', fontSize: '9pt', textAlign: 'center', fontWeight: 'bold' }}>
             Op. Dr. İbrahim YAĞCI | instagram: @dribrahimyagci | Hekim koordinatörü Tel: +90 (551) 199 9963
           </div>
 

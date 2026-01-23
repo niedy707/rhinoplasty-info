@@ -6,19 +6,49 @@ import { useAdmin } from '../context/AdminContext';
 
 const FAQContainer = styled.div`
   margin-top: 1rem;
-  padding: 0.5rem; /* Minimized padding */
-  background: #f8f9fa;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem;
   padding-bottom: ${props => props.$isEditMode ? '80px' : '0.5rem'};
 `;
 
-const SectionTitle = styled.h2`
-  font-size: 1.8rem;
-  color: #2c3e50;
-  margin-bottom: 0.5rem; /* Reduced margin */
-  text-align: center;
+const CategoryCard = styled.div`
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 2px solid ${props => props.$borderColor || '#f3f4f6'};
+`;
+
+const CategoryHeader = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: ${props => props.$bgColor || '#f3f4f6'};
+  color: ${props => props.$textColor || '#1f2937'};
+  position: sticky;
+  top: 50px; /* Adjust based on flag bar height */
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Slight shadow for sticky separation */
+`;
+
+const CategoryIconWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  padding: 6px;
+`;
+
+const CategoryTitle = styled.h2`
+  font-size: 1.25rem;
   font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
 `;
 
 const AccordionItem = styled.div`
@@ -31,11 +61,11 @@ const AccordionItem = styled.div`
 
 const AccordionHeader = styled.div`
   width: 100%;
-  padding: 0.8rem 0.6rem; /* Reduced padding */
+  padding: 1rem 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${props => props.$bgColor || '#e8f5e9'};
+  background: white;
   border: none;
   cursor: ${props => props.$isEditMode ? 'default' : 'pointer'};
   text-align: left;
@@ -45,7 +75,7 @@ const AccordionHeader = styled.div`
   transition: background-color 0.2s ease;
 
   &:hover {
-    filter: brightness(0.95);
+    background-color: #f9fafb;
   }
 
   .header-content {
@@ -53,7 +83,7 @@ const AccordionHeader = styled.div`
     padding-right: 1rem;
   }
 
-  svg {
+  svg.chevron {
     transition: transform 0.3s ease;
     transform: ${props => props.$isOpen ? 'rotate(180deg)' : 'rotate(0deg)'};
     min-width: 20px;
@@ -72,19 +102,16 @@ const AccordionContent = styled.div`
 `;
 
 const AnswerText = styled.div`
-  padding: 1.2rem;
+  padding: 1.25rem;
   margin: 0;
   color: #576574;
   line-height: 1.6;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f3f4f6;
   
-  /* Quill Content Styles */
   p { margin-bottom: 1rem; }
   ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
   strong { font-weight: 600; color: #2c3e50; }
-  em { font-style: italic; }
-  u { text-decoration: underline; }
-  h1, h2, h3 { color: #2c3e50; margin-top: 1rem; margin-bottom: 0.5rem; }
-  
   blockquote {
     border-left: 4px solid #3498db;
     padding: 1rem;
@@ -93,22 +120,11 @@ const AnswerText = styled.div`
     margin: 1rem 0;
     color: #2c3e50;
     font-style: italic;
-    position: relative;
-    
-    &::before {
-      content: '"';
-      font-size: 3rem;
-      color: #bdc3c7;
-      position: absolute;
-      top: -10px;
-      right: 10px;
-      opacity: 0.5;
-    }
   }
 `;
 
 const ChevronIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M5 7.5L10 12.5L15 7.5" stroke="#34495e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
@@ -134,12 +150,6 @@ const StickyControls = styled.div`
   display: flex;
   gap: 1rem;
   z-index: 999;
-  animation: slideUp 0.3s ease;
-
-  @keyframes slideUp {
-    from { transform: translate(-50%, 100%); opacity: 0; }
-    to { transform: translate(-50%, 0); opacity: 1; }
-  }
 `;
 
 const SaveButton = styled.button`
@@ -154,13 +164,8 @@ const SaveButton = styled.button`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
-  transition: all 0.2s;
   
-  &:hover { 
-    background: #2ecc71; 
-    transform: translateY(-2px);
-  }
+  &:hover { background: #2ecc71; }
 `;
 
 const ResetButton = styled.button`
@@ -171,7 +176,6 @@ const ResetButton = styled.button`
   border-radius: 25px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 0.9rem;
   
   &:hover { background: #c0392b; }
 `;
@@ -180,55 +184,22 @@ const PDFButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(to right, #fff5f5, #ffffff);
-  border-radius: 16px;
-  border: 1px solid rgba(231, 76, 60, 0.1);
-  border-left: 4px solid #c0392b;
-  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.08);
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   gap: 12px;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.2s ease;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  color: #374151;
+  font-weight: 500;
+  transition: all 0.2s;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.15);
-    background: linear-gradient(to right, #fff0f0, #fffcfc);
-  }
-`;
-
-const PDFLabel = styled.span`
-  font-size: 1rem;
-  color: #2c3e50;
-  font-weight: 600;
-`;
-
-const IconWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-  background: #fdf2f2;
-  color: #c0392b;
-  border-radius: 50%;
-  border: 1px solid #f8d7da;
-  width: 36px;
-  height: 36px;
-  transition: background-color 0.2s ease;
-
-  ${PDFButton}:hover & {
-    background: #f8d7da;
-  }
-
-  svg {
-    color: #e74c3c;
-    width: 20px;
-    height: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
 `;
 
@@ -242,268 +213,202 @@ const PDFIcon = () => (
   </svg>
 );
 
+
+// Helper to render icons based on string name
+const renderCategoryIcon = (iconName) => {
+  switch (iconName) {
+    case 'info':
+      return <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
+    case 'surgery':
+      return <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>;
+    case 'recovery':
+      return <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>;
+    case 'risk':
+      return <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>;
+    default:
+      return null;
+  }
+};
+
+// Helper for colors based on className string (mapping tailwind classes to hex for styled-components if needed, or simple classes)
+// Actually we can just pass the classNames to the component or use style map
+const getColorFromClass = (cls) => {
+  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af' };
+  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534' };
+  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8' };
+  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412' };
+  return { bg: '#f3f4f6', text: '#1f2937' };
+};
+
+
 const FAQSection = ({ lang, data }) => {
-  const [openIndex, setOpenIndex] = useState(null);
-  const itemRefs = useRef([]);
+  const [openId, setOpenId] = useState(null); // String "groupIndex-questionIndex"
+  const itemRefs = useRef({});
 
   const loadFaqs = React.useCallback(() => {
     if (!data || !data.content) return [];
 
-    const storageKey = `faq_overrides_v5_${lang}`;
-    const savedFaqs = localStorage.getItem(storageKey);
+    // Check for NEW hierarchical override
+    const storageKey = `faq_groups_v6_${lang}`;
+    const savedGroups = localStorage.getItem(storageKey);
 
-    if (savedFaqs) {
-      return JSON.parse(savedFaqs);
-    } else {
-      return data.content.flatMap(item => {
-        if (item.subsections) {
-          return item.subsections.map(sub => ({
-            question: sub.title,
-            answer: sub.text,
-            bgColor: item.bgColor // Preserve bgColor
-          }));
-        }
-        return [];
-      });
+    if (savedGroups) {
+      return JSON.parse(savedGroups);
     }
+
+    // Fallback to data content (should be grouped now)
+    return data.content;
   }, [data, lang]);
 
-  const [faqs, setFaqs] = useState(loadFaqs);
+  const [groups, setGroups] = useState(loadFaqs);
   const { isEditMode } = useAdmin();
   const prevEditModeRef = useRef(isEditMode);
 
-  const saveChanges = React.useCallback(async (silent = false) => {
-    const storageKey = `faq_overrides_v5_${lang}`;
-    localStorage.setItem(storageKey, JSON.stringify(faqs));
+  // Update groups when data changes
+  useEffect(() => {
+    setGroups(loadFaqs());
+  }, [loadFaqs]);
 
+  const saveChanges = React.useCallback(async (silent = false) => {
+    const storageKey = `faq_groups_v6_${lang}`;
+    localStorage.setItem(storageKey, JSON.stringify(groups));
+
+    // Also try to save to server
     try {
       const { content } = await import('../data/content');
       const fullContent = { ...content };
-
       const tabIndex = fullContent[lang].tabs.findIndex(t => t.id === 'tab8');
 
       if (tabIndex !== -1) {
-        const newContentStructure = [];
-        let currentGroup = null;
+        fullContent[lang].tabs[tabIndex].content = groups;
 
-        faqs.forEach(faq => {
-          // Check if we need to start a new group
-          // We start a new group if:
-          // 1. There is no current group
-          // 2. The current group's bgColor is different from the current faq's bgColor
-          if (!currentGroup || currentGroup.bgColor !== faq.bgColor) {
-            currentGroup = {
-              bgColor: faq.bgColor,
-              subsections: []
-            };
-            newContentStructure.push(currentGroup);
-          }
-
-          currentGroup.subsections.push({
-            title: faq.question,
-            text: faq.answer
-          });
-        });
-
-        fullContent[lang].tabs[tabIndex].content = newContentStructure;
-
-        const response = await fetch('/api/save', {
+        await fetch('/api/save', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
           body: JSON.stringify({ content: fullContent }),
+          headers: { 'Content-Type': 'application/json' }
         });
-
-        if (response.ok) {
-          if (!silent) alert('Changes saved to server!');
-        } else {
-          console.error('Failed to save to server');
-          if (!silent) alert('Failed to save to server (local storage updated)');
-        }
+        if (!silent) alert('Changes saved to server!');
       }
-
-    } catch (error) {
-      console.error('Error saving to server:', error);
-      if (!silent) alert('Error saving to server (local storage updated)');
+    } catch (e) {
+      console.error(e);
+      if (!silent) alert('Saved locally only.');
     }
+  }, [groups, lang]);
 
-    if (!silent && !window.confirm) {
-      // alert('Changes saved locally!'); // Already handled above
-    }
-  }, [faqs, lang]);
-
-  // Load data when lang or data changes
-  useEffect(() => {
-    setFaqs(loadFaqs());
-  }, [loadFaqs]);
-
-  // Auto-save when exiting edit mode
   useEffect(() => {
     if (prevEditModeRef.current && !isEditMode) {
-      // User just exited edit mode
-      saveChanges(true); // Silent save
+      saveChanges(true);
     }
     prevEditModeRef.current = isEditMode;
-  }, [isEditMode, faqs, saveChanges]);
+  }, [isEditMode, saveChanges]);
 
-  // Scroll active item into view
-  useEffect(() => {
-    if (openIndex !== null && itemRefs.current[openIndex]) {
-      // Small delay to allow for state update and potential layout shift
-      setTimeout(() => {
-        itemRefs.current[openIndex].scrollIntoView({
-          behavior: 'smooth',
-          block: 'center',
-          inline: 'nearest'
-        });
-      }, 350);
-    }
-  }, [openIndex]);
-
-  const toggleAccordion = (index) => {
+  const toggleAccordion = (id) => {
     if (!isEditMode) {
-      setOpenIndex(openIndex === index ? null : index);
+      setOpenId(openId === id ? null : id);
     }
   };
 
-  const handleUpdate = (index, field, value) => {
-    const newFaqs = [...faqs];
-    newFaqs[index] = { ...newFaqs[index], [field]: value };
-    setFaqs(newFaqs);
+  const handleUpdate = (gIndex, qIndex, field, value) => {
+    const newGroups = [...groups];
+    if (newGroups[gIndex] && newGroups[gIndex].subsections && newGroups[gIndex].subsections[qIndex]) {
+      // Map 'question' -> 'title', 'answer' -> 'text' if needed, or stick to title/text
+      // The data uses title/text. The existing code might use question/answer.
+      // Let's stick to title/text which is consistent with content.js
+      if (field === 'question') newGroups[gIndex].subsections[qIndex].title = value;
+      if (field === 'answer') newGroups[gIndex].subsections[qIndex].text = value;
+      setGroups(newGroups);
+    }
   };
 
   const resetToDefault = () => {
-    if (window.confirm('Are you sure you want to reset all changes for this language?')) {
-      const storageKey = `faq_overrides_v5_${lang}`;
-      localStorage.removeItem(storageKey);
-      const initialFaqs = data.content.flatMap(item => {
-        if (item.subsections) {
-          return item.subsections.map(sub => ({
-            question: sub.title,
-            answer: sub.text
-          }));
-        }
-        return [];
-      });
-      setFaqs(initialFaqs);
+    if (window.confirm('Reset all FAQ changes?')) {
+      localStorage.removeItem(`faq_groups_v6_${lang}`);
+      setGroups(data.content);
     }
   };
 
-  // Helper to determine if content is HTML (from Quill) or plain text
   const renderContent = (content) => {
     if (!content) return null;
     const isHtml = /<[a-z][\s\S]*>/i.test(content);
-
-    if (isHtml) {
-      return <AnswerText dangerouslySetInnerHTML={{ __html: content }} />;
-    } else {
-      return <AnswerText dangerouslySetInnerHTML={{ __html: content.replace(/\n/g, '<br/>') }} />;
-    }
+    return <AnswerText dangerouslySetInnerHTML={{ __html: isHtml ? content : content.replace(/\n/g, '<br/>') }} />;
   };
 
-  if (!faqs.length) return null;
-
-  const modules = {
-    toolbar: [
-      [{ 'header': [1, 2, false] }],
-      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-      [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
-      ['link', 'image'],
-      ['clean'],
-      [{ 'color': [] }, { 'background': [] }]
-    ],
-  };
-
-  const pdfLabels = {
-    tr: "Hasta bilgilendirme broşürü (Türkçe) için :",
-    en: "For patient information brochure (Turkish):",
-    de: "Für die Patienteninformationsbroschüre (Türkisch):",
-    es: "Para el folleto de información al paciente (Turco):",
-    ru: "Для брошюры с информацией для пациентов (Турецкий):",
-    fr: "Pour la brochure d'information des patients (Turc) :",
-    it: "Per l'opuscolo informativo per il paziente (Turco):",
-    ro: "Pentru broșura de informare a pacientului (Turcă):",
-    hu: "A páciens tájékoztató füzethez (Török):",
-    pl: "W celu uzyskania broszury informacyjnej dla pacjenta (Język turecki):",
-    md: "Pentru broșura de informare a pacientului (Turcă):"
-  };
+  if (!groups || !groups.length) return null;
 
   const pdfUrl = "https://www.ibrahimyagci.com/_files/ugd/bc99bb_d1ac4338b4f74882bb5a73997dd2a957.pdf";
+  const pdfLabels = {
+    tr: "Hasta bilgilendirme broşürü (Türkçe) için :",
+    en: "For patient information brochure (Turkish):"
+  };
 
   return (
     <FAQContainer $isEditMode={isEditMode}>
-      <PDFButton href={pdfUrl} target="_blank" rel="noopener noreferrer">
-        <PDFLabel>{pdfLabels[lang] || pdfLabels.en}</PDFLabel>
-        <IconWrapper>
-          <PDFIcon />
-        </IconWrapper>
+      <PDFButton href={pdfUrl} target="_blank">
+        <span>{pdfLabels[lang] || pdfLabels.en}</span>
+        <CategoryIconWrapper style={{ width: 28, height: 28 }}> <PDFIcon /> </CategoryIconWrapper>
       </PDFButton>
-
-      <SectionTitle>{data.title}</SectionTitle>
 
       {isEditMode && (
         <StickyControls>
-          <SaveButton onClick={() => saveChanges(false)}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-              <polyline points="17 21 17 13 7 13 7 21"></polyline>
-              <polyline points="7 3 7 8 15 8"></polyline>
-            </svg>
-            Save Changes
-          </SaveButton>
+          <SaveButton onClick={() => saveChanges(false)}>Save Changes</SaveButton>
           <ResetButton onClick={resetToDefault}>Reset</ResetButton>
         </StickyControls>
       )}
 
-      {faqs.map((faq, index) => (
-        <AccordionItem
-          key={index}
-          $isEditMode={isEditMode}
-          ref={el => itemRefs.current[index] = el}
-        >
-          <AccordionHeader
-            onClick={() => toggleAccordion(index)}
-            $isOpen={openIndex === index}
-            $isEditMode={isEditMode}
-            $bgColor={faq.bgColor}
-          >
-            <div className="header-content">
-              {isEditMode ? (
-                <div>
-                  <EditLabel>Question</EditLabel>
-                  <ReactQuill
-                    theme="snow"
-                    value={faq.question}
-                    onChange={(val) => handleUpdate(index, 'question', val)}
-                    modules={{ toolbar: false }}
-                    style={{ marginBottom: '1rem' }}
-                  />
-                </div>
-              ) : (
-                <span dangerouslySetInnerHTML={{ __html: faq.question }} />
-              )}
-            </div>
-            <ChevronIcon />
-          </AccordionHeader>
+      {groups.map((group, gIndex) => {
+        const colors = getColorFromClass(group.headerColor || '');
+        return (
+          <CategoryCard key={gIndex}>
+            {/* Category Header */}
+            <CategoryHeader $bgColor={colors.bg} $textColor={colors.text}>
+              <CategoryIconWrapper>
+                {renderCategoryIcon(group.icon)}
+              </CategoryIconWrapper>
+              <CategoryTitle>{group.title}</CategoryTitle>
+            </CategoryHeader>
 
-          <AccordionContent $isOpen={openIndex === index} $isEditMode={isEditMode}>
-            {isEditMode ? (
-              <div>
-                <EditLabel>Answer</EditLabel>
-                <ReactQuill
-                  theme="snow"
-                  value={faq.answer}
-                  onChange={(val) => handleUpdate(index, 'answer', val)}
-                  modules={modules}
-                />
-              </div>
-            ) : (
-              renderContent(faq.answer)
-            )}
-          </AccordionContent>
-        </AccordionItem>
-      ))}
+            {/* Subsections (Questions) */}
+            {group.subsections && group.subsections.map((item, qIndex) => {
+              const uniqueId = `${gIndex}-${qIndex}`;
+              return (
+                <AccordionItem key={qIndex} $isEditMode={isEditMode}>
+                  <AccordionHeader
+                    onClick={() => toggleAccordion(uniqueId)}
+                    $isOpen={openId === uniqueId}
+                    $isEditMode={isEditMode}
+                  >
+                    <div className="header-content">
+                      {isEditMode ? (
+                        <ReactQuill
+                          theme="snow"
+                          value={item.title}
+                          onChange={(val) => handleUpdate(gIndex, qIndex, 'question', val)}
+                          modules={{ toolbar: false }}
+                        />
+                      ) : (
+                        <span dangerouslySetInnerHTML={{ __html: item.title }} />
+                      )}
+                    </div>
+                    <ChevronIcon />
+                  </AccordionHeader>
+
+                  <AccordionContent $isOpen={openId === uniqueId} $isEditMode={isEditMode}>
+                    {isEditMode ? (
+                      <ReactQuill
+                        theme="snow"
+                        value={item.text}
+                        onChange={(val) => handleUpdate(gIndex, qIndex, 'answer', val)}
+                      />
+                    ) : (
+                      renderContent(item.text)
+                    )}
+                  </AccordionContent>
+                </AccordionItem>
+              );
+            })}
+          </CategoryCard>
+        );
+      })}
     </FAQContainer>
   );
 };

@@ -226,7 +226,11 @@ export const content = {
         "title": "8. Sıkça Sorulan Sorular",
         "content": [
           {
-            "bgColor": "#fffde7",
+            "title": "Genel Bilgiler",
+            "icon": "info",
+            "headerColor": "bg-blue-100 text-blue-800",
+            "bgColor": "#fff",
+            "id": "group-general",
             "subsections": [
               {
                 "title": "<p>1. Burun Estetiği (Rinoplasti) Nedir?</p>",
@@ -249,166 +253,178 @@ export const content = {
                 "text": "<p>Sadece rinoplasti ameliyatı için değil, <strong style=\"background-color: rgb(255, 255, 0);\"><u>hiç bir ameliyat için size sonuç garantisi verilemez.</u></strong></p><p><br></p><p>Ameliyatta yapılan müdahale kadar ameliyat sonrasındaki iyileşme süreci de oldukça önemlidir. İyileşme sürecinde yaşanabilecek, farkedilen ya da  farkedilemeyen, engellenebilecek ya da engellenemeyecek bazı sorunlar iyileşme sürecinde olumsuz bir durum ortaya çıkartabilir ve burun istenen sonuca ulaşamayabilir.</p><p><strong style=\"background-color: rgb(235, 214, 255);\">Yaklaşık %5 ihtimalle ameliyat sonrasında revizyon cerrahi gerektirebilecek bir durum oluşabilir.</strong></p><p>Size garanti verebileceğimiz tek şey, ameliyat sürecinde hekim ve ekibi olarak sizin için en iyisini sağlayabilmek için maksimum gayretin sarfedileceğidir.</p><p><br></p><blockquote>Olumsuz senaryoları sizi üzmek ya da ameliyat kararından vazgeçmeniz için değil, bir gerçeklik olduğu için size mutlaka anlatıyoruz.</blockquote>"
               },
               {
-                "title": "<p>6. Alkol ve sigara ile ilgili önerileriniz nedir?</p>",
-                "text": "<p>Ameliyat öncesinde <strong>sigara, MUTLAKA, TAMAMEN, bırakılmalıdır</strong>. ( minimum 1 hafta öncesinde)</p><p><br></p><p>Sigara dumanı yara iyileşmesinde gecikmeye neden olan EN ÖNEMLİ faktördür.</p><p><strong><u>Yara iyileşmesindeki gecikme: </u></strong>burnun gerek fonksiyon gerek görüntü olarak kötü bir sonuca ulaşmasına neden olur.</p><p>İyileşme gecikmesi nedeni ile burunda enfeksiyon riski artar, dikişlerde açılma, burunda artmış ödem ve gecikmiş iyileşme ile ilişkili istenen sonucun beklenenden farklı ve kötü şekilde sonuçlanma riski oluşur.</p><p><br></p><blockquote>Ameliyat sonrası sigara tüketmeye devam eden hasta oluşabilecek bu tarz problemlerle ilgili sorumluluğu kabul etmiş varsayılır.</blockquote><p><br></p><p><strong>Alkol</strong> ise kesin <strong>yasak değildir</strong>, ancak ameliyat sonrası ödemin artması için bir nedendir.</p><p>Ayrıca burun üstü düşme ya da benzeri bir yaralanmadan sakınmak için sarhoş olmamanız önemlidir.</p>"
-              },
-              {
-                "title": "<p>7. Hangi durumlarda ameliyatım iptal olabilir/ ertelenebilir?</p>",
-                "text": "<p>Ameliyat öncesi yaptığımız görüşmelerde rinoplasti ameliyatı ile ilgili detayların size anlatılması sonrasında karşılıklı onaylar doğrulanarak ameliyat planlaması yapılmış olsa da, ameliyat öncesi bazı durumlarda <strong><u>ameliyatınız ERTELENEBİLİR ya da İPTAL EDİLEBİLİR.</u></strong></p><p><br></p><p><span style=\"background-color: rgb(250, 204, 204);\">Bu durum aşağıdaki nedenlerle gerçekleşebilir:</span></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat günü ya da hemen öncesinde bir </span><strong style=\"background-color: rgb(250, 204, 204);\">solunum yolu enfeksiyonu</strong><span style=\"background-color: rgb(250, 204, 204);\">nuz var ise.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat öncesinde sigarayı bırakamamış iseniz.</span><blockquote class=\"ql-indent-1\"><em>(Ameliyat sonucu iyileşmeyi kötü etkileyeceğinden dolayı sigara kullanımını bırakamamış hasta ameliyat olmamalıdır.) Bu bilgiyi bizden saklarsanız ortaya çıkacak zararı baştan kabullenmişsiniz demektir.)</em></blockquote></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat öncesi yapılan tetkiklerde ameliyata engel olabilecek bir kan sonucu varsa.</span><blockquote class=\"ql-indent-1\"><em>Kan testinde Hemoglobin (HB, Hgb), Trombosit (Plt), aPTT ve INR testleri normal sınırlarda olmalıdır.</em></blockquote><blockquote class=\"ql-indent-1\"><em>Hemoglobin değerinin düşük olması, dokuların oksijenlenmesini bozarak iyileşme sorunu ve kötü sonuca neden olabilmektedir. Sigara kullanımı ile benzer riskler oluşturur. Normal sınırlarda değil ise de hb&gt;10 olmalı ve hasta ameliyat sonrası anemi için gerekli tedaviyi almalıdır.</em></blockquote></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Tanısı yeni koyulmuş /koyulacak bir bulaşıcı hastalığınız varsa (Hepatit, HIV)</span><blockquote class=\"ql-indent-1\"><span style=\"background-color: rgb(250, 204, 204);\">Bu durumda öncelikle bu hastalıkların tedavisi ve bu açıdan değerlendirilmeniz gerekecektir.</span></blockquote></li></ol><p><br></p><p>İsteyen hastalar ameliyatın ertelenme/ iptal olma riskini almak istemiyorlarsa, ameliyat öncesi istedikleri herhangi bir hastanede şu testleri yaptırabilirler:</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Hemogram, INR, aPTT, Anti-HIV, Anti-HCV, HbsAg</strong></p><p><br></p><p>Tiroid ile ilgili bir hastalığınız varsa, bu nedenle takip ediliyorsanız mutlaka ameliyat öncesi <strong style=\"background-color: rgb(255, 255, 0);\">TSH değerinizin normal aralıkta olduğunu kontrol ettiriniz.</strong></p>"
-              },
-              {
-                "title": "<p>8. Burnuma dolgu yaptırmıştım. Rinoplasti ameliyatına engel mi?</p>",
+                "title": "<p>6. Burnuma dolgu yaptırmıştım. Rinoplasti ameliyatına engel mi?</p>",
                 "text": "<p><strong style=\"background-color: rgb(204, 232, 204);\">Burun dolgusu olan hastalar da ameliyat edilebilir.</strong></p><blockquote>Ancak bu ameliyatın öncesinde mutlaka dolgunun tüm etkisinin geçmiş olması gerekmektedir.</blockquote><blockquote>Aksi takdirde ameliyatta uygulanan işlemler dolgunun yok olması sonrasında istenmeyen sonuçlara yol açabilir.</blockquote><p>Bu nedenle, eğer <u><strong>dolgu sonrası ilk 1 yıllık dönemde</strong></u> ameliyat yapılacak ise, ya da daha çok süre geçti ancak <u><strong>hala dolgu etkisi devam ediyor ise</strong></u>, <strong style=\"background-color: rgb(255, 255, 0);\">ameliyat öncesinde mutlaka dolgu eritme işlemi yapmak gerekmektedir.</strong></p><p>Bu işlem, <strong style=\"background-color: rgb(0, 255, 0); color: white; padding: 0 4px;\">hyaluronidaz</strong> isimli bir ilaç ile sağlanmaktadır.</p>"
               },
               {
-                "title": "<p>9. Ultrasonik rinoplasti yaptırmak istiyorum. Siz yapıyor musunuz?</p>",
+                "title": "<p>7. Ultrasonik rinoplasti yaptırmak istiyorum. Siz yapıyor musunuz?</p>",
                 "text": "<p>Rinoplasti ameliyatında kullandığımız tüm ekipmanlar son teknoloji ürünü olan cihazlardır.</p><p>Hastalar tarafından <strong>ultrasonik rinoplasti</strong> olarak isimlendirilen cihaz <strong style=\"background-color: rgb(255, 255, 0);\">piezo</strong> ismindeki cihazdır, ve <u style=\"color: rgb(102, 102, 102);\">ameliyatlarımızda rutin olarak bu cihazı kullanmaktayız.</u></p><p>Bazı hastalarda yine de eski teknik kemik müdahaleleri daha uygun olduğundan bazen piezo cihazı hazırda olsa da eski teknik ekipmanları kullanmak gerekebilmektedir.</p><blockquote>Piezo her dokunduğu burnu mükemmelleştiren mucizevi bir alet değildir. Ameliyatın bir kısmında kullandığımız, çok işe yarayan ve ameliyat sonrası morluk / ödemin daha az olmasını belirgin şekilde etkileyen bir alettir.</blockquote><p><br></p><p>Bu arada bu cihaz, sadece benim kullandığım bir ekipman değildir. <u><em>Günümüzde rinoplasti yapan bir çok cerrah bu aleti kullanarak ameliyat yapmaktadır.</em></u></p>"
               },
               {
-                "title": "<p>10. Ameliyat günü için dikkate edilmesi gereken şeyler nelerdir?</p>",
+                "title": "<p>8. Burunda dolgu varken ameliyat yapılabilir mi?</p>",
+                "text": "<p>Burun dolgusu ameliyat sırasında ve iyileşme döneminde olumsuz bazı sonuçlar ortaya çıkartabilir.</p><p>En önemli sorun, burunda dolgu var iken yapılan şekillendirmelerin, burundaki dolgunun erimesi ve kaybolması sonrasında burun şeklinin istenmeyen bir sonuca dönüşmesidir.</p><p>Bunun olmaması için, ya ameliyat başlamadan dolgu eritilmelidir, ya da dolgunun hiç etkisi kalmayana kadar (1,5-2 yıl) beklenmelidir.</p><p>Dolgu eritme işlemi zor olmayan bir müdahaledir. Ancak ek maliyet oluşturur.</p><p>Detaylar için hekiminize danışınız.</p>"
+              }
+            ]
+          },
+          {
+            "title": "Ameliyat Öncesi ve Süreci",
+            "icon": "surgery",
+            "headerColor": "bg-green-100 text-green-800",
+            "bgColor": "#fff",
+            "id": "group-process",
+            "subsections": [
+              {
+                "title": "<p>1. Alkol ve sigara ile ilgili önerileriniz nedir?</p>",
+                "text": "<p>Ameliyat öncesinde <strong>sigara, MUTLAKA, TAMAMEN, bırakılmalıdır</strong>. ( minimum 1 hafta öncesinde)</p><p><br></p><p>Sigara dumanı yara iyileşmesinde gecikmeye neden olan EN ÖNEMLİ faktördür.</p><p><strong><u>Yara iyileşmesindeki gecikme: </u></strong>burnun gerek fonksiyon gerek görüntü olarak kötü bir sonuca ulaşmasına neden olur.</p><p>İyileşme gecikmesi nedeni ile burunda enfeksiyon riski artar, dikişlerde açılma, burunda artmış ödem ve gecikmiş iyileşme ile ilişkili istenen sonucun beklenenden farklı ve kötü şekilde sonuçlanma riski oluşur.</p><p><br></p><blockquote>Ameliyat sonrası sigara tüketmeye devam eden hasta oluşabilecek bu tarz problemlerle ilgili sorumluluğu kabul etmiş varsayılır.</blockquote><p><br></p><p><strong>Alkol</strong> ise kesin <strong>yasak değildir</strong>, ancak ameliyat sonrası ödemin artması için bir nedendir.</p><p>Ayrıca burun üstü düşme ya da benzeri bir yaralanmadan sakınmak için sarhoş olmamanız önemlidir.</p>"
+              },
+              {
+                "title": "<p>2. Hangi durumlarda ameliyatım iptal olabilir/ ertelenebilir?</p>",
+                "text": "<p>Ameliyat öncesi yaptığımız görüşmelerde rinoplasti ameliyatı ile ilgili detayların size anlatılması sonrasında karşılıklı onaylar doğrulanarak ameliyat planlaması yapılmış olsa da, ameliyat öncesi bazı durumlarda <strong><u>ameliyatınız ERTELENEBİLİR ya da İPTAL EDİLEBİLİR.</u></strong></p><p><br></p><p><span style=\"background-color: rgb(250, 204, 204);\">Bu durum aşağıdaki nedenlerle gerçekleşebilir:</span></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat günü ya da hemen öncesinde bir </span><strong style=\"background-color: rgb(250, 204, 204);\">solunum yolu enfeksiyonu</strong><span style=\"background-color: rgb(250, 204, 204);\">nuz var ise.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat öncesinde sigarayı bırakamamış iseniz.</span><blockquote class=\"ql-indent-1\"><em>(Ameliyat sonucu iyileşmeyi kötü etkileyeceğinden dolayı sigara kullanımını bırakamamış hasta ameliyat olmamalıdır.) Bu bilgiyi bizden saklarsanız ortaya çıkacak zararı baştan kabullenmişsiniz demektir.)</em></blockquote></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Ameliyat öncesi yapılan tetkiklerde ameliyata engel olabilecek bir kan sonucu varsa.</span><blockquote class=\"ql-indent-1\"><em>Kan testinde Hemoglobin (HB, Hgb), Trombosit (Plt), aPTT ve INR testleri normal sınırlarda olmalıdır.</em></blockquote><blockquote class=\"ql-indent-1\"><em>Hemoglobin değerinin düşük olması, dokuların oksijenlenmesini bozarak iyileşme sorunu ve kötü sonuca neden olabilmektedir. Sigara kullanımı ile benzer riskler oluşturur. Normal sınırlarda değil ise de hb&gt;10 olmalı ve hasta ameliyat sonrası anemi için gerekli tedaviyi almalıdır.</em></blockquote></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Tanısı yeni koyulmuş /koyulacak bir bulaşıcı hastalığınız varsa (Hepatit, HIV)</span><blockquote class=\"ql-indent-1\"><span style=\"background-color: rgb(250, 204, 204);\">Bu durumda öncelikle bu hastalıkların tedavisi ve bu açıdan değerlendirilmeniz gerekecektir.</span></blockquote></li></ol><p><br></p><p>İsteyen hastalar ameliyatın ertelenme/ iptal olma riskini almak istemiyorlarsa, ameliyat öncesi istedikleri herhangi bir hastanede şu testleri yaptırabilirler:</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Hemogram, INR, aPTT, Anti-HIV, Anti-HCV, HbsAg</strong></p><p><br></p><p>Tiroid ile ilgili bir hastalığınız varsa, bu nedenle takip ediliyorsanız mutlaka ameliyat öncesi <strong style=\"background-color: rgb(255, 255, 0);\">TSH değerinizin normal aralıkta olduğunu kontrol ettiriniz.</strong></p>"
+              },
+              {
+                "title": "<p>3. Ameliyat günü için dikkate edilmesi gereken şeyler nelerdir?</p>",
                 "text": "<p><strong style=\"background-color: rgb(255, 255, 0);\">Ameliyat günü yüzünüzde kesinlikle makyaj olmamalıdır.</strong></p><p>Bu hem sizin yüzünüzü doğru değerlendirmemizi engeller, hem de ameliyat sırasında steril bir ameliyat yapmamızı zorlaştırır. Dolayısı ile ameliyat sırasında makyajsız olmalısınız.</p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Takma kirpik</strong> var ise kalabilir.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Oje</strong> çıkartılmalıdır.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Metal <strong>pearcingleriniz çıkartılmalıdır.</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>İç çamaşırınızda metal bulunmamalıdır.</li></ol><p><br></p><blockquote><em>Erkek hastalar, ameliyatın 1 gün öncesinde sinek kaydı şekilde sakal-bıyık tıraşı olmalıdır.</em></blockquote>"
               },
               {
-                "title": "<p>11. Ameliyat günü için (hemen ameliyat sonrası) önerileriniz nelerdir?</p>",
+                "title": "<p>4. Ameliyat günü için (hemen ameliyat sonrası) önerileriniz nelerdir?</p>",
                 "text": "<p>Ameliyat bitişi sonrası ameliyathane içinde bulunan uyanma/derlenme odasında yeterli süre bekleyip kendinizi iyi hissetmeniz sonrası odanıza alınacaksınız.</p><blockquote><strong>Odanıza geldiğinizde bilinciniz yerinde olacak</strong> ve anestezi etkisi geçmiş olacak. Ama biraz sersemlik hissetmeniz normaldir.</blockquote><p>Ameliyat süresine göre, ameliyat sonrası uygun zaman geçince yemeğiniz gelecek ve besleneceksiniz.</p><p>İlk gün biraz <strong>bulantı</strong> hissetmeniz normaldir. Sık görülmese de kusabilirsiniz. Bu durumda size bu şikayetleriniz için ek ilaçlar uygulanacak.</p><p><br></p><p>Yeterli süre geçip ayağa kalkıp yürümeye başlayınca ve kendinizi iyi hissediyorsanız pıhtı oluşumunu önlemek için size giydirilmiş olan <strong>varis çoraplarını çıkartabilirsiniz.</strong></p><p>Hastanedeki yatışınız sürecinde rahat edeceğiniz <strong>pijama takımı ve terlik </strong>bulundurmanız konforunuzu artıracaktır.</p>"
               },
               {
-                "title": "<p>12. Refakatçi gerekli midir?</p>",
+                "title": "<p>5. Refakatçi gerekli midir?</p>",
                 "text": "<p>Hastanede yatış süresince (1 gece) yanınızda bir refakatçi bulunması hem sizin konforunuz hem de ihtiyaçlarınızın daha rahat karşılanması için önerilir. Ancak zorunlu hallerde hastane hemşirelerimiz de size destek olacaktır. Taburcu olduktan sonraki ilk birkaç gün de evde size yardımcı olacak birinin olması iyileşme sürecinizi kolaylaştıracaktır.</p>"
               },
               {
-                "title": "<p>13. Ameliyat sırasında fotoğraf çekiliyor mu? Ne zaman bu fotoğrafları görebilirim?</p>",
+                "title": "<p>6. Ameliyat sırasında fotoğraf çekiliyor mu? Ne zaman bu fotoğrafları görebilirim?</p>",
                 "text": "<p>Ameliyatın başında ve bitiminde rutin fotoğraflama yapılmaktadır. </p><p>Bu çekimlerin yapılma amacı hem değişimi görmek ve size tarif etmek, hem de ameliyat sonrası iyileşme sürecinde ameliyat anına geri dönüp bakabilmek ve yeniden değerlendirebilmektir. Ameliyat sırasında çekilen bu fotoğraflar, talep eden hastalarımıza gönderilmektedir.</p><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 0);\">Ameliyatınız biter bitmez bu fotoğrafları hemen göndermemiz mümkün olamamaktadır.</span></blockquote><p>Düzenlemeler sonrasında programımızın yoğunluğuna göre mümkün ise aynı gün akşamında ya da 1 gün sonrasında sizlere gönderilecektir.</p>"
-              },
-              {
-                "title": "<p>14. Burunda dolgu varken ameliyat yapılabilir mi?</p>",
-                "text": "<p>Burun dolgusu ameliyat sırasında ve iyileşme döneminde olumsuz bazı sonuçlar ortaya çıkartabilir.</p><p>En önemli sorun, burunda dolgu var iken yapılan şekillendirmelerin, burundaki dolgunun erimesi ve kaybolması sonrasında burun şeklinin istenmeyen bir sonuca dönüşmesidir.</p><p>Bunun olmaması için, ya ameliyat başlamadan dolgu eritilmelidir, ya da dolgunun hiç etkisi kalmayana kadar (1,5-2 yıl) beklenmelidir.</p><p>Dolgu eritme işlemi zor olmayan bir müdahaledir. Ancak ek maliyet oluşturur.</p><p>Detaylar için hekiminize danışınız.</p>"
-              },
-              {
-                "title": "<p>15. Ameliyat sonrası ne kadar süre sonra çalışabilirim? Ameliyat sonrası bana istirahat raporu verecek misiniz?</p>",
-                "text": "<p>Rinoplasti ameliyatı sonrası tampon ve alçının alındığı gün itibarı ile profosyonel olarak işinizi yapmanız, okula ya da sınava gitmeniz, ve/veya sosyal aktivitelerde bulunmanız serbesttir.</p><p>İsteyen hastalara ameliyat sonrası 7 gün süre ile istirahat raporu verebilmekteyiz.</p><p>Bu rapor Türkiyede çalışan hastalar için sosyal güvenlik kurumu tarafından tanınmaktadır. Yurtdışından gelen hastalarımız için ise verilen belgenin geçerliliği ibraz edilecek kuruma sorularak öğrenilebilir.</p>"
               }
             ]
           },
           {
-            "bgColor": "#e8f5e9",
+            "title": "İyileşme Dönemi , İlaçların kullanımı ve Bakım",
+            "icon": "recovery",
+            "headerColor": "bg-purple-100 text-purple-800",
+            "bgColor": "#fff",
+            "id": "group-recovery",
             "subsections": [
               {
-                "title": "<p>16. Ameliyattan sonra ne zaman banyo yapabilirim?</p>",
+                "title": "<p>1. Ameliyat sonrası ne kadar süre sonra çalışabilirim? Ameliyat sonrası bana istirahat raporu verecek misiniz?</p>",
+                "text": "<p>Rinoplasti ameliyatı sonrası tampon ve alçının alındığı gün itibarı ile profosyonel olarak işinizi yapmanız, okula ya da sınava gitmeniz, ve/veya sosyal aktivitelerde bulunmanız serbesttir.</p><p>İsteyen hastalara ameliyat sonrası 7 gün süre ile istirahat raporu verebilmekteyiz.</p><p>Bu rapor Türkiyede çalışan hastalar için sosyal güvenlik kurumu tarafından tanınmaktadır. Yurtdışından gelen hastalarımız için ise verilen belgenin geçerliliği ibraz edilecek kuruma sorularak öğrenilebilir.</p>"
+              },
+              {
+                "title": "<p>2. Ameliyattan sonra ne zaman banyo yapabilirim?</p>",
                 "text": "<p><strong>Ameliyat sonrası ilk gün banyo yapabilirsiniz. </strong></p><p>Banyo yapmanızda bir sakınca yoktur.</p><blockquote>Ancak ilk gün banyo yapacaksanız, bir yakınınızdan yardım alınız.</blockquote><blockquote>Banyo yaparken burnunuza ve üzerindeki bant/alçıya su gelmemelidir, saçınızı tercihen geriye doğru yıkayınız/yıkatınız. (14 gün süre ile.)</blockquote>"
               },
               {
-                "title": "<p>17. İlaçları kullanmaya ne zaman başlamalıyım?</p>",
+                "title": "<p>3. İlaçları kullanmaya ne zaman başlamalıyım?</p>",
                 "text": "<p><strong>Tüm ilaçların kullanımına</strong> ameliyat sonrası <strong>ilk gün sabahında</strong> (taburculuk sonrası) başlamalısınız. <em style=\"background-color: rgb(255, 255, 0);\">(Burun yıkama ve nemlendirme ilaçları dahil) </em></p><a href=\"?tab=tab7\" target=\"_blank\" style=\"display: block; width: 100%; padding: 15px; margin: 15px 0; text-align: center; background: linear-gradient(135deg, #00b09b, #96c93d); color: white; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s;\">💊 İlaçları Nasıl Kullanacağınız Hakkında DETAYLI BİLGİ İÇİN TIKLAYINIZ</a><p><br></p><blockquote>Ameliyat günü, hastanede olduğunuz sürede sizin ilaç kullanmanıza gerek yoktur.</blockquote><blockquote>Tedaviniz hastane hemşireleri tarafından uygulanacaktır.</blockquote>"
               },
               {
-                "title": "<p>18. Burun yıkama için nasıl bir ilaç kullanmalıyım? Farkları nedir?</p>",
+                "title": "<p>4. Burun yıkama için nasıl bir ilaç kullanmalıyım? Farkları nedir?</p>",
                 "text": "<p>Burun yıkama için kullanabileceğiniz ana 3 çeşit ürün vardır.</p><ul><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Okyanus suyu spreyler: </strong></li></ul><p>Bu ilaçlar, burun içinde silikon tampon varken taşıması ve kullanması en kolay olan ilaçladır. Ancak diğer yöntemlere kıyasla burun içi temizleme etkinlikleri biraz daha zayıftır. Temizlik etkisi yeterli düzeydedir.</p><blockquote>Sprey formundaki ilaçları çantanızda taşıyıp istediğiniz an rahatlıkla kullanabilirsiniz. İş, ofis, business kullanım için en idealleridir.</blockquote><p><br></p><ul><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Şişe formunda burun yıkama ilaçları (Deniz suyu/ okyanus suyu): </strong></li></ul><blockquote>Bu ilaçlar hazırlama prosedürü gerektirir ve yanınızda taşıyıp rahatlıkla kullanamazsınız. </blockquote><p>İlacın hazırlanması için kaynatılmış ve soğutulmuş ya da temiz olduğundan emin olduğunuz su ile toz ilacın karıştırılması ve uygulamanın burun içerisine sıkarak yapılması şeklindedir.</p><p>İlacın bir burundan girip diğerinden çıkmasına gerek yoktur. Amaç burun içine mekanin yıkama yapmaktır.</p><p>Bu yöntemle etkin ve yeterli bir burun içi temizliği sağlanır.</p><p><br></p><ul><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Serum Fizyolojik (izotonik serum): </strong></li></ul><p>Eczaneden temin edebileceğiniz <span style=\"background-color: rgb(204, 232, 204);\">1lt, %0,9 luk NaCl serum</span> ile burun yıkama yapabilirsiniz.</p><p>Bunun kullanımı için serumu <span style=\"background-color: rgb(204, 232, 204);\">10cc ya da 20cc bir enjektör</span> ile çekebilir, ucundaki iğneyi çıkartarak ve iğnesiz şırınga ile burun içine sıkarak yıkama yapabilirsiniz.</p><p><br></p><blockquote>Evde kullanım için en uygun maliyetli ve kullanım kolaylığı olan, yanınızda taşıması zor, pratik yöntemdir.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">Burun içini yıkamak için bu 3 yöntemden hepsini kullanabilirsiniz. Her bireyin kullanım tercihleri ve uygulayabildiği yöntem farklı olabileceğinden, kararını hekiminizle birlikte verebilirsiniz.</span></blockquote>"
               },
               {
-                "title": "<p>19. Burun yıkama ve nemlendirmeye ne kadar süre devam edilmelidir?</p>",
+                "title": "<p>5. Burun yıkama ve nemlendirmeye ne kadar süre devam edilmelidir?</p>",
                 "text": "<p>Bu konuda rutin önerim ameliyat sonrası <strong>1 ay süre ile burun yıkama ve nemlendirme </strong>yapmanızdır.</p><p>Bu rutini ilk 2 hafta <strong>günde 5 sefer </strong>yapmanız gereklidir.</p><p>2nci haftadan sonra 2-4 hafta daha yıkamaya günde 3-5 sefer olacak şekilde devam ediniz. Kullanım sıklığını ihtiyacınıza göre artırıp azaltabilirsiniz.</p><p><br></p><blockquote>1 aylık süre tamamlandığında bu 2 ilaca devam etme zorunluluğunuz yoktur. Ancak ihtiyaç hissederseniz devam etmenizde hiçbir sakınca yoktur. (Burun içinde hala kabuklanma, kuruluk vb varsa devam ediniz)</blockquote>"
               },
               {
-                "title": "<p>20. Ameliyat sonrası beslenme önerileri nelerdir?</p>",
+                "title": "<p>6. Ameliyat sonrası beslenme önerileri nelerdir?</p>",
                 "text": "<p>Ameliyat günü, anestezi sonrasında ilk beslenmeniz uygun saat geldiğinde hastane ekibimiz tarafından organize edilecektir. İlk yemeğiniz sizi zorlamayacak hafif bir yemek olacaktır.</p><p>Sonrası için öneriler:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Bol su içmelisiniz.</strong></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Sıcak gıdalar tüketmemelisiniz</strong> (kanama ve ödemin artma riskini artırır.)</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Vücutta ödem oluşturabilecek <strong>çok tuzlu ve çok baharatlı gıdalardan uzak durunuz.</strong></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Vücuttaki inflamasyonu azaltabilmek ve iyileşmenizi olumlu yönde etkileyebilmek için f<strong>azla şeker ve kalitesiz gıdalardan uzak durunuz.</strong></li></ol>"
               },
               {
-                "title": "<p>21. Kahve içebilir miyim?</p>",
+                "title": "<p>7. Kahve içebilir miyim?</p>",
                 "text": "<p>Ameliyat sonrası erken dönemde sıcak gıdalar tüketmeniz önerilmez.</p><p>Ayrıca kahve içeriği nedenli tansiyon yükselmesi yapabilir. Bu nedenle kahve içmemeniz önerilmez.</p><p><br></p><p>Ancak siz de benim gibi bir kahve delisiyseniz, <strong style=\"background-color: rgb(255, 255, 0);\">espresso ya da soğuk bir kahve </strong>içebilirsiniz. :)</p>"
               },
               {
-                "title": "<p>22. Ameliyat sonrası hemen rahat nefes alabilir miyim?</p>",
+                "title": "<p>8. Ameliyat sonrası hemen rahat nefes alabilir miyim?</p>",
                 "text": "<p>Ameliyat sonrası burun içine yerleştirilen silikon tamponlar oluklu olduğu için nefes almanıza kısmen izin verir. Ancak ameliyata bağlı ödem, kabuklanma ve salgılar nedeniyle ilk günlerde burun tıkanıklığı hissetmeniz çok normaldir. Tamponlar alındıktan sonra (5-7. gün) nefesiniz bir miktar rahatlar, ancak ödemler azaldıkça ve burun içi iyileştikçe (yaklaşık 1-3 ay içinde) nefes kaliteniz giderek artacak ve ideal seviyeye ulaşacaktır.</p>"
               },
               {
-                "title": "<p>23. Hapşurma durumunda ne yapmalıyım?</p>",
+                "title": "<p>9. Hapşurma durumunda ne yapmalıyım?</p>",
                 "text": "<p>Hapşurma hissi geldiğinde bunu engellemeye çalışmayın. Ancak basıncın burnunuza zarar vermemesi için <strong>ağzınız açık şekilde</strong> hapşurmanız çok önemlidir.</p><blockquote>Ağzınızı kapatarak hapşırmak burun içi basıncı artırarak kanamaya veya doku hasarına neden olabilir.</blockquote>"
               },
               {
-                "title": "<p>24. Burun içindeki tampon ne zaman çıkartılır?</p>",
+                "title": "<p>10. Burun içindeki tampon ne zaman çıkartılır?</p>",
                 "text": "<p>Bu işlem için rutin zamanlama ameliyat sonrası <strong>ilk kontrol olan 5-7 gün</strong>dür.</p><p><br></p><blockquote>Ancak bazı durumlarda burundaki tamponun daha erken alınması gerekebilir ya da erken alınması uygun olabilir.</blockquote><blockquote>Bu durumda sadece tampon alınması için size daha erken bir randevu planlanacaktır.</blockquote>"
-              }
-            ]
-          },
-          {
-            "bgColor": "#ffebee",
-            "subsections": [
+              },
               {
-                "title": "<p>25. Ne zaman sümkürebilirim?</p>",
+                "title": "<p>11. Ne zaman sümkürebilirim?</p>",
                 "text": "<p>Ameliyat sonrası <strong>ilk 1 ay burnunuzu sümkürmemelisiniz</strong>. Bu sürede burnunuzu önerilen okyanus suyu spreyleri veya yıkama kitleri ile temizlemelisiniz.</p><p><br></p><p>Sümkürmek burun içi basıncı artırarak kanamaya ve iyileşen dokularda hasara neden olabilir.</p><p><br></p><p><strong>1. aydan sonra nazikçe sümkürebilirsiniz.</strong></p>"
               },
               {
-                "title": "<p>26. Nostril retainer (burun deliği şekillendirici aparat) nasıl kullanılır?</p>",
+                "title": "<p>12. Nostril retainer (burun deliği şekillendirici aparat) nasıl kullanılır?</p>",
                 "text": "<p><span style=\"background-color: rgb(255, 255, 0);\">Nostril retainer ürünün amacı buruna bir şekil vermek değil, ameliyatta oluşturulan burun şeklinin simetrik şekilde iyileşmesini sağlamaktır.</span></p><p>Bazen ameliyat sırasında bazen de burun içindeki tamponlar çıkınca kullanmaya başlamanız gerekmektedir.</p><p><br></p><p>Burun iyileşme sürecinde bu kalıp üzerinde iyileşerek olası asimetri, burun ucu şekil sorunları biri riskleri azaltmak için kullanılmaktadır.</p><p><br></p><blockquote>Kullanım şekli:</blockquote><blockquote>Rutin önerim; kullanıma başlandığı andan itibaren, <strong>2 ay süre ile günde 24 saat, sonrasında ise 2 ay süre ile günde 8-12 saat </strong>kullanmanız şeklindedir.</blockquote><blockquote>Kullanım süre ve detayları hastadan hastaya farklılık gösterebileceğinden, sizin özelinizdeki süreç, kontrol değerlendirmelerinde sizlere anlatılacaktır.</blockquote>"
               },
               {
-                "title": "<p>27. Nostril retainer (burun deliği şekillendirici) her hastada kullanılır mı?</p>",
+                "title": "<p>13. Nostril retainer (burun deliği şekillendirici) her hastada kullanılır mı?</p>",
                 "text": "<p>Bu ürünü kullanmamız gereken hastalar çoğunluktadır.</p><p>Ancak uygulanan ameliyat ve hastanın durumuna göre kullanılmaması gereken durumlar da olabilir.</p><p><br></p><p>Bu nedenle bu ürünü sadece hekiminiz size öneriyorsa, size özel şekilde ve size özel önerilen süre ile kullanmanız gerekmektedir.</p><p><strong>Doktorunuza danışmadan kullanmayınız/ kullanmayı bırakmayınız.</strong></p>"
               },
               {
-                "title": "<p>28. Burun masajı yapmalı mıyım?</p>",
+                "title": "<p>14. Burun masajı yapmalı mıyım?</p>",
                 "text": "<p>Burundaki alçısının çıkartılmasını takiben size burun masajı önerilecek.</p><p>Önerilen bu mesajı <strong>günde 5 sefer, 2dk+30sn</strong> şeklinde uygulamanız gerekmektedir.</p><p>Masajı yaklaşık<strong> 6 ay süre ile </strong>uygulamanız, iyileşme sürecine katkı sağlayacaktır.</p><p><br></p><p>Masajın 2 ana amacı vardır:</p><p><strong>1-Lenfatik drenaj</strong>ı artırararak, burundaki kemik ve cilt arasındaki ciltaltı ödeminin azalmasını sağlar.</p><p>2- Kırılan (kesilen) burun kemiklerinin sayesinde oluşan burun daralmasının, <strong>ödem etkisi ile tekrar genişlemesini önler</strong> ve burnun istenen şekilde iyileşmesi için mekanik destek sağlar.</p>"
               },
               {
-                "title": "<p>29. Ameliyat sonrası burun bantlaması ne kadar süre ile yapmalıyım?</p>",
+                "title": "<p>15. Ameliyat sonrası burun bantlaması ne kadar süre ile yapmalıyım?</p>",
                 "text": "<p>Ameliyat sonrası ilk hafta kontrolde burundaki tampon alınır, burun üzerindeki alçı ve bantlar çıkartılır.</p><p>Doktorunuz tarafından burnunuz yeniden bantlanır.</p><blockquote>Hasta 2. hafta kontrolüne gelebilecek ise 2. hafta hastanın bantları tamamen çıkartılır ve hastaya nasıl bir bantlama yapması gerektiği anlatılır.</blockquote><blockquote>Eğer hasta 2. hafta kontrole fiziki olarak gelemeyecek ise, hastaya nasıl bir bantlama yapması gerektiği anlatılır.</blockquote><p>Her koşulda <strong>hasta ilk 2 haftalık sürede (14 gün) burundaki bantları çıkartmamalıdır.</strong></p><p>Bu <strong>14 günlük sürede banyo sırasında burun ıslanmamalıdır.</strong></p><p><br></p><p><strong>Ameliyatın 14. gününde</strong>, hasta fiziken kontrole gelebiliyor ise kontrol muayenesi sonrası, kontrole gelemiyor ise evde kendisi burun üzerindeki bantlar dahil yıkar, ıslanan bantları çıkartır ve kendi <strong>burun bantlamasına (self-taping) başlar.</strong></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 0);\">Rutin öneri 14. gün sonrası burnun 1 ay süre ile gün boyu (24 sa) bantlanmasıdır.</strong></p><blockquote>Burun cildinin üzerindeki bandın 2 ana amacı vardır:</blockquote><blockquote>1- Ödemin daha hızlı geçmesi,</blockquote><blockquote>2- Masajın daha rahat ve konforlu yapılması.</blockquote><p><br></p><p>Hastanın bu self-taping süresinde <strong>her gün bantları yenilemesine gerek yoktur.</strong></p><blockquote>Banyo sırasında ıslansa da sonrasında kurulandığında eğer bantlar kirli gözükmüyor ve gevşemiş değil ise sadece kurulanması yeterlidir. Ancak bantlar sıkı durmuyor ya da kirli duruyor ise çıkartılıp yenilenmesi uygundur.</blockquote><p>1 aylık bu bantlama sonrasında (Ameliyatın 6. haftası) hastaların +1 ay daha sadece gece bantlaması yapması yararlı olacaktır.</p><p>Bu bantlamaların kurallara uygun şekilde ve süre ile yapılması iyileşmeyi daha hızlı gerçekleştirecek ve burnu istenen şekle ulaştıracaktır.</p>"
               },
               {
-                "title": "<p>30. Ameliyat sonrası ne zaman yolculuk yapabilirim?</p>",
+                "title": "<p>16. Ameliyat sonrası ne zaman yolculuk yapabilirim?</p>",
                 "text": "<p><strong>5inci </strong>gün itibarı ile hekiminiz uygun görüyor ise <strong>uçuş</strong> yapabilirsiniz. Size uygulanan ameliyata göre bu süre uzayabilir.</p><p><u>Kara yolculuğu</u> ise ameliyat sonrası ilk gün yapabilirsiniz. (Çok uzun olmaması koşulu ile)</p>"
               },
               {
-                "title": "<p>31. Ne zaman spor yapabilirim?</p>",
+                "title": "<p>17. Ne zaman spor yapabilirim?</p>",
                 "text": "<p>Ameliyat sonrası 2nci haftadan itibaren hafif tempo yürüyüş ve yüksek nabız aktivitesi olmayacak şekilde spor yapabilirsiniz.</p><p><strong style=\"background-color: rgb(255, 255, 0);\">1inci aydan itibaren </strong><span style=\"background-color: rgb(255, 255, 0);\">ise, istediğiniz tempoda spor yapılabilir. </span>(<em>evde ya da spor salonunda)</em></p><p><br></p><p>Ancak burnunuza kuvvet uygulanabilecek mücadeleci sporlar ve travma riskinden kaçınmalısınız.</p>"
               },
               {
-                "title": "<p>32. Ne zaman yüzebilirim?</p>",
+                "title": "<p>18. Ne zaman yüzebilirim?</p>",
                 "text": "<p>2nci haftadan itibaren <strong>denizde</strong>,</p><p>4üncü haftadan itibaren ise <strong>havuzda</strong> yüzebilirsiniz.</p><p><br></p><p>12 ay süre ile tüplü ve maskeli dalış yapmamalısınız.</p>"
               },
               {
-                "title": "<p>33. Ne zaman yan dönerek uyuyabilirim?</p>",
+                "title": "<p>19. Ne zaman yan dönerek uyuyabilirim?</p>",
                 "text": "<p>Ameliyat sonrası 2nci haftadan itibaren yatakta yan dönebilirsiniz. Ancak burnunuza yastığa ya da yatağa temas etmemeli, kuvvete maruz kalmamalıdır.</p>"
               },
               {
-                "title": "<p>34. Ne zaman işe dönebilirim?</p>",
+                "title": "<p>20. Ne zaman işe dönebilirim?</p>",
                 "text": "<p><strong style=\"background-color: rgb(255, 255, 0);\">Ameliyat sonrası 7 gün süre ile istirahat etmeniz önerilir.</strong></p><p>Talebiniz halinde istirahat raporu düzenlenecektir. Daha uzun süreli rapor talep eden hastalara 10 güne kadar yardımcı olabiliriz.</p><p><br></p><p>Masabaşı, evrak/ekran işi dediğimiz işleri, yapmak zorunda iseniz ilk hafta burunda tampon ve alcı varken de yapabilirsiniz. Ancak biz istirahat etmenizi öneriyoruz.</p><p><br></p><p>İlk haftalık bu sürede, bol sıvı tüketmeniz, adım atmanız, başınızın yüksek olacağı şekilde istirahat etmeniz öenmlidir.</p>"
               },
               {
-                "title": "<p>35. Cilt bakımı / Peeling ne zaman yaptırabilirim?</p>",
+                "title": "<p>21. Cilt bakımı / Peeling ne zaman yaptırabilirim?</p>",
                 "text": "<p>Burun üzerindeki bantlar çıktıktan sonra cildinizi nazikçe temizleyebilirsiniz. Ancak profesyonel cilt bakımı, peeling veya siyah nokta temizliği gibi işlemler için <strong>en az 2 ay</strong> beklemeniz önerilir.</p><p><br></p><p>Bu işlemler burun cildine baskı uygulayabileceğinden erken dönemde yapılması sakıncalıdır.</p><p><br></p><p>2. aydan sonra, burnunuza sert baskı uygulanmaması şartıyla cilt bakımı yaptırabilirsiniz.</p>"
               },
               {
-                "title": "<p>36. Güneşe çıkabilir miyim / Solaryuma girebilir miyim?</p>",
+                "title": "<p>22. Güneşe çıkabilir miyim / Solaryuma girebilir miyim?</p>",
                 "text": "<p>Ameliyat sonrası ilk <strong>2 ay</strong> boyunca burnunuzu direkt güneş ışığından ve yüksek ısıdan (solaryum, sauna, hamam) korumalısınız.</p><p><br></p><p>Güneş ışığı, iyileşmekte olan dokularda ödemin artmasına ve kalıcı renk değişikliklerine (lekelenmelere) neden olabilir.</p><p><br></p><p>Güneşe çıkmanız gerekiyorsa mutlaka yüksek faktörlü (50+ SPF) güneş koruyucu krem kullanmalı ve şapka takmalısınız.</p>"
               },
               {
-                "title": "<p>37. Makyaj ne zaman yapabilirim?</p>",
+                "title": "<p>23. Makyaj ne zaman yapabilirim?</p>",
                 "text": "<p><strong>Ameliyat sonrası ilk gün</strong> bile, ameliyat bölgesine temas etmeden <strong>makyaj yapabilirsiniz.</strong></p><p>Ancak ödem nedeni ile zorlanabilirsiniz.</p><p>Fakat ilk haftada yapılacak olan kontrolünüze makyaj yaparak gelmenizde sakınca yoktur.</p>"
               },
               {
-                "title": "<p>38. Ameliyat sonrası ne zaman gözlük kullanabilirim?</p>",
+                "title": "<p>24. Ameliyat sonrası ne zaman gözlük kullanabilirim?</p>",
                 "text": "<p>En erken 3üncü aydan itibaren, kısa süre olacak şekilde ve ağırlık olarak hafif gözlükler kullanabilirsiniz.</p><p><br></p><blockquote><strong style=\"background-color: rgb(255, 255, 0);\">6ıncı ay</strong> itibarı ile istediğiniz şekilde gözlük kullanabilirsiniz.</blockquote>"
               },
               {
-                "title": "<p>39. Gözlük yerine lens kullanamıyorum. Göz numaram çok yüksek ve gözlük kullanmak zorundayım? Rinoplasti olabilir miyim?</p>",
+                "title": "<p>25. Gözlük yerine lens kullanamıyorum. Göz numaram çok yüksek ve gözlük kullanmak zorundayım? Rinoplasti olabilir miyim?</p>",
                 "text": "<p>Evet rinoplasti ameliyatı olabilirsiniz.</p><p><br></p><p>Ameliyat sonrası gözlük kullanılmasını yasaklamamızın sebebi, kırılan/kesilen kemiklerin üzerine binecek yük nedenli iyileşme sorunları olabilmesidir. Bu nedenle hastalarımıza ameliyat sonrası 4-6 ay süre ile kontakt lens kullanmalarını öneriyoruz.</p><p><br></p><p>Soruda anlattığınız durum nedeni ile gözlük dışında kullanabileceğiniz bir çözüm yok ise, kemikte kırma işlemi yapılmadan sadece törpüleme ve burun ucuna yönelik estetik işlemler yapılabilir.</p><p><br></p><p>Bu durumda ameliyatın hemen sonrasında hastanede iken bile gözlük kullanabilirsiniz.</p>"
+              },
+              {
+                "title": "<p>26. Burun ne zaman tam olarak iyileşir? Son şekil ne zaman oluşur?</p>",
+                "text": "<p>Burun iyileşme süreci uzun bir zaman gerektirmektedir. Cilt ve doku yapısına göre değişmekle birlikte yaklaşık <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 yıl </strong>süre geçtiğinde burun son şeklini aldı diyebiliriz.</p><p><br></p><p>Ancak ameliyat sonrası yaklaşık 3üncü ayda burundaki iyileşme ve ödemin yaklaşık %80 i geçmiş olur. Burun kabaca şeklini güzel bir şekilde gösterir.</p><p>Ancak cilt kalın ise, ilk 6 ay özellikle burun ucundaki ödem nedeni ile burun görüntüsünü tam olarak beğenmeyeceksiniz. 6ıncı aydan sonra güzel gözükmeye, 1inci yıl sonrası ise istenen formda gözükmeye başlayacak.</p><p><br></p><p><strong>Tam sonucu görmek için yaklaşık 2 yıl süre geçmesi gerekecektir.</strong></p>"
               }
             ]
           },
           {
-            "bgColor": "#f3e5f5",
+            "title": "Riskler, Kontroller ve İdari",
+            "icon": "risk",
+            "headerColor": "bg-orange-100 text-orange-800",
+            "bgColor": "#fff",
+            "id": "group-other",
             "subsections": [
               {
-                "title": "<p>40. Ameliyat sonrası kontrol süreci nasıl olur ve hangi süre ile kontrole gelmeliyim?</p>",
+                "title": "<p>1. Ameliyat sonrası kontrol süreci nasıl olur ve hangi süre ile kontrole gelmeliyim?</p>",
                 "text": "<p>Rinoplasti ameliyatı sonrası kontroller çok önemlidir.</p><blockquote>Kontrol sürecinde erken saptanabilen bazı sorunlar uygun ilaç tedavisi, masaj ya da benzeri minik müdahaleler ile çözülebilmektedir. Ancak gecikmiş durumlarda daha karmaşık süreçler gerekebilmektedir.</blockquote><blockquote>Bu nedenle kontrollerinizi aksatmamanız ve düzenli şekilde takip etmeniz önemlidir.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Kontrol süreçlerinin takibi ve devamlılığın sağlanması bizzat hastanın sorumluluğundadır.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Hastalarımız için </span><strong style=\"background-color: rgb(204, 224, 245);\">rutin kontrol takvimi </strong><span style=\"background-color: rgb(204, 224, 245);\">şu şekildedir.</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1. hafta (tampon ve alçı alınması)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">2. hafta (bantların çıkartılması ve genel değerlendirme)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 ay</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 ay</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 ay</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 ay</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 ay</span></li></ol><p>İstanbul dışında olan, il dışı / yurt dışı hastalar için fiziki kontrol mümkün değil ise, hastaların üstte listelenmiş olan süreleri takip edip bu zamanlarda bize mevcut durumlarını yazılı şekilde ve ek olarak fotoğraf ve video ile iletmelerini rica ederiz.</p><p>Uzaktan da olsa yapılan bu kontroller iyileşme süreci için oldukça önemlidir.</p><blockquote><em>İletişim için sayfanın en altındaki Whatsapp butonuna tıklayabilirsiniz.</em></blockquote>"
               },
               {
-                "title": "<p>41. Burun ne zaman tam olarak iyileşir? Son şekil ne zaman oluşur?</p>",
-                "text": "<p>Burun iyileşme süreci uzun bir zaman gerektirmektedir. Cilt ve doku yapısına göre değişmekle birlikte yaklaşık <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 yıl </strong>süre geçtiğinde burun son şeklini aldı diyebiliriz.</p><p><br></p><p>Ancak ameliyat sonrası yaklaşık 3üncü ayda burundaki iyileşme ve ödemin yaklaşık %80 i geçmiş olur. Burun kabaca şeklini güzel bir şekilde gösterir.</p><p>Ancak cilt kalın ise, ilk 6 ay özellikle burun ucundaki ödem nedeni ile burun görüntüsünü tam olarak beğenmeyeceksiniz. 6ıncı aydan sonra güzel gözükmeye, 1inci yıl sonrası ise istenen formda gözükmeye başlayacak.</p><p><br></p><p><strong>Tam sonucu görmek için yaklaşık 2 yıl süre geçmesi gerekecektir.</strong></p>"
-              },
-              {
-                "title": "<p>42. Revizyon ameliyatı ne zaman yapılabilir?</p>",
+                "title": "<p>2. Revizyon ameliyatı ne zaman yapılabilir?</p>",
                 "text": "<p>Revizyon cerrahisi istisnai durumlar dışında ameliyatın <strong>6ncı ayından önce yapılmamalıdır.</strong></p><p><strong>İdeal süre 12 ay sonrası</strong>nda yapmaktır.</p><p><br></p><blockquote>Ancak burundaki sorun geri dönüşü olmayan sorunlar oluşturuyor ise ve geçen zaman olası şansı yok edecek ise daha erken revizyon cerrahiler de yapılabilir. Fakar görsel fonksiyonle sorunlar acil müdahale gerektirecek nitelikte değil ise, minimum 12 ay beklemek revizyon cerrahisinden alınacak faydayı maksimize edecektir.</blockquote>"
               }
             ]

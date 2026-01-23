@@ -243,32 +243,32 @@ function AppContent() {
         <div className="language-row">
           <QuickFlags currentLang={lang} onSelect={handleLanguageChange} />
         </div>
-
-        {/* Row 2: Tabs + Language Dropdown */}
-        <div className="controls-row">
-          <nav className="tab-navigation compact-nav">
-            <MobileNavigation
-              handlePrevTab={() => {
-                const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-                if (currentIndex > 0) setActiveTabId(currentContent.tabs[currentIndex - 1].id);
-              }}
-              handleNextTab={() => {
-                const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
-                if (currentIndex < currentContent.tabs.length - 1) setActiveTabId(currentContent.tabs[currentIndex + 1].id);
-              }}
-              currentContent={currentContent}
-              activeTabId={activeTabId}
-              setActiveTabId={setActiveTabId}
-            />
-          </nav>
-
-          <div className="lang-dropdown-container">
-            <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
-          </div>
-        </div>
         {showLanguagePopup && (
           <LanguagePopup onClose={() => setShowLanguagePopup(false)} />
         )}
+      </div>
+
+      {/* Row 2: Tabs + Language Dropdown (Non-sticky now) */}
+      <div className="controls-row">
+        <nav className="tab-navigation compact-nav">
+          <MobileNavigation
+            handlePrevTab={() => {
+              const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+              if (currentIndex > 0) setActiveTabId(currentContent.tabs[currentIndex - 1].id);
+            }}
+            handleNextTab={() => {
+              const currentIndex = currentContent.tabs.findIndex(t => t.id === activeTabId);
+              if (currentIndex < currentContent.tabs.length - 1) setActiveTabId(currentContent.tabs[currentIndex + 1].id);
+            }}
+            currentContent={currentContent}
+            activeTabId={activeTabId}
+            setActiveTabId={setActiveTabId}
+          />
+        </nav>
+
+        <div className="lang-dropdown-container">
+          <LanguageDropdown currentLang={lang} onSelect={handleLanguageChange} />
+        </div>
       </div>
 
       <header className="app-header">

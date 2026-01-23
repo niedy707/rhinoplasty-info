@@ -7,7 +7,8 @@ export const MASTER_DRUGS = [
         method: 'Ağızdan(Oral)',
         dailyAmount: '3',
         dose: '1',
-        note: 'İlk 3 gün kullanınız. Ağrı yoksa devam etmeyiniz.',
+        duration: '3 Gün',
+        note: '',
         active: true
     },
     {
@@ -17,8 +18,9 @@ export const MASTER_DRUGS = [
         method: 'Ağızdan(Oral)',
         dailyAmount: '2',
         dose: '1',
-        note: '1 hafta, günde 2 sefer',
-        subNote: 'Reçetede 2 adet antibiyotik vardır.',
+        duration: '1 Hafta',
+        note: '',
+        subNote: '',
         active: true
     },
     {
@@ -28,7 +30,8 @@ export const MASTER_DRUGS = [
         method: 'Ağızdan(Oral)',
         dailyAmount: '2',
         dose: '1',
-        note: 'Her ikisi de kullanılacaktır.',
+        duration: '1 Hafta',
+        note: '',
         isSubItem: true,
         active: true
     },
@@ -39,7 +42,8 @@ export const MASTER_DRUGS = [
         method: 'Ağızdan(Oral)',
         dailyAmount: '1',
         dose: '1',
-        note: '10 gün, günde 1 adet.',
+        duration: '10 Gün',
+        note: '',
         active: true
     },
     {
@@ -49,7 +53,8 @@ export const MASTER_DRUGS = [
         method: 'Cilt',
         dailyAmount: '3',
         dose: '2',
-        note: '2 hafta süre ile burun ucundaki dikiş bölgesine sürülecek. (Göze değil)',
+        duration: '2 Hafta',
+        note: 'Burun ucundaki dikiş bölgesine sürülecek. (Göze değil)',
         active: true
     },
     {
@@ -59,37 +64,41 @@ export const MASTER_DRUGS = [
         method: 'Burun',
         dailyAmount: '3',
         dose: '2',
-        note: '(5 gün) - Bu 2 sprey 1 ay süre ile kullanılacak.',
+        duration: '5 Gün',
+        note: '',
         specialTag: '5 gün',
         active: true
     },
     {
         id: 'drug_6',
         name: 'Quixx Acute nazal yıkama spreyi',
-        boxCount: 'DIB.',
-        method: 'S:5x2. (1 ay süre ile)',
+        boxCount: '1',
+        method: 'S:5x2',
         dailyAmount: '',
         dose: '',
-        note: '1 ay sonrasında ise gerekli durumlarda devam edilir.',
+        duration: '1 Ay',
+        note: '',
         active: true
     },
     {
         id: 'drug_7',
         name: 'Nazalnem burun spreyi',
-        boxCount: 'DIB.',
-        method: 'S:5x2. (1 ay süre ile)',
+        boxCount: '1',
+        method: 'S:5x2',
         dailyAmount: '',
         dose: '',
+        duration: '1 Ay',
         note: '',
         active: true
     },
     {
         id: 'drug_enfla',
         name: 'Enfla-C kapsül',
-        boxCount: 'DIB.',
-        method: 'S:2x1. (1 ay süre ile)',
+        boxCount: '1',
+        method: 'S:2x1',
         dailyAmount: '',
         dose: '',
+        duration: '1 Ay',
         note: 'Bu ilacı ödeminizin daha hızlı geçmesi için kullanmanızı ÖNERİYORUM.',
         isExtra: true,
         active: true
@@ -108,7 +117,7 @@ export const DEFAULT_TEMPLATE = {
         "J34.8 Burun ve nazal sinüslerin diğer tanımlanmış bozuklukları"
     ],
     drugs: [
-        'drug_1', 'drug_2', 'drug_cipro', 'drug_3', 'drug_4', 'drug_5', 'drug_6', 'drug_7', 'drug_enfla'
+        'drug_2', 'drug_cipro', 'drug_1', 'drug_3', 'drug_4', 'drug_5', 'drug_6', 'drug_7', 'drug_enfla'
     ],
     footerNotes: [
         { type: 'danger', text: "!!! Tüm ilaçlar (Spreyler dahil) ameliyat sonrası ilk gün sabah kullanılmaya başlanacaktır." },
