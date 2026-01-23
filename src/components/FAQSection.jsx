@@ -8,6 +8,10 @@ const FAQContainer = styled.div`
   margin-top: 1rem;
   padding: 0.5rem;
   padding-bottom: ${props => props.$isEditMode ? '80px' : '0.5rem'};
+  max-width: 500px; /* Force mobile-like width */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 `;
 
 const CategoryCard = styled.div`
@@ -293,24 +297,6 @@ const FAQSection = ({ lang, data }) => {
 
   // State for search
   const [searchQuery, setSearchQuery] = useState('');
-  const [placeholder, setPlaceholder] = useState('Soru ya da cevaptaki bir kelime ile arama yapınız...');
-
-  // Responsive placeholder
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 640) {
-        setPlaceholder('Kelime ile arama yapınız...');
-      } else {
-        setPlaceholder('Soru ya da cevaptaki bir kelime ile arama yapınız...');
-      }
-    };
-
-    // Initial check
-    handleResize();
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   // Update groups when data changes
   useEffect(() => {
@@ -421,7 +407,7 @@ const FAQSection = ({ lang, data }) => {
 
       <SearchInput
         type="text"
-        placeholder={placeholder}
+        placeholder="Soru ya da cevaptaki bir kelime ile arama yapınız..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
