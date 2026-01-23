@@ -190,18 +190,19 @@ const PDFButton = styled.a`
   justify-content: center;
   margin-bottom: 2rem;
   padding: 0.8rem 1.5rem;
-  background: white;
+  background: #fef2f2; /* Light red background */
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #fecaca;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   gap: 12px;
   text-decoration: none;
   cursor: pointer;
-  color: #374151;
-  font-weight: 500;
+  color: #991b1b; /* Dark red text */
+  font-weight: 600;
   transition: all 0.2s;
 
   &:hover {
+    background: #fee2e2;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
@@ -264,11 +265,11 @@ const renderCategoryIcon = (iconName) => {
 // Helper for colors based on className string
 // Returning RGBA for transparent question backgrounds as requested
 const getColorFromClass = (cls) => {
-  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af', questionBg: 'rgba(219, 234, 254, 0.5)' };
-  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534', questionBg: 'rgba(220, 252, 231, 0.5)' };
-  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8', questionBg: 'rgba(243, 232, 255, 0.5)' };
-  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412', questionBg: 'rgba(255, 237, 213, 0.5)' };
-  return { bg: '#f3f4f6', text: '#1f2937', questionBg: 'rgba(243, 244, 246, 0.5)' };
+  if (cls.includes('bg-blue-100')) return { bg: '#dbeafe', text: '#1e40af', questionBg: 'rgba(219, 234, 254, 0.4)' };
+  if (cls.includes('bg-green-100')) return { bg: '#dcfce7', text: '#166534', questionBg: 'rgba(220, 252, 231, 0.4)' };
+  if (cls.includes('bg-purple-100')) return { bg: '#f3e8ff', text: '#6b21a8', questionBg: 'rgba(243, 232, 255, 0.4)' };
+  if (cls.includes('bg-orange-100')) return { bg: '#ffedd5', text: '#9a3412', questionBg: 'rgba(255, 237, 213, 0.4)' };
+  return { bg: '#f3f4f6', text: '#1f2937', questionBg: 'rgba(243, 244, 246, 0.4)' };
 };
 
 
