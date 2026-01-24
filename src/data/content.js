@@ -4,114 +4,7 @@ export const content = {
     "subtitle": "Rinoplasti öncesi ve sonrası tüm sorularınızın cevabı burada..",
     "searchPlaceholder": "Soru ya da cevaptaki bir kelime ile arama yapınız...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. GENEL BİLGİLER",
-        "content": [
-          {
-            "title": "<p>Burun Estetiği (Rinoplasti) Nedir?</p>",
-            "text": "<p>Burun yüzün tam ortasında bulunan fonksiyonel bir organdır. </p><p>Burnun fonksiyonel görevi nefes ve koku almak, görsel görevi ise yüzün güzel gözükmesini sağlamaktır. </p><p>Burun bu 2 görevi tam olarak yerine getirmeli, hem de yüzdeki diğer organlar ile uyum ve oran içinde olmalıdır. </p><p>Bunun yanı sıra simetrik ve yüze yakışan bir yapıda olmalıdır. </p><p><br></p><p><strong>Rinoplasti (Septoprinoplasti) ameliyatı ile amaç, buruna fonksiyonel ve estetik bir güzellik kazandırmaktır.</strong></p>"
-          },
-          {
-            "title": "<p>Rinoplasti ameliyatının amacı nedir?</p>",
-            "text": "<p>Rinoplasti ameliyatının amacı hem rahat nefes alan hem de hastanın burnundaki sorunlara çözüm sunarak hastayı mutlu edecek bir burun görüntüsü elde edebilmektir. </p><p>Her burundaki sorun  farklı olduğundan uygulanacak işlemler de farklılık göstermektedir. </p><p><br></p><p>Burnunuza yapılabilecek işlemler ve elde edilebilecek olası sonuçlar muayene sırasında sizinle paylaşılacaktır. </p>",
-            "items": [
-              "<p>Ameliyat iki taraflı alınan bir karar ve mutabakat ile gerçekleştirilir.</p><p>Hem hasta hekime ameliyat olmak istemeli, hem de hekim hastaya fayda göstereceğine inanarak ameliyat yapmalıdır.</p>",
-              "<p>Bu nedenle ameliyat öncesi muayene ve değerlendirme uygun süre ve zamanda ve doğru koşullarda yapılmalıdır.</p>",
-              "<p>Her iki taraftan birinin istemediği bir ameliyatın mutlu sonuca ulaşma olasılığı oldukça düşüktür.</p>"
-            ]
-          },
-          {
-            "title": "<p>GENEL BİLGİLER</p>",
-            "items": [
-              "<p><strong>Anestezi Türü:</strong> Genel Anestezi (Tam narkoz)</p>",
-              "<p><strong>Hastanede Yatış: </strong>1 gece </p><p><br></p><p>Sabah erken saatte ameliyat olan ya da kısa süreli operasyonlar sonrası, eğer tıbbi durumunuz da uygun ise aynı gün taburcu olabilirsiniz ancak çoğu hasta 1 gece hastane yatışı sonrası,  sonraki sabah taburcu olacaktır.</p>",
-              "<p><strong>Süre: </strong>2,5 saat </p><p><br></p><p>Rinoplasti ameliyatının; standart zorlukta ise ~2 saat (±1), revizyon ameliyatların ise ~3saat (±1) sürmesi öngörülmektedir.)</p>",
-              "<p><strong>Cerrahi Teknik: </strong>Açık teknik, structure (yapısal) rinoplasti. </p><p>Ameliyatı rutin şekilde açık teknik uygulayarak yapıyorum. </p><p>Bu teknikte burun deliklerinin arasındaki cilde bir kesi yapılır ve bu kesi ameliyat sonunda estetik amaca uygun şekilde dikilir.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Kapalı teknik ameliyat şu durumlarda uygulanabilir:</p>",
-                "items": [
-                  "<p>Kısa süreli ve sınırlı revizyon cerrahiler</p>",
-                  "<p>Sadece burun kemeri için yapılacak sınırlı işlemler</p>",
-                  "<p>Estetik amacın olmadığı sadece fonksiyonel ameliyatlar</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Teknik Ekipmanlar</p>",
-                "items": [
-                  "<p>Ameliyatlarda rutin şekilde <strong>piezo</strong> kullanılmaktadır. </p><p>Bu cihaz hassas şekilde kemiğin şekillendirilmesini sağlayan teknik ekipmanlardan birisidir.</p>",
-                  "<p>Piezo kullanılması morluğun hiç olmayacağı anlamına gelmez. </p><p>Cilt altı doku ve damar yapısı nedenli ameliyat sonrası dönemde morluk ve doku ödemi olacaktır. </p><p>Ancak hastaların ~%90’ında 1inci haftada gözle görülür bir morluk kalmaz.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOĞRAFLAMA",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "FOTOĞRAFLAMA",
-                "text": "Ameliyat öncesi, sırası ve sonrasında fotoğraf çekimi yapılmaktadır. Ameliyat öncesi fotoğraf çekimi muayenenin bir parçasıdır.\nFotoğraflamanın amacı burundaki sorunları anlamak, anlatmak, hatırlamak ve ameliyat planını yaparken objektif veriler kullanabilmektir."
-              },
-              {
-                "title": "Simülasyon",
-                "text": "Fotoğraf çekimi sonrası fotoğraf üzerinden simülasyon yapılmamaktadır.\nNe talep ettiğini anlatabilen ve anlaşılan hastalarda simülasyon gerekliliği yoktur.\n\nNe tarz bir burun istediğini sözel olarak tam dile getiremediğini düşünen hastalar beğendikleri burun fotoğraflarını muayene sırasında gösterebilir ve hasta dosyasına eklenmesi için gönderebilirler. \n\nBurundaki olası değişikliklerin yüzü ile uyumunu hayal etmek isteyen hastalar kendi fotoğraflarına simülasyon yapabilir ve taleplerini bu şekilde hekimle paylaşabilirler.\nHastanın gösterdiği fotoğraflar bir sipariş olarak algılanmamalıdır. Kişinin beğendiği tarzı ve talebini anlatabilmeleri için bir araçtır. Bu bilginin kesinlikle unutulmamalıdır.\nAmeliyat sonrasında ve iyileşmenin sonunda tam olarak nasıl bir sonuç elde edileceğini fotoğraf üzerinden çizebilmek gerçekçi değildir."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. AMELİYAT SONRASI SÜREÇ",
-        "content": [
-          {
-            "title": "AMELİYAT SONRASI SÜREÇ",
-            "text": "Ameliyat bitiminde burun delikleri arasındaki ciltte (kolumella) estetik ince bir kesi ve dikiş, burun içerisinde içi delikli ve nefes almanıza engel olmayan bir stent/tampon, burun üzerinde ise özel bir bant ve plastik bir atel (alçı) bulunacak. Burun kanatlarına müdahale edilmişse burun kanat kısmında da dikiş olacaktır.",
-            "subsections": [
-              {
-                "title": "Tampon ve Alçının Alınması",
-                "text": "Burundaki tampon, bant ve atel ameliyatınızın birinci haftasındaki (5-7 gün) kontrolde alınacak. (Bazı özel durumlarda burun içindeki tampon daha erken alınabilmektedir.)\n\nBazen ameliyat sırasında, bazen ise ameliyat sonrası tampon çıktıktan sonra burun ucu şekli ve deliklerin simetrisi için silikon aparat (nostril retainer) kullanmak gerekebilir.\nBurunda ödemi fazla olan hastalarda ilk kontrolde alçı tekrar uygulanabilir.\nBurun cildi kalın ve ödemli hastalarda ameliyat sonrası sürekli ve/veya gece bantlama yapmanız önerilebilir. (1-2 ay süre ile)"
-              },
-              {
-                "title": "Göz Altı Morluk ve Şişlik",
-                "text": "Ameliyatınızda kemik müdahalesi yapıldığı durumlarda burun çevresi ve göz altında bir miktar şişlik ve morluk olacaktır. Bu durum ameliyat sonrası 3.-4. günde maksimuma ulaşır.\nŞişlik ve morluklar 1. haftada belirgin şekilde azalmış, 2. haftada ise çoğu hastada tamamen geçmiş olur.\nAmeliyat sonrası ilaçların ve gerekli uygulamaların tam yapılması bu süreci çok daha hafif şekilde geçirmenizi sağlayacaktır.\n\nAmeliyat sonrası oluşacak morluk ve şişliğin minimum olması için burun çevresi ve göz altına soğuk uygulama yapılması gerekmektedir.\nHastane yatışınız sırasında size buz verilecektir ancak evde kullanım için jel şeklinde olan buz torbası temin edebilirsiniz.\n(Pratik çözüm: Soğuk uygulama için buzdolabı poşetinde dondurulmuş bezelye, nohut vb. kullanabilirsiniz.)"
-              },
-              {
-                "title": "Ameliyat Sonrası Ödem ve Burun Şeklinin Son Halini Alması",
-                "text": "Burunda oluşan ödem 3 ana dönemde azalmaktadır:",
-                "items": [
-                  "İlk 2 haftalık dönemde hızlı ödem azalması sonrası ikinci haftada burnunuzun yeni yapısını ana hatları ve açıları ile birlikte göreceksiniz. Ancak burnunuz hala çok şiş olacak.",
-                  "Sonraki yaklaşık 2-3 aylık dönemde burnun özellikle sırt, uç ve kanatların yan kısımlarında ödem zaman içerisinde giderek azalacak ve ödemin yaklaşık %70’i geçecek.",
-                  "Kalan %30’luk kısım için ise yaklaşık 1-1,5 yıl daha zaman gerekecek."
-                ],
-                "subtext": "Bu bahsedilen süreler ortalama süreler olup burnun cilt yapısı ve yara iyileşme özellikleri, ödemin ve burundaki şişliğin geçme süreci ve miktarı için ana belirleyici faktörlerdir. (Kalın cilt için süreler x1,5-2)\n\nBurun içindeki kıkırdak ve kemik dokulara yapılan işlemler her hastada farklıdır.\nKullanılan bazı cerrahi tekniklerde, kıkırdak ve dikişlerin zaman içinde oturması ve bir miktar gevşemesi ile ilişkili ve yer çekiminin de etkisi ile ameliyat sonrası 4-6 haftalık dönemde burun ucunda bir miktar aşağı yönlü hareket olabilir. Bu durum nedeni ile ameliyat sonrası erken dönemde burun ucunuz biraz kalkık olabilir. (her hasta için geçerli değildir.)"
-              },
-              {
-                "title": "Burnun Fiziksel Kuvvetlerden Sakınılması",
-                "text": "Ameliyat sonrası 4 ay süre ile burnunuz kontrolsüz bir fiziksel kuvvete maruz kalmamalıdır. Kemik kaynamasının henüz tamamlanmadığı bu dönemde oluşabilecek sorunlar burun iyileşmesinde kalıcı problemler yaratabilir. Bu 4 aylık dönemde burun travması oluşturabilecek aktivitelerden kaçınmalısınız ve gözlük kullanmamalısınız.\n\nEğer lens kullanamıyorsanız ameliyat öncesi mutlaka bu açıdan değerlendirilmelisiniz. Ameliyat öncesi lens kullanabiliyor olmalısınız."
-              },
-              {
-                "title": "Spor ve Egzersiz",
-                "text": "Ameliyat sonrası 2. haftadan itibaren nabız yükselmesi oluşturmayan hafif sportif aktiviteler yapılabilir.\n4. haftadan itibaren ise travma riskinin olmadığı nabız artırıcı aktiviteler serbesttir. 2. ay itibarı ile istediğiniz tempoda spor yapabilirsiniz.\nAmeliyat sonrası 2. haftadan itibaren denize, 1. aydan itibaren havuza girebilirsiniz."
-              }
-            ]
-          },
-          {
-            "title": "SİGARA KULLANIMI",
-            "text": "Sigara dumanı yara iyileşmesinde gecikmeye neden olan EN ÖNEMLİ faktördür.\n\nYara iyileşmesindeki gecikme: burnun gerek fonksiyon gerek görüntü olarak kötü bir sonuca ulaşmasına neden olur. \nİyileşme gecikmesi nedeni ile burunda enfeksiyon riski artar, dikişlerde açılma, burunda artmış ödem ve gecikmiş iyileşme ile ilişkili istenen sonucun beklenenden farklı ve kötü şekilde sonuçlanma riski oluşur.\n\nAmeliyat sonrası sigara tüketmeye devam eden hasta oluşabilecek bu tarz problemlerle ilgili sorumluluğu kabul etmiş varsayılır.\n\n—\n\nAMELİYATTAN EN AZ 10 GÜN ÖNCE, SİGARA MUTLAKA TAMAMEN BIRAKILMALIDIR.\n \nAmeliyat sonrası 3 AY SİGARA kullanılmamalıdır.\n\nSigara kullanan hasta KESİNLİKLE kötü iyileşecektir."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. OLASI RİSKLER",
@@ -458,114 +351,7 @@ export const content = {
     "subtitle": "Answers to all your questions before and after Rhinoplasty are here..",
     "searchPlaceholder": "Search with a word in the question or answer...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. GENERAL INFORMATION",
-        "content": [
-          {
-            "title": "<p>What is Rhinoplasty?</p>",
-            "text": "<p>The nose is a functional organ located right in the middle of the face. </p><p>The functional task of the nose is to breathe and smell, and its visual task is to ensure the face looks beautiful. </p><p>The nose must fulfill these 2 tasks completely, and must be in harmony and proportion with other organs on the face. </p><p>In addition, it should be symmetrical and suitable for the face. </p><p><br></p><p><strong>The aim of Rhinoplasty (Septorhinoplasty) surgery is to give the nose a functional and aesthetic beauty.</strong></p>"
-          },
-          {
-            "title": "<p>What is the purpose of rhinoplasty surgery?</p>",
-            "text": "<p>The aim of rhinoplasty surgery is to obtain a nose appearance that will make the patient happy by offering a solution to the problems in the patient's nose as well as breathing comfortably. </p><p>Since the problem in every nose is different, the procedures to be applied also vary. </p><p><br></p><p>The procedures that can be performed on your nose and the possible results that can be obtained will be shared with you during the examination. </p>",
-            "items": [
-              "<p>The surgery is performed with a mutual decision and agreement.</p><p>Both the patient must want to have surgery by the physician, and the physician must perform the surgery believing that it will benefit the patient.</p>",
-              "<p>Therefore, pre-operative examination and evaluation should be done at the appropriate time and under the right conditions.</p>",
-              "<p>The probability of a happy result for a surgery that neither party wants is quite low.</p>"
-            ]
-          },
-          {
-            "title": "<p>GENERAL INFORMATION</p>",
-            "items": [
-              "<p><strong>Anesthesia Type:</strong> General Anesthesia</p>",
-              "<p><strong>Hospital Stay: </strong>1 night </p><p><br></p><p>If you have surgery early in the morning or after short-term operations, if your medical condition is suitable, you can be discharged on the same day, but most patients will be discharged the next morning after 1 night of hospitalization.</p>",
-              "<p><strong>Duration: </strong>2.5 hours </p><p><br></p><p>Rinoplasty surgery is predicted to take ~2 hours (±1) for standard difficulty, and ~3 hours (±1) for revision surgeries.)</p>",
-              "<p><strong>Surgical Technique: </strong>Open technique, structure (structural) rhinoplasty. </p><p>I perform the surgery routinely using the open technique. </p><p>In this technique, an incision is made in the skin between the nostrils and this incision is stitched in accordance with the aesthetic purpose at the end of the surgery.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Closed technique surgery can be applied in the following cases:</p>",
-                "items": [
-                  "<p>Short-term and limited revision surgeries</p>",
-                  "<p>Limited procedures to be performed only for the nasal arch</p>",
-                  "<p>Functional surgeries only where there is no aesthetic purpose</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Technical Equipment</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> is routinely used in surgeries. </p><p>This device is one of the technical equipment that ensures precise shaping of the bone.</p>",
-                  "<p>Using Piezo does not mean that there will be no bruising. </p><p>There will be bruising and tissue edema in the post-operative period due to subcutaneous tissue and vascular structure. </p><p>However, ~90% of patients do not have visible bruising in the 1st week.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. PHOTOGRAPHY",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>PHOTOGRAPHY</p>",
-                "text": "<p>Photography is performed before, during, and after surgery. Pre-operative photography is part of the examination.</p><p>The purpose of photography is to understand, explain, and remember the problems in the nose and to use objective data while planning the surgery.</p>"
-              },
-              {
-                "title": "<p>Simulation</p>",
-                "text": "<p>Simulation is not performed on the photo after photography.</p><p>There is no need for simulation in patients who can explain what they demand and are understood.</p><p><br></p><p>Patients who think they cannot fully express verbally what kind of nose they want can show the nose photos they like during the examination and send them to be added to the patient file. </p><p><br></p><p>Patients who want to imagine the harmony of possible changes in the nose with their face can simulate their own photos and share their demands with the physician in this way.</p><p>The photos shown by the patient should not be perceived as an order. It is a tool for the person to explain the style they like and their demand. This information should definitely not be forgotten.</p><p>It is not realistic to draw exactly what kind of result will be obtained at the end of healing on the photo after surgery.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. POST-OPERATIVE PROCESS",
-        "content": [
-          {
-            "title": "POST-OPERATIVE PROCESS",
-            "text": "At the end of the surgery, there will be an aesthetic thin incision and suture on the skin between the nostrils (columella), a stent/tampon with a hole inside that does not prevent you from breathing inside the nose, and a special tape and a plastic splint (cast) on the nose. If the nasal wings have been intervened, there will also be sutures in the nasal wing part.",
-            "subsections": [
-              {
-                "title": "Removal of Tampon and Cast",
-                "text": "The tampon, tape, and splint on the nose will be removed at the control in the first week (5-7 days) of your surgery. (In some special cases, the tampon inside the nose can be removed earlier.)\n\nSometimes during the surgery, and sometimes after the tampon is removed after the surgery, it may be necessary to use a silicone apparatus (nostril retainer) for the shape of the nasal tip and the symmetry of the nostrils.\nIn patients with excessive edema in the nose, the cast can be applied again at the first control.\nIn patients with thick and edematous nasal skin, continuous and/or night taping may be recommended after surgery. (For 1-2 months)"
-              },
-              {
-                "title": "Under-Eye Bruising and Swelling",
-                "text": "In cases where bone intervention is performed in your surgery, there will be some swelling and bruising around the nose and under the eyes. This situation reaches its maximum on the 3rd-4th day after surgery.\nSwelling and bruising are significantly reduced in the 1st week and completely gone in most patients in the 2nd week.\nFull implementation of post-operative medications and necessary applications will ensure that you pass this process much more lightly.\n\nCold application should be made around the nose and under the eyes to minimize bruising and swelling after surgery.\nIce will be given to you during your hospitalization, but you can obtain a gel ice pack for home use.\n(Practical solution: You can use frozen peas, chickpeas, etc. in a refrigerator bag for cold application.)"
-              },
-              {
-                "title": "Post-Operative Edema and Final Shape of the Nose",
-                "text": "Edema formed in the nose decreases in 3 main periods:",
-                "items": [
-                  "After rapid edema reduction in the first 2-week period, you will see the new structure of your nose with its main lines and angles in the second week. However, your nose will still be very swollen.",
-                  "In the following period of approximately 2-3 months, edema in the nose, especially on the back, tip, and side parts of the wings, will gradually decrease over time and approximately 70% of the edema will pass.",
-                  "For the remaining 30% part, approximately 1-1.5 years more time will be required."
-                ],
-                "subtext": "These mentioned periods are average periods and are the main determining factors for the skin structure of the nose and wound healing characteristics, the process and amount of passing of edema and swelling in the nose. (For thick skin, periods x1.5-2)\n\nThe procedures performed on the cartilage and bone tissues inside the nose are different in each patient.\nIn some surgical techniques used, there may be some downward movement in the nasal tip in the post-operative 4-6 week period related to the settling and some loosening of the cartilage and sutures over time and with the effect of gravity. Due to this situation, your nasal tip may be a little upturned in the early post-operative period. (not valid for every patient.)"
-              },
-              {
-                "title": "Avoiding Physical Forces on the Nose",
-                "text": "Your nose should not be exposed to uncontrolled physical force for 4 months after surgery. Problems that may occur in this period when bone fusion is not yet completed can create permanent problems in nasal healing. In this 4-month period, you should avoid activities that may cause nasal trauma and should not use glasses.\n\nIf you cannot use lenses, you must definitely be evaluated in this regard before surgery. You should be able to use lenses before surgery."
-              },
-              {
-                "title": "Sports and Exercise",
-                "text": "Light sports activities that do not increase the pulse can be done from the 2nd week after surgery.\nFrom the 4th week, pulse-increasing activities where there is no risk of trauma are free. As of the 2nd month, you can do sports at the pace you want.\nYou can enter the sea from the 2nd week after surgery, and the pool from the 1st month."
-              }
-            ]
-          },
-          {
-            "title": "SMOKING",
-            "text": "Cigarette smoke is the MOST IMPORTANT factor causing delay in wound healing.\n\nDelay in wound healing: causes the nose to reach a bad result both functionally and visually. \nDue to healing delay, the risk of infection in the nose increases, opening in sutures, increased edema in the nose, and the risk of the desired result resulting differently and badly than expected related to delayed healing occurs.\n\nThe patient who continues to consume cigarettes after surgery is deemed to have accepted the responsibility for such problems that may occur.\n\n—\n\nAT LEAST 10 DAYS BEFORE SURGERY, SMOKING MUST BE COMPLETELY STOPPED.\n \nSMOKING should not be used for 3 MONTHS after surgery.\n\nThe patient who uses cigarettes will DEFINITELY heal badly."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. POTENTIAL RISKS",
@@ -911,114 +697,7 @@ export const content = {
     "subtitle": "Hier finden Sie Antworten auf alle Ihre Fragen vor und nach einer Nasenkorrektur..",
     "searchPlaceholder": "Suchen Sie mit einem Wort in der Frage oder Antwort...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. ALLGEMEINE INFORMATIONEN",
-        "content": [
-          {
-            "title": "<p>Was ist eine Nasenkorrektur (Rhinoplastik)?</p>",
-            "text": "<p>Die Nase ist ein funktionelles Organ, das sich genau in der Mitte des Gesichts befindet. </p><p>Die funktionelle Aufgabe der Nase ist das Atmen und Riechen, und ihre visuelle Aufgabe ist es, dafür zu sorgen, dass das Gesicht schön aussieht. </p><p>Die Nase muss diese 2 Aufgaben vollständig erfüllen und in Harmonie und Proportion mit anderen Organen im Gesicht stehen. </p><p>Außerdem sollte sie symmetrisch und passend zum Gesicht sein. </p><p><br></p><p><strong>Das Ziel der Rhinoplastik (Septorhinoplastik) ist es, der Nase eine funktionelle und ästhetische Schönheit zu verleihen.</strong></p>"
-          },
-          {
-            "title": "<p>Was ist der Zweck der Rhinoplastik-Operation?</p>",
-            "text": "<p>Das Ziel der Rhinoplastik-Operation ist es, ein Nasenaussehen zu erhalten, das den Patienten glücklich macht, indem eine Lösung für die Probleme in der Nase des Patienten angeboten wird und gleichzeitig bequem geatmet werden kann. </p><p>Da das Problem bei jeder Nase anders ist, variieren auch die anzuwendenden Verfahren. </p><p><br></p><p>Die Verfahren, die an Ihrer Nase durchgeführt werden können, und die möglichen Ergebnisse, die erzielt werden können, werden Ihnen während der Untersuchung mitgeteilt. </p>",
-            "items": [
-              "<p>Die Operation wird mit einer beidseitigen Entscheidung und Vereinbarung durchgeführt.</p><p>Sowohl der Patient muss vom Arzt operiert werden wollen, als auch der Arzt muss die Operation durchführen, in dem Glauben, dass sie dem Patienten zugute kommt.</p>",
-              "<p>Daher sollten die präoperative Untersuchung und Bewertung zum richtigen Zeitpunkt und unter den richtigen Bedingungen durchgeführt werden.</p>",
-              "<p>Die Wahrscheinlichkeit eines glücklichen Ergebnisses für eine Operation, die keine der beiden Parteien will, ist ziemlich gering.</p>"
-            ]
-          },
-          {
-            "title": "<p>ALLGEMEINE INFORMATIONEN</p>",
-            "items": [
-              "<p><strong>Art der Anästhesie:</strong> Vollnarkose</p>",
-              "<p><strong>Krankenhausaufenthalt: </strong>1 Nacht </p><p><br></p><p>Nach einer Operation am frühen Morgen oder kurzzeitigen Operationen können Sie, wenn Ihr medizinischer Zustand geeignet ist, am selben Tag entlassen werden, aber die meisten Patienten werden am nächsten Morgen nach 1 Nacht Krankenhausaufenthalt entlassen.</p>",
-              "<p><strong>Dauer: </strong>2,5 Stunden </p><p><br></p><p>Es wird vorausgesagt, dass die Nasenkorrektur ~2 Stunden (±1) bei Standard-Schwierigkeit und ~3 Stunden (±1) bei Revisionsoperationen dauert.)</p>",
-              "<p><strong>Chirurgische Technik: </strong>Offene Technik, strukturelle (structure) Rhinoplastik. </p><p>Ich führe die Operation routinemäßig mit der offenen Technik durch. </p><p>Bei dieser Technik wird ein Schnitt in die Haut zwischen den Nasenlöchern gemacht, und dieser Schnitt wird am Ende der Operation gemäß dem ästhetischen Zweck genäht.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Die geschlossene Technik kann in folgenden Fällen angewendet werden:</p>",
-                "items": [
-                  "<p>Kurzfristige und begrenzte Revisionsoperationen</p>",
-                  "<p>Begrenzte Verfahren nur für den Nasenhöcker</p>",
-                  "<p>Funktionelle Operationen nur dort, wo kein ästhetischer Zweck besteht</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Technische Ausrüstung</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> wird routinemäßig bei Operationen verwendet. </p><p>Dieses Gerät ist eines der technischen Geräte, das eine präzise Formung des Knochens ermöglicht.</p>",
-                  "<p>Die Verwendung von Piezo bedeutet nicht, dass es keine Blutergüsse geben wird. </p><p>In der postoperativen Phase wird es aufgrund von Unterhautgewebe und Gefäßstruktur zu Blutergüssen und Gewebeödemen kommen. </p><p>Jedoch haben ~90% der Patienten in der 1. Woche keine sichtbaren Blutergüsse.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFIE",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FOTOGRAFIE</p>",
-                "text": "<p>Fotografie wird vor, während und nach der Operation durchgeführt. Die präoperative Fotografie ist Teil der Untersuchung.</p><p>Der Zweck der Fotografie ist es, die Probleme in der Nase zu verstehen, zu erklären und sich daran zu erinnern und objektive Daten bei der Planung der Operation zu verwenden.</p>"
-              },
-              {
-                "title": "<p>Simulation</p>",
-                "text": "<p>Eine Simulation wird nach der Fotografie nicht auf dem Foto durchgeführt.</p><p>Es besteht keine Notwendigkeit für eine Simulation bei Patienten, die erklären können, was sie verlangen, und verstanden werden.</p><p><br></p><p>Patienten, die denken, dass sie verbal nicht vollständig ausdrücken können, welche Art von Nase sie wollen, können die Nasenfotos, die sie mögen, während der Untersuchung zeigen und senden, damit sie der Patientenakte hinzugefügt werden. </p><p><br></p><p>Patienten, die sich die Harmonie möglicher Veränderungen in der Nase mit ihrem Gesicht vorstellen möchten, können ihre eigenen Fotos simulieren und ihre Anforderungen auf diese Weise mit dem Arzt teilen.</p><p>Die vom Patienten gezeigten Fotos sollten nicht als Bestellung wahrgenommen werden. Es ist ein Werkzeug für die Person, um den Stil zu erklären, den sie mag, und ihre Nachfrage. Diese Information sollte definitiv nicht vergessen werden.</p><p>Es ist nicht realistisch, genau zu zeichnen, welches Ergebnis am Ende der Heilung auf dem Foto nach der Operation erzielt wird.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. POSTOPERATIVER PROZESS",
-        "content": [
-          {
-            "title": "POSTOPERATIVER PROZESS",
-            "text": "Am Ende der Operation befinden sich ein ästhetischer dünner Schnitt und eine Naht auf der Haut zwischen den Nasenlöchern (Columella), ein Stent/Tampon mit einem Loch im Inneren, der Sie nicht am Atmen in der Nase hindert, sowie ein spezielles Klebeband und eine Kunststoffschiene (Gips) auf der Nase. Wenn an den Nasenflügeln eingegriffen wurde, befinden sich auch Nähte im Nasenflügelteil.",
-            "subsections": [
-              {
-                "title": "Entfernung von Tampon und Gips",
-                "text": "Der Tampon, das Klebeband und die Schiene auf der Nase werden bei der Kontrolle in der ersten Woche (5-7 Tage) Ihrer Operation entfernt. (In einigen besonderen Fällen kann der Tampon in der Nase früher entfernt werden.)\n\nManchmal während der Operation und manchmal nach Entfernung des Tampons nach der Operation kann es notwendig sein, einen Silikonapparat (Nasenlochhalter) für die Form der Nasenspitze und die Symmetrie der Nasenlöcher zu verwenden.\nBei Patienten mit übermäßigem Ödem in der Nase kann der Gips bei der ersten Kontrolle erneut angelegt werden.\nBei Patienten mit dicker und ödematöser Nasenhaut kann nach der Operation ein kontinuierliches und/oder nächtliches Taping empfohlen werden. (Für 1-2 Monate)"
-              },
-              {
-                "title": "Blutergüsse und Schwellungen unter den Augen",
-                "text": "In Fällen, in denen bei Ihrer Operation ein Knocheneingriff durchgeführt wird, treten Schwellungen und Blutergüsse um die Nase und unter den Augen auf. Diese Situation erreicht ihr Maximum am 3.-4. Tag nach der Operation.\nSchwellungen und Blutergüsse sind in der 1. Woche deutlich reduziert und bei den meisten Patienten in der 2. Woche vollständig verschwunden.\nDie vollständige Umsetzung postoperativer Medikamente und notwendiger Anwendungen stellt sicher, dass Sie diesen Prozess viel leichter überstehen.\n\nUm Blutergüsse und Schwellungen nach der Operation zu minimieren, sollte eine Kälteanwendung um die Nase und unter den Augen erfolgen.\nEis wird Ihnen während Ihres Krankenhausaufenthalts gegeben, aber Sie können einen Gel-Eisbeutel für den Heimgebrauch erhalten.\n(Praktische Lösung: Sie können gefrorene Erbsen, Kichererbsen usw. in einem Kühlschrankbeutel für die Kälteanwendung verwenden.)"
-              },
-              {
-                "title": "Postoperatives Ödem und endgültige Form der Nase",
-                "text": "Das in der Nase gebildete Ödem nimmt in 3 Hauptperioden ab:",
-                "items": [
-                  "Nach einer schnellen Ödemreduktion in den ersten 2 Wochen sehen Sie in der zweiten Woche die neue Struktur Ihrer Nase mit ihren Hauptlinien und Winkeln. Ihre Nase wird jedoch immer noch sehr geschwollen sein.",
-                  "Im folgenden Zeitraum von ca. 2-3 Monaten nimmt das Ödem in der Nase, insbesondere am Rücken, an der Spitze und an den Seitenteilen der Flügel, im Laufe der Zeit allmählich ab und ca. 70% des Ödems vergehen.",
-                  "Für die restlichen 30% werden ca. 1-1,5 Jahre mehr Zeit benötigt."
-                ],
-                "subtext": "Diese genannten Zeiträume sind Durchschnittszeiten und die Hautstruktur der Nase und die Wundheilungseigenschaften sind die wichtigsten bestimmenden Faktoren für den Prozess und die Menge des Ödems und der Schwellung in der Nase. (Zeiten x1,5-2 für dicke Haut)\n\nDie Verfahren, die an Knorpel- und Knochengeweben in der Nase durchgeführt werden, sind bei jedem Patienten unterschiedlich.\nBei einigen verwendeten chirurgischen Techniken kann es im postoperativen Zeitraum von 4-6 Wochen zu einer gewissen Abwärtsbewegung der Nasenspitze kommen, die mit dem Setzen und einer gewissen Lockerung von Knorpeln und Nähten im Laufe der Zeit und unter Einwirkung der Schwerkraft verbunden ist. Aufgrund dieser Situation kann Ihre Nasenspitze in der frühen postoperativen Phase etwas nach oben gerichtet sein. (gilt nicht für jeden Patienten.)"
-              },
-              {
-                "title": "Vermeidung physikalischer Kräfte auf die Nase",
-                "text": "Ihre Nase sollte 4 Monate nach der Operation keiner unkontrollierten physikalischen Kraft ausgesetzt werden. Probleme, die in diesem Zeitraum auftreten können, wenn die Knochenheilung noch nicht abgeschlossen ist, können dauerhafte Probleme bei der Nasenheilung verursachen. In diesem 4-monatigen Zeitraum sollten Sie Aktivitäten vermeiden, die ein Nasentrauma verursachen können, und keine Brille tragen.\n\nWenn Sie keine Linsen verwenden können, müssen Sie diesbezüglich unbedingt vor der Operation untersucht werden. Sie sollten vor der Operation Linsen verwenden können."
-              },
-              {
-                "title": "Sport und Bewegung",
-                "text": "Leichte sportliche Aktivitäten, die keinen Pulsanstieg verursachen, können ab der 2. Woche nach der Operation durchgeführt werden.\nAb der 4. Woche sind pulserhöhende Aktivitäten, bei denen kein Traumarisiko besteht, frei. Ab dem 2. Monat können Sie Sport im gewünschten Tempo treiben.\nSie können ab der 2. Woche nach der Operation ins Meer und ab dem 1. Monat in den Pool gehen."
-              }
-            ]
-          },
-          {
-            "title": "RAUCHEN",
-            "text": "Zigarettenrauch ist der WICHTIGSTE Faktor, der eine Verzögerung der Wundheilung verursacht.\n\nVerzögerung der Wundheilung: führt dazu, dass die Nase sowohl funktionell als auch visuell ein schlechtes Ergebnis erzielt. \nAufgrund der Heilungsverzögerung steigt das Infektionsrisiko in der Nase, das Öffnen von Nähten, ein erhöhtes Ödem in der Nase und das Risiko, dass das gewünschte Ergebnis anders und schlechter als erwartet ausfällt, was mit einer verzögerten Heilung zusammenhängt.\n\nEin Patient, der nach der Operation weiterhin Zigaretten konsumiert, gilt als verantwortlich für solche Probleme, die auftreten können.\n\n—\n\nMINDESTENS 10 TAGE VOR DER OPERATION MUSS DAS RAUCHEN VOLLSTÄNDIG EINGESTELLT WERDEN.\n \nRAUCHEN sollte 3 MONATE nach der Operation nicht verwendet werden.\n\nEin Patient, der Zigaretten konsumiert, wird DEFINITIV schlecht heilen."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. MÖGLICHE RISIKEN",
@@ -1309,114 +988,7 @@ export const content = {
     "subtitle": "Aquí encontrará la respuesta a todas sus preguntas antes y después de la rinoplastia..",
     "searchPlaceholder": "Buscar con una palabra en la pregunta o respuesta...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMACIÓN GENERAL",
-        "content": [
-          {
-            "title": "<p>¿Qué es la Rinoplastia?</p>",
-            "text": "<p>La nariz es un órgano funcional ubicado justo en el medio de la cara. </p><p>La tarea funcional de la nariz es respirar y oler, y su tarea visual es asegurar que la cara se vea hermosa. </p><p>La nariz debe cumplir estas 2 tareas completamente, y debe estar en armonía y proporción con otros órganos de la cara. </p><p>Además, debe ser simétrica y adecuada para la cara. </p><p><br></p><p><strong>El objetivo de la cirugía de Rinoplastia (Septorrinoplastia) es dar a la nariz una belleza funcional y estética.</strong></p>"
-          },
-          {
-            "title": "<p>¿Cuál es el propósito de la cirugía de rinoplastia?</p>",
-            "text": "<p>El objetivo de la cirugía de rinoplastia es obtener una apariencia de nariz que haga feliz al paciente ofreciendo una solución a los problemas en la nariz del paciente, así como respirar cómodamente. </p><p>Dado que el problema en cada nariz es diferente, los procedimientos a aplicar también varían. </p><p><br></p><p>Los procedimientos que se pueden realizar en su nariz y los posibles resultados que se pueden obtener se compartirán con usted durante el examen. </p>",
-            "items": [
-              "<p>La cirugía se realiza con una decisión y acuerdo mutuos.</p><p>Tanto el paciente debe querer operarse por el médico, como el médico debe realizar la cirugía creyendo que beneficiará al paciente.</p>",
-              "<p>Por lo tanto, el examen y la evaluación preoperatorios deben realizarse en el momento adecuado y en las condiciones adecuadas.</p>",
-              "<p>La probabilidad de un resultado feliz para una cirugía que ninguna de las partes quiere es bastante baja.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMACIÓN GENERAL</p>",
-            "items": [
-              "<p><strong>Tipo de Anestesia:</strong> Anestesia General</p>",
-              "<p><strong>Estancia Hospitalaria: </strong>1 noche </p><p><br></p><p>Si se opera temprano en la mañana o después de operaciones a corto plazo, si su condición médica es adecuada, puede ser dado de alta el mismo día, pero la mayoría de los pacientes serán dados de alta a la mañana siguiente después de 1 noche de hospitalización.</p>",
-              "<p><strong>Duración: </strong>2,5 horas </p><p><br></p><p>Se prevé que la cirugía de rinoplastia dure ~2 horas (±1) para dificultad estándar, y ~3 horas (±1) para cirugías de revisión.)</p>",
-              "<p><strong>Técnica Quirúrgica: </strong>Técnica abierta, rinoplastia estructural (structure). </p><p>Realizo la cirugía de forma rutinaria utilizando la técnica abierta. </p><p>En esta técnica, se realiza una incisión en la piel entre las fosas nasales y esta incisión se cose de acuerdo con el propósito estético al final de la cirugía.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>La técnica cerrada se puede aplicar en los siguientes casos:</p>",
-                "items": [
-                  "<p>Cirugías de revisión a corto plazo y limitadas</p>",
-                  "<p>Procedimientos limitados a realizar solo para el arco nasal</p>",
-                  "<p>Cirugías funcionales solo donde no hay un propósito estético</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Equipo Técnico</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> se utiliza de forma rutinaria en las cirugías. </p><p>Este dispositivo es uno de los equipos técnicos que asegura un modelado preciso del hueso.</p>",
-                  "<p>El uso de Piezo no significa que no habrá hematomas. </p><p>Habrá hematomas y edema tisular en el período postoperatorio debido al tejido subcutáneo y la estructura vascular. </p><p>Sin embargo, ~90% de los pacientes no tienen hematomas visibles en la 1ª semana.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFÍA",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FOTOGRAFÍA</p>",
-                "text": "<p>La fotografía se realiza antes, durante y después de la cirugía. La fotografía preoperatoria es parte del examen.</p><p>El propósito de la fotografía es comprender, explicar y recordar los problemas en la nariz y utilizar datos objetivos al planificar la cirugía.</p>"
-              },
-              {
-                "title": "<p>Simulación</p>",
-                "text": "<p>No se realiza simulación en la foto después de la fotografía.</p><p>No hay necesidad de simulación en pacientes que pueden explicar lo que demandan y son entendidos.</p><p><br></p><p>Los pacientes que piensan que no pueden expresar completamente verbalmente qué tipo de nariz quieren pueden mostrar las fotos de nariz que les gustan durante el examen y enviarlas para que se agreguen al archivo del paciente. </p><p><br></p><p>Los pacientes que desean imaginar la armonía de los posibles cambios en la nariz con su cara pueden simular sus propias fotos y compartir sus demandas con el médico de esta manera.</p><p>Las fotos mostradas por el paciente no deben percibirse como un pedido. Es una herramienta para que la persona explique el estilo que le gusta y su demanda. Esta información definitivamente no debe olvidarse.</p><p>No es realista dibujar exactamente qué tipo de resultado se obtendrá al final de la curación en la foto después de la cirugía.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCESO POSTOPERATORIO",
-        "content": [
-          {
-            "title": "PROCESO POSTOPERATORIO",
-            "text": "Al final de la cirugía, habrá una incisión fina estética y sutura en la piel entre las fosas nasales (columela), un stent/tapón con un orificio en el interior que no le impide respirar dentro de la nariz, y una cinta especial y una férula de plástico (yeso) en la nariz. Si se han intervenido las alas nasales, también habrá suturas en la parte del ala nasal.",
-            "subsections": [
-              {
-                "title": "Retirada del Tapón y Yeso",
-                "text": "El tapón, la cinta y la férula en la nariz se retirarán en el control en la primera semana (5-7 días) de su cirugía. (En algunos casos especiales, el tapón dentro de la nariz se puede retirar antes.)\n\nA veces durante la cirugía, y a veces después de retirar el tapón después de la cirugía, puede ser necesario utilizar un aparato de silicona (retenedor de fosas nasales) para la forma de la punta nasal y la simetría de las fosas nasales.\nEn pacientes con edema excesivo en la nariz, el yeso se puede aplicar nuevamente en el primer control.\nEn pacientes con piel nasal gruesa y edematosa, se puede recomendar el vendaje continuo y/o nocturno después de la cirugía. (Por un período de 1-2 meses)"
-              },
-              {
-                "title": "Hematomas e Hinchazón Debajo de los Ojos",
-                "text": "En los casos en que se realiza una intervención ósea en su cirugía, habrá algo de hinchazón y hematomas alrededor de la nariz y debajo de los ojos. Esta situación alcanza su máximo en el 3er-4to día después de la cirugía.\nLa hinchazón y los hematomas se reducen significativamente en la 1ª semana, y desaparecen por completo en la mayoría de los pacientes en la 2ª semana.\nLa implementación completa de los medicamentos postoperatorios y las aplicaciones necesarias asegurará que pase por este proceso mucho más ligeramente.\n\nSe debe aplicar frío alrededor de la nariz y debajo de los ojos para minimizar los hematomas y la hinchazón después de la cirugía.\nSe le dará hielo durante su estancia en el hospital, pero puede obtener una bolsa de hielo en forma de gel para uso doméstico.\n(Solución práctica: Puede usar guisantes congelados, garbanzos, etc. en una bolsa de refrigerador para la aplicación de frío.)"
-              },
-              {
-                "title": "Edema Postoperatorio y Forma Final de la Nariz",
-                "text": "El edema formado en la nariz disminuye en 3 períodos principales:",
-                "items": [
-                  "Después de una rápida reducción del edema en el primer período de 2 semanas, verá la nueva estructura de su nariz con sus líneas y ángulos principales en la segunda semana. Sin embargo, su nariz todavía estará muy hinchada.",
-                  "En el siguiente período de aproximadamente 2-3 meses, el edema en la nariz, especialmente en el dorso, la punta y las partes laterales de las alas, disminuirá gradualmente con el tiempo y aproximadamente el 70% del edema pasará.",
-                  "Para el 30% restante, se requerirá aproximadamente 1-1.5 años más de tiempo."
-                ],
-                "subtext": "Estos períodos mencionados son períodos promedio y son los principales factores determinantes para la estructura de la piel de la nariz y las características de curación de heridas, el proceso y la cantidad de paso del edema y la hinchazón en la nariz. (Para piel gruesa, períodos x1.5-2)\n\nLos procedimientos realizados en los tejidos de cartílago y hueso dentro de la nariz son diferentes en cada paciente.\nEn algunas técnicas quirúrgicas utilizadas, puede haber algún movimiento hacia abajo en la punta nasal en el período postoperatorio de 4-6 semanas relacionado con el asentamiento y cierto aflojamiento de los cartílagos y suturas con el tiempo y con el efecto de la gravedad. Debido a esta situación, su punta nasal puede estar un poco respingona en el período temprano postoperatorio. (no válido para todos los pacientes.)"
-              },
-              {
-                "title": "Evitar Fuerzas Físicas en la Nariz",
-                "text": "Su nariz no debe estar expuesta a una fuerza física incontrolada durante 4 meses después de la cirugía. Los problemas que pueden ocurrir en este período cuando la fusión ósea aún no se ha completado pueden crear problemas permanentes en la curación de la nariz. En este período de 4 meses, debe evitar actividades que puedan causar trauma nasal y no debe usar gafas.\n\nSi no puede usar lentes de contacto, definitivamente debe ser evaluado a este respecto antes de la cirugía. Debe poder usar lentes de contacto antes de la cirugía."
-              },
-              {
-                "title": "Deportes y Ejercicio",
-                "text": "Se pueden realizar actividades deportivas leves que no causen aumento del pulso a partir de la 2ª semana después de la cirugía.\nA partir de la 4ª semana, las actividades que aumentan el pulso donde no hay riesgo de trauma son libres. A partir del 2º mes, puede hacer deporte al ritmo que desee.\nPuede entrar al mar a partir de la 2ª semana después de la cirugía, y a la piscina a partir del 1er mes."
-              }
-            ]
-          },
-          {
-            "title": "USO DE TABACO",
-            "text": "El humo del cigarrillo es el factor MÁS IMPORTANTE que causa retraso en la curación de heridas.\n\nRetraso en la curación de heridas: hace que la nariz alcance un mal resultado tanto funcional como visualmente. \nDebido al retraso en la curación, aumenta el riesgo de infección en la nariz, apertura de suturas, aumento del edema en la nariz y el riesgo de que el resultado deseado resulte diferente y mal de lo esperado relacionado con la curación retrasada.\n\nSe considera que un paciente que continúa consumiendo cigarrillos después de la cirugía ha aceptado la responsabilidad de tales problemas que puedan ocurrir.\n\n—\n\nAL MENOS 10 DÍAS ANTES DE LA CIRUGÍA, SE DEBE DEJAR DE FUMAR COMPLETAMENTE.\n \nNO SE DEBE FUMAR durante 3 MESES después de la cirugía.\n\nUn paciente que usa cigarrillos DEFINITIVAMENTE sanará mal."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. RIESGOS POTENCIALES",
@@ -1707,114 +1279,7 @@ export const content = {
     "subtitle": "Здесь вы найдете ответы на все ваши вопросы до и после ринопластики..",
     "searchPlaceholder": "Поиск по слову в вопросе или ответе...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. ОБЩАЯ ИНФОРМАЦИЯ",
-        "content": [
-          {
-            "title": "<p>Что такое ринопластика?</p>",
-            "text": "<p>Нос — это функциональный орган, расположенный прямо посередине лица. </p><p>Функциональная задача носа — дышать и обонять, а его визуальная задача — обеспечивать красоту лица. </p><p>Нос должен полностью выполнять эти 2 задачи и должен находиться в гармонии и пропорции с другими органами на лице. </p><p>Кроме того, он должен быть симметричным и подходящим для лица. </p><p><br></p><p><strong>Целью операции ринопластики (септоринопластики) является придание носу функциональной и эстетической красоты.</strong></p>"
-          },
-          {
-            "title": "<p>Какова цель операции ринопластики?</p>",
-            "text": "<p>Целью операции ринопластики является получение внешнего вида носа, который сделает пациента счастливым, предлагая решение проблем в носу пациента, а также комфортное дыхание. </p><p>Поскольку проблема в каждом носу разная, процедуры, которые будут применяться, также различаются. </p><p><br></p><p>Процедуры, которые могут быть выполнены на вашем носу, и возможные результаты, которые могут быть получены, будут обсуждены с вами во время осмотра. </p>",
-            "items": [
-              "<p>Операция проводится по обоюдному решению и согласию.</p><p>Как пациент должен хотеть, чтобы его прооперировал врач, так и врач должен выполнять операцию, полагая, что она принесет пользу пациенту.</p>",
-              "<p>Поэтому предоперационное обследование и оценка должны проводиться в подходящее время и в правильных условиях.</p>",
-              "<p>Вероятность счастливого результата операции, которую не хочет ни одна из сторон, довольно низка.</p>"
-            ]
-          },
-          {
-            "title": "<p>ОБЩАЯ ИНФОРМАЦИЯ</p>",
-            "items": [
-              "<p><strong>Тип анестезии:</strong> Общая анестезия</p>",
-              "<p><strong>Пребывание в больнице: </strong>1 ночь </p><p><br></p><p>Если операция проводится рано утром или после краткосрочных операций, если ваше медицинское состояние позволяет, вас могут выписать в тот же день, но большинство пациентов выписываются на следующее утро после 1 ночи госпитализации.</p>",
-              "<p><strong>Длительность: </strong>2,5 часа </p><p><br></p><p>Прогнозируется, что операция ринопластики займет ~2 часа (±1) для стандартной сложности и ~3 часа (±1) для ревизионных операций.)</p>",
-              "<p><strong>Хирургическая техника: </strong>Открытая техника, структурная (structure) ринопластика. </p><p>Я провожу операцию рутинно, используя открытую технику. </p><p>В этой технике делается разрез на коже между ноздрями, и этот разрез зашивается в соответствии с эстетической целью в конце операции.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Закрытая техника может применяться в следующих случаях:</p>",
-                "items": [
-                  "<p>Краткосрочные и ограниченные ревизионные операции</p>",
-                  "<p>Ограниченные процедуры, выполняемые только для носовой дуги</p>",
-                  "<p>Функциональные операции только там, где нет эстетической цели</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Техническое оборудование</p>",
-                "items": [
-                  "<p><strong>Пьезо</strong> (Piezo) рутинно используется в операциях. </p><p>Это устройство является одним из технических средств, обеспечивающих точное формирование кости.</p>",
-                  "<p>Использование Пьезо не означает, что синяков не будет. </p><p>В послеоперационном периоде будут синяки и отек тканей из-за подкожной клетчатки и сосудистой структуры. </p><p>Однако у ~90% пациентов нет видимых синяков на 1-й неделе.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. ФОТОГРАФИРОВАНИЕ",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>ФОТОГРАФИРОВАНИЕ</p>",
-                "text": "<p>Фотосъемка проводится до, во время и после операции. Предоперационная фотосъемка является частью осмотра.</p><p>Цель фотографирования — понять, объяснить и запомнить проблемы в носу и использовать объективные данные при планировании операции.</p>"
-              },
-              {
-                "title": "<p>Моделирование</p>",
-                "text": "<p>Моделирование не проводится на фото после фотосъемки.</p><p>Нет необходимости в моделировании у пациентов, которые могут объяснить, что они требуют, и их понимают.</p><p><br></p><p>Пациенты, которые считают, что не могут полностью выразить словесно, какой нос они хотят, могут показать фотографии носа, которые им нравятся, во время осмотра и отправить их для добавления в файл пациента. </p><p><br></p><p>Пациенты, которые хотят представить гармонию возможных изменений в носу с их лицом, могут смоделировать свои собственные фотографии и поделиться своими требованиями с врачом таким образом.</p><p>Фотографии, показанные пациентом, не должны восприниматься как заказ. Это инструмент для человека, чтобы объяснить стиль, который ему нравится, и его требование. Эту информацию определенно не следует забывать.</p><p>Нереалистично рисовать точно, какой результат будет получен в конце заживления на фото после операции.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. ПОСЛЕОПЕРАЦИОННЫЙ ПРОЦЕСС",
-        "content": [
-          {
-            "title": "ПОСЛЕОПЕРАЦИОННЫЙ ПРОЦЕСС",
-            "text": "В конце операции будет эстетический тонкий разрез и шов на коже между ноздрями (колумелла), стент/тампон с отверстием внутри, который не мешает вам дышать внутри носа, а также специальная лента и пластиковая шина (гипс) на носу. Если были затронуты крылья носа, также будут швы в части крыла носа.",
-            "subsections": [
-              {
-                "title": "Удаление тампона и гипса",
-                "text": "Тампон, лента и шина на носу будут удалены на контроле в первую неделю (5-7 дней) вашей операции. (В некоторых особых случаях тампон внутри носа может быть удален раньше.)\n\nИногда во время операции, а иногда после удаления тампона после операции может потребоваться использование силиконового аппарата (фиксатора ноздрей) для формы кончика носа и симметрии ноздрей.\nУ пациентов с чрезмерным отеком носа гипс может быть наложен повторно при первом контроле.\nУ пациентов с толстой и отечной кожей носа может быть рекомендовано постоянное и/или ночное бинтование после операции. (В течение 1-2 месяцев)"
-              },
-              {
-                "title": "Синяки и отеки под глазами",
-                "text": "В случаях, когда в вашей операции выполняется вмешательство на кости, будет некоторый отек и синяки вокруг носа и под глазами. Эта ситуация достигает своего максимума на 3-4 день после операции.\nОтек и синяки значительно уменьшаются в 1-ю неделю и полностью исчезают у большинства пациентов на 2-й неделе.\nПолное выполнение послеоперационных лекарств и необходимых приложений обеспечит вам гораздо более легкое прохождение этого процесса.\n\nВокруг носа и под глазами следует прикладывать холод, чтобы минимизировать синяки и отеки после операции.\nЛед вам дадут во время госпитализации, но вы можете приобрести гелевый пакет со льдом для домашнего использования.\n(Практическое решение: Вы можете использовать замороженный горошек, нут и т.д. в пакете для холодильника для холодного компресса.)"
-              },
-              {
-                "title": "Послеоперационный отек и окончательная форма носа",
-                "text": "Отек, образовавшийся в носу, уменьшается в 3 основных периода:",
-                "items": [
-                  "После быстрого уменьшения отека в первый 2-недельный период вы увидите новую структуру вашего носа с его основными линиями и углами на второй неделе. Однако ваш нос все еще будет очень опухшим.",
-                  "В следующий период около 2-3 месяцев отек, особенно в спинке, кончике и боковых частях крыльев носа, будет постепенно уменьшаться со временем, и около 70% отека пройдет.",
-                  "Для оставшейся части 30% потребуется около 1-1,5 лет дополнительного времени."
-                ],
-                "subtext": "Эти указанные периоды являются средними периодами, и структура кожи носа и характеристики заживления ран являются основными определяющими факторами для процесса и количества проходящего отека и припухлости в носу. (Время x1,5-2 для толстой кожи)\n\nПроцедуры, выполняемые на хрящевых и костных тканях внутри носа, отличаются у каждого пациента.\nВ некоторых используемых хирургических техниках может наблюдаться движение вниз кончика носа в период 4-6 недель после операции, связанное с оседанием и некоторым ослаблением хрящей и швов со временем и под действием силы тяжести. Из-за этой ситуации ваш кончик носа может быть немного вздернут в раннем послеоперационном периоде. (не действительно для каждого пациента.)"
-              },
-              {
-                "title": "Избегание физических нагрузок на нос",
-                "text": "Ваш нос не должен подвергаться неконтролируемой физической силе в течение 4 месяцев после операции. Проблемы, которые могут возникнуть в этот период, когда заживление кости еще не завершено, могут создать постоянные проблемы в заживлении носа. В этот 4-месячный период вы должны избегать действий, которые могут создать травму носа, и не должны носить очки.\n\nЕсли вы не можете использовать линзы, вы обязательно должны пройти оценку по этому поводу перед операцией. Вы должны быть в состоянии использовать линзы перед операцией."
-              },
-              {
-                "title": "Спорт и Упражнения",
-                "text": "Легкие спортивные занятия, не вызывающие учащения пульса, можно выполнять со 2-й недели после операции.\nС 4-й недели занятия, повышающие пульс, где нет риска травмы, свободны. Со 2-го месяца вы можете заниматься спортом в желаемом темпе.\nВы можете входить в море со 2-й недели после операции, а в бассейн с 1-го месяца."
-              }
-            ]
-          },
-          {
-            "title": "КУРЕНИЕ",
-            "text": "Сигаретный дым является САМЫМ ВАЖНЫМ фактором, вызывающим задержку заживления ран.\n\nЗадержка заживления ран: приводит к тому, что нос достигает плохого результата как функционально, так и визуально. \nИз-за задержки заживления увеличивается риск инфекции в носу, расхождения швов, увеличения отека в носу и риск того, что желаемый результат будет отличаться от ожидаемого и плохим из-за замедленного заживления.\n\nПациент, который продолжает курить после операции, считается принявшим на себя ответственность за такие проблемы, которые могут возникнуть.\n\n—\n\nЗА 10 ДНЕЙ ДО ОПЕРАЦИИ КУРЕНИЕ ДОЛЖНО БЫТЬ ПОЛНОСТЬЮ ПРЕКРАЩЕНО.\n \nКУРЕНИЕ не должно использоваться в течение 3 МЕСЯЦЕВ после операции.\n\nПациент, употребляющий сигареты, ОПРЕДЕЛЕННО заживет плохо."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. ВОЗМОЖНЫЕ РИСКИ",
@@ -2105,114 +1570,7 @@ export const content = {
     "subtitle": "Toutes les réponses à vos questions avant et après la rhinoplastie sont ici...",
     "searchPlaceholder": "Rechercher avec un mot dans la question ou la réponse...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMATIONS GÉNÉRALES",
-        "content": [
-          {
-            "title": "<p>Qu'est-ce que la Rhinoplastie ?</p>",
-            "text": "<p>Le nez est un organe fonctionnel situé en plein milieu du visage. </p><p>La tâche fonctionnelle du nez est de respirer et de sentir, et sa tâche visuelle est de s'assurer que le visage est beau. </p><p>Le nez doit remplir ces 2 tâches complètement, et doit être en harmonie et en proportion avec les autres organes du visage. </p><p>De plus, il doit être symétrique et adapté au visage. </p><p><br></p><p><strong>Le but de la chirurgie de Rhinoplastie (Septorhinoplastie) est de donner au nez une beauté fonctionnelle et esthétique.</strong></p>"
-          },
-          {
-            "title": "<p>Quel est le but de la chirurgie de rhinoplastie ?</p>",
-            "text": "<p>Le but de la chirurgie de rhinoplastie est d'obtenir une apparence de nez qui rendra le patient heureux en offrant une solution aux problèmes du nez du patient ainsi qu'une respiration confortable. </p><p>Comme le problème dans chaque nez est différent, les procédures à appliquer varient également. </p><p><br></p><p>Les procédures qui peuvent être effectuées sur votre nez et les résultats possibles qui peuvent être obtenus seront partagés avec vous lors de l'examen. </p>",
-            "items": [
-              "<p>La chirurgie est réalisée avec une décision et un accord mutuels.</p><p>Le patient doit vouloir se faire opérer par le médecin, et le médecin doit effectuer la chirurgie en croyant qu'elle bénéficiera au patient.</p>",
-              "<p>Par conséquent, l'examen et l'évaluation préopératoires doivent être effectués au moment approprié et dans les bonnes conditions.</p>",
-              "<p>La probabilité d'un résultat heureux pour une chirurgie qu'aucune des deux parties ne souhaite est assez faible.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMATIONS GÉNÉRALES</p>",
-            "items": [
-              "<p><strong>Type d'Anesthésie :</strong> Anesthésie Générale</p>",
-              "<p><strong>Séjour à l'Hôpital : </strong>1 nuit </p><p><br></p><p>Si vous êtes opéré tôt le matin ou après des opérations de courte durée, si votre état médical le permet, vous pouvez sortir le jour même, mais la plupart des patients sortiront le lendemain matin après 1 nuit d'hospitalisation.</p>",
-              "<p><strong>Durée : </strong>2,5 heures </p><p><br></p><p>Il est prévu que la chirurgie de rhinoplastie dure ~2 heures (±1) pour une difficulté standard, et ~3 heures (±1) pour les chirurgies de révision.)</p>",
-              "<p><strong>Technique Chirurgicale : </strong>Technique ouverte, rhinoplastie structurelle (structure). </p><p>Je pratique la chirurgie de manière routinière en utilisant la technique ouverte. </p><p>Dans cette technique, une incision est faite dans la peau entre les narines et cette incision est cousue conformément au but esthétique à la fin de la chirurgie.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>La technique fermée peut être appliquée dans les cas suivants :</p>",
-                "items": [
-                  "<p>Chirurgies de révision à court terme et limitées</p>",
-                  "<p>Procédures limitées à effectuer uniquement pour l'arche nasale</p>",
-                  "<p>Chirurgies fonctionnelles uniquement là où il n'y a pas de but esthétique</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Équipement Technique</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> est utilisé de manière routinière dans les chirurgies. </p><p>Cet appareil est l'un des équipements techniques qui assure un façonnage précis de l'os.</p>",
-                  "<p>L'utilisation de Piezo ne signifie pas qu'il n'y aura pas d'ecchymoses. </p><p>Il y aura des ecchymoses et un œdème tissutaire dans la période postopératoire en raison du tissu sous-cutané et de la structure vasculaire. </p><p>Cependant, ~90% des patients n'ont pas d'ecchymoses visibles la 1ère semaine.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. PHOTOGRAPHIE",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>PHOTOGRAPHIE</p>",
-                "text": "<p>La photographie est réalisée avant, pendant et après la chirurgie. La photographie préopératoire fait partie de l'examen.</p><p>Le but de la photographie est de comprendre, d'expliquer et de se souvenir des problèmes dans le nez et d'utiliser des données objectives lors de la planification de la chirurgie.</p>"
-              },
-              {
-                "title": "<p>Simulation</p>",
-                "text": "<p>La simulation n'est pas effectuée sur la photo après la photographie.</p><p>Il n'y a pas besoin de simulation chez les patients qui peuvent expliquer ce qu'ils demandent et sont compris.</p><p><br></p><p>Les patients qui pensent ne pas pouvoir exprimer pleinement verbalement quel type de nez ils veulent peuvent montrer les photos de nez qu'ils aiment lors de l'examen et les envoyer pour qu'elles soient ajoutées au dossier du patient. </p><p><br></p><p>Les patients qui veulent imaginer l'harmonie des changements possibles dans le nez avec leur visage peuvent simuler leurs propres photos et partager leurs demandes avec le médecin de cette manière.</p><p>Les photos montrées par le patient ne doivent pas être perçues comme une commande. C'est un outil pour la personne d'expliquer le style qu'elle aime et sa demande. Cette information ne doit absolument pas être oubliée.</p><p>Il n'est pas réaliste de dessiner exactement quel type de résultat sera obtenu à la fin de la guérison sur la photo après la chirurgie.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCESSUS POST-OPÉRATOIRE",
-        "content": [
-          {
-            "title": "PROCESSUS POST-OPÉRATOIRE",
-            "text": "À la fin de l'opération, il y aura une fine incision esthétique et un point de suture sur la peau entre les narines (columelle), un stent/tampon avec un trou à l'intérieur qui ne vous empêche pas de respirer à l'intérieur du nez, et un ruban adhésif spécial et une attelle en plastique (plâtre) sur le nez. Si les ailes nasales ont été intervenues, il y aura également des points de suture dans la partie de l'aile nasale.",
-            "subsections": [
-              {
-                "title": "Retrait du tampon et du plâtre",
-                "text": "Le tampon, le ruban adhésif et l'attelle sur le nez seront retirés lors du contrôle de la première semaine (5-7 jours) de votre opération. (Dans certains cas particuliers, le tampon à l'intérieur du nez peut être retiré plus tôt.)\n\nParfois pendant l'opération, et parfois après le retrait du tampon après l'opération, il peut être nécessaire d'utiliser un appareil en silicone (dispositif de retenue des narines) pour la forme de la pointe nasale et la symétrie des narines.\nChez les patients présentant un œdème excessif dans le nez, le plâtre peut être réappliqué lors du premier contrôle.\nChez les patients ayant une peau nasale épaisse et œdémateuse, un bandage continu et/ou nocturne peut être recommandé après l'opération. (Pour une période de 1-2 mois)"
-              },
-              {
-                "title": "Ecchymoses et gonflements sous les yeux",
-                "text": "Dans les cas où une intervention osseuse est effectuée lors de votre opération, il y aura un gonflement et des ecchymoses autour du nez et sous les yeux. Cette situation atteint son maximum le 3ème-4ème jour après l'opération.\nLe gonflement et les ecchymoses sont considérablement réduits au cours de la 1ère semaine et disparaissent complètement chez la plupart des patients au cours de la 2ème semaine.\nLa mise en œuvre complète des médicaments post-opératoires et des applications nécessaires garantira que vous traverserez ce processus beaucoup plus légèrement.\n\nUne application de froid doit être faite autour du nez et sous les yeux pour minimiser les ecchymoses et les gonflements après l'opération.\nDe la glace vous sera donnée pendant votre hospitalisation, mais vous pouvez obtenir un sac de glace sous forme de gel pour un usage domestique.\n(Solution pratique : Vous pouvez utiliser des petits pois congelés, des pois chiches, etc. dans un sac de réfrigérateur pour l'application de froid.)"
-              },
-              {
-                "title": "Œdème post-opératoire et forme finale du nez",
-                "text": "L'œdème formé dans le nez diminue en 3 périodes principales :",
-                "items": [
-                  "Après une réduction rapide de l'œdème au cours de la première période de 2 semaines, vous verrez la nouvelle structure de votre nez avec ses lignes et angles principaux au cours de la deuxième semaine. Cependant, votre nez sera encore très enflé.",
-                  "Au cours de la période suivante d'environ 2-3 mois, l'œdème, en particulier dans le dos, la pointe et les parties latérales des ailes du nez, diminuera progressivement avec le temps et environ 70% de l'œdème passera.",
-                  "Pour la partie restante de 30%, environ 1-1,5 an de temps supplémentaire sera nécessaire."
-                ],
-                "subtext": "Ces périodes mentionnées sont des périodes moyennes et la structure de la peau du nez et les caractéristiques de cicatrisation des plaies sont les principaux facteurs déterminants pour le processus et la quantité d'œdème et de gonflement dans le nez qui passe. (Temps x1,5-2 pour peau épaisse)\n\nLes procédures effectuées sur les tissus cartilagineux et osseux à l'intérieur du nez sont différentes chez chaque patient.\nDans certaines techniques chirurgicales utilisées, il peut y avoir un mouvement vers le bas de la pointe nasale au cours de la période de 4 à 6 semaines après l'opération, associé à la mise en place et à un certain relâchement des cartilages et des points de suture au fil du temps et sous l'effet de la gravité. En raison de cette situation, votre pointe nasale peut être légèrement retroussée au début de la période post-opératoire. (non valable pour chaque patient.)"
-              },
-              {
-                "title": "Éviter les forces physiques sur le nez",
-                "text": "Votre nez ne doit pas être exposé à une force physique incontrôlée pendant 4 mois après l'opération. Les problèmes qui peuvent survenir au cours de cette période où la cicatrisation osseuse n'est pas encore terminée peuvent créer des problèmes permanents dans la cicatrisation nasale. Vous devez éviter les activités qui peuvent créer un traumatisme nasal et ne devez pas porter de lunettes au cours de cette période de 4 mois.\n\nSi vous ne pouvez pas utiliser de lentilles, vous devez absolument être évalué à cet égard avant l'opération. Vous devriez pouvoir utiliser des lentilles avant l'opération."
-              },
-              {
-                "title": "Sport et Exercice",
-                "text": "Des activités sportives légères qui ne provoquent pas d'augmentation du pouls peuvent être pratiquées à partir de la 2ème semaine après l'opération.\nÀ partir de la 4ème semaine, les activités augmentant le pouls où il n'y a pas de risque de traumatisme sont libres. À partir du 2ème mois, vous pouvez faire du sport au rythme que vous souhaitez.\nVous pouvez entrer dans la mer à partir de la 2ème semaine après l'opération, et dans la piscine à partir du 1er mois."
-              }
-            ]
-          },
-          {
-            "title": "TABAGISME",
-            "text": "La fumée de cigarette est le facteur LE PLUS IMPORTANT causant un retard dans la cicatrisation des plaies.\n\nRetard de cicatrisation : fait que le nez atteint un mauvais résultat tant fonctionnellement que visuellement. \nEn raison du retard de cicatrisation, le risque d'infection dans le nez, de déhiscence des sutures, d'augmentation de l'œdème dans le nez et le risque que le résultat souhaité soit différent de celui attendu et mauvais en raison d'une cicatrisation retardée augmentent.\n\nLe patient qui continue de fumer après la chirurgie est considéré comme ayant accepté la responsabilité de tels problèmes qui peuvent survenir.\n\n—\n\nAU MOINS 10 JOURS AVANT LA CHIRURGIE, LE TABAGISME DOIT ÊTRE COMPLÈTEMENT ARRÊTÉ.\n \nLE TABAGISME ne doit pas être utilisé pendant 3 MOIS après la chirurgie.\n\nLe patient qui consomme des cigarettes guérira DÉFINITIVEMENT mal."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. RISQUES POSSIBLES",
@@ -2503,114 +1861,7 @@ export const content = {
     "subtitle": "Le risposte a tutte le tue domande prima e dopo la rinoplastica sono qui...",
     "searchPlaceholder": "Cerca con una parola nella domanda o nella risposta...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMAZIONI GENERALI",
-        "content": [
-          {
-            "title": "<p>Cos'è la Rinoplastica?</p>",
-            "text": "<p>Il naso è un organo funzionale situato proprio al centro del viso. </p><p>Il compito funzionale del naso è respirare e annusare, e il suo compito visivo è assicurare che il viso appaia bello. </p><p>Il naso deve svolgere completamente questi 2 compiti e deve essere in armonia e proporzione con gli altri organi del viso. </p><p>Inoltre, dovrebbe essere simmetrico e adatto al viso. </p><p><br></p><p><strong>Lo scopo della chirurgia di Rinoplastica (Settorinoplastica) è dare al naso una bellezza funzionale ed estetica.</strong></p>"
-          },
-          {
-            "title": "<p>Qual è lo scopo della chirurgia di rinoplastica?</p>",
-            "text": "<p>Lo scopo della chirurgia di rinoplastica è ottenere un aspetto del naso che renda felice il paziente offrendo una soluzione ai problemi nel naso del paziente e respirando comodamente. </p><p>Poiché il problema in ogni naso è diverso, anche le procedure da applicare variano. </p><p><br></p><p>Le procedure che possono essere eseguite sul tuo naso e i possibili risultati che possono essere ottenuti saranno condivisi con te durante la visita. </p>",
-            "items": [
-              "<p>La chirurgia viene eseguita con una decisione e un accordo reciproci.</p><p>Sia il paziente deve voler essere operato dal medico, sia il medico deve eseguire l'intervento credendo che gioverà al paziente.</p>",
-              "<p>Pertanto, l'esame e la valutazione preoperatori devono essere eseguiti al momento opportuno e nelle giuste condizioni.</p>",
-              "<p>La probabilità di un risultato felice per un intervento chirurgico che nessuna delle due parti desidera è piuttosto bassa.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMAZIONI GENERALI</p>",
-            "items": [
-              "<p><strong>Tipo di Anestesia:</strong> Anestesia Generale</p>",
-              "<p><strong>Degenza Ospedaliera: </strong>1 notte </p><p><br></p><p>Se vieni operato la mattina presto o dopo operazioni a breve termine, se le tue condizioni mediche sono idonee, puoi essere dimesso lo stesso giorno, ma la maggior parte dei pazienti verrà dimessa la mattina successiva dopo 1 notte di ricovero.</p>",
-              "<p><strong>Durata: </strong>2,5 ore </p><p><br></p><p>Si prevede che la chirurgia di rinoplastica duri ~2 ore (±1) per difficoltà standard e ~3 ore (±1) per interventi di revisione.)</p>",
-              "<p><strong>Tecnica Chirurgica: </strong>Tecnica aperta, rinoplastica strutturale (structure). </p><p>Eseguo l'intervento di routine utilizzando la tecnica aperta. </p><p>In questa tecnica, viene praticata un'incisione nella pelle tra le narici e questa incisione viene suturata in conformità con lo scopo estetico alla fine dell'intervento.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>La tecnica chiusa può essere applicata nei seguenti casi:</p>",
-                "items": [
-                  "<p>Interventi di revisione a breve termine e limitati</p>",
-                  "<p>Procedure limitate da eseguire solo per l'arco nasale</p>",
-                  "<p>Interventi funzionali solo dove non c'è scopo estetico</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Attrezzatura Tecnica</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> viene utilizzato di routine negli interventi chirurgici. </p><p>Questo dispositivo è una delle attrezzature tecniche che garantisce una modellatura precisa dell'osso.</p>",
-                  "<p>L'uso del Piezo non significa che non ci saranno lividi. </p><p>Ci saranno lividi ed edema tissutale nel periodo post-operatorio a causa del tessuto sottocutaneo e della struttura vascolare. </p><p>Tuttavia, ~90% dei pazienti non ha lividi visibili nella 1a settimana.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFIA",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FOTOGRAFIA</p>",
-                "text": "<p>La fotografia viene eseguita prima, durante e dopo l'intervento chirurgico. La fotografia preoperatoria fa parte dell'esame.</p><p>Lo scopo della fotografia è comprendere, spiegare e ricordare i problemi nel naso e utilizzare dati obiettivi durante la pianificazione dell'intervento.</p>"
-              },
-              {
-                "title": "<p>Simulazione</p>",
-                "text": "<p>La simulazione non viene eseguita sulla foto dopo la fotografia.</p><p>Non c'è bisogno di simulazione nei pazienti che possono spiegare cosa richiedono e vengono capiti.</p><p><br></p><p>I pazienti che pensano di non poter esprimere completamente verbalmente che tipo di naso vogliono possono mostrare le foto del naso che gli piacciono durante l'esame e inviarle per essere aggiunte alla cartella del paziente. </p><p><br></p><p>I pazienti che vogliono immaginare l'armonia dei possibili cambiamenti nel naso con il loro viso possono simulare le proprie foto e condividere le loro richieste con il medico in questo modo.</p><p>Le foto mostrate dal paziente non devono essere percepite come un ordine. È uno strumento per la persona per spiegare lo stile che le piace e la sua richiesta. Questa informazione non deve assolutamente essere dimenticata.</p><p>Non è realistico disegnare esattamente che tipo di risultato si otterrà alla fine della guarigione sulla foto dopo l'intervento chirurgico.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCESSO POST-OPERATORIO",
-        "content": [
-          {
-            "title": "PROCESSO POST-OPERATORIO",
-            "text": "Alla fine dell'intervento, ci sarà una sottile incisione estetica e un punto di sutura sulla pelle tra le narici (columella), uno stent/tampone con un foro all'interno che non ti impedisce di respirare all'interno del naso, e uno speciale nastro adesivo e una stecca di plastica (gesso) sul naso. Se le ali nasali sono state intervenute, ci saranno anche punti di sutura nella parte dell'ala nasale.",
-            "subsections": [
-              {
-                "title": "Rimozione del tampone e del gesso",
-                "text": "Il tampone, il nastro e la stecca sul naso verranno rimossi al controllo nella prima settimana (5-7 giorni) del tuo intervento. (In alcuni casi speciali, il tampone all'interno del naso può essere rimosso prima.)\n\nA volte durante l'intervento, e a volte dopo la rimozione del tampone dopo l'intervento, potrebbe essere necessario utilizzare un apparecchio in silicone (fermo per narici) per la forma della punta nasale e la simmetria delle narici.\nNei pazienti con edema eccessivo nel naso, il gesso può essere riapplicato al primo controllo.\nNei pazienti con pelle nasale spessa ed edematosa, può essere raccomandato un bendaggio continuo e/o notturno dopo l'intervento. (Per un periodo di 1-2 mesi)"
-              },
-              {
-                "title": "Lividi e gonfiore sotto gli occhi",
-                "text": "Nei casi in cui viene eseguito un intervento osseo nel tuo intervento, ci sarà un po' di gonfiore e lividi intorno al naso e sotto gli occhi. Questa situazione raggiunge il suo massimo il 3°-4° giorno dopo l'intervento.\nIl gonfiore e i lividi si riducono significativamente nella 1a settimana e scompaiono completamente nella maggior parte dei pazienti nella 2a settimana.\nLa completa attuazione dei farmaci post-operatori e delle applicazioni necessarie garantirà che tu superi questo processo molto più leggermente.\n\nL'applicazione di freddo dovrebbe essere fatta intorno al naso e sotto gli occhi per ridurre al minimo i lividi e il gonfiore dopo l'intervento.\nIl ghiaccio ti verrà dato durante il ricovero, ma puoi ottenere un impacco di ghiaccio in forma di gel per uso domestico.\n(Soluzione pratica: Puoi usare piselli surgelati, ceci, ecc. in un sacchetto da frigorifero per l'applicazione del freddo.)"
-              },
-              {
-                "title": "Edema post-operatorio e forma finale del naso",
-                "text": "L'edema formato nel naso diminuisce in 3 periodi principali:",
-                "items": [
-                  "Dopo una rapida riduzione dell'edema nel primo periodo di 2 settimane, vedrai la nuova struttura del tuo naso con le sue linee e angoli principali nella seconda settimana. Tuttavia, il tuo naso sarà ancora molto gonfio.",
-                  "Nel periodo successivo di circa 2-3 mesi, l'edema, specialmente nella parte posteriore, nella punta e nelle parti laterali delle ali del naso, diminuirà gradualmente nel tempo e circa il 70% dell'edema passerà.",
-                  "Per la restante parte del 30%, saranno necessari circa 1-1,5 anni in più."
-                ],
-                "subtext": "Questi periodi menzionati sono periodi medi e la struttura della pelle del naso e le caratteristiche di guarigione delle ferite sono i principali fattori determinanti per il processo e la quantità di edema e gonfiore nel naso che passa. (Tempi x1,5-2 per pelle spessa)\n\nLe procedure eseguite sui tessuti cartilaginei e ossei all'interno del naso sono diverse in ogni paziente.\nIn alcune tecniche chirurgiche utilizzate, potrebbe esserci un movimento verso il basso nella punta nasale nel periodo di 4-6 settimane dopo l'intervento associato all'assestamento e a un certo allentamento delle cartilagine e dei punti di sutura nel tempo e con l'effetto della gravità. A causa di questa situazione, la tua punta nasale potrebbe essere leggermente all'insù nel primo periodo dopo l'intervento. (non valido per ogni paziente.)"
-              },
-              {
-                "title": "Evitare forze fisiche sul naso",
-                "text": "Il tuo naso non dovrebbe essere esposto a una forza fisica incontrollata per 4 mesi dopo l'intervento. I problemi che possono verificarsi in questo periodo in cui la guarigione ossea non è ancora completata possono creare problemi permanenti nella guarigione nasale. Dovresti evitare attività che possono creare traumi nasali e non dovresti usare occhiali in questo periodo di 4 mesi.\n\nSe non puoi usare lenti, devi assolutamente essere valutato a questo riguardo prima dell'intervento. Dovresti essere in grado di usare lenti prima dell'intervento."
-              },
-              {
-                "title": "Sport e Esercizio",
-                "text": "Attività sportive leggere che non causano aumento del battito cardiaco possono essere fatte a partire dalla 2a settimana dopo l'intervento.\nDalla 4a settimana, le attività che aumentano il battito cardiaco dove non c'è rischio di trauma sono libere. Dal 2° mese, puoi fare sport al ritmo che desideri.\nPuoi entrare in mare a partire dalla 2a settimana dopo l'intervento, e in piscina a partire dal 1° mese."
-              }
-            ]
-          },
-          {
-            "title": "FUMO",
-            "text": "Il fumo di sigaretta è il fattore PIÙ IMPORTANTE che causa ritardo nella guarigione delle ferite.\n\nRitardo nella guarigione delle ferite: fa sì che il naso raggiunga un cattivo risultato sia funzionalmente che visivamente. \nA causa del ritardo nella guarigione, aumenta il rischio di infezione nel naso, deiscenza delle suture, aumento dell'edema nel naso e il rischio che il risultato desiderato sia diverso da quello previsto e cattivo a causa della guarigione ritardata.\n\nIl paziente che continua a fumare dopo l'intervento chirurgico è considerato aver accettato la responsabilità di tali problemi che possono verificarsi.\n\n—\n\nALMENO 10 GIORNI PRIMA DELL'INTERVENTO, IL FUMO DEVE ESSERE COMPLETAMENTE INTERROTTO.\n \nIL FUMO non deve essere utilizzato per 3 MESI dopo l'intervento chirurgico.\n\nIl paziente che consuma sigarette guarirà DEFINITIVAMENTE male."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. POSSIBILI RISCHI",
@@ -2901,114 +2152,7 @@ export const content = {
     "subtitle": "Răspunsurile la toate întrebările dumneavoastră înainte și după rinoplastie sunt aici...",
     "searchPlaceholder": "Căutați cu un cuvânt în întrebare sau răspuns...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMAȚII GENERALE",
-        "content": [
-          {
-            "title": "<p>Ce este Rinoplastia?</p>",
-            "text": "<p>Nasul este un organ funcțional situat chiar în mijlocul feței. </p><p>Sarcina funcțională a nasului este de a respira și de a mirosi, iar sarcina sa vizuală este de a asigura că fața arată frumos. </p><p>Nasul trebuie să îndeplinească aceste 2 sarcini complet și trebuie să fie în armonie și proporție cu celelalte organe de pe față. </p><p>În plus, ar trebui să fie simetric și potrivit pentru față. </p><p><br></p><p><strong>Scopul operației de Rinoplastie (Septorinoplastie) este de a oferi nasului o frumusețe funcțională și estetică.</strong></p>"
-          },
-          {
-            "title": "<p>Care este scopul operației de rinoplastie?</p>",
-            "text": "<p>Scopul operației de rinoplastie este de a obține un aspect al nasului care să facă pacientul fericit, oferind o soluție la problemele din nasul pacientului, precum și o respirație confortabilă. </p><p>Deoarece problema în fiecare nas este diferită, procedurile de aplicat variază, de asemenea. </p><p><br></p><p>Procedurile care pot fi efectuate pe nasul dumneavoastră și rezultatele posibile care pot fi obținute vor fi împărtășite cu dumneavoastră în timpul examinării. </p>",
-            "items": [
-              "<p>Operația se efectuează cu o decizie și un acord reciproc.</p><p>Atât pacientul trebuie să dorească să fie operat de medic, cât și medicul trebuie să efectueze operația crezând că va beneficia pacientul.</p>",
-              "<p>Prin urmare, examinarea și evaluarea preoperatorie ar trebui făcute la momentul potrivit și în condițiile potrivite.</p>",
-              "<p>Probabilitatea unui rezultat fericit pentru o operație pe care niciuna dintre părți nu o dorește este destul de scăzută.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMAȚII GENERALE</p>",
-            "items": [
-              "<p><strong>Tipul de Anestezie:</strong> Anestezie Generală</p>",
-              "<p><strong>Spitalizare: </strong>1 noapte </p><p><br></p><p>Dacă sunteți operat dimineața devreme sau după operații pe termen scurt, dacă starea dumneavoastră medicală este adecvată, puteți fi externat în aceeași zi, dar majoritatea pacienților vor fi externați în dimineața următoare după 1 noapte de spitalizare.</p>",
-              "<p><strong>Durata: </strong>2,5 ore </p><p><br></p><p>Se preconizează că operația de rinoplastie va dura ~2 ore (±1) pentru dificultate standard și ~3 ore (±1) pentru operațiile de revizuire.)</p>",
-              "<p><strong>Tehnica Chirurgicală: </strong>Tehnică deschisă, rinoplastie structurală (structure). </p><p>Efectuez operația în mod obișnuit folosind tehnica deschisă. </p><p>În această tehnică, se face o incizie în pielea dintre nări și această incizie este cusută în conformitate cu scopul estetic la sfârșitul operației.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Tehnica închisă poate fi aplicată în următoarele cazuri:</p>",
-                "items": [
-                  "<p>Operații de revizuire pe termen scurt și limitate</p>",
-                  "<p>Proceduri limitate de efectuat doar pentru arcul nazal</p>",
-                  "<p>Operații funcționale doar acolo unde nu există un scop estetic</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Echipament Tehnic</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> este utilizat în mod obișnuit în operații. </p><p>Acest dispozitiv este unul dintre echipamentele tehnice care asigură o modelare precisă a osului.</p>",
-                  "<p>Utilizarea Piezo nu înseamnă că nu vor exista vânătăi. </p><p>Vor exista vânătăi și edem tisular în perioada postoperatorie din cauza țesutului subcutanat și a structurii vasculare. </p><p>Cu toate acestea, ~90% dintre pacienți nu au vânătăi vizibile în prima săptămână.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFIERE",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FOTOGRAFIERE</p>",
-                "text": "<p>Fotografierea se efectuează înainte, în timpul și după operație. Fotografierea preoperatorie face parte din examinare.</p><p>Scopul fotografierii este de a înțelege, explica și aminti problemele din nas și de a utiliza date obiective în planificarea operației.</p>"
-              },
-              {
-                "title": "<p>Simulare</p>",
-                "text": "<p>Simularea nu se efectuează pe fotografie după fotografiere.</p><p>Nu este nevoie de simulare la pacienții care pot explica ce cer și sunt înțeleși.</p><p><br></p><p>Pacienții care cred că nu pot exprima pe deplin verbal ce fel de nas doresc pot arăta fotografiile nasului care le plac în timpul examinării și le pot trimite pentru a fi adăugate la dosarul pacientului. </p><p><br></p><p>Pacienții care doresc să își imagineze armonia posibilelor modificări ale nasului cu fața lor își pot simula propriile fotografii și pot împărtăși cererile lor cu medicul în acest fel.</p><p>Fotografiile arătate de pacient nu trebuie percepute ca o comandă. Este un instrument pentru persoană de a explica stilul care îi place și cererea sa. Această informație nu trebuie uitată cu siguranță.</p><p>Nu este realist să desenezi exact ce fel de rezultat se va obține la sfârșitul vindecării pe fotografie după operație.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCESUL POST-OPERATOR",
-        "content": [
-          {
-            "title": "PROCESUL POST-OPERATOR",
-            "text": "La sfârșitul operației, va exista o incizie estetică fină și o sutură pe pielea dintre nări (columelă), un stent/tampon cu o gaură în interior care nu vă împiedică să respirați în interiorul nasului, și o bandă specială și o atelă de plastic (ghips) pe nas. Dacă aripile nazale au fost intervenite, vor exista și suturi în partea aripii nazale.",
-            "subsections": [
-              {
-                "title": "Îndepărtarea tamponului și a ghipsului",
-                "text": "Tamponul, banda și atela de pe nas vor fi îndepărtate la controlul din prima săptămână (5-7 zile) a operației dumneavoastră. (În unele cazuri speciale, tamponul din interiorul nasului poate fi îndepărtat mai devreme.)\n\nUneori în timpul operației, și alteori după îndepărtarea tamponului după operație, poate fi necesară utilizarea unui aparat de silicon (dispozitiv de reținere a nărilor) pentru forma vârfului nazal și simetria nărilor.\nLa pacienții cu edem excesiv în nas, ghipsul poate fi reaplicat la primul control.\nLa pacienții cu piele nazală groasă și edematoasă, se poate recomanda bandajarea continuă și/sau nocturnă după operație. (Pentru o perioadă de 1-2 luni)"
-              },
-              {
-                "title": "Vânătăi și umflături sub ochi",
-                "text": "În cazurile în care se efectuează o intervenție osoasă în operația dumneavoastră, va exista o oarecare umflare și vânătăi în jurul nasului și sub ochi. Această situație atinge maximul în a 3-a - 4-a zi după operație.\nUmflarea și vânătăile sunt reduse semnificativ în prima săptămână și dispar complet la majoritatea pacienților în a 2-a săptămână.\nImplementarea completă a medicamentelor postoperatorii și a aplicațiilor necesare va asigura că veți trece prin acest proces mult mai ușor.\n\nAplicarea rece ar trebui făcută în jurul nasului și sub ochi pentru a minimiza vânătăile și umflarea după operație.\nGheața vă va fi dată în timpul spitalizării, dar puteți obține un pachet de gheață sub formă de gel pentru uz casnic.\n(Soluție practică: Puteți folosi mazăre congelată, năut etc. într-o pungă de frigider pentru aplicarea rece.)"
-              },
-              {
-                "title": "Edem postoperator și forma finală a nasului",
-                "text": "Edemul format în nas scade în 3 perioade principale:",
-                "items": [
-                  "După reducerea rapidă a edemului în prima perioadă de 2 săptămâni, veți vedea noua structură a nasului dumneavoastră cu liniile și unghiurile sale principale în a doua săptămână. Cu toate acestea, nasul dumneavoastră va fi încă foarte umflat.",
-                  "În perioada următoare de aproximativ 2-3 luni, edemul, în special în spate, vârf și părțile laterale ale aripilor nasului, va scădea treptat în timp și aproximativ 70% din edem va trece.",
-                  "Pentru partea rămasă de 30%, va fi necesar aproximativ 1-1,5 ani mai mult timp."
-                ],
-                "subtext": "Aceste perioade menționate sunt perioade medii, iar structura pielii nasului și caracteristicile de vindecare a rănilor sunt principalii factori determinanți pentru procesul și cantitatea de edem și umflare în nas care trece. (Timp x1,5-2 pentru piele groasă)\n\nProcedurile efectuate pe țesuturile cartilaginoase și osoase din interiorul nasului sunt diferite la fiecare pacient.\nÎn unele tehnici chirurgicale utilizate, poate exista o mișcare descendentă în vârful nazal în perioada de 4-6 săptămâni după operație asociată cu așezarea și o oarecare slăbire a cartilajelor și suturilor în timp și cu efectul gravitației. Datorită acestei situații, vârful nazal poate fi ușor ridicat în perioada timpurie după operație. (nu este valabil pentru fiecare pacient.)"
-              },
-              {
-                "title": "Evitarea forțelor fizice pe nas",
-                "text": "Nasul dumneavoastră nu ar trebui să fie expus la o forță fizică necontrolată timp de 4 luni după operație. Problemele care pot apărea în această perioadă când vindecarea osoasă nu este încă finalizată pot crea probleme permanente în vindecarea nazală. Ar trebui să evitați activitățile care pot crea traume nazale și nu ar trebui să purtați ochelari în această perioadă de 4 luni.\n\nDacă nu puteți folosi lentile, trebuie neapărat să fiți evaluat în acest sens înainte de operație. Ar trebui să puteți folosi lentile înainte de operație."
-              },
-              {
-                "title": "Sport/Exerciții",
-                "text": "Activități sportive ușoare care nu cauzează creșterea pulsului pot fi făcute începând cu a 2-a săptămână după operație.\nDin a 4-a săptămână, activitățile care cresc pulsul unde nu există risc de traumă sunt libere. Din a 2-a lună, puteți face sport în ritmul dorit.\nPuteți intra în mare începând cu a 2-a săptămână după operație, și în piscină începând cu prima lună."
-              }
-            ]
-          },
-          {
-            "title": "FUMATUL",
-            "text": "Fumul de țigară este CEL MAI IMPORTANT factor care cauzează întârzierea vindecării rănilor.\n\nÎntârzierea vindecării: face ca nasul să ajungă la un rezultat prost atât funcțional, cât și vizual. \nDin cauza întârzierii vindecării, crește riscul de infecție în nas, dehiscența suturilor, creșterea edemului în nas și riscul ca rezultatul dorit să fie diferit de cel așteptat și rău din cauza vindecării întârziate.\n\nPacientul care continuă să fumeze după operație este considerat a fi acceptat responsabilitatea pentru astfel de probleme care pot apărea.\n\n—\n\nCU CEL PUȚIN 10 ZILE ÎNAINTE DE OPERAȚIE, FUMATUL TREBUIE OPRIT COMPLET.\n \nFUMATUL nu trebuie utilizat timp de 3 LUNI după operație.\n\nPacientul care consumă țigări se va vindeca DEFINITIV prost."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. RISCURI POSIBILE",
@@ -3298,114 +2442,7 @@ export const content = {
     "title": "Pagina de informare a pacienților pentru rinoplastie",
     "subtitle": "Răspunsul la toate întrebările dumneavoastră înainte și după rinoplastie este aici..",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMAȚII GENERALE",
-        "content": [
-          {
-            "title": "<p>Ce este Rinoplastia?</p>",
-            "text": "<p>Nasul este un organ funcțional situat chiar în mijlocul feței. </p><p>Sarcina funcțională a nasului este de a respira și de a mirosi, iar sarcina sa vizuală este de a asigura că fața arată frumos. </p><p>Nasul trebuie să îndeplinească aceste 2 sarcini complet și trebuie să fie în armonie și proporție cu celelalte organe de pe față. </p><p>În plus, ar trebui să fie simetric și potrivit pentru față. </p><p><br></p><p><strong>Scopul operației de Rinoplastie (Septorinoplastie) este de a oferi nasului o frumusețe funcțională și estetică.</strong></p>"
-          },
-          {
-            "title": "<p>Care este scopul operației de rinoplastie?</p>",
-            "text": "<p>Scopul operației de rinoplastie este de a obține un aspect al nasului care să facă pacientul fericit, oferind o soluție la problemele din nasul pacientului, precum și o respirație confortabilă. </p><p>Deoarece problema în fiecare nas este diferită, procedurile de aplicat variază, de asemenea. </p><p><br></p><p>Procedurile care pot fi efectuate pe nasul dumneavoastră și rezultatele posibile care pot fi obținute vor fi împărtășite cu dumneavoastră în timpul examinării. </p>",
-            "items": [
-              "<p>Operația se efectuează cu o decizie și un acord reciproc.</p><p>Atât pacientul trebuie să dorească să fie operat de medic, cât și medicul trebuie să efectueze operația crezând că va beneficia pacientul.</p>",
-              "<p>Prin urmare, examinarea și evaluarea preoperatorie ar trebui făcute la momentul potrivit și în condițiile potrivite.</p>",
-              "<p>Probabilitatea unui rezultat fericit pentru o operație pe care niciuna dintre părți nu o dorește este destul de scăzută.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMAȚII GENERALE</p>",
-            "items": [
-              "<p><strong>Tipul de Anestezie:</strong> Anestezie Generală</p>",
-              "<p><strong>Spitalizare: </strong>1 noapte </p><p><br></p><p>Dacă sunteți operat dimineața devreme sau după operații pe termen scurt, dacă starea dumneavoastră medicală este adecvată, puteți fi externat în aceeași zi, dar majoritatea pacienților vor fi externați în dimineața următoare după 1 noapte de spitalizare.</p>",
-              "<p><strong>Durata: </strong>2,5 ore </p><p><br></p><p>Se preconizează că operația de rinoplastie va dura ~2 ore (±1) pentru dificultate standard și ~3 ore (±1) pentru operațiile de revizuire.)</p>",
-              "<p><strong>Tehnica Chirurgicală: </strong>Tehnică deschisă, rinoplastie structurală (structure). </p><p>Efectuez operația în mod obișnuit folosind tehnica deschisă. </p><p>În această tehnică, se face o incizie în pielea dintre nări și această incizie este cusută în conformitate cu scopul estetic la sfârșitul operației.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Tehnica închisă poate fi aplicată în următoarele cazuri:</p>",
-                "items": [
-                  "<p>Operații de revizuire pe termen scurt și limitate</p>",
-                  "<p>Proceduri limitate de efectuat doar pentru arcul nazal</p>",
-                  "<p>Operații funcționale doar acolo unde nu există un scop estetic</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Echipament Tehnic</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> este utilizat în mod obișnuit în operații. </p><p>Acest dispozitiv este unul dintre echipamentele tehnice care asigură o modelare precisă a osului.</p>",
-                  "<p>Utilizarea Piezo nu înseamnă că nu vor exista vânătăi. </p><p>Vor exista vânătăi și edem tisular în perioada postoperatorie din cauza țesutului subcutanat și a structurii vasculare. </p><p>Cu toate acestea, ~90% dintre pacienți nu au vânătăi vizibile în prima săptămână.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFIERE",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FOTOGRAFIERE</p>",
-                "text": "<p>Fotografierea se efectuează înainte, în timpul și după operație. Fotografierea preoperatorie face parte din examinare.</p><p>Scopul fotografierii este de a înțelege, explica și aminti problemele din nas și de a utiliza date obiective în planificarea operației.</p>"
-              },
-              {
-                "title": "<p>Simulare</p>",
-                "text": "<p>Simularea nu se efectuează pe fotografie după fotografiere.</p><p>Nu este nevoie de simulare la pacienții care pot explica ce cer și sunt înțeleși.</p><p><br></p><p>Pacienții care cred că nu pot exprima pe deplin verbal ce fel de nas doresc pot arăta fotografiile nasului care le plac în timpul examinării și le pot trimite pentru a fi adăugate la dosarul pacientului. </p><p><br></p><p>Pacienții care doresc să își imagineze armonia posibilelor modificări ale nasului cu fața lor își pot simula propriile fotografii și pot împărtăși cererile lor cu medicul în acest fel.</p><p>Fotografiile arătate de pacient nu trebuie percepute ca o comandă. Este un instrument pentru persoană de a explica stilul care îi place și cererea sa. Această informație nu trebuie uitată cu siguranță.</p><p>Nu este realist să desenezi exact ce fel de rezultat se va obține la sfârșitul vindecării pe fotografie după operație.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCESUL POST-OPERATOR",
-        "content": [
-          {
-            "title": "PROCESUL POST-OPERATOR",
-            "text": "La sfârșitul operației, va exista o incizie estetică fină și o sutură pe pielea dintre nări (columelă), un stent/tampon cu o gaură în interior care nu vă împiedică să respirați în interiorul nasului, și o bandă specială și o atelă de plastic (ghips) pe nas. Dacă aripile nazale au fost intervenite, vor exista și suturi în partea aripii nazale.",
-            "subsections": [
-              {
-                "title": "Îndepărtarea tamponului și a ghipsului",
-                "text": "Tamponul, banda și atela de pe nas vor fi îndepărtate la controlul din prima săptămână (5-7 zile) a operației dumneavoastră. (În unele cazuri speciale, tamponul din interiorul nasului poate fi îndepărtat mai devreme.)\n\nUneori în timpul operației, și alteori după îndepărtarea tamponului după operație, poate fi necesară utilizarea unui aparat de silicon (dispozitiv de reținere a nărilor) pentru forma vârfului nazal și simetria nărilor.\nLa pacienții cu edem excesiv în nas, ghipsul poate fi reaplicat la primul control.\nLa pacienții cu piele nazală groasă și edematoasă, se poate recomanda bandajarea continuă și/sau nocturnă după operație. (Pentru o perioadă de 1-2 luni)"
-              },
-              {
-                "title": "Vânătăi și umflături sub ochi",
-                "text": "În cazurile în care se efectuează o intervenție osoasă în operația dumneavoastră, va exista o oarecare umflare și vânătăi în jurul nasului și sub ochi. Această situație atinge maximul în a 3-a - 4-a zi după operație.\nUmflarea și vânătăile sunt reduse semnificativ în prima săptămână și dispar complet la majoritatea pacienților în a 2-a săptămână.\nImplementarea completă a medicamentelor postoperatorii și a aplicațiilor necesare va asigura că veți trece prin acest proces mult mai ușor.\n\nAplicarea rece ar trebui făcută în jurul nasului și sub ochi pentru a minimiza vânătăile și umflarea după operație.\nGheața vă va fi dată în timpul spitalizării, dar puteți obține un pachet de gheață sub formă de gel pentru uz casnic.\n(Soluție practică: Puteți folosi mazăre congelată, năut etc. într-o pungă de frigider pentru aplicarea rece.)"
-              },
-              {
-                "title": "Edem postoperator și forma finală a nasului",
-                "text": "Edemul format în nas scade în 3 perioade principale:",
-                "items": [
-                  "După reducerea rapidă a edemului în prima perioadă de 2 săptămâni, veți vedea noua structură a nasului dumneavoastră cu liniile și unghiurile sale principale în a doua săptămână. Cu toate acestea, nasul dumneavoastră va fi încă foarte umflat.",
-                  "În perioada următoare de aproximativ 2-3 luni, edemul, în special în spate, vârf și părțile laterale ale aripilor nasului, va scădea treptat în timp și aproximativ 70% din edem va trece.",
-                  "Pentru partea rămasă de 30%, va fi necesar aproximativ 1-1,5 ani mai mult timp."
-                ],
-                "subtext": "Aceste perioade menționate sunt perioade medii, iar structura pielii nasului și caracteristicile de vindecare a rănilor sunt principalii factori determinanți pentru procesul și cantitatea de edem și umflare în nas care trece. (Timp x1,5-2 pentru piele groasă)\n\nProcedurile efectuate pe țesuturile cartilaginoase și osoase din interiorul nasului sunt diferite la fiecare pacient.\nÎn unele tehnici chirurgicale utilizate, poate exista o mișcare descendentă în vârful nazal în perioada de 4-6 săptămâni după operație asociată cu așezarea și o oarecare slăbire a cartilajelor și suturilor în timp și cu efectul gravitației. Datorită acestei situații, vârful nazal poate fi ușor ridicat în perioada timpurie după operație. (nu este valabil pentru fiecare pacient.)"
-              },
-              {
-                "title": "Evitarea forțelor fizice pe nas",
-                "text": "Nasul dumneavoastră nu ar trebui să fie expus la o forță fizică necontrolată timp de 4 luni după operație. Problemele care pot apărea în această perioadă când vindecarea osoasă nu este încă finalizată pot crea probleme permanente în vindecarea nazală. Ar trebui să evitați activitățile care pot crea traume nazale și nu ar trebui să purtați ochelari în această perioadă de 4 luni.\n\nDacă nu puteți folosi lentile, trebuie neapărat să fiți evaluat în acest sens înainte de operație. Ar trebui să puteți folosi lentile înainte de operație."
-              },
-              {
-                "title": "Sport/Exerciții",
-                "text": "Activități sportive ușoare care nu cauzează creșterea pulsului pot fi făcute începând cu a 2-a săptămână după operație.\nDin a 4-a săptămână, activitățile care cresc pulsul unde nu există risc de traumă sunt libere. Din a 2-a lună, puteți face sport în ritmul dorit.\nPuteți intra în mare începând cu a 2-a săptămână după operație, și în piscină începând cu prima lună."
-              }
-            ]
-          },
-          {
-            "title": "FUMATUL",
-            "text": "Fumul de țigară este CEL MAI IMPORTANT factor care cauzează întârzierea vindecării rănilor.\n\nÎntârzierea vindecării: face ca nasul să ajungă la un rezultat prost atât funcțional, cât și vizual. \nDin cauza întârzierii vindecării, crește riscul de infecție în nas, dehiscența suturilor, creșterea edemului în nas și riscul ca rezultatul dorit să fie diferit de cel așteptat și rău din cauza vindecării întârziate.\n\nPacientul care continuă să fumeze după operație este considerat a fi acceptat responsabilitatea pentru astfel de probleme care pot apărea.\n\n—\n\nCU CEL PUȚIN 10 ZILE ÎNAINTE DE OPERAȚIE, FUMATUL TREBUIE OPRIT COMPLET.\n \nFUMATUL nu trebuie utilizat timp de 3 LUNI după operație.\n\nPacientul care consumă țigări se va vindeca DEFINITIV prost."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. RISCURI POSIBILE",
@@ -3696,114 +2733,7 @@ export const content = {
     "subtitle": "Itt minden kérdésére választ talál a rinoplasztika előtt és után...",
     "searchPlaceholder": "Keresés szóval a kérdésben vagy válaszban...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. ÁLTALÁNOS INFORMÁCIÓK",
-        "content": [
-          {
-            "title": "<p>Mi az a Rinoplasztika?</p>",
-            "text": "<p>Az orr egy funkcionális szerv, amely pontosan az arc közepén helyezkedik el. </p><p>Az orr funkcionális feladata a légzés és a szaglás, vizuális feladata pedig az arc szépségének biztosítása. </p><p>Az orrnak ezt a 2 feladatot teljes mértékben el kell látnia, és harmóniában és arányban kell lennie az arc többi szervével. </p><p>Ezenkívül szimmetrikusnak és az archoz illőnek kell lennie. </p><p><br></p><p><strong>A Rinoplasztika (Szeptorhinoplasztika) műtét célja, hogy az orrnak funkcionális és esztétikai szépséget adjon.</strong></p>"
-          },
-          {
-            "title": "<p>Mi a rinoplasztika műtét célja?</p>",
-            "text": "<p>A rinoplasztika műtét célja olyan orrmegjelenés elérése, amely boldoggá teszi a pácienst azáltal, hogy megoldást kínál a páciens orrában lévő problémákra, valamint kényelmes légzést biztosít. </p><p>Mivel minden orrban más a probléma, az alkalmazandó eljárások is változnak. </p><p><br></p><p>Az orrán elvégezhető eljárásokat és az elérhető lehetséges eredményeket a vizsgálat során megosztjuk Önnel. </p>",
-            "items": [
-              "<p>A műtétet kölcsönös döntéssel és megegyezéssel hajtják végre.</p><p>A páciensnek is akarnia kell, hogy az orvos megműtse, és az orvosnak is úgy kell elvégeznie a műtétet, hogy hisz abban, hogy az a páciens javát szolgálja.</p>",
-              "<p>Ezért a műtét előtti vizsgálatot és értékelést a megfelelő időben és a megfelelő körülmények között kell elvégezni.</p>",
-              "<p>Annak a valószínűsége, hogy egy olyan műtét, amelyet egyik fél sem akar, boldog véget érjen, meglehetősen alacsony.</p>"
-            ]
-          },
-          {
-            "title": "<p>ÁLTALÁNOS INFORMÁCIÓK</p>",
-            "items": [
-              "<p><strong>Érzéstelenítés Típusa:</strong> Általános Érzéstelenítés (Altatás)</p>",
-              "<p><strong>Kórházi Tartózkodás: </strong>1 éjszaka </p><p><br></p><p>Ha kora reggel vagy rövid távú műtétek után operálják, ha egészségi állapota megfelelő, még aznap hazaengedhetik, de a legtöbb pácienst 1 éjszaka kórházi tartózkodás után másnap reggel engedik haza.</p>",
-              "<p><strong>Időtartam: </strong>2,5 óra </p><p><br></p><p>A rinoplasztika műtét várhatóan ~2 órát (±1) vesz igénybe standard nehézség esetén, és ~3 órát (±1) revíziós műtétek esetén.)</p>",
-              "<p><strong>Sebészeti Technika: </strong>Nyitott technika, strukturális (structure) rinoplasztika. </p><p>A műtétet rutinszerűen nyitott technikával végzem. </p><p>Ebben a technikában bemetszést ejtenek a bőrön az orrlyukak között, és ezt a bemetszést a műtét végén az esztétikai célnak megfelelően varrják össze.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>A zárt technika a következő esetekben alkalmazható:</p>",
-                "items": [
-                  "<p>Rövid távú és korlátozott revíziós műtétek</p>",
-                  "<p>Korlátozott eljárások, amelyeket csak az orrívre végeznek</p>",
-                  "<p>Funkcionális műtétek csak ott, ahol nincs esztétikai cél</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Technikai Felszerelés</p>",
-                "items": [
-                  "<p><strong>Piezo</strong> rutinszerűen használatos a műtétek során. </p><p>Ez az eszköz egyike azoknak a technikai felszereléseknek, amelyek biztosítják a csont precíz formázását.</p>",
-                  "<p>A Piezo használata nem jelenti azt, hogy nem lesznek véraláfutások. </p><p>A műtét utáni időszakban véraláfutások és szöveti ödéma lesz a bőr alatti szövet és az érszerkezet miatt. </p><p>Azonban a páciensek ~90%-ának nincs látható véraláfutása az 1. héten.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FÉNYKÉPEZÉS",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "<p>FÉNYKÉPEZÉS</p>",
-                "text": "<p>A fényképezés a műtét előtt, alatt és után történik. A műtét előtti fényképezés a vizsgálat része.</p><p>A fényképezés célja az orrproblémák megértése, elmagyarázása és emlékezése, valamint objektív adatok felhasználása a műtét tervezésekor.</p>"
-              },
-              {
-                "title": "<p>Szimuláció</p>",
-                "text": "<p>A fényképezés után nem végzünk szimulációt a fotón.</p><p>Nincs szükség szimulációra azoknál a betegeknél, akik el tudják magyarázni, mit kérnek, és megértik őket.</p><p><br></p><p>Azok a betegek, akik úgy gondolják, hogy szóban nem tudják teljesen kifejezni, milyen orrot szeretnének, megmutathatják azokat az orrfotókat, amelyek tetszenek nekik a vizsgálat során, és elküldhetik azokat, hogy hozzáadják a betegaktához. </p><p><br></p><p>Azok a betegek, akik el akarják képzelni az orr lehetséges változásainak harmóniáját az arcukkal, szimulálhatják saját fotóikat, és így megoszthatják igényeiket az orvossal.</p><p>A beteg által mutatott fotókat nem szabad megrendelésként felfogni. Ez egy eszköz a személy számára, hogy elmagyarázza az általa kedvelt stílust és igényét. Ezt az információt semmiképpen sem szabad elfelejteni.</p><p>Nem reális pontosan megrajzolni, hogy milyen eredményt érünk el a gyógyulás végén a fotón a műtét után.</p>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. MŰTÉT UTÁNI FOLYAMAT",
-        "content": [
-          {
-            "title": "MŰTÉT UTÁNI FOLYAMAT",
-            "text": "A műtét végén az orrlyukak közötti bőrön (columella) finom esztétikai metszés és varrat, az orr belsejében lyukas stent/tampon, amely nem akadályozza a légzést, valamint az orron speciális szalag és műanyag sín (gipsz) lesz. Ha az orrszárnyakon is történt beavatkozás, ott is lesznek varratok.",
-            "subsections": [
-              {
-                "title": "Tampon és gipsz eltávolítása",
-                "text": "Az orrban lévő tampont, szalagot és sínt a műtét utáni első heti (5-7. nap) kontrollvizsgálaton távolítják el. (Bizonyos esetekben az orrban lévő tampont korábban is el lehet távolítani.)\n\nNéha a műtét során, néha pedig a tampon eltávolítása után szilikon eszközt (nostril retainer) kell használni az orrcsúcs formájának és a lyukak szimmetriájának biztosítására.\nNagyobb ödémával rendelkező betegeknél az első kontrollvizsgálaton újra felhelyezhetik a gipszet.\nVastag bőrű és ödémás betegeknél javasolt lehet a folyamatos és/vagy éjszakai ragasztás a műtét után. (1-2 hónapig)"
-              },
-              {
-                "title": "Szem alatti véraláfutás és duzzanat",
-                "text": "Ha a műtét során csontbeavatkozás történt, az orr körül és a szem alatt némi duzzanat és véraláfutás várható. Ez a helyzet a műtét utáni 3-4. napon éri el a maximumot.\nA duzzanat és a véraláfutás az 1. héten jelentősen csökken, a 2. héten pedig a legtöbb betegnél teljesen elmúlik.\nA gyógyszerek és a szükséges alkalmazások pontos betartása a műtét után sokkal enyhébbé teszi ezt a folyamatot.\n\nA műtét utáni véraláfutás és duzzanat minimalizálása érdekében hideg borogatást kell alkalmazni az orr körül és a szem alatt.\nA kórházi tartózkodás alatt jeget kap, de otthoni használatra beszerezhet gél alapú jégakkut.\n(Praktikus megoldás: Hideg borogatáshoz használhat fagyasztott borsót, csicseriborsót stb. hűtőtasakban.)"
-              },
-              {
-                "title": "Műtét utáni ödéma és az orr végleges formája",
-                "text": "Az orrban lévő ödéma 3 fő időszakban csökken:",
-                "items": [
-                  "Az első 2 hetes gyors ödémacsökkenés után a második héten látni fogja orra új szerkezetét a fő vonalakkal és szögekkel együtt. Az orra azonban még mindig nagyon duzzadt lesz.",
-                  "A következő kb. 2-3 hónapban az ödéma fokozatosan csökken, különösen az orrháton, a csúcson és a szárnyak oldalán, és az ödéma kb. 70%-a elmúlik.",
-                  "A fennmaradó 30% eltűnéséhez még kb. 1-1,5 év szükséges."
-                ],
-                "subtext": "Ezek az időtartamok átlagosak, és a bőr szerkezete, valamint a sebgyógyulási jellemzők a fő meghatározó tényezők az ödéma és a duzzanat megszűnésének idejében és mértékében. (Vastag bőr esetén az időtartamok x1,5-2)\n\nAz orrban lévő porc- és csontszöveteken végzett eljárások minden betegnél eltérőek.\nEgyes sebészeti technikáknál a porcok és varratok időbeli helyreállása és némi lazulása, valamint a gravitáció hatása miatt a műtét utáni 4-6 hetes időszakban az orrcsúcs kissé lefelé mozdulhat. Emiatt a műtét utáni korai időszakban az orrcsúcsa kissé felfelé állhat. (Ez nem minden betegre érvényes.)"
-              },
-              {
-                "title": "Az orr védelme a fizikai erőhatásoktól",
-                "text": "A műtét után 4 hónapig az orrát nem érheti ellenőrizetlen fizikai erő. Ebben az időszakban, amikor a csontosodás még nem fejeződött be, a felmerülő problémák tartós gondokat okozhatnak az orr gyógyulásában. Ebben a 4 hónapos időszakban kerülni kell az orrsérülést okozó tevékenységeket, és nem szabad szemüveget viselni.\n\nHa nem tud kontaktlencsét viselni, a műtét előtt mindenképpen értékelni kell ezt a szempontot. A műtét előtt képesnek kell lennie kontaktlencse viselésére."
-              },
-              {
-                "title": "Sport és testmozgás",
-                "text": "A műtét utáni 2. héttől kezdve végezhetők olyan könnyű sporttevékenységek, amelyek nem emelik meg a pulzust.\nA 4. héttől kezdve engedélyezettek a pulzusszámot növelő tevékenységek, ahol nincs sérülésveszély. A 2. hónaptól kezdve a kívánt tempóban sportolhat.\nA műtét utáni 2. héttől kezdve úszhat tengerben, az 1. hónaptól kezdve pedig medencében."
-              }
-            ]
-          },
-          {
-            "title": "DOHÁNYZÁS",
-            "text": "A cigarettafüst a LEGFONTOSABB tényező, amely késlelteti a sebgyógyulást.\n\nA sebgyógyulás késése: az orr mind funkcionálisan, mind vizuálisan rossz eredményt érhet el.\nA gyógyulás késése miatt nő az orrfertőzés kockázata, a varratok szétnyílása, a fokozott ödéma és a késleltetett gyógyulással összefüggő kockázat, hogy a kívánt eredmény a vártnál rosszabb lesz.\n\nAz a beteg, aki a műtét után továbbra is dohányzik, úgy tekinthető, hogy vállalja a felelősséget az ilyen jellegű problémákért.\n\n—\n\nLEGALÁBB 10 NAPPAL A MŰTÉT ELŐTT A DOHÁNYZÁST TELJESEN ABBA KELL HAGYNI.\n\nA műtét után 3 HÓNAPIG NEM SZABAD DOHÁNYOZNI.\n\nA dohányzó beteg BIZTOSAN rosszabbul fog gyógyulni."
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. LEHETSÉGES KOCKÁZATOK",
@@ -4148,106 +3078,7 @@ export const content = {
     "subtitle": "Odpowiedzi na wszystkie pytania przed i po plastyce nosa znajdują się tutaj...",
     "searchPlaceholder": "Szukaj słowa w pytaniu lub odpowiedzi...",
     "tabs": [
-      {
-        "id": "tab1",
-        "title": "1. INFORMACJE OGÓLNE",
-        "content": [
-          {
-            "title": "<p>Co to jest plastyka nosa (Rynoplastyka)?</p>",
-            "text": "<p>Nos jest funkcjonalnym organem znajdującym się w samym środku twarzy.</p><p>Funkcjonalnym zadaniem nosa jest oddychanie i wąchanie, a zadaniem wizualnym jest sprawienie, by twarz wyglądała pięknie.</p><p>Nos musi w pełni spełniać te 2 zadania, a także być w harmonii i proporcji z innymi organami twarzy.</p><p>Ponadto powinien mieć strukturę symetryczną i pasującą do twarzy.</p><p><br></p><p><strong>Celem operacji rynoplastyki (Septorhinoplastyki) jest nadanie nosowi funkcjonalnego i estetycznego piękna.</strong></p>"
-          },
-          {
-            "title": "<p>Jaki jest cel operacji plastyki nosa?</p>",
-            "text": "<p>Celem operacji plastyki nosa jest uzyskanie wyglądu nosa, który uszczęśliwi pacjenta, zapewniając zarówno wygodne oddychanie, jak i rozwiązanie problemów z nosem pacjenta.</p><p>Ponieważ problem w każdym nosie jest inny, procedury, które należy zastosować, są również różne.</p><p><br></p><p>Procedury, które można wykonać na nosie i możliwe wyniki do uzyskania, zostaną omówione z Tobą podczas badania.</p>",
-            "items": [
-              "<p>Operacja jest przeprowadzana na podstawie decyzji i zgody obu stron.</p><p>Zarówno pacjent musi chcieć być operowany przez lekarza, jak i lekarz musi przeprowadzić operację, wierząc, że przyniesie ona korzyść pacjentowi.</p>",
-              "<p>Dlatego badanie i ocena przedoperacyjna muszą być przeprowadzone w odpowiednim czasie i we właściwych warunkach.</p>",
-              "<p>Prawdopodobieństwo osiągnięcia szczęśliwego rezultatu operacji, której nie chce jedna ze stron, jest bardzo niskie.</p>"
-            ]
-          },
-          {
-            "title": "<p>INFORMACJE OGÓLNE</p>",
-            "items": [
-              "<p><strong>Rodzaj znieczulenia:</strong> Znieczulenie ogólne (Pełna narkoza)</p>",
-              "<p><strong>Pobyt w szpitalu: </strong>1 noc </p><p><br></p><p>Możesz zostać wypisany tego samego dnia po operacji wczesnym rankiem lub po krótkich operacjach, jeśli Twój stan medyczny jest odpowiedni, ale większość pacjentów zostanie wypisana następnego ranka po 1 nocy pobytu w szpitalu.</p>",
-              "<p><strong>Czas trwania: </strong>2,5 godziny </p><p><br></p><p>Przewiduje się, że operacja plastyki nosa potrwa ~2 godziny (±1) w przypadku standardowej trudności i ~3 godziny (±1) w przypadku operacji rewizyjnych.</p>",
-              "<p><strong>Technika chirurgiczna: </strong>Technika otwarta, rynoplastyka strukturalna (structural). </p><p>Rutynowo wykonuję operację techniką otwartą.</p><p>W tej technice wykonuje się nacięcie na skórze między nozdrzami, a to nacięcie jest zszywane pod koniec operacji zgodnie z celem estetycznym.</p>"
-            ],
-            "subsections": [
-              {
-                "title": "<p>Operacja techniką zamkniętą może być stosowana w następujących przypadkach:</p>",
-                "items": [
-                  "<p>Krótkotrwałe i ograniczone operacje rewizyjne</p>",
-                  "<p>Ograniczone procedury tylko dla garbu nosa</p>",
-                  "<p>Tylko operacje funkcjonalne bez celu estetycznego</p>"
-                ],
-                "text": "<p><br></p>"
-              },
-              {
-                "title": "<p>Sprzęt techniczny</p>",
-                "items": [
-                  "<p>W operacjach rutynowo stosuje się <strong>piezo</strong>.</p><p>To urządzenie jest jednym z elementów wyposażenia technicznego, które umożliwia precyzyjne kształtowanie kości.</p>",
-                  "<p>Użycie piezo nie oznacza, że nie będzie żadnych siniaków.</p><p>W okresie pooperacyjnym wystąpią siniaki i obrzęk tkanek z powodu tkanki podskórnej i struktury naczyniowej.</p><p>Jednak u ~90% pacjentów w 1. tygodniu nie ma widocznych siniaków.</p>"
-                ],
-                "text": "<p><br></p>"
-              }
-            ],
-            "text": "<p><br></p>"
-          }
-        ]
-      },
-      {
-        "id": "tab2",
-        "title": "2. FOTOGRAFIA",
-        "content": [
-          {
-            "subsections": [
-              {
-                "title": "FOTOGRAFIA",
-                "text": "Zdjęcia są wykonywane przed, w trakcie i po operacji. Fotografowanie przedoperacyjne jest częścią badania.\nCelem fotografowania jest zrozumienie, wyjaśnienie i zapamiętanie problemów z nosem oraz możliwość wykorzystania obiektywnych danych podczas planowania operacji."
-              },
-              {
-                "title": "Symulacja",
-                "text": "Po zrobieniu zdjęcia nie wykonuje się symulacji na zdjęciu.\nNie ma potrzeby symulacji u pacjentów, którzy potrafią wyjaśnić, czego żądają i są zrozumiani.\n\nPacjenci, którzy uważają, że nie mogą w pełni wyrazić słowami, jaki rodzaj nosa chcą, mogą pokazać zdjęcia nosów, które im się podobają podczas badania i wysłać je do dodania do pliku pacjenta.\n\nPacjenci, którzy chcą wyobrazić sobie harmonię możliwych zmian w nosie z twarzą, mogą wykonać symulację na własnych zdjęciach i w ten sposób podzielić się swoimi prośbami z lekarzem.\nZdjęcia pokazane przez pacjenta nie powinny być postrzegane jako zamówienie. Jest to narzędzie, dzięki któremu mogą wyjaśnić styl, który im się podoba i ich prośbę. Tej informacji absolutnie nie należy zapominać.\nNierealistyczne jest rysowanie na zdjęciu, jaki dokładnie wynik zostanie uzyskany po operacji i na koniec gojenia."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tab3",
-        "title": "3. PROCES POOPERACYJNY",
-        "content": [
-          {
-            "title": "PROCES POOPERACYJNY",
-            "text": "Pod koniec operacji na skórze między nozdrzami (kolumella) znajdzie się estetyczne cienkie nacięcie i szew, wewnątrz nosa perforowany stent/tampon, który nie przeszkadza w oddychaniu, a na nosie specjalna taśma i plastikowa szyna (gips). Jeśli interweniowano w skrzydła nosa, w części skrzydła nosa również będą szwy.",
-            "subsections": [
-              {
-                "title": "Usunięcie tamponu i gipsu",
-                "text": "Tampon, taśma i szyna na nosie zostaną usunięte podczas kontroli w pierwszym tygodniu (5-7 dni) operacji. (W niektórych szczególnych przypadkach tampon wewnątrz nosa może zostać usunięty wcześniej.)\n\nCzasami podczas operacji, a czasami po usunięciu tamponu po operacji, może być konieczne użycie silikonowego aparatu (nostril retainer) dla kształtu czubka nosa i symetrii otworów.\nU pacjentów z dużym obrzękiem nosa gips można nałożyć ponownie podczas pierwszej kontroli.\nU pacjentów z grubą skórą nosa i obrzękiem może być zalecane ciągłe i/lub nocne oklejanie po operacji. (przez 1-2 miesiące)"
-              },
-              {
-                "title": "Siniaki i obrzęki pod oczami",
-                "text": "W przypadkach, gdy wykonywana jest interwencja kostna, wokół nosa i pod oczami wystąpi pewien obrzęk i siniaki. Sytuacja ta osiąga maksimum w 3-4 dniu po operacji.\nObrzęk i siniaki znacznie zmniejszają się w 1. tygodniu, a w 2. tygodniu u większości pacjentów całkowicie znikają.\nPełne przyjmowanie leków i niezbędnych aplikacji po operacji zapewni znacznie łagodniejszy przebieg tego procesu.\n\nAby zminimalizować siniaki i obrzęki, które wystąpią po operacji, należy stosować zimne okłady wokół nosa i pod oczami.\nPodczas pobytu w szpitalu otrzymasz lód, ale możesz zaopatrzyć się w worek z lodem w formie żelu do użytku domowego.\n(Praktyczne rozwiązanie: Do zimnych okładów można użyć mrożonego groszku, ciecierzycy itp. w woreczku do zamrażania.)"
-              },
-              {
-                "title": "Obrzęk pooperacyjny i ostateczny kształt nosa",
-                "text": "Obrzęk nosa zmniejsza się w 3 głównych okresach:",
-                "items": [
-                  "Po szybkim zmniejszeniu obrzęku w pierwszych 2 tygodniach, w drugim tygodniu zobaczysz nową strukturę nosa z jej głównymi liniami i kątami. Jednak Twój nos będzie nadal bardzo opuchnięty.",
-                  "W kolejnym okresie około 2-3 miesięcy obrzęk, szczególnie na grzbiecie, czubku i bocznych częściach skrzydeł nosa, będzie stopniowo zmniejszał się z czasem i około 70% obrzęku ustąpi.",
-                  "Na pozostałe 30% potrzeba będzie jeszcze około 1-1,5 roku."
-                ],
-                "subtext": "Wspomniane czasy są czasami średnimi, a struktura skóry nosa i cechy gojenia się ran są głównymi czynnikami determinującymi proces i ilość ustępowania obrzęku i opuchlizny nosa. (Dla grubej skóry czasy x1,5-2)\n\nProcedury wykonywane na tkankach chrzęstnych i kostnych wewnątrz nosa są różne u każdego pacjenta.\nW niektórych stosowanych technikach chirurgicznych, w związku z osiadaniem i pewnym rozluźnieniem chrząstek i szwów z czasem oraz pod wpływem grawitacji, w okresie 4-6 tygodni po operacji może wystąpić pewien ruch czubka nosa w dół. Z tego powodu we wczesnym okresie pooperacyjnym czubek nosa może być nieco zadarty. (nie dotyczy każdego pacjenta.)"
-              },
-              {
-                "title": "Unikanie sił fizycznych na nos",
-                "text": "Przez 4 miesiące po operacji nos nie powinien być narażony na niekontrolowaną siłę fizyczną. Problemy, które mogą wystąpić w tym okresie, gdy zrost kości nie jest jeszcze zakończony, mogą powodować trwałe problemy w gojeniu się nosa. W tym 4-miesięcznym okresie należy unikać czynności, które mogą powodować uraz nosa i nie należy nosić okularów.\n\nJeśli nie możesz używać soczewek, musisz zostać oceniony pod tym kątem przed operacją. Powinieneś być w stanie używać soczewek przed operacją."
-              }
-            ]
-          }
-        ]
-      },
+      
       {
         "id": "tab4",
         "title": "4. POTENCJALNE RYZYKA",
@@ -4370,24 +3201,36 @@ export const content = {
             "id": "group-general",
             "subsections": [
               {
-                "title": "1. Czy wykonują Państwo symulację fotograficzną?",
-                "text": "<p>Rutynowo <strong><u>nie wykonujemy symulacji</u></strong> na zdjęciach.</p><blockquote>Nie ma potrzeby symulacji u pacjentów, którzy potrafią wyjaśnić swoje oczekiwania i są zrozumiani.</blockquote><p>Pacjenci, którzy uważają, że nie potrafią słownie w pełni wyrazić, jakiego nosa oczekują, mogą podczas badania pokazać zdjęcia nosów, które im się podobają, i przesłać je do dołączenia do karty pacjenta.</p><p><br></p><p>Pacjenci, którzy chcą wyobrazić sobie harmonię ewentualnych zmian w nosie ze swoją twarzą, <strong>mogą wykonać symulację na własnych zdjęciach i w ten sposób podzielić się swoimi oczekiwaniami z lekarzem.</strong></p><p>Zdjęcia pokazywane przez pacjenta nie powinny być traktowane jako zamówienie. Są one narzędziem, dzięki któremu mogą wyjaśnić styl, który im się podoba, i swoje oczekiwania. O tej informacji absolutnie nie należy zapominać.</p><blockquote>Nierealistyczne jest dokładne narysowanie na zdjęciu, jaki wynik zostanie uzyskany po operacji i po zakończeniu gojenia.</blockquote>"
+                "title": "1. Co to jest plastyka nosa (Rynoplastyka)?",
+                "text": "<p>Nos jest funkcjonalnym organem znajdującym się w samym środku twarzy.</p><p>Funkcjonalnym zadaniem nosa jest oddychanie i wąchanie, a zadaniem wizualnym jest sprawienie, by twarz wyglądała pięknie.</p><p>Nos musi w pełni spełniać te 2 zadania, a także być w harmonii i proporcji z innymi organami twarzy.</p><p>Ponadto powinien mieć strukturę symetryczną i pasującą do twarzy.</p><p><br></p><p><strong>Celem operacji rynoplastyki (Septorhinoplastyki) jest nadanie nosowi funkcjonalnego i estetycznego piękna.</strong></p>"
               },
               {
-                "title": "2. Czy dają Państwo gwarancję na wynik operacji?",
-                "text": "<p>Nie tylko w przypadku plastyki nosa, ale <strong style=\"background-color: rgb(255, 255, 0);\"><u>w przypadku żadnej operacji nie można dać gwarancji wyniku.</u></strong></p><p><br></p><p>Proces gojenia po operacji jest równie ważny jak interwencja wykonana podczas operacji. Niektóre problemy, które mogą wystąpić, zostać zauważone lub nie, w tym procesie mogą spowodować negatywną sytuację w procesie gojenia i nos może nie osiągnąć pożądanego rezultatu.</p><p><strong style=\"background-color: rgb(235, 214, 255);\">Istnieje około 5% prawdopodobieństwa, że po operacji wystąpi sytuacja wymagająca operacji rewizyjnej.</strong></p><p>Jedyną rzeczą, którą możemy zagwarantować, jest to, że jako lekarz i jego zespół dołożymy wszelkich starań, aby zapewnić Państwu to, co najlepsze podczas procesu operacji.</p><p><br></p><blockquote>Opowiadamy o negatywnych scenariuszach nie po to, aby Państwa zasmucić lub zniechęcić do decyzji o operacji, ale dlatego, że jest to rzeczywistość.</blockquote>"
+                "title": "2. Jaki jest cel operacji plastyki nosa?",
+                "text": "<p>Celem operacji plastyki nosa jest uzyskanie wyglądu nosa, który uszczęśliwi pacjenta, zapewniając zarówno wygodne oddychanie, jak i rozwiązanie problemów z nosem pacjenta.</p><p>Ponieważ problem w każdym nosie jest inny, procedury, które należy zastosować, są również różne.</p><p><br></p><p>Procedury, które można wykonać na nosie i możliwe wyniki do uzyskania, zostaną omówione z Tobą podczas badania.</p><ul><li><p>Operacja jest przeprowadzana na podstawie decyzji i zgody obu stron.</p><p>Zarówno pacjent musi chcieć być operowany przez lekarza, jak i lekarz musi przeprowadzić operację, wierząc, że przyniesie ona korzyść pacjentowi.</p></li><li><p>Dlatego badanie i ocena przedoperacyjna muszą być przeprowadzone w odpowiednim czasie i we właściwych warunkach.</p></li><li><p>Prawdopodobieństwo osiągnięcia szczęśliwego rezultatu operacji, której nie chce jedna ze stron, jest bardzo niskie.</p></li></ul>"
               },
               {
-                "title": "3. Czy wykonujecie plastykę nosa ultradźwiękową (Piezo)?",
-                "text": "<p>Wszystkie urządzenia, których używamy w chirurgii nosa, to najnowocześniejszy sprzęt. Urządzenie nazywane przez pacjentów rynoplastyką ultradźwiękową to urządzenie o nazwie piezo, którego rutynowo używamy w naszych operacjach. U niektórych pacjentów, ponieważ interwencje kostne starą techniką są bardziej odpowiednie, może być konieczne użycie sprzętu starej techniki, nawet jeśli urządzenie piezo jest gotowe. Piezo nie jest cudownym narzędziem, które udoskonala każdy nos, którego dotknie. Jest to narzędzie, którego używamy w części operacji, które działa bardzo dobrze i znacząco wpływa na mniejsze siniaki / obrzęki po operacji.</p>"
+                "title": "3. Czy możesz podać informacje o technice operacyjnej?",
+                "text": "<ul><li><p><strong>Rodzaj znieczulenia:</strong> Znieczulenie ogólne (Pełna narkoza)</p></li><li><p><strong>Pobyt w szpitalu: </strong>1 noc </p><p><br></p><p>Możesz zostać wypisany tego samego dnia po operacji wczesnym rankiem lub po krótkich operacjach, jeśli Twój stan medyczny jest odpowiedni, ale większość pacjentów zostanie wypisana następnego ranka po 1 nocy pobytu w szpitalu.</p></li><li><p><strong>Czas trwania: </strong>2,5 godziny </p><p><br></p><p>Przewiduje się, że operacja plastyki nosa potrwa ~2 godziny (±1) w przypadku standardowej trudności i ~3 godziny (±1) w przypadku operacji rewizyjnych.</p></li><li><p><strong>Technika chirurgiczna: </strong>Technika otwarta, rynoplastyka strukturalna. </p><p>Rutynowo wykonuję operację techniką otwartą.</p><p>W tej technice wykonuje się nacięcie na skórze między nozdrzami, a to nacięcie jest zszywane pod koniec operacji zgodnie z celem estetycznym.</p></li></ul><h3>Operacja techniką zamkniętą może być stosowana w następujących przypadkach:</h3><ul><li><p>Krótkotrwałe i ograniczone operacje rewizyjne</p></li><li><p>Ograniczone procedury tylko dla garbu nosa</p></li><li><p>Tylko operacje funkcjonalne bez celu estetycznego</p></li></ul><p><br></p><h3>Sprzęt techniczny</h3><ul><li><p>W operacjach rutynowo stosuje się <strong>piezo</strong>.</p><p>To urządzenie jest jednym z elementów wyposażenia technicznego, które umożliwia precyzyjne kształtowanie kości.</p></li><li><p>Użycie piezo nie oznacza, że nie będzie żadnych siniaków.</p><p>W okresie pooperacyjnym wystąpią siniaki i obrzęk tkanek z powodu tkanki podskórnej i struktury naczyniowej.</p><p>Jednak u ~90% pacjentów w 1. tygodniu nie ma widocznych siniaków.</p></li></ul>"
               },
               {
-                "title": "4. Miałem/am wcześniej wypełniacze nosa. Czy jest to przeszkoda do rynoplastyki?",
-                "text": "<p>Pacjenci z wypełniaczami nosa również mogą być operowani. Jednak przed tą operacją efekt wypełniacza musi całkowicie minąć. W przeciwności razie zabiegi wykonywane podczas operacji mogą spowodować niepożądane rezultaty po zniknięciu wypełniacza. Dlatego, jeśli operacja ma być przeprowadzona w pierwszym okresie 1 roku po wypełnieniu lub jeśli minęło więcej czasu, ale efekt wypełniacza nadal się utrzymuje, absolutnie konieczne jest przeprowadzenie procesu rozpuszczania wypełniacza przed operacją. Proces ten zapewnia lek o nazwie hialuronidaza.</p>"
+                "title": "4. Czy wykonują Państwo symulację fotograficzną?",
+                "text": "<p>Rutynowo <strong><u>nie wykonujemy symulacji</u></strong> na zdjęciach.</p><blockquote>Nie ma potrzeby symulacji u pacjentów, którzy potrafią wyjaśnić swoje oczekiwania i są zrozumiani.</blockquote><p>Pacjenci, którzy uważają, że nie potrafią słownie w pełni wyrazić, jakiego nosa oczekują, mogą podczas badania pokazać zdjęcia nosów, które im się podobają, i przesłać je do dołączenia do karty pacjenta.</p><div style='text-align: right; margin-top: 10px; margin-bottom: 20px;'><span style='margin-right: 10px; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; color: #555;'>Aby wysłać zdjęcia:</span><a href='https://wa.me/905555511578' target='_blank' style='display: inline-flex; align-items: center; vertical-align: middle; background-color: #25D366; color: white; padding: 6px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-family: system-ui, -apple-system, sans-serif; font-size: 0.9rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'><svg viewBox='0 0 24 24' width='18' height='18' fill='currentColor' style='margin-right: 6px;'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z'/></svg>WhatsApp</a></div><p><br></p><p>Pacjenci, którzy chcą wyobrazić sobie harmonię ewentualnych zmian w nosie ze swoją twarzą, <strong>mogą wykonać symulację na własnych zdjęciach i w ten sposób podzielić się swoimi oczekiwaniami z lekarzem. </strong></p><p>Zdjęcia pokazywane przez pacjenta nie powinny być traktowane jako zamówienie. Są one narzędziem, dzięki któremu mogą wyjaśnić styl, który im się podoba, i swoje oczekiwania. O tej informacji absolutnie nie należy zapominać.</p><blockquote>Nierealistyczne jest dokładne narysowanie na zdjęciu, jaki wynik zostanie uzyskany po operacji i po zakończeniu gojenia.</blockquote>"
               },
               {
-                "title": "5. Czy podczas operacji robione są zdjęcia?",
-                "text": "<p>Rutynowe zdjęcia są wykonywane na początku i na końcu operacji. Celem tych zdjęć jest zarówno zobaczenie zmiany i opisanie jej Państwu, jak i możliwość ponownej oceny momentu operacji w procesie gojenia po operacji. Pacjentom, którzy o to poproszą, wysyłamy te zdjęcia wykonane podczas operacji.</p>"
+                "title": "5. Czy dają Państwo gwarancję na wynik operacji?",
+                "text": "<p>Nie tylko w przypadku plastyki nosa, ale <strong style='background-color: rgb(255, 255, 0);'><u>w przypadku żadnej operacji nie można dać gwarancji wyniku.</u></strong></p><p><br></p><p>Proces gojenia po operacji jest równie ważny jak interwencja wykonana podczas operacji. Niektóre problemy, które mogą wystąpić, zostać zauważone lub nie, w tym procesie mogą spowodować negatywną sytuację w procesie gojenia i nos może nie osiągnąć pożądanego rezultatu.</p><p><strong style='background-color: rgb(235, 214, 255);'>Istnieje około 5% prawdopodobieństwa, że po operacji wystąpi sytuacja wymagająca operacji rewizyjnej.</strong></p><p>Jedyną rzeczą, którą możemy zagwarantować, jest to, że jako lekarz i jego zespół dołożymy wszelkich starań, aby zapewnić Państwu to, co najlepsze podczas procesu operacji.</p><p><br></p><blockquote>Opowiadamy o negatywnych scenariuszach nie po to, aby Państwa zasmucić lub zniechęcić do decyzji o operacji, ale dlatego, że jest to rzeczywistość.</blockquote>"
+              },
+              {
+                "title": "6. Miałem/am wcześniej wypełniacze nosa. Czy jest to przeszkoda do rynoplastyki?",
+                "text": "<p><strong style='background-color: rgb(204, 232, 204);'>Pacjenci z wypełniaczami nosa również mogą być operowani.</strong></p><blockquote>Jednak przed tą operacją efekt wypełniacza musi całkowicie minąć.</blockquote><blockquote>W przeciwnym razie zabiegi wykonywane podczas operacji mogą spowodować niepożądane rezultaty po zniknięciu wypełniacza.</blockquote><p>Dlatego, jeśli operacja ma być przeprowadzona w <u><strong>okresie pierwszego roku od podania wypełniacza</strong></u>, lub jeśli minęło więcej czasu, ale <u><strong>efekt wypełniacza nadal się utrzymuje</strong></u>, <strong style='background-color: rgb(255, 255, 0);'>absolutnie konieczne jest przeprowadzenie procesu rozpuszczania wypełniacza przed operacją.</strong></p><p>Proces ten zapewnia lek o nazwie <strong style='background-color: rgb(0, 255, 0); color: white; padding: 0 4px;'>hialuronidaza</strong>.</p>"
+              },
+              {
+                "title": "7. Czy wykonujecie plastykę nosa ultradźwiękową (Piezo)?",
+                "text": "<p>Wszystkie urządzenia, których używamy w chirurgii nosa, to najnowocześniejszy sprzęt.</p><p>Urządzenie nazywane przez pacjentów <strong>rynoplastyką ultradźwiękową</strong> to urządzenie o nazwie <strong style='background-color: rgb(255, 255, 0);'>piezo</strong>, którego <u style='color: rgb(102, 102, 102);'>rutynowo używamy w naszych operacjach.</u></p><p>U niektórych pacjentów, ponieważ interwencje kostne starą techniką są bardziej odpowiednie, może być konieczne użycie sprzętu starej techniki, nawet jeśli urządzenie piezo jest gotowe.</p><blockquote>Piezo nie jest cudownym narzędziem, które udoskonala każdy nos, którego dotknie. Jest to narzędzie, którego używamy w części operacji, które działa bardzo dobrze i znacząco wpływa na mniejsze siniaki / obrzęki po operacji.</blockquote><p><br></p><p>Nawiasem mówiąc, to narzędzie nie jest urządzeniem używanym tylko przeze mnie. <u><em>Wielu chirurgów wykonujących rynoplastykę w naszych czasach wykonuje operacje przy użyciu tego narzędzia.</em></u></p>"
+              },
+              {
+                "title": "8. Czy można przeprowadzić operację, jeśli w nosie jest wypełniacz?",
+                "text": "<p>Wypełniacze nosa mogą powodować pewne negatywne skutki podczas operacji i okresu gojenia.</p><p>Najważniejszym problemem jest to, że jeśli kształtowanie odbywa się, gdy w nosie jest wypełniacz, kształt nosa może zmienić się w niepożądany wynik po rozpuszczeniu się i zniknięciu wypełniacza.</p><p>Aby temu zapobiec, wypełniacz należy rozpuścić przed rozpoczęciem operacji lub poczekać, aż wypełniacz przestanie działać (1,5-2 lata).</p><p>Proces rozpuszczania wypełniacza nie jest trudnym zabiegiem. Generuje jednak dodatkowe koszty.</p><p>Skonsultuj się z lekarzem, aby uzyskać szczegółowe informacje.</p>"
               }
             ]
           },
@@ -4404,19 +3247,23 @@ export const content = {
               },
               {
                 "title": "2. W jakich sytuacjach moja operacja może zostać odwołana/przełożona?",
-                "text": "<p>Chociaż planowanie operacji odbywa się poprzez potwierdzenie wzajemnych zgód po wyjaśnieniu szczegółów dotyczących plastyki nosa podczas naszych spotkań przedoperacyjnych, w niektórych przypadkach przed operacją Państwa operacja może zostać <strong><u>PRZEŁOŻONA lub ODWOŁANA.</u></strong></p><p><br></p><p><span style=\"background-color: rgb(250, 204, 204);\">Sytuacja ta może wystąpić z następujących powodów:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli w dniu operacji lub bezpośrednio przed nią mają Państwo </span><strong style=\"background-color: rgb(250, 204, 204);\">infekcję dróg oddechowych</strong><span style=\"background-color: rgb(250, 204, 204);\">.</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli </span><strong style=\"background-color: rgb(250, 204, 204);\">nie udało się rzucić palenia</strong><span style=\"background-color: rgb(250, 204, 204);\"> przed operacją. </span><blockquote class=\"ql-indent-1\"><em>(Pacjent, któremu nie udało się rzucić palenia, nie powinien być operowany, ponieważ wpłynie to negatywnie na gojenie po operacji.) Jeśli ukryją Państwo przed nami tę informację, oznacza to, że od początku zaakceptowali Państwo szkodę, która powstanie.)</em></blockquote></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli w badaniach wykonanych przed operacją występuje </span><strong style=\"background-color: rgb(250, 204, 204);\">wynik krwi, który może uniemożliwić operację</strong><span style=\"background-color: rgb(250, 204, 204);\">.</span><blockquote class=\"ql-indent-1\"><em>W badaniu krwi Hemoglobina (HB, Hgb), Płytki krwi (Plt), aPTT i INR muszą mieścić się w granicach normy.</em></blockquote><blockquote class=\"ql-indent-1\"><em>Niska wartość hemoglobiny może powodować problemy z gojeniem i złe wyniki poprzez zaburzenie dotlenienia tkanek. Stwarza podobne ryzyko jak palenie tytoniu. Jeśli nie mieści się w granicach normy, hb>10 powinno być, a pacjent powinien otrzymać niezbędne leczenie niedokrwistości po operacji.</em></blockquote></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(250, 204, 204);\">Jeśli mają Państwo nowo zdiagnozowaną chorobę zakaźną (WZW, HIV)</span></li></ol><blockquote><span style=\"background-color: rgb(250, 204, 204);\">W takim przypadku wymagane będzie przede wszystkim leczenie tych chorób i ocena pod tym kątem.</span></blockquote><p><br></p><p>Pacjenci, którzy nie chcą ryzykować przełożenia/odwołania operacji, mogą przed operacją wykonać w dowolnym szpitalu następujące badania:</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Morfologia, INR, aPTT, Anty-HIV, Anty-HCV, HbsAg</strong></p>"
+                "text": "<p>Chociaż planowanie operacji odbywa się poprzez potwierdzenie wzajemnych zgód po wyjaśnieniu szczegółów dotyczących plastyki nosa podczas naszych spotkań przedoperacyjnych, w niektórych przypadkach przed operacją Państwa operacja może zostać <strong><u>PRZEŁOŻONA lub ODWOŁANA.</u></strong></p><p><br></p><p><span style='background-color: rgb(250, 204, 204);'>Sytuacja ta może wystąpić z następujących powodów:</span></p><ol><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(250, 204, 204);'>Jeśli w dniu operacji lub bezpośrednio przed nią mają Państwo </span><strong style='background-color: rgb(250, 204, 204);'>infekcję dróg oddechowych</strong><span style='background-color: rgb(250, 204, 204);'>.</span></li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(250, 204, 204);'>Jeśli </span><strong style='background-color: rgb(250, 204, 204);'>nie udało się rzucić palenia</strong><span style='background-color: rgb(250, 204, 204);'> przed operacją. </span><blockquote class='ql-indent-1'><em>(Pacjent, któremu nie udało się rzucić palenia, nie powinien być operowany, ponieważ wpłynie to negatywnie na gojenie po operacji.) Jeśli ukryją Państwo przed nami tę informację, oznacza to, że od początku zaakceptowali Państwo szkodę, która powstanie.)</em></blockquote></li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(250, 204, 204);'>Jeśli w badaniach wykonanych przed operacją występuje </span><strong style='background-color: rgb(250, 204, 204);'>wynik krwi, który może uniemożliwić operację</strong><span style='background-color: rgb(250, 204, 204);'>.</span><blockquote class='ql-indent-1'><em>W badaniu krwi Hemoglobina (HB, Hgb), Płytki krwi (Plt), aPTT i INR muszą mieścić się w granicach normy.</em></blockquote><blockquote class='ql-indent-1'><em>Niska wartość hemoglobiny może powodować problemy z gojeniem i złe wyniki poprzez zaburzenie dotlenienia tkanek. Stwarza podobne ryzyko jak palenie tytoniu. Jeśli nie mieści się w granicach normy, hb&gt;10 powinno być, a pacjent powinien otrzymać niezbędne leczenie niedokrwistości po operacji.</em></blockquote></li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(250, 204, 204);'>Jeśli mają Państwo nowo zdiagnozowaną chorobę zakaźną (WZW, HIV)</span><blockquote class='ql-indent-1'><span style='background-color: rgb(250, 204, 204);'>W takim przypadku wymagane będzie przede wszystkim leczenie tych chorób i ocena pod tym kątem.</span></blockquote></li></ol><p><br></p><p>Pacjenci, którzy nie chcą ryzykować przełożenia/odwołania operacji, mogą przed operacją wykonać w dowolnym szpitalu następujące badania:</p><p><strong style='background-color: rgb(255, 255, 0);'>Morfologia, INR, aPTT, Anty-HIV, Anty-HCV, HbsAg</strong></p><p><br></p><p>Jeśli mają Państwo chorobę tarczycy lub są pod obserwacją z tego powodu, należy <strong style='background-color: rgb(255, 255, 0);'>sprawdzić, czy poziom TSH jest w normie przed operacją.</strong></p>"
               },
               {
                 "title": "3. Na co należy zwrócić uwagę w dniu operacji?",
-                "text": "<p>W dniu operacji <strong>na twarzy nie może być absolutnie żadnego makijażu.</strong></p><p>Uniemożliwia to nam prawidłową ocenę twarzy, a także utrudnia wykonanie sterylnej operacji. W związku z tym podczas operacji muszą być Państwo bez makijażu.</p><p>Jeśli są <strong>sztuczne rzęsy</strong>, mogą zostać. Jednak <strong>lakier do paznokci</strong> musi zostać usunięty.</p><p>Nie należy mieć na sobie bielizny z metalowymi elementami.</p><p><br></p><blockquote><em>Pacjenci płci męskiej powinni ogolić brodę i wąsy na gładko 1 dzień przed operacją.</em></blockquote>"
+                "text": "<p><strong style='background-color: rgb(255, 255, 0);'>W dniu operacji na twarzy nie może być absolutnie żadnego makijażu.</strong></p><p>Uniemożliwia to nam prawidłową ocenę twarzy, a także utrudnia wykonanie sterylnej operacji. W związku z tym podczas operacji muszą być Państwo bez makijażu.</p><ol><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><strong>Sztuczne rzęsy</strong> mogą zostać, jeśli są.</li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span><strong>Lakier do paznokci</strong> musi zostać usunięty.</li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span>Metalowe <strong>piercingi muszą zostać usunięte.</strong></li><li data-list='ordered'><span class='ql-ui' contenteditable='false'></span>Nie należy mieć na sobie bielizny z metalowymi elementami.</li></ol><p><br></p><blockquote><em>Pacjenci płci męskiej powinni ogolić brodę i wąsy na gładko 1 dzień przed operacją.</em></blockquote>"
               },
               {
-                "title": "4. Czy potrzebna jest osoba towarzysząca?",
+                "title": "4. Jakie są zalecenia na dzień operacji (zaraz po operacji)?",
+                "text": "<p>Po zakończeniu operacji zostaną Państwo zabrani do swojego pokoju po odczekaniu odpowiedniego czasu w sali wybudzeń i poczuciu się dobrze.</p><blockquote><strong>Po przybyciu do pokoju będą Państwo przytomni</strong>, a działanie znieczulenia minie. Ale uczucie lekkiego oszołomienia jest normalne.</blockquote><p>W zależności od czasu trwania operacji, gdy minie odpowiedni czas po operacji, otrzymają Państwo posiłek.</p><p>Uczucie lekkich <strong>mdłości</strong> pierwszego dnia jest normalne. Chociaż rzadko, mogą wystąpić wymioty. W takim przypadku zostaną podane dodatkowe leki na te dolegliwości.</p><p><br></p><p>Gdy minie wystarczająco dużo czasu, wstaną Państwo i zaczną chodzić, a jeśli poczują się dobrze, <strong>mogą zdjąć pończochy uciskowe</strong> założone w celu zapobiegania powstawaniu zakrzepów.</p><p>Posiadanie <strong>piżamy i kapci</strong>, w których będą się Państwo czuć komfortowo podczas pobytu w szpitalu, zwiększy Państwa komfort.</p>"
+              },
+              {
+                "title": "5. Czy potrzebna jest osoba towarzysząca?",
                 "text": "<p>Zaleca się, aby podczas pobytu w szpitalu (1 noc) towarzyszyła Ci osoba bliska dla Twojego komfortu i łatwiejszego zaspokajania potrzeb. Jednak w sytuacjach koniecznych nasze pielęgniarki szpitalne również będą Cię wspierać. Posiadanie kogoś do pomocy w domu w pierwszych dniach po wypisie również ułatwi proces rekonwalescencji.</p>"
               },
               {
-                "title": "5. Jakie są zalecenia na dzień operacji (zaraz po operacji)?",
-                "text": "<p>Po zakończeniu operacji zostaną Państwo zabrani do swojego pokoju po odczekaniu odpowiedniego czasu w sali wybudzeń i poczuciu się dobrze.</p><blockquote><strong>Po przybyciu do pokoju będą Państwo przytomni</strong>, a działanie znieczulenia minie. Ale uczucie lekkiego oszołomienia jest normalne.</blockquote><p>W zależności od czasu trwania operacji, gdy minie odpowiedni czas po operacji, otrzymają Państwo posiłek.</p><p>Uczucie lekkich <strong>mdłości</strong> pierwszego dnia jest normalne. Chociaż rzadko, mogą wystąpić wymioty. W takim przypadku zostaną podane dodatkowe leki na te dolegliwości.</p><p><br></p><p>Gdy minie wystarczająco dużo czasu, wstaną Państwo i zaczną chodzić, a jeśli poczują się dobrze, <strong>mogą zdjąć pończochy uciskowe</strong> założone w celu zapobiegania powstawaniu zakrzepów.</p><p>Posiadanie <strong>piżamy i kapci</strong>, w których będą się Państwo czuć komfortowo podczas pobytu w szpitalu, zwiększy Państwa komfort.</p>"
+                "title": "6. Czy podczas operacji robione są zdjęcia? Kiedy mogę zobaczyć te zdjęcia?",
+                "text": "<p>Rutynowe zdjęcia są wykonywane na początku i na końcu operacji. </p><p>Celem tych zdjęć jest zarówno zobaczenie zmiany i opisanie jej Państwu, jak i możliwość ponownej oceny momentu operacji w procesie gojenia po operacji. Pacjentom, którzy o to poproszą, wysyłamy te zdjęcia wykonane podczas operacji.</p><p><br></p><blockquote><span style='background-color: rgb(255, 255, 0);'>Nie jest możliwe, abyśmy wysłali te zdjęcia natychmiast po zakończeniu operacji.</span></blockquote><p>Po uporządkowaniu, jeśli to możliwe, zostaną one wysłane tego samego wieczoru lub 1 dzień później, w zależności od intensywności naszego programu.</p>"
               }
             ]
           },
@@ -4433,27 +3280,27 @@ export const content = {
               },
               {
                 "title": "2. Kiedy mogę wziąć <strong>prysznic</strong> po operacji?",
-                "text": "<p><strong>Można wziąć prysznic pierwszego dnia po operacji.</strong></p><p>Nie ma przeciwwskazań do kąpieli.</p><blockquote>Jeśli jednak chcą Państwo wziąć prysznic pierwszego dnia, proszę poprosić o pomoc kogoś bliskiego.</blockquote><blockquote>Podczas kąpieli woda nie powinna dostać się do nosa ani na taśmę/gips na nim, włosy najlepiej myć/dać umyć odchylając głowę do tyłu. (przez 14 dni.)</blockquote>"
+                "text": "<p><strong>Można wziąć prysznic pierwszego dnia po operacji. </strong></p><p>Nie ma przeciwwskazań do kąpieli.</p><blockquote>Jeśli jednak chcą Państwo wziąć prysznic pierwszego dnia, proszę poprosić o pomoc kogoś bliskiego.</blockquote><blockquote>Podczas kąpieli woda nie powinna dostać się do nosa ani na taśmę/gips na nim, włosy najlepiej myć/dać umyć odchylając głowę do tyłu. (przez 14 dni.)</blockquote>"
               },
               {
                 "title": "3. Kiedy powinnam/powinienem zacząć stosować leki?",
-                "text": "<p><strong>Wszystkie leki</strong> należy zacząć stosować <strong>rano pierwszego dnia</strong> po operacji (po wypisie). <em style=\"background-color: rgb(255, 255, 0);\">(W tym leki do płukania i nawilżania nosa) </em></p><p><br></p><blockquote>W dniu operacji, czyli podczas pobytu w szpitalu, nie ma potrzeby stosowania leków.</blockquote><blockquote>Leczenie zostanie przeprowadzone przez pielęgniarki szpitalne.</blockquote>"
+                "text": "<p><strong>Wszystkie leki</strong> należy zacząć stosować <strong>rano pierwszego dnia</strong> po operacji (po wypisie). <em style='background-color: rgb(255, 255, 0);'>(W tym leki do płukania i nawilżania nosa) </em></p><a href='?tab=tab7' target='_blank' style='display: block; width: 100%; padding: 15px; margin: 15px 0; text-align: center; background: linear-gradient(135deg, #00b09b, #96c93d); color: white; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.2s;'>💊 KLIKNIJ TUTAJ, aby uzyskać SZCZEGÓŁOWE INFORMACJE o tym, jak stosować leki</a><p><br></p><blockquote>W dniu operacji, czyli podczas pobytu w szpitalu, nie ma potrzeby stosowania leków.</blockquote><blockquote>Leczenie zostanie przeprowadzone przez pielęgniarki szpitalne.</blockquote>"
               },
               {
                 "title": "4. Jakiego leku używać do płukania nosa? Jakie są różnice?",
-                "text": "<p>Istnieją 3 główne produkty, których można używać do płukania nosa.</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Spraye z wodą morską: </strong></li></ol><p>Leki te są najłatwiejsze zarówno w transporcie, jak i w użyciu, gdy w nosie znajduje się tampon. Jednak ich skuteczność czyszczenia wnętrza nosa jest nieco słabsza w porównaniu z innymi metodami. Efekt czyszczenia jest na wystarczającym poziomie.</p><blockquote>Leki w formie sprayu można nosić w torebce i łatwo używać w dowolnym momencie. Są idealne do pracy, biura.</blockquote><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Leki do płukania nosa w formie butelki (Woda morska/ oceaniczna): </strong></li></ol><blockquote>Leki te wymagają procedury przygotowania i nie można ich nosić ze sobą i wygodnie używać.</blockquote><p>W celu przygotowania leku miesza się proszek z przegotowaną i ostudzoną wodą lub wodą, co do której czystości mamy pewność, i aplikuje się, ściskając butelkę do wnętrza nosa.</p><p>Lek nie musi wchodzić jedną dziurką i wychodzić drugą. Celem jest mechaniczne przepłukanie wnętrza nosa.</p><p>Ta metoda zapewnia skuteczne i wystarczające oczyszczenie wnętrza nosa.</p><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: rgb(255, 255, 0);\">Sól fizjologiczna (serum izotoniczne): </strong></li></ol><p>Można płukać nos <span style=\"background-color: rgb(204, 232, 204);\">1 litrem 0,9% NaCl</span>, który można kupić w aptece.</p><p>Aby go użyć, można nabrać serum do 1<span style=\"background-color: rgb(204, 232, 204);\">0cc lub 20cc strzykawki</span>, zdjąć igłę z końcówki i przepłukać wnętrze nosa, wstrzykując strzykawką bez igły.</p><p><br></p><blockquote>Jest to metoda najtańsza i łatwa w użyciu, trudna do noszenia ze sobą, praktyczna do użytku domowego.</blockquote><p><br></p><blockquote><span style=\"background-color: rgb(255, 255, 204);\">Do płukania wnętrza nosa można stosować wszystkie te 3 metody. Ponieważ preferencje użytkowania i metody, które może zastosować każda osoba, mogą być różne, decyzję można podjąć wspólnie z lekarzem.</span></blockquote>"
+                "text": "<p>Istnieją 3 główne produkty, których można używać do płukania nosa.</p><ul><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><strong style='background-color: rgb(255, 255, 0);'>Spraye z wodą morską: </strong></li></ul><p>Leki te są najłatwiejsze zarówno w transporcie, jak i w użyciu, gdy w nosie znajduje się silikonowy tampon. Jednak ich skuteczność czyszczenia wnętrza nosa jest nieco słabsza w porównaniu z innymi metodami. Efekt czyszczenia jest na wystarczającym poziomie.</p><blockquote>Leki w formie sprayu można nosić w torebce i łatwo używać w dowolnym momencie. Są idealne do pracy, biura, biznesu.</blockquote><p><br></p><ul><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><strong style='background-color: rgb(255, 255, 0);'>Leki do płukania nosa w formie butelki (Woda morska/ oceaniczna): </strong></li></ul><blockquote>Leki te wymagają procedury przygotowania i nie można ich nosić ze sobą i wygodnie używać. </blockquote><p>W celu przygotowania leku miesza się proszek z przegotowaną i ostudzoną wodą lub wodą, co do której czystości mamy pewność, i aplikuje się, ściskając butelkę do wnętrza nosa.</p><p>Lek nie musi wchodzić jedną dziurką i wychodzić drugą. Celem jest mechaniczne przepłukanie wnętrza nosa.</p><p>Ta metoda zapewnia skuteczne i wystarczające oczyszczenie wnętrza nosa.</p><p><br></p><ul><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><strong style='background-color: rgb(255, 255, 0);'>Sól fizjologiczna (serum izotoniczne): </strong></li></ul><p>Można płukać nos <span style='background-color: rgb(204, 232, 204);'>1 litrem 0,9% NaCl</span>, który można kupić w aptece.</p><p>Aby go użyć, można nabrać serum do <span style='background-color: rgb(204, 232, 204);'>10cc lub 20cc strzykawki</span>, zdjąć igłę z końcówki i przepłukać wnętrze nosa, wstrzykując strzykawką bez igły.</p><p><br></p><blockquote>Jest to metoda najtańsza i łatwa w użyciu, trudna do noszenia ze sobą, praktyczna do użytku domowego.</blockquote><p><br></p><blockquote><span style='background-color: rgb(255, 255, 204);'>Do płukania wnętrza nosa można stosować wszystkie te 3 metody. Ponieważ preferencje użytkowania i metody, które może zastosować każda osoba, mogą być różne, decyzję można podjąć wspólnie z lekarzem.</span></blockquote>"
               },
               {
-                "title": "5. Jak długo należy kontynuować <strong>płukanie i nawilżanie wnętrza nosa</strong>?",
-                "text": "<p>Moim rutynowym zaleceniem w tej kwestii jest <strong>płukanie i nawilżanie wnętrza nosa przez 1 miesiąc</strong> po operacji.</p><p>Przez pierwsze 2 tygodnie należy wykonywać tę rutynę <strong>5 razy dziennie</strong>.</p><p>Przez kolejne 2 tygodnie wystarczy stosowanie 3 razy dziennie.</p><p><br></p><blockquote>Po upływie 1 miesiąca nie muszą Państwo kontynuować stosowania tych 2 leków.</blockquote><p>Jednak, jeśli czują Państwo potrzebę, nie ma przeciwwskazań do kontynuowania. (Jeśli w nosie nadal występują strupy, suchość itp., proszę kontynuować)</p>"
+                "title": "5. Jak długo należy kontynuować płukanie i nawilżanie nosa?",
+                "text": "<p>Moim rutynowym zaleceniem w tej kwestii jest <strong>płukanie i nawilżanie wnętrza nosa przez 1 miesiąc</strong> po operacji.</p><p>Przez pierwsze 2 tygodnie należy wykonywać tę rutynę <strong>5 razy dziennie</strong>.</p><p>Po 2. tygodniu należy kontynuować płukanie 3-5 razy dziennie przez kolejne 2-4 tygodnie.</p><p><br></p><blockquote>Po upływie 1 miesiąca nie muszą Państwo kontynuować stosowania tych 2 leków. Jednak jeśli czują Państwo potrzebę, nie ma przeciwwskazań do kontynuowania. (Jeśli w nosie nadal występują strupy, suchość itp., proszę kontynuować)</blockquote>"
               },
               {
                 "title": "6. Jakie są zalecenia żywieniowe po operacji?",
-                "text": "<p>W dniu operacji pierwszy posiłek po znieczuleniu zostanie zorganizowany przez nasz zespół szpitalny, gdy nadejdzie odpowiedni czas. Pierwszym posiłkiem będzie lekki posiłek, który nie będzie Państwa męczył.</p><p>Zalecenia na później:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Należy pić dużo wody.</strong></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Nie należy spożywać gorących potraw</strong> (zwiększa to ryzyko krwawienia i obrzęku).</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Należy unikać <strong>bardzo słonych i bardzo ostrych potraw</strong>, które mogą powodować obrzęki w organizmie.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Należy unikać <strong>nadmiaru cukru i żywności niskiej jakości</strong>, aby zmniejszyć stan zapalny w organizmie i pozytywnie wpłynąć na rekonwalescję.</li></ol>"
+                "text": "<p>W dniu operacji pierwszy posiłek po znieczuleniu zostanie zorganizowany przez nasz zespół szpitalny, gdy nadejdzie odpowiedni czas. Pierwszym posiłkiem będzie lekki posiłek, który nie będzie Państwa męczył.</p><p>Zalecenia na później:</p><ol><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><strong>Należy pić dużo wody.</strong></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><strong>Nie należy spożywać gorących potraw</strong> (zwiększa to ryzyko krwawienia i obrzęku).</li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span>Należy unikać <strong>bardzo słonych i bardzo ostrych potraw</strong>, które mogą powodować obrzęki w organizmie.</li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span>Należy unikać <strong>nadmiaru cukru i żywności niskiej jakości</strong>, aby zmniejszyć stan zapalny w organizmie i pozytywnie wpłynąć na rekonwalescję.</li></ol>"
               },
               {
-                "title": "7. Czy mogę pić <strong>kawę</strong>?",
-                "text": "<p>Nie zaleca się spożywania gorących potraw we wczesnym okresie po operacji.</p><p>Ponadto zawartość kawy może powodować wzrost ciśnienia krwi. Z tego powodu nie zaleca się picia kawy.</p><p><br></p><p>Jeśli jednak są Państwo takimi miłośnikami kawy jak ja, mogą Państwo wypić <strong style=\"background-color: rgb(255, 255, 0);\">espresso lub zimną kawę</strong>. :)</p>"
+                "title": "7. Czy mogę pić kawę?",
+                "text": "<p>Nie zaleca się spożywania gorących potraw we wczesnym okresie po operacji.</p><p>Ponadto zawartość kawy może powodować wzrost ciśnienia krwi. Z tego powodu nie zaleca się picia kawy.</p><p><br></p><p>Jeśli jednak są Państwo takimi miłośnikami kawy jak ja, mogą Państwo wypić <strong style='background-color: rgb(255, 255, 0);'>espresso lub zimną kawę</strong>. :)</p>"
               },
               {
                 "title": "8. Czy będę mógł swobodnie oddychać natychmiast po operacji?",
@@ -4472,28 +3319,28 @@ export const content = {
                 "text": "<p>Nie powinieneś <strong>wydmuchiwać nosa przez pierwszy miesiąc</strong> po operacji. W tym okresie należy czyścić nos zalecanymi sprayami z wodą morską lub zestawami do płukania. Wydmuchiwanie nosa może zwiększyć ciśnienie wewnątrz nosa i spowodować krwawienie oraz uszkodzenie gojących się tkanek. Po pierwszym miesiącu możesz delikatnie wydmuchać nos.</p>"
               },
               {
-                "title": "12. Jak używać <strong>Nostril retainer</strong> (aparatu kształtującego nozdrza)?",
-                "text": "<p><span style=\"background-color: rgb(255, 255, 0);\">Celem produktu Nostril retainer nie jest nadanie nosowi kształtu, ale zapewnienie symetrycznego gojenia się kształtu nosa utworzonego podczas operacji.</span></p><p>Czasami trzeba zacząć go używać podczas operacji, a czasami po usunięciu tamponów z wnętrza nosa.</p><p><br></p><p>Jest stosowany w procesie gojenia nosa, aby zmniejszyć ryzyko ewentualnej asymetrii i problemów z kształtem czubka nosa poprzez gojenie się na tej formie.</p><p><br></p><blockquote>Sposób użycia:</blockquote><blockquote>Moje rutynowe zalecenie to; od momentu rozpoczęcia użytkowania, <strong>przez 2 miesiące 24 godziny na dobę, a następnie przez 2 miesiące 8-12 godzin na dobę</strong>.</blockquote><blockquote>Ponieważ czas i szczegóły użytkowania mogą się różnić w zależności od pacjenta, proces dotyczący Państwa zostanie omówiony podczas wizyt kontrolnych.</blockquote>"
+                "title": "12. Jak używać Nostril retainer (aparatu kształtującego nozdrza)?",
+                "text": "<p><span style='background-color: rgb(255, 255, 0);'>Celem produktu Nostril retainer nie jest nadanie nosowi kształtu, ale zapewnienie symetrycznego gojenia się kształtu nosa utworzonego podczas operacji.</span></p><p>Czasami trzeba zacząć go używać podczas operacji, a czasami po usunięciu tamponów z wnętrza nosa.</p><p><br></p><p>Jest stosowany w procesie gojenia nosa, aby zmniejszyć ryzyko ewentualnej asymetrii i problemów z kształtem czubka nosa poprzez gojenie się na tej formie.</p><p><br></p><blockquote>Sposób użycia:</blockquote><blockquote>Moje rutynowe zalecenie to; od momentu rozpoczęcia użytkowania, <strong>przez 2 miesiące 24 godziny na dobę, a następnie przez 2 miesiące 8-12 godzin na dobę</strong>.</blockquote><blockquote>Ponieważ czas i szczegóły użytkowania mogą się różnić w zależności od pacjenta, proces dotyczący Państwa zostanie omówiony podczas wizyt kontrolnych.</blockquote>"
               },
               {
                 "title": "13. Czy Nostril retainer (kształtujący nozdrza) jest stosowany u każdego pacjenta?",
                 "text": "<p>Pacjenci, u których musimy stosować ten produkt, stanowią większość.</p><p>Mogą jednak wystąpić sytuacje, w których nie należy go stosować w zależności od przeprowadzonej operacji i stanu pacjenta.</p><p><br></p><p>Dlatego należy używać tego produktu tylko wtedy, gdy lekarz go zaleci, w sposób dostosowany do Państwa i przez zalecony czas.</p><p><strong>Nie używać/nie przerywać używania bez konsultacji z lekarzem.</strong></p>"
               },
               {
-                "title": "14. Czy powinnam/powinienem wykonywać <strong>masaż nosa</strong>?",
+                "title": "14. Czy powinnam/powinienem wykonywać masaż nosa?",
                 "text": "<p>Po zdjęciu gipsu z nosa zostanie zalecony masaż nosa.</p><p>Zalecony masaż należy wykonywać <strong>5 razy dziennie, przez 2 min + 30 sek</strong>.</p><p>Wykonywanie masażu przez około <strong>6 miesięcy</strong> przyczyni się do procesu gojenia.</p><p><br></p><p>Masaż ma 2 główne cele:</p><p><strong>1- Zwiększenie drenażu limfatycznego</strong>, co zmniejsza obrzęk podskórny między kością a skórą nosa.</p><p>2- Zapobiega ponownemu rozszerzaniu się zwężenia nosa powstałego dzięki łamanym (ciętym) kościom nosa <strong>pod wpływem obrzęku</strong> i zapewnia mechaniczne wsparcie dla gojenia się nosa w pożądanym kształcie.</p>"
               },
               {
-                "title": "15. Jak długo powinnam/powinienem stosować <strong>plastrowanie nosa</strong> po operacji?",
-                "text": "<p>Podczas kontroli w pierwszym tygodniu po operacji usuwany jest tampon z nosa, a gips i taśmy z nosa są zdejmowane.</p><p>Lekarz ponownie zakłada plastry na nos.</p><blockquote>Jeśli pacjent może przyjść na kontrolę w 2. tygodniu, w 2. tygodniu plastry są całkowicie zdejmowane i pacjentowi wyjaśnia się, jak należy plastrować nos.</blockquote><blockquote>Jeśli pacjent nie może fizycznie przyjść na kontrolę w 2. tygodniu, wyjaśnia mu się, jak należy plastrować nos.</blockquote><p>W każdym przypadku <strong>pacjent nie powinien zdejmować plastrów z nosa przez pierwsze 2 tygodnie (14 dni).</strong></p><p>W tym <strong>14-dniowym okresie nos nie powinien zostać zamoczony podczas kąpieli.</strong></p><p><br></p><p><strong>W 14. dniu po operacji</strong>, jeśli pacjent może fizycznie przyjść na kontrolę, po badaniu kontrolnym, a jeśli nie może przyjść na kontrolę, sam w domu myje nos wraz z plastrami, zdejmuje mokre plastry i <strong>zaczyna samodzielne plastrowanie nosa (self-taping).</strong></p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 0);\">Rutynowym zaleceniem jest plastrowanie nosa przez cały dzień (24 h) przez 1 miesiąc po 14. dniu.</strong></p><blockquote>Plaster na skórze nosa ma 2 główne cele:</blockquote><blockquote>1- Szybsze ustępowanie obrzęku,</blockquote><blockquote>2- Wygodniejsze i bardziej komfortowe wykonywanie masażu.</blockquote><p><br></p><p>Pacjent <strong>nie musi codziennie zmieniać plastrów</strong> w tym okresie self-taping.</p><blockquote>Nawet jeśli zamokną podczas kąpieli, po wysuszeniu, jeśli plastry nie wyglądają na brudne i nie są poluzowane, wystarczy je wysuszyć. Jeśli jednak plastry nie trzymają się mocno lub wyglądają na brudne, należy je zdjąć i wymienić.</blockquote><p>Po tym 1-miesięcznym plastrowaniu (6. tydzień po operacji) korzystne będzie, jeśli pacjenci będą stosować plastrowanie tylko na noc przez kolejne +1 miesiąc.</p><p>Wykonywanie tych plastrowań zgodnie z zasadami i przez odpowiedni czas przyspieszy gojenie i doprowadzi nos do pożądanego kształtu.</p>"
+                "title": "15. Jak długo powinnam/powinienem stosować plastrowanie nosa po operacji?",
+                "text": "<p>Podczas kontroli w pierwszym tygodniu po operacji usuwany jest tampon z nosa, a gips i taśmy z nosa są zdejmowane.</p><p>Lekarz ponownie zakłada plastry na nos.</p><blockquote>Jeśli pacjent może przyjść na kontrolę w 2. tygodniu, w 2. tygodniu plastry są całkowicie zdejmowane i pacjentowi wyjaśnia się, jak należy plastrować nos.</blockquote><blockquote>Jeśli pacjent nie może fizycznie przyjść na kontrolę w 2. tygodniu, wyjaśnia mu się, jak należy plastrować nos.</blockquote><p>W każdym przypadku <strong>pacjent nie powinien zdejmować plastrów z nosa przez pierwsze 2 tygodnie (14 dni).</strong></p><p>W tym <strong>14-dniowym okresie nos nie powinien zostać zamoczony podczas kąpieli.</strong></p><p><br></p><p><strong>W 14. dniu po operacji</strong>, jeśli pacjent może fizycznie przyjść na kontrolę, po badaniu kontrolnym, a jeśli nie może przyjść na kontrolę, sam w domu myje nos wraz z plastrami, zdejmuje mokre plastry i <strong>zaczyna samodzielne plastrowanie nosa (self-taping).</strong></p><p><br></p><p><strong style='background-color: rgb(255, 255, 0);'>Rutynowym zaleceniem jest plastrowanie nosa przez cały dzień (24 h) przez 1 miesiąc po 14. dniu.</strong></p><blockquote>Plaster na skórze nosa ma 2 główne cele:</blockquote><blockquote>1- Szybsze ustępowanie obrzęku,</blockquote><blockquote>2- Wygodniejsze i bardziej komfortowe wykonywanie masażu.</blockquote><p><br></p><p>Pacjent <strong>nie musi codziennie zmieniać plastrów</strong> w tym okresie self-taping.</p><blockquote>Nawet jeśli zamokną podczas kąpieli, po wysuszeniu, jeśli plastry nie wyglądają na brudne i nie są poluzowane, wystarczy je wysuszyć. Jeśli jednak plastry nie trzymają się mocno lub wyglądają na brudne, należy je zdjąć i wymienić.</blockquote><p>Po tym 1-miesięcznym plastrowaniu (6. tydzień po operacji) korzystne będzie, jeśli pacjenci będą stosować plastrowanie tylko na noc przez kolejne +1 miesiąc.</p><p>Wykonywanie tych plastrowań zgodnie z zasadami i przez odpowiedni czas przyspieszy gojenie i doprowadzi nos do pożądanego kształtu.</p>"
               },
               {
-                "title": "16. Kiedy mogę <strong>podróżować</strong> po operacji?",
+                "title": "16. Kiedy mogę podróżować po operacji?",
                 "text": "<p>Od <strong>5. dnia</strong>, jeśli lekarz wyrazi zgodę, mogą Państwo <strong>latać</strong>. W zależności od przeprowadzonej operacji czas ten może się wydłużyć.</p><p><u>Podróż lądową</u> można odbyć pierwszego dnia po operacji. (Pod warunkiem, że nie będzie zbyt długa)</p>"
               },
               {
-                "title": "17. Kiedy mogę uprawiać <strong>sport</strong>?",
-                "text": "<p>Od 2. tygodnia po operacji mogą Państwo uprawiać sport w formie lekkich spacerów i bez wysokiego tętna.</p><p><strong style=\"background-color: rgb(255, 255, 0);\">Od 1. miesiąca </strong><span style=\"background-color: rgb(255, 255, 0);\">można uprawiać sport w dowolnym tempie. </span>(<em>w domu lub na siłowni)</em></p><p><br></p><p>Należy jednak unikać sportów walki, w których na nos może zostać wywarta siła, oraz ryzyka urazu.</p>"
+                "title": "17. Kiedy mogę uprawiać sport?",
+                "text": "<p>Od 2. tygodnia po operacji mogą Państwo uprawiać sport w formie lekkich spacerów i bez wysokiego tętna.</p><p><strong style='background-color: rgb(255, 255, 0);'>Od 1. miesiąca </strong><span style='background-color: rgb(255, 255, 0);'>można uprawiać sport w dowolnym tempie. </span>(<em>w domu lub na siłowni)</em></p><p><br></p><p>Należy jednak unikać sportów walki, w których na nos może zostać wywarta siła, oraz ryzyka urazu.</p>"
               },
               {
                 "title": "18. Kiedy mogę pływać?",
@@ -4521,11 +3368,19 @@ export const content = {
               },
               {
                 "title": "24. Po jakim czasie mogę używać okularów?",
-                "text": "<p>Najwcześniej po upływie 3. miesiąca można nosić lekkie okulary przez krótki czas.</p><p><br></p><blockquote>Od <strong style=\"background-color: rgb(255, 255, 0);\">6. miesiąca</strong> można nosić okulary w dowolny sposób.</blockquote>"
+                "text": "<p>Najwcześniej po upływie 3. miesiąca można nosić lekkie okulary przez krótki czas.</p><p><br></p><blockquote>Od <strong style='background-color: rgb(255, 255, 0);'>6. miesiąca</strong> można nosić okulary w dowolny sposób.</blockquote>"
               },
               {
                 "title": "25. Nie mogę używać soczewek kontaktowych zamiast okularów. Mam bardzo dużą wadę wzroku i muszę nosić okulary. Czy mogę poddać się rynoplastyce?",
                 "text": "<p>Tak, możesz. Jednak powodem, dla którego zabraniamy noszenia okularów, jest to, że obciążenie złamanych/przeciętych kości może powodować problemy z gojeniem. Dlatego zalecamy naszym pacjentom używanie soczewek kontaktowych przez 4-6 miesięcy po operacji. Jeśli z powodu sytuacji opisanej w pytaniu nie ma innego rozwiązania niż okulary, zabiegi estetyczne można wykonywać tylko w celu spiłowania i na czubku nosa bez łamania kości. W takim przypadku możesz nosić okulary nawet w szpitalu bezpośrednio po operacji.</p>"
+              },
+              {
+                "title": "26. Kiedy nos całkowicie się zagoi? Kiedy powstanie ostateczny kształt?",
+                "text": "<p>Proces gojenia nosa wymaga długiego czasu. Chociaż zmienia się to w zależności od struktury skóry i tkanek, możemy powiedzieć, że nos przybrał swój ostateczny kształt po upływie około <strong style='background-color: rgb(255, 255, 0);'>1,5- 2 lat</strong>.</p><p><br></p><p>Jednak około 3. miesiąca po operacji około 80% gojenia i obrzęku w nosie mija. Nos z grubsza ładnie pokazuje swój kształt.</p><p>Jeśli jednak skóra jest gruba, przez pierwsze 6 miesięcy nie będą Państwo w pełni zadowoleni z wyglądu nosa, zwłaszcza z powodu obrzęku na czubku nosa. Po 6. miesiącu zacznie wyglądać ładnie, a po 1. roku w pożądanym formie.</p><p><br></p><p><strong>Aby zobaczyć pełny wynik, trzeba będzie poczekać około 2 lat.</strong></p>"
+              },
+              {
+                "title": "27. Jak czyścić nostril retainer?",
+                "text": "<p>Produkt można myć mydłem w płynie pod wodą.</p><p>Jeśli produkt upadnie na ziemię, można go używać po przetrzymaniu przez krótki czas (30 sekund) w wodzie kolońskiej lub środku dezynfekującym.</p><p>Nie zaleca się gotowania produktu, ponieważ zniszczy to jego strukturę.</p>"
               }
             ]
           },
@@ -4538,14 +3393,10 @@ export const content = {
             "subsections": [
               {
                 "title": "1. Jak wygląda proces kontroli pooperacyjnej i jak często powinienem przychodzić na kontrolę?",
-                "text": "<p>Kontrole pooperacyjne po plastyce nosa są bardzo ważne.</p><blockquote>Niektóre problemy, które można wykryć wcześnie podczas procesu kontroli, można rozwiązać za pomocą odpowiednich leków, masażu lub podobnych drobnych interwencji. Jednak w przypadkach opóźnionych mogą być wymagane bardziej złożone procesy.</blockquote><blockquote>Dlatego ważne jest, aby nie przerywać kontroli i regularnie na nie uczęszczać.</blockquote><p><span style=\"background-color: rgb(255, 255, 0);\">Śledzenie procesów kontroli i zapewnienie ciągłości jest obowiązkiem pacjenta.</span></p><p><br></p><p><span style=\"background-color: rgb(204, 224, 245);\">Harmonogram </span><strong style=\"background-color: rgb(204, 224, 245);\">rutynowych kontroli </strong><span style=\"background-color: rgb(204, 224, 245);\">dla naszych pacjentów jest następujący:</span></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Tydzień 1 (usunięcie silikonowego tamponu i gipsu)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">Tydzień 2 (usunięcie taśm i ogólna ocena)</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">1,5 miesiąca</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">3 miesiące</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">6 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">12 miesięcy</span></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: rgb(204, 224, 245);\">24 miesiące</span></li></ol><p>Jeśli kontrola fizyczna nie jest możliwa dla pacjentów spoza Stambułu lub z zagranicy, prosimy pacjentów o przestrzeganie wyżej wymienionych terminów i przesyłanie nam swojego aktualnego stanu w formie pisemnej oraz dodatkowo ze zdjęciami i filmami w tych terminach.</p><p>Te kontrole, nawet jeśli są wykonywane zdalnie, są bardzo ważne dla procesu gojenia.</p><blockquote><em>Możesz kliknąć przycisk Whatsapp na dole strony, aby się skontaktować.</em></blockquote>"
+                "text": "<p>Kontrole pooperacyjne po plastyce nosa są bardzo ważne.</p><blockquote>Niektóre problemy, które można wykryć wcześnie podczas procesu kontroli, można rozwiązać za pomocą odpowiednich leków, masażu lub podobnych drobnych interwencji. Jednak w przypadkach opóźnionych mogą być wymagane bardziej złożone procesy.</blockquote><blockquote>Dlatego ważne jest, aby nie przerywać kontroli i regularnie na nie uczęszczać.</blockquote><p><span style='background-color: rgb(255, 255, 0);'>Śledzenie procesów kontroli i zapewnienie ciągłości jest obowiązkiem pacjenta.</span></p><p><br></p><p><span style='background-color: rgb(204, 224, 245);'>Harmonogram </span><strong style='background-color: rgb(204, 224, 245);'>rutynowych kontroli </strong><span style='background-color: rgb(204, 224, 245);'>dla naszych pacjentów jest następujący:</span></p><ol><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>Tydzień 1 (usunięcie silikonowego tamponu i gipsu)</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>Tydzień 2 (usunięcie taśm i ogólna ocena)</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>1,5 miesiąca</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>3 miesiące</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>6 miesiące</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>12 miesiące</span></li><li data-list='bullet'><span class='ql-ui' contenteditable='false'></span><span style='background-color: rgb(204, 224, 245);'>24 miesiące</span></li></ol><p>Jeśli kontrola fizyczna nie jest możliwa dla pacjentów spoza Stambułu lub z zagranicy, prosimy pacjentów o przestrzeganie wyżej wymienionych terminów i przesyłanie nam swojego aktualnego stanu w formie pisemnej oraz dodatkowo ze zdjęciami i filmami w tych terminach.</p><p>Te kontrole, nawet jeśli są wykonywane zdalnie, są bardzo ważne dla procesu gojenia.</p><blockquote><em>Możesz kliknąć przycisk Whatsapp na dole strony, aby się skontaktować.</em></blockquote>"
               },
               {
-                "title": "2. Kiedy nos całkowicie się zagoi? Kiedy powstanie ostateczny kształt?",
-                "text": "<p>Proces gojenia nosa wymaga długiego czasu. Chociaż zmienia się to w zależności od struktury skóry i tkanek, możemy powiedzieć, że nos przybrał swój ostateczny kształt po upływie około <strong style=\"background-color: rgb(255, 255, 0);\">1,5- 2 lat</strong>.</p><p><br></p><p>Jednak około 3. miesiąca po operacji około 80% gojenia i obrzęku w nosie mija. Nos z grubsza ładnie pokazuje swój kształt.</p><p>Jeśli jednak skóra jest gruba, przez pierwsze 6 miesięcy nie będą Państwo w pełni zadowoleni z wyglądu nosa, zwłaszcza z powodu obrzęku na czubku nosa. Po 6. miesiącu zacznie wyglądać ładnie, a po 1. roku w pożądanym formie.</p><p><br></p><p><strong>Aby zobaczyć pełny wynik, trzeba będzie poczekać około 2 lat.</strong></p>"
-              },
-              {
-                "title": "3. Kiedy można wykonać operację rewizyjną?",
+                "title": "2. Kiedy można wykonać operację rewizyjną?",
                 "text": "<p>Operacja rewizyjna, z wyjątkiem wyjątkowych sytuacji, <strong>nie powinna być wykonywana przed 6. miesiącem</strong> od operacji.</p><p><strong>Idealny czas to po 12 miesiącach</strong>.</p><p><br></p><blockquote>Jeśli jednak problem w nosie powoduje nieodwracalne problemy, a upływ czasu zniszczy ewentualną szansę, można wykonać wcześniejsze operacje rewizyjne. Ale jeśli wizualne problemy funkcjonalne nie wymagają pilnej interwencji, odczekanie minimum 12 miesięcy zmaksymalizuje korzyści z operacji rewizyjnej.</blockquote>"
               }
             ]

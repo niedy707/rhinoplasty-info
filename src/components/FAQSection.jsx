@@ -220,10 +220,48 @@ const PDFIcon = () => (
 );
 
 
+
+const SearchWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px;
+`;
+
+const ClearButton = styled.button`
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  z-index: 2;
+
+  &:hover {
+    background-color: #f3f4f6;
+    color: #6b7280;
+  }
+`;
+
+const ClearIcon = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+  </svg>
+);
+
 const SearchInput = styled.input`
   width: 100%;
   padding: 12px 20px;
-  margin-bottom: 24px;
+  padding-right: 40px; /* Space for clear button */
+  margin-bottom: 0; /* Wrapper handles margin */
   border: 2px solid #e5e7eb;
   border-radius: 12px;
   font-size: 0.9rem;
@@ -431,12 +469,19 @@ const FAQSection = ({ lang, data, searchPlaceholder }) => {
         </CategoryIconWrapper>
       </PDFButton>
 
-      <SearchInput
-        type="text"
-        placeholder={searchPlaceholder || "Soru ya da cevaptaki bir kelime ile arama yapınız..."}
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      />
+      <SearchWrapper>
+        <SearchInput
+          type="text"
+          placeholder={searchPlaceholder || "Soru ya da cevaptaki bir kelime ile arama yapınız..."}
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        {searchQuery && (
+          <ClearButton onClick={() => setSearchQuery('')} aria-label="Clear search">
+            <ClearIcon />
+          </ClearButton>
+        )}
+      </SearchWrapper>
 
       {isEditMode && (
         <StickyControls>
