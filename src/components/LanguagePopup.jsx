@@ -75,7 +75,7 @@ const LanguagePopup = ({ onClose }) => {
       <PopupBox onClick={(e) => e.stopPropagation()}>
         <CloseButton onClick={onClose} aria-label="Close">✕</CloseButton>
         <Message>
-          You can select your language by clicking the flags at the top of the page. The site supports 11 languages.
+          You can select your language by clicking the flags at the top of the page. The site supports 12 languages.
         </Message>
       </PopupBox>
     </PopupContainer>

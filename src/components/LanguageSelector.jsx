@@ -12,6 +12,7 @@ const languages = [
     { code: 'md', name: 'Moldovenească', flag: '🇲🇩' },
     { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
     { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+    { code: 'ar', name: 'العربية', flag: '🇸🇦' },
 ];
 
 export function QuickFlags({ currentLang, onSelect }) {

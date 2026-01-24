@@ -274,7 +274,7 @@ const getColorFromClass = (cls) => {
 };
 
 
-const FAQSection = ({ lang, data }) => {
+const FAQSection = ({ lang, data, searchPlaceholder }) => {
   const [openId, setOpenId] = useState(null); // String "groupIndex-questionIndex"
   const itemRefs = useRef({});
 
@@ -426,12 +426,14 @@ const FAQSection = ({ lang, data }) => {
     <FAQContainer $isEditMode={isEditMode}>
       <PDFButton href={pdfUrl} target="_blank">
         <span>{pdfLabels[lang] || pdfLabels.en}</span>
-        <CategoryIconWrapper style={{ width: 28, height: 28 }}> <PDFIcon /> </CategoryIconWrapper>
+        <CategoryIconWrapper style={{ width: 44, height: 44, padding: 0, overflow: 'hidden', background: 'transparent' }}>
+          <img src="/pdf-icon.png" alt="PDF" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+        </CategoryIconWrapper>
       </PDFButton>
 
       <SearchInput
         type="text"
-        placeholder="Soru ya da cevaptaki bir kelime ile arama yapınız..."
+        placeholder={searchPlaceholder || "Soru ya da cevaptaki bir kelime ile arama yapınız..."}
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
