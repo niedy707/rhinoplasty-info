@@ -456,8 +456,18 @@ const FAQSection = ({ lang, data, searchPlaceholder }) => {
 
   const pdfUrl = "https://www.ibrahimyagci.com/_files/ugd/bc99bb_d1ac4338b4f74882bb5a73997dd2a957.pdf";
   const pdfLabels = {
-    tr: "Hasta bilgilendirme broşürü (Türkçe) için :",
-    en: "For patient information brochure (Turkish):"
+    tr: "Hasta bilgilendirme broşürü (Türkçe) :",
+    en: "Patient information brochure (Turkish):",
+    de: "Patienteninformationsbroschüre (Türkisch):",
+    es: "Folleto de información para el paciente (Turco):",
+    ru: "Брошюра с информацией для пациентов (Турецкий):",
+    fr: "Brochure d'information pour le patient (Turc):",
+    it: "Opuscolo informativo per il paziente (Turco):",
+    ro: "Broșură de informare a pacientului (Turcă):",
+    md: "Broșură de informare a pacientului (Turcă):",
+    hu: "Betegtájékoztató brosúra (Török):",
+    pl: "Broszura informacyjna dla pacjenta (Turecki):",
+    ar: "كتيب معلومات المريض (التركية):"
   };
 
   return (
